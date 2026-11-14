@@ -2,7 +2,28 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": null,
-  "events": [],
+  "updated_at": "2026-11-14T19:39:17.379Z",
+  "events": [
+    {
+      "id": "P1-07-SOURCE-20261114",
+      "completed_at": "2026-11-14T19:39:17.379Z",
+      "evidence": "Verlagsbibliografie (ACL 2025) und CC-BY-4.0-Dokumentation für einen unabhängigen Ubuntu-Gesprächsfriktionskorpus geprüft; P1-07-Präregistrierung und private Quellenakte verifiziert. 200 Dialoge laut Anbieter, Original-ZIP in diesem Lauf nicht herunterladbar. Kein ausgeführtes Experiment, keine CI und keine psychologische Validierung.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
   "note": "Ereignisgesteuerte, quellenbelegte Fortschrittsbewertung; keine privaten Inhalte. Nur bei abgeschlossenen Forschungsschritten ergänzen."
 }
