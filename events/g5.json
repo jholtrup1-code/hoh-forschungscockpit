@@ -2,12 +2,32 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-14T21:06:40+01:00",
+  "updated_at": "2026-11-14T22:07:41+01:00",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
       "completed_at": "2026-11-14T21:06:40+01:00",
       "evidence": "Begrenzter synthetischer Integritätsbefund im direkt aufrufbaren Quellen-/Antwort-Consumer: Bei Callback-Mutation von Originalauszug, Fragehash oder Gate-Metadaten blieb der alte t0-Beleg ungeschützt (isoliertes Modell vor Korrektur 3 negative Fälle rot). t0-Snapshot- und Drift-Sperre implementiert, 4/4 isolierte Python-Kontrollen regulär und -O bestanden. Neue Repository-Regressionen gespeichert, vollständige CI wegen externer Runner-/Budgetstörung noch NICHT ausgeführt; daher nur geprüfter Teilkandidat, keine menschliche Validierung.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "G5-C131-FULL-G04-PROVENANCE-CI-20261114",
+      "completed_at": "2026-11-14T22:07:41+01:00",
+      "evidence": "Erst jetzt korrekt zugeordneter vollständiger GitHub-Push-CI-Nachweis für kumulierte C131-Quellenherkunftsprüfung: 68 von 68 Workflow-Schritten bestanden; 14, 20 und 31 synthetische G04-Prüffälle jeweils regulär und mit Python -O nachgewiesen. Zusammenhängende Quellenausschnitt-Abdeckung, unverändertes Original-SHA, unbekannte/kopierte Herkunft sowie Mutation während Leser-/Antwortaufruf werden technisch begrenzt abgesichert. Die frühere C131-U-Isolationsmeldung wird nicht erneut bewertet. Keine psychologische oder menschliche Autorenschaftsvalidierung, keine privaten Inhalte.",
       "delta": [
         0,
         0,
