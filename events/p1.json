@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-14T20:48:30.299Z",
+  "updated_at": "2026-11-14T21:40:13.356Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -42,6 +42,26 @@
         0,
         1,
         1
+      ]
+    },
+    {
+      "id": "P1-08-ANSWER-EVIDENCE-20261114",
+      "completed_at": "2026-11-14T21:40:13.356Z",
+      "evidence": "P1-08: In einem vorab registrierten, unabhängig öffentlich lizenzierten Crowdsourcing-Datensatz mit 418 Gruppendiskussionen wurden 981 paarweise verfügbare Änderungsbelege ausgewertet. In 200 Fällen unterschieden sich das beobachtete Wechseln einer kategorialen Antwort und die rückblickende Aussage, jemand habe die Person zur Änderung bewegt (170 Wechsel/Nein; 30 stabil/Ja). Prüfcode und Testfälle auf privatem P1-Branch rückgelesen; eine zweite Aggregation bestätigte die 2x2-Zahlen. Belegt sind verschiedene Nachweisarten, keine validierte KI-Menschenkenntnis, keine privaten Quellen, keine neue Modellinferenz, keine GitHub-Actions-CI.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
       ]
     }
   ],
