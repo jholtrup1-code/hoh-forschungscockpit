@@ -1,9 +1,9 @@
 {
   "schema": "hoh-public-cockpit-v1",
-  "checkpoint": "CP006",
-  "checked_at": "2026-11-14T19:03:58+01:00",
-  "previous_checkpoint": "CP005",
-  "previous_at": "2026-11-14T16:59:50+01:00",
+  "checkpoint": "CP007",
+  "checked_at": "2026-11-14T20:20:00+01:00",
+  "previous_checkpoint": "CP006",
+  "previous_at": "2026-11-14T19:03:58+01:00",
   "baseline_date": "2026-11-13",
   "baseline_status": "retrospective_editorial_estimate",
   "baseline": [
@@ -22,21 +22,6 @@
     27
   ],
   "previous": [
-    39,
-    59,
-    61,
-    21,
-    28,
-    37,
-    8,
-    39,
-    72,
-    13,
-    24,
-    19,
-    27
-  ],
-  "current": [
     43,
     62,
     63,
@@ -51,26 +36,41 @@
     23,
     30
   ],
-  "g5": "C130 CI-grün; C131-R unbestätigt",
-  "p1": "P1-05",
-  "e12": "CP017",
-  "note": "Vorläufige, nachvollziehbare redaktionelle Bewertung der heutigen Arbeits- und Erkenntnisfortschritte. Keine wissenschaftliche Reifemessung. Stand der zugrunde liegenden Quellen CP006; redaktionelle Bewertung am 14.11. nachgetragen.",
+  "current": [
+    43,
+    64,
+    63,
+    24,
+    29,
+    40,
+    11,
+    43,
+    75,
+    15,
+    27,
+    25,
+    31
+  ],
+  "g5": "C130 vollständig bestätigt; C131-T-G04 isolierte Tests 4/4, Gesamtabnahme offen",
+  "p1": "P1-06, 52/504 Bewertungsabweichungen, 7/7 Negativtests",
+  "e12": "CP019, 147 verifizierte Volltexte (+16 seit CP017)",
+  "note": "CP007: redaktionelle Nachbewertung nach tatsächlichem Abruf der letzten G5-, P1- und E12-Automationsberichte am 14.11. gegen 20:20 Uhr. Kein autonomer Website-Publikationslauf; keine empirischen Prozentwerte.",
   "assessment": "editorial_progress_estimate",
   "assessment_method": "Gewichtete Fortschrittseinschätzung aus neuen überprüften Befunden, technischen Fähigkeiten, Fehlerdiagnosen und Quellenarbeit; keine gemessenen Prozentwerte, keine Arbeitsstunden.",
   "assessment_date": "2026-11-14",
   "evidence_by_area": {
     "vision": "Cockpit veröffentlicht, Datenfeed eingerichtet, G5/P1/E12-Belege zusammengeführt",
-    "data": "E12 CP017 mit 131 verifizierten Volltexten",
+    "data": "E12 CP019: 147 verifizierte Volltexte; 16 mehr als CP017",
     "originals": "Quellenprüfung und Pocket-Abgleich; Originalsuche nicht unabhängig neu validiert",
-    "psychology": "G5 C130 CI-grün; C131-R ungeprüft",
+    "psychology": "G5 C131-T-G04: Integritätslücke erkannt und isoliert behoben; 4/4 Tests, Gesamtabnahme offen",
     "temporal": "Quellenzeitgrenzen und Chronikprüfung weiterentwickelt",
-    "corrections": "Neuer G5-C131-R Fehlerfall untersucht, volle CI noch offen",
-    "questions": "P1-05 externe Vergleichsstudie mit negativem Befund",
+    "corrections": "C131-T-G04: Prüfsumme des vollständigen Originals im Prüfhelfer abgesichert, isolierte Regressionstests",
+    "questions": "P1-06: 52/504 binäre Bewertungsabweichungen, 39 fälschliche Übereinstimmungen",
     "utility": "Öffentliches Cockpit und Datenfeed erstmals nutzbar",
     "autonomy": "Regelmäßige Forschungschecks und Website-Datenbrücke eingerichtet; erster autonomer Publikationslauf offen",
     "relations": "P1-05 Kommunikation/Grounding extern untersucht",
-    "meaning": "Missverständnis-Erkennung anhand externer Daten kritisch geprüft",
-    "validation": "P1-05 mit 504 Referenzausdrücken, Schwächen und Negativkontrollen",
-    "software": "Cockpit V2, Lesemarkierung und JSON-Polling implementiert; Deployment gezeigt"
+    "meaning": "P1-06: Modellannotationen sind keine unabhängigen menschlichen Goldlabels",
+    "validation": "P1-06: Sekundäranalyse 504 menschlich geprüfter Referenzen, 7/7 Negativtests",
+    "software": "G5 C131: isolierte Korrektur und Regressionstests, Vollabnahme noch offen"
   }
 }
