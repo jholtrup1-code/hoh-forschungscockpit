@@ -2,7 +2,28 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": null,
-  "events": [],
+  "updated_at": "2026-11-14T21:06:40+01:00",
+  "events": [
+    {
+      "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
+      "completed_at": "2026-11-14T21:06:40+01:00",
+      "evidence": "Begrenzter synthetischer Integritätsbefund im direkt aufrufbaren Quellen-/Antwort-Consumer: Bei Callback-Mutation von Originalauszug, Fragehash oder Gate-Metadaten blieb der alte t0-Beleg ungeschützt (isoliertes Modell vor Korrektur 3 negative Fälle rot). t0-Snapshot- und Drift-Sperre implementiert, 4/4 isolierte Python-Kontrollen regulär und -O bestanden. Neue Repository-Regressionen gespeichert, vollständige CI wegen externer Runner-/Budgetstörung noch NICHT ausgeführt; daher nur geprüfter Teilkandidat, keine menschliche Validierung.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
   "note": "Ereignisgesteuerte, quellenbelegte Fortschrittsbewertung; keine privaten Inhalte. Nur bei abgeschlossenen Forschungsschritten ergänzen."
 }
