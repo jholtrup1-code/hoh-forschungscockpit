@@ -2,12 +2,32 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-14T20:16:53.583Z",
+  "updated_at": "2026-11-14T21:18:34.577Z",
   "events": [
     {
       "id": "E12-CP020",
       "completed_at": "2026-11-14T20:16:53.583Z",
       "evidence": "Acht weitere Werkstattoriginale wurden gelesen, ausschließlich privat kopiert und durch acht unabhängige Text- und SHA-256-Vergleiche abgesichert. Historische Produktanforderungen wurden mit Originalpositionen geprüft; keine integrierte E12-Suchmaschine nachgewiesen.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP021",
+      "completed_at": "2026-11-14T21:18:34.577Z",
+      "evidence": "Acht weitere bereits inventarisierte Werkstattdokumente wurden vollständig gelesen und ausschließlich privat durch unabhängige SHA-256-Vergleiche und Ablageprüfungen abgesichert. Externe Primärquellen bleiben separat ungeprüft; keine Softwareintegration.",
       "delta": [
         0,
         1,
