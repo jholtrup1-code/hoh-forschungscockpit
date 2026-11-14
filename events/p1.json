@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-14T21:40:13.356Z",
+  "updated_at": "2026-11-14T22:32:25.722Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -53,6 +53,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-09-CLUSTER-UNCERTAINTY-20261114",
+      "completed_at": "2026-11-14T22:32:25.722Z",
+      "evidence": "P1-09: Post-hoc-Methodenprüfung eines bereits in P1-08 untersuchten öffentlichen Crowd-Diskussionsdatensatzes. Die 981 zusammengehörenden Einzelangaben aus 418 Diskussionen wurden in einer reproduzierbaren, nach Studienarm geschichteten 10.000-fachen Diskussionen-Bootstrap-Auswertung geprüft. Bei 200/981 unterschiedlichen Evidenzrollen liegt das 95%-Clusterresampling-Intervall bei 17,94–22,75%; der Unterschied zwischen zwei Studienteilen bleibt mit seinem Intervall einschließlich null unbestätigt. Sechs isolierte Tests und Originalcode-Rückleseprüfung bestanden. Keine unabhängige neue psychologische Menschenvalidierung, keine GitHub-Actions-CI und kein bezahlter Modellaufruf.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
