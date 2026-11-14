@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-14T22:24:18.801Z",
+  "updated_at": "2026-11-14T23:19:18.436Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -48,6 +48,26 @@
       "id": "E12-CP022",
       "completed_at": "2026-11-14T22:24:18.801Z",
       "evidence": "Acht zusätzliche zuvor inventarisierte Werkstattdokumente wurden als aktuelle Google-Docs-Originaltexte gelesen, ausschließlich privat kopiert und unabhängig mittels Text-, SHA-256- und Ablageprüfung bestätigt. Historische Aussagen über Datenexporte wurden als Quellenhinweise, nicht als verifizierte Rohdatenintegration bewertet.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP023",
+      "completed_at": "2026-11-14T23:19:18.436Z",
+      "evidence": "Acht zusätzliche bereits inventarisierte Werkstattoriginale wurden vollständig gelesen und ausschließlich privat als unabhängige Google-Docs-Kopien gesichert. Volltextlängen, SHA-256-Prüfsummen und private Elternordner stimmen bei allen acht überein; Produktvision anhand von Originalpositionen erneut geprüft. Kein persistenter E12-Index nachgewiesen.",
       "delta": [
         0,
         1,
