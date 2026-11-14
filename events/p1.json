@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-14T22:32:25.722Z",
+  "updated_at": "2026-11-14T23:33:02.351Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -73,6 +73,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-10-TPCC-PARAPHRASE-BASELINE-20261115",
+      "completed_at": "2026-11-14T23:33:02.351Z",
+      "evidence": "P1-10: Explorative, isolierte Prüfung eines öffentlich CC-BY-NC-SA-4.0-lizenzierten deutschsprachigen Korpus mit 5.937 Phase-Einträgen und menschlich annotierten Gesprächstechniken; 190 zuordenbare Paraphrasierungen. Eine festgelegte einfache Wortlaut-Heuristik fand nur 17 davon und verfehlte 173, obwohl ihre nominelle Genauigkeit 96,35 % betrug. Zweite unabhängige Zeilenzählung bestätigte die Grundmengen; P1-Receipt auf privatem Forschungszweig verifiziert. Keine präregistrierte oder personenpsychologische Validierung, keine Modell-API, keine GitHub-CI.",
+      "delta": [
+        0,
+        1,
+        0,
+        1,
         0,
         0,
         0,
