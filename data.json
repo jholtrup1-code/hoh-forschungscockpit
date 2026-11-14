@@ -37,22 +37,40 @@
     27
   ],
   "current": [
+    43,
+    62,
+    63,
+    23,
+    29,
     39,
-    59,
-    61,
-    21,
-    28,
-    37,
-    8,
-    39,
-    72,
-    13,
-    24,
-    19,
-    27
+    10,
+    43,
+    75,
+    15,
+    26,
+    23,
+    30
   ],
   "g5": "C130 CI-grün; C131-R unbestätigt",
   "p1": "P1-05",
   "e12": "CP017",
-  "note": "Öffentlicher, reduzierter Snapshot ohne Originaltexte oder private Links."
+  "note": "Vorläufige, nachvollziehbare redaktionelle Bewertung der heutigen Arbeits- und Erkenntnisfortschritte. Keine wissenschaftliche Reifemessung. Stand der zugrunde liegenden Quellen CP006; redaktionelle Bewertung am 14.11. nachgetragen.",
+  "assessment": "editorial_progress_estimate",
+  "assessment_method": "Gewichtete Fortschrittseinschätzung aus neuen überprüften Befunden, technischen Fähigkeiten, Fehlerdiagnosen und Quellenarbeit; keine gemessenen Prozentwerte, keine Arbeitsstunden.",
+  "assessment_date": "2026-11-14",
+  "evidence_by_area": {
+    "vision": "Cockpit veröffentlicht, Datenfeed eingerichtet, G5/P1/E12-Belege zusammengeführt",
+    "data": "E12 CP017 mit 131 verifizierten Volltexten",
+    "originals": "Quellenprüfung und Pocket-Abgleich; Originalsuche nicht unabhängig neu validiert",
+    "psychology": "G5 C130 CI-grün; C131-R ungeprüft",
+    "temporal": "Quellenzeitgrenzen und Chronikprüfung weiterentwickelt",
+    "corrections": "Neuer G5-C131-R Fehlerfall untersucht, volle CI noch offen",
+    "questions": "P1-05 externe Vergleichsstudie mit negativem Befund",
+    "utility": "Öffentliches Cockpit und Datenfeed erstmals nutzbar",
+    "autonomy": "Regelmäßige Forschungschecks und Website-Datenbrücke eingerichtet; erster autonomer Publikationslauf offen",
+    "relations": "P1-05 Kommunikation/Grounding extern untersucht",
+    "meaning": "Missverständnis-Erkennung anhand externer Daten kritisch geprüft",
+    "validation": "P1-05 mit 504 Referenzausdrücken, Schwächen und Negativkontrollen",
+    "software": "Cockpit V2, Lesemarkierung und JSON-Polling implementiert; Deployment gezeigt"
+  }
 }
