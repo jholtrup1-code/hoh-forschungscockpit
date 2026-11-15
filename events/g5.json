@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T01:09:36.117Z",
+  "updated_at": "2026-11-15T02:02:00Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -102,6 +102,26 @@
         0,
         0,
         1
+      ]
+    },
+    {
+      "id": "G5-C135-G07-UNBOUND-CORRECTION-SCOPE-CI-20261115",
+      "completed_at": "2026-11-15T02:00:05Z",
+      "evidence": "Vorregistrierte technische Negativprobe mit zwei fiktiven Referenten und demselben Thema: Unbestätigte spätere Korrekturhinweise wurden zuvor nicht ausdrücklich als referentenseitig ungebunden markiert. Tatsächliche RED-Regression und nach Korrektur vollständige GitHub-CI mit 70/70 erfolgreichen Schritten; die private Quellensichtung weist die Hinweise nun maschinenlesbar als nicht zur ausgewählten Person verifiziert aus, hält die menschliche Prüfpflicht aufrecht und behauptet keine bestätigte Sprecher-/Bedeutungszuordnung. Ein begrenzter technischer Scope-Schutz, kein psychologischer Erkenntnisnachweis.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ]
     }
   ],
