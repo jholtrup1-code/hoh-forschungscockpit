@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T16:10:40.952Z",
+  "updated_at": "2026-11-15T17:08:45Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -397,6 +397,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C150-G07-OWNER-QUESTION-FTS-PREFLIGHT-20261115",
+      "completed_at": "2026-11-15T17:08:45Z",
+      "evidence": "Vorregistrierte synthetische SQLite-Gegenprobe: Eine vorhandene FTS5-Originaltabelle mit geloeschtem invertierten Index konnte eine aktuelle berechtigte Originalquelle vor der privaten Fragesichtung verschwinden lassen. Der explizit aktivierte begrenzte Quellenindex-Vorcheck stoppt nun diese Ausgabe mit festem Diagnosecode; intakte Originale bleiben privat, gesunder Kontrollfall und negative Chat-/Sekundaerquellenkontrollen bestanden. Vollstaendige GitHub-Regression 75/75 sowie wissenschaftliche Zustandssicherung erfolgreich. Repräsentative Probe ist kein Vollstaendigkeits- oder Bedeutungsnachweis.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
         0,
         0,
         0,
