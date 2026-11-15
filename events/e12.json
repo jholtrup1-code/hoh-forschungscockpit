@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T19:16:31.974Z",
+  "updated_at": "2026-11-15T20:16:08.785Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -508,6 +508,26 @@
       "id": "E12-CP045",
       "completed_at": "2026-11-15T19:16:31.974Z",
       "evidence": "A bounded, fully paginated source inventory established 186 numbered corrected text records versus 185 machine-transcript records. An exact numbering audit found one repeated sequence number with two different source IDs and nonidentical paragraph texts; both distinct variants and a third source were independently preserved and verified by full normalized text, SHA-256, private parent location and sharing state. Six chronicle-test child folders were recursively inventoried to a total of 13 metadata-only documents. Counts refer to this bounded source scope, not all files or complete source-media validation.",
+      "delta": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP046",
+      "completed_at": "2026-11-15T20:15:18.117Z",
+      "evidence": "Three previously metadata-only native chronicle-test documents and one machine-text source were copied to a verified private archive and independently backread with exact full text and matching SHA-256 checks. A numbered corrected-transcript document pair was traced to the same machine-text original: the substantive transcript text matches, while only heading and status differ. The conclusion is source-provenance clarification, not separate audio validation or persistent Python index integration.",
       "delta": [
         0,
         1,
