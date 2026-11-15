@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T03:14:20.306Z",
+  "updated_at": "2026-11-15T04:13:00Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -136,6 +136,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "G5-C137-G02-FENCED-EXAMPLE-ABSTENTION-20261115",
+      "completed_at": "2026-11-15T04:09:30Z",
+      "evidence": "Zwei synthetische Format-Gegenproben verhindern nun, dass unpräfixierte vermeintliche Ich-Aussagen in Markdown-Codebeispielen oder durch ungültig geschlossene Dialog-Fences als historischer Original-/Sprecherkandidat gelten. C124 lieferte im echten Vorher-CI zunächst einen falschen Kandidaten (RED 43675400850), danach bestanden beide neuen Negativtests und sämtliche vorhandenen G5-/Docker-Regressionen im GitHub-CI 43675466347 auf geprüftem Code-Commit 4a568c6. Nur technischer Quellenkontextschutz, keine freie Paraphrasenerkennung, keine unabhängige menschliche Bedeutungsvalidierung.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
