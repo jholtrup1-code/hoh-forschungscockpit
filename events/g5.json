@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T11:11:27.905Z",
+  "updated_at": "2026-11-15T12:10:22.605Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -292,6 +292,26 @@
         0,
         1,
         1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C145-G07-POSTBUILD-MIXED-ORIGINAL-CURRENT-SNAPSHOT-20261115",
+      "completed_at": "2026-11-15T12:06:29Z",
+      "evidence": "Vorregistrierter realer synthetischer SQLite-RED/GREEN-Nachweis im bestehenden gemischten Besitzerfragen-Export: Ein zuvor fehlender zweiter unabhängiger Original-Snapshot ließ bei lokalem Quellenwiderruf, Dokumentversionwechsel oder geänderter Chatrolle drei private Review-Dateien ungeprüft entstehen. Vier neue negative/positive Gegenproben schlugen vor Reparatur fehl (CI #43712003990). Nach Wiederverwendung des bestehenden SHA-, Rollen-, Widerrufs- und Versionsreplays auf neu geöffnetem Archiv unmittelbar vor privater 0600-Ausgabe bestanden vollständige 74/74 GitHub-CI-Schritte (#43712090491) sowie abschließende Zustands-/Gesamt-CI. Kein neuer FTS-Suchlauf, keine privaten Texte öffentlich, keine unabhängigen menschlichen Relevanzurteile oder Rechtefreigaben.",
+      "delta": [
+        0,
+        0,
+        2,
         0,
         0,
         0,
