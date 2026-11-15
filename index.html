@@ -1,8 +1,8 @@
 <!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HOUSE OF HOLTRUP · Cockpit V2</title><style>
 *{box-sizing:border-box}body{font:16px/1.5 system-ui,Arial,sans-serif;background:#f1f4f1;color:#20362b;max-width:720px;margin:0 auto;padding:14px}header,section{background:white;border-radius:16px;padding:20px;margin:12px 0;box-shadow:0 2px 8px #0000000c}h1{font-size:24px;margin:0}h2{font-size:19px;margin:0 0 12px}.sub{color:#5b6860;font-size:13px}.stamp{background:#e6f3ea;border-radius:8px;padding:9px;font-weight:650;margin:12px 0}.metric{margin:21px 0}.name{display:flex;justify-content:space-between;gap:10px;font-weight:700}.bar{display:flex;width:100%;height:25px;overflow:hidden;border-radius:7px;background:#dfe5e2;margin-top:6px}.bar span{height:100%;flex:none}.detail{font-size:12px;color:#53655b;margin-top:6px}.evidence{font-size:13px;background:#f1f7f2;padding:9px;border-radius:7px;margin-top:7px}.legend{display:flex;flex-wrap:wrap;gap:10px;font-size:12px}.legend span:before{content:"";display:inline-block;background:var(--c);width:11px;height:11px;margin-right:5px}.day{cursor:pointer;border-right:1px solid #fff9}.day:focus-visible{outline:2px solid black;outline-offset:-2px}button{background:#245b42;color:white;border:0;border-radius:9px;padding:12px;font-weight:700;font-size:15px}.warn{color:#845e24}.dayinfo{padding:10px;background:#fff5e8;border-radius:8px;font-size:13px;margin-top:9px}</style></head><body>
 <header><h1>HOUSE OF HOLTRUP</h1><strong>Forschungscockpit</strong><p class="stamp">COCKPIT V2 · Tagesbasis / persönlicher Abruf / neue Forschung</p><div id="status" class="sub">Lade Forschungsdaten …</div></header>
+<section><h2>Forschung seit deinem bestätigten Lesepunkt</h2><p class="sub">Neue Forschungsergebnisse werden sofort sichtbar – auch wenn die wissenschaftlichen Reifebalken unverändert bleiben. Die drei Grüntöne hier zeigen Meldungen, keine Reifeprozente.</p><div id="activity"></div></section>
 <section><h2>Fortschritt</h2><div class="legend"><span style="--c:#245b42">Bis gestern 24 Uhr</span><span style="--c:#50a47b">Heute schon bestätigt</span><span style="--c:#a8e1b8">Heute neu seit Bestätigung</span><span style="--c:#dfe5e2">Noch offen</span></div><p id="daily" class="stamp"></p><p class="sub warn">KAL-001-R1: Vorläufige Reifewerte – keine gemessenen Prozentzahlen. Forschungsereignisse bleiben sichtbar, erhöhen die Balken aber nicht automatisch. Das geschieht erst nach gesonderter belegter Meilensteinprüfung.</p><div id="metrics"></div></section>
-<section><h2>Forschungsereignisse seit deinem letzten Besuch</h2><p class="sub">Dies zeigt neue veröffentlichte Forschungsarbeit, nicht zusätzliche Reifepunkte. Das Forschungsergebnis wird gesondert geprüft.</p><div id="activity"></div></section>
 <section><h2>Was heute konkret passiert ist</h2><div id="work"></div></section>
 <section><h2>Dein persönlicher Lesepunkt</h2><p id="seen"></p><button id="confirm">Diesen Stand habe ich gelesen</button><p class="sub">Erst dein Klick verschiebt das heutige Hellgrün nach Mittelgrün. Neue Forschungsprüfungen verändern diesen Lesepunkt nicht. Speicherung auf diesem Gerät und in diesem Browser.</p></section>
 <script>
@@ -10,7 +10,7 @@ const labels=["Gesamtvision","Daten & Quellen","Originale wiederfinden","Psychol
 const descriptions=["Wie nah die gesamte Menschenmaschine ihrem Ziel ist.","Originale und ihre Herkunft zuverlässig sichern.","Auf eine Frage echte Textstellen mit Fundstelle finden.","Aussagen und Quellenrollen technisch korrekt unterscheiden.","Veränderungen von Gedanken über längere Zeit verfolgen.","Frühere Korrekturen in späteren Aufgaben anwenden.","Neue sinnvolle Forschungsfragen entwickeln.","Forschung in nützliche Anwendungen übertragen.","Selbstständige Forschung mit überprüfbaren Ergebnissen.","Gefühle und Beziehungen sorgfältig untersuchen.","Veränderte und gleichzeitig bestehende Deutungen erkennen.","Psychologische Ergebnisse unabhängig vergleichen.","Forschungswissen in funktionierende Software umsetzen."];
 const evidence={1:"E12 CP017: 131 verifizierte Volltexte.",2:"Weitere Originaltexte geprüft; daraus folgt nicht automatisch eine neue Suchreifestufe.",3:"G5 C130 CI-grün; C131-R noch ohne volle CI.",7:"Öffentliche Webseite und maschinenlesbare Datenquelle eingerichtet.",8:"G5 C130 geprüft; autonome Cockpit-Datenveröffentlichung erst nach nächstem erfolgreichen Lauf nachgewiesen.",9:"P1-05: externer Dialog-Audit durchgeführt.",11:"P1-05: 504 Referenzausdrücke geprüft; deutliche Schwächen beim Missverständnis-Erkennen festgestellt.",12:"P1-05 dokumentiert; End-to-End-Anwendung weiterhin offen."};
 const days=[["07.11.",3,"Forschungsstartakte RW-1.0"],["08.11.",4,"Frühe Quellen- und Gedächtnisversuche"],["09.11.",7,"I0: 479 Gespräche und 81.490 Hauptpfadnachrichten abgeglichen"],["10.11.",5,"22D: acht echte API-Originalfälle"],["11.11.",7,"Originalabgleich und Blindmappe"],["12.11.",6,"Zielgraph G01–G08 und Forschungssteuerung"],["13.11.",5,"Forschungslandkarte und kumulative Forschungsakte"],["14.11.",6,"G5 C130, P1-05, E12 CP017 und Cockpit; rückgeschätzter Beitrag"]];
-const key="hoh-cockpit-personal-view-v4-cal001r1";let data=null;let calibration=null;let seen=null;let lastVisitAt=null;try{seen=JSON.parse(localStorage.getItem(key)||localStorage.getItem("hoh-cockpit-personal-view-v3-cal001")||localStorage.getItem("hoh-cockpit-personal-view-v2")||"null");lastVisitAt=localStorage.getItem("hoh-cockpit-last-page-open-v1");localStorage.setItem("hoh-cockpit-last-page-open-v1",new Date().toISOString())}catch(e){};const localDate=()=>{const p=new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Berlin",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date());const get=k=>p.find(x=>x.type===k).value;return get("year")+"-"+get("month")+"-"+get("day")};
+const key="hoh-cockpit-personal-view-v4-cal001r1";let data=null;let calibration=null;let seen=null;try{seen=JSON.parse(localStorage.getItem(key)||localStorage.getItem("hoh-cockpit-personal-view-v3-cal001")||localStorage.getItem("hoh-cockpit-personal-view-v2")||"null")}catch(e){};const localDate=()=>{const p=new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Berlin",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date());const get=k=>p.find(x=>x.type===k).value;return get("year")+"-"+get("month")+"-"+get("day")};
 const root=document.getElementById("metrics");
 const areaKeys=["vision","data","originals","psychology","temporal","corrections","questions","utility","autonomy","relations","meaning","validation","software"];
 const berlinDay=iso=>new Intl.DateTimeFormat("en-CA",{timeZone:"Europe/Berlin",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date(iso));
@@ -79,22 +79,30 @@ function render(){
  root.append(item)
  });
  const activity=document.getElementById("activity");activity.replaceChildren();
- const nowIso=new Date().toISOString();
- const candidates=[lastVisitAt,seen?.at].filter(v=>v&&!Number.isNaN(Date.parse(v)));
- const cutoff=candidates.length?candidates.sort((a,b)=>Date.parse(b)-Date.parse(a))[0]:null;
+ // A visit or reload is NOT a confirmation. Only the explicit button updates seen.at.
+ const cutoff=seen?.at&&!Number.isNaN(Date.parse(seen.at))?seen.at:null;
  const dated=events.filter(ev=>berlinDay(ev.completed_at)<=today);
  const previous=dated.filter(ev=>berlinDay(ev.completed_at)<today).length;
  const until=dated.filter(ev=>berlinDay(ev.completed_at)===today&&cutoff&&Date.parse(ev.completed_at)<=Date.parse(cutoff)).length;
  const since=dated.filter(ev=>berlinDay(ev.completed_at)===today&&(!cutoff||Date.parse(ev.completed_at)>Date.parse(cutoff))).length;
- const introActivity=document.createElement("p");
- introActivity.textContent=(cutoff?"Seit deinem letzten dokumentierten Besuch oder Lesepunkt ("+new Date(cutoff).toLocaleTimeString("de-DE",{hour:"2-digit",minute:"2-digit"})+"): ":"Kein früherer Besuch dokumentiert – heute insgesamt: ")+since+" neue Forschungsereignisse. Heute insgesamt "+(until+since)+". Zusätzliche geprüfte Reifemeilensteine: "+(calibration.approved_milestones||[]).filter(m=>m.verified===true&&berlinDay(m.approved_at)===today).length+".";
- activity.append(introActivity);
+ const formatStamp=iso=>new Date(iso).toLocaleString("de-DE",{timeZone:"Europe/Berlin",day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"});
+ const latest=dated.slice().sort((a,b)=>Date.parse(b.completed_at)-Date.parse(a.completed_at))[0];
+ const statusActivity=document.createElement("p");statusActivity.className="stamp";
+ statusActivity.textContent=since+" neue Forschungsereignisse "+(cutoff?"seit deiner Bestätigung am "+formatStamp(cutoff):"heute (noch kein bestätigter Lesepunkt)")+" · heute insgesamt "+(until+since)+".";
+ activity.append(statusActivity);
+ const newest=document.createElement("p");newest.className="detail";
+ newest.textContent=latest?"Letzte veröffentlichte Forschungsaktivität: "+formatStamp(latest.completed_at)+" · "+latest.source.toUpperCase()+" · "+latest.id:"Noch keine bestätigte Forschungsaktivität im Ereignisfeed.";
+ activity.append(newest);
  const strip=document.createElement("div");strip.className="bar";strip.style.height="18px";
  const groups=[[previous,"#245b42"],[until,"#50a47b"],[since,"#a8e1b8"]];
- const total=groups.reduce((a,x)=>a+x[0],0);for(const [n,color] of groups){if(n<=0)continue;const part=document.createElement("span");part.style.width=(n/Math.max(1,total)*100)+"%";part.style.background=color;strip.append(part)}activity.append(strip);
- const mini=document.createElement("p");mini.className="detail";mini.textContent="Meldungen: "+previous+" frühere Tage (dunkelgrün) · "+until+" heute vor dem Besuch (mittelgrün) · "+since+" neu (hellgrün). Nur Anzahl von Forschungsereignissen, keine Fortschrittsprozente.";activity.append(mini);
- const todayNew=dated.filter(ev=>berlinDay(ev.completed_at)===today&&(!cutoff||Date.parse(ev.completed_at)>Date.parse(cutoff))).sort((a,b)=>b.completed_at.localeCompare(a.completed_at));
- for(const ev of todayNew.slice(0,3)){const p=document.createElement("p");p.className="evidence";const stamp=new Date(ev.completed_at).toLocaleTimeString("de-DE",{timeZone:"Europe/Berlin",hour:"2-digit",minute:"2-digit"});p.textContent=stamp+" · "+ev.source.toUpperCase()+" · "+shortEvidence(ev.evidence);activity.append(p)}
+ const total=groups.reduce((a,x)=>a+x[0],0);
+ for(const [n,color] of groups){if(n<=0)continue;const part=document.createElement("span");part.style.width=(n/Math.max(1,total)*100)+"%";part.style.background=color;strip.append(part)}
+ activity.append(strip);
+ const mini=document.createElement("p");mini.className="detail";
+ mini.textContent="Forschungsmeldungen: "+previous+" vor heute (dunkelgrün) · "+until+" heute bis zur Bestätigung (mittelgrün) · "+since+" danach (hellgrün). Die Reifewerte werden unabhängig geprüft.";
+ activity.append(mini);
+ const todayNew=dated.filter(ev=>berlinDay(ev.completed_at)===today&&(!cutoff||Date.parse(ev.completed_at)>Date.parse(cutoff))).sort((a,b)=>Date.parse(b.completed_at)-Date.parse(a.completed_at));
+ for(const ev of todayNew.slice(0,3)){const p=document.createElement("p");p.className="evidence";p.textContent=formatStamp(ev.completed_at)+" · "+ev.source.toUpperCase()+" · "+shortEvidence(ev.evidence);activity.append(p)}
  const byDay=new Map();
  for(const ev of events){const d=berlinDay(ev.completed_at);if(!byDay.has(d))byDay.set(d,[]);byDay.get(d).push(ev)}
  const work=document.getElementById("work");work.replaceChildren();
