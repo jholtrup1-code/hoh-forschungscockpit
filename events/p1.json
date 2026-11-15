@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T04:39:45.217Z",
+  "updated_at": "2026-11-15T05:34:01.413Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -160,6 +160,26 @@
         0,
         0,
         0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-14-IMPLICATURE-THREE-CONDITION-20261115",
+      "completed_at": "2026-11-15T05:34:01.413Z",
+      "evidence": "P1-14: Auf drei im Original MIT-veröffentlichten Autorenvarianten derselben 271 pragmatischen Dialogsituationen (813 Fortsetzungsfälle: Implikatur-Rücknahme, Beibehaltung, Verstärkung) erkannte eine vorab festgelegte rein lexikalische Fortsetzungs-Heuristik 143/271 Rücknahmen und markierte 245/542 Nicht-Rücknahmen dennoch als Rücknahme. Balanced Accuracy 53,78 %, trivial nie-Rücknahme ergibt 66,67 % Gesamtgenauigkeit. 13/13 isolierte Tests und eine unabhängig formulierte CSV-Kontrollzählung bestätigten die Matrix 143/128/245/297, Original-Git-SHAs geprüft, privater P1-Receipt zurückgelesen. Autor-kuratierte Bedingungen, keine selbstberichteten Personenüberzeugungen, keine unabhängige Psychologie-Goldvalidierung, keine neuen Modell-API-Aufrufe, G5 unverändert.",
+      "delta": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
         1,
         0
       ]
