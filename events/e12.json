@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T15:23:02.952Z",
+  "updated_at": "2026-11-15T16:18:47.298Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -428,6 +428,26 @@
       "id": "E12-CP041",
       "completed_at": "2026-11-15T15:23:02.952Z",
       "evidence": "A private audit reconciled eight archived native-document source ID/checksum receipts against previously unmatched inventory entries, while two other previously metadata-only native sources were copied and independently verified by full normalized text, SHA-256, source/copy parent locations and private sharing status. Two archived pairs were also freshly backread. The result is source-receipt reconciliation and bounded verified copy progress, not a claim of corpus completeness or Python integration.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP042",
+      "completed_at": "2026-11-15T16:18:47.298Z",
+      "evidence": "Three previously metadata-only native-document originals in a bounded workshop folder were privately copied and independently verified against the originals by full normalized paragraph-text equality, SHA-256, exact parent folders and non-shared copy metadata. A newly paginated inventory returned 269 distinct native-document IDs across three pages; each now has a source-ID-to-private-receipt association, without asserting full historical revalidation, complete parent-tree inventory, or persistent Python indexing.",
       "delta": [
         0,
         1,
