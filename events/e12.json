@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T03:43:54.552Z",
+  "updated_at": "2026-11-15T03:49:03.796Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -181,6 +181,26 @@
         0,
         0,
         0,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP029",
+      "completed_at": "2026-11-15T03:48:25.273Z",
+      "evidence": "Eight additional previously unprocessed current native-document originals independently matched to complete private native copies, with validated text SHA-256, unchanged private parent metadata and an append-only checkpoint. Cross-document naming and intermediate-report rules traced to exact text positions; referenced destination files remain unverified.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
         0
       ]
     }
