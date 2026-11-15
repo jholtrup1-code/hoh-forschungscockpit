@@ -9,7 +9,7 @@ const labels=["Gesamtvision","Daten & Quellen","Originale wiederfinden","Psychol
 const descriptions=["Wie nah die gesamte Menschenmaschine ihrem Ziel ist.","Originale und ihre Herkunft zuverlässig sichern.","Auf eine Frage echte Textstellen mit Fundstelle finden.","Aussagen und Quellenrollen technisch korrekt unterscheiden.","Veränderungen von Gedanken über längere Zeit verfolgen.","Frühere Korrekturen in späteren Aufgaben anwenden.","Neue sinnvolle Forschungsfragen entwickeln.","Forschung in nützliche Anwendungen übertragen.","Selbstständige Forschung mit überprüfbaren Ergebnissen.","Gefühle und Beziehungen sorgfältig untersuchen.","Veränderte und gleichzeitig bestehende Deutungen erkennen.","Psychologische Ergebnisse unabhängig vergleichen.","Forschungswissen in funktionierende Software umsetzen."];
 const evidence={1:"E12 CP017: 131 verifizierte Volltexte.",2:"Weitere Originaltexte geprüft; daraus folgt nicht automatisch eine neue Suchreifestufe.",3:"G5 C130 CI-grün; C131-R noch ohne volle CI.",7:"Öffentliche Webseite und maschinenlesbare Datenquelle eingerichtet.",8:"G5 C130 geprüft; autonome Cockpit-Datenveröffentlichung erst nach nächstem erfolgreichen Lauf nachgewiesen.",9:"P1-05: externer Dialog-Audit durchgeführt.",11:"P1-05: 504 Referenzausdrücke geprüft; deutliche Schwächen beim Missverständnis-Erkennen festgestellt.",12:"P1-05 dokumentiert; End-to-End-Anwendung weiterhin offen."};
 const days=[["07.11.",3,"Forschungsstartakte RW-1.0"],["08.11.",4,"Frühe Quellen- und Gedächtnisversuche"],["09.11.",7,"I0: 479 Gespräche und 81.490 Hauptpfadnachrichten abgeglichen"],["10.11.",5,"22D: acht echte API-Originalfälle"],["11.11.",7,"Originalabgleich und Blindmappe"],["12.11.",6,"Zielgraph G01–G08 und Forschungssteuerung"],["13.11.",5,"Forschungslandkarte und kumulative Forschungsakte"],["14.11.",6,"G5 C130, P1-05, E12 CP017 und Cockpit; rückgeschätzter Beitrag"]];
-const key="hoh-cockpit-personal-view-v3-cal001";let data=null;let calibration=null;let seen=null;try{seen=JSON.parse(localStorage.getItem(key)||"null")}catch(e){};const localDate=()=>{const p=new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Berlin",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date());const get=k=>p.find(x=>x.type===k).value;return get("year")+"-"+get("month")+"-"+get("day")};
+const key="hoh-cockpit-personal-view-v4-cal001r1";let data=null;let calibration=null;let seen=null;try{seen=JSON.parse(localStorage.getItem(key)||"null")}catch(e){};const localDate=()=>{const p=new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Berlin",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date());const get=k=>p.find(x=>x.type===k).value;return get("year")+"-"+get("month")+"-"+get("day")};
 const root=document.getElementById("metrics");
 const areaKeys=["vision","data","originals","psychology","temporal","corrections","questions","utility","autonomy","relations","meaning","validation","software"];
 const berlinDay=iso=>new Intl.DateTimeFormat("en-CA",{timeZone:"Europe/Berlin",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date(iso));
@@ -20,16 +20,26 @@ function render(){
  root.replaceChildren();
  const today=localDate(), yesterday=new Date(Date.parse(today+"T00:00:00Z")-86400000).toISOString().slice(0,10);
  const events=data.events||[];
+ // KAL-001-R1: research events describe activity and NEVER increase maturity.
+ // Only a separately reviewed, evidence-linked milestone in calibration.json may change a score.
  const freshToday=Array(13).fill(0), earlier=Array(13).fill(0);
- for(const ev of events){const bucket=berlinDay(ev.completed_at)===today?freshToday:earlier; if(berlinDay(ev.completed_at)>today)continue;ev.delta.forEach((v,i)=>bucket[i]+=v)}
- // CP007 is the last editorial checkpoint from 14 November; all dated feed events are additive.
- // KAL-001: separate research activity from evidence-bounded capability maturity.
+ for(const milestone of (calibration.approved_milestones||[])){
+   const idx=milestone.area_index;
+   if(milestone.verified!==true||!Number.isInteger(idx)||idx<0||idx>12||
+      !Number.isInteger(milestone.delta)||milestone.delta<=0||
+      typeof milestone.evidence_ref!=="string"||!milestone.evidence_ref.trim()||
+      typeof milestone.approved_at!=="string")continue;
+   const d=berlinDay(milestone.approved_at);if(d>today)continue;
+   (d===today?freshToday:earlier)[idx]+=milestone.delta;
+ }
  const values=calibration.base.map((v,i)=>Math.min(calibration.caps[i],v+freshToday[i]+earlier[i]));data.displayValues=values;
  const base=values.map((v,i)=>Math.min(v,calibration.base[i]+earlier[i]));
+ const baselineTitle=today<=calibration.reviewed_at?"Bestätigter Kalibrierungsstand vom "+calibration.reviewed_at:"Bis gestern 24 Uhr";
+ const legendFirst=document.querySelector(".legend span");if(legendFirst)legendFirst.textContent=baselineTitle;
  const isMarked=seen?.day===today&&Array.isArray(seen.values)&&seen.values.length===13;
  let newToday=0, confirmedToday=0;
  for(let i=1;i<13;i++){const marked=isMarked?Math.max(base[i],Math.min(values[i],seen.values[i])):base[i];confirmedToday+=marked-base[i];newToday+=values[i]-marked}
- document.getElementById("daily").textContent="Heute ("+today+"): +"+(confirmedToday+newToday)+" vorläufige Reifepunkte innerhalb der Nachweisgrenzen · bis zu deinem Lesepunkt: +"+confirmedToday+" · seitdem: +"+newToday;
+ document.getElementById("daily").textContent="Heute ("+today+"): +"+(confirmedToday+newToday)+" eigens bestätigte Reifepunkte · bis Lesepunkt: +"+confirmedToday+" · seitdem: +"+newToday+" · "+events.filter(ev=>berlinDay(ev.completed_at)===today).length+" Forschungsereignisse (nicht automatisch als Reife gewertet)";
  labels.forEach((name,i)=>{
  const value=values[i],before=base[i],marked=isMarked?Math.max(before,Math.min(value,seen.values[i])):before;
  const item=document.createElement("div");item.className="metric";
@@ -49,7 +59,7 @@ function render(){
  }
  item.append(bar);
  const note=document.createElement("div");note.className="detail";
- note.textContent=i===0?"Braun = historische Forschungsbeiträge, auf KAL-001 normiert; keine gemessenen Prozentwerte. Aktuelle Tagesereignisse: "+events.filter(x=>berlinDay(x.completed_at)===today).length+".": "Bis gestern 24 Uhr: "+before+" · heute bis Lesepunkt: +"+(marked-before)+" · seit Lesepunkt: +"+(value-marked)+" · offen: "+(100-value);
+ note.textContent=i===0?"Braun = historische Forschungsbeiträge, auf KAL-001 normiert; keine gemessenen Prozentwerte. Aktuelle Tagesereignisse: "+events.filter(x=>berlinDay(x.completed_at)===today).length+".": baselineTitle+": "+before+" · heute bis Lesepunkt: +"+(marked-before)+" · seit Lesepunkt: +"+(value-marked)+" · offen: "+(100-value);
  item.append(note);
  const desc=document.createElement("div");desc.className="detail";desc.textContent=descriptions[i];item.append(desc);
  const goal=document.createElement("details");goal.className="evidence";const gs=document.createElement("summary");gs.textContent="Ziel, nächster Meilenstein und Hindernis";goal.append(gs);
