@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T16:42:57.948Z",
+  "updated_at": "2026-11-15T17:42:11.028Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -402,6 +402,26 @@
         0,
         1,
         1
+      ]
+    },
+    {
+      "id": "P1-26-GERMAN-QUOTE-TYPE-REFERENCE-20261115",
+      "completed_at": "2026-11-15T17:42:11.028Z",
+      "evidence": "P1-26: Prospektiv vorgegebene lesende Audit-Stichprobe aus unabhaengig menschlich annotiertem, oeffentlich lizenziertem deutschsprachigen Zitatkorpus. 20/20 Original-Git-Blob-Hashes bestaetigt; 46 annotierte Rede-Faelle, darunter 39 nicht als Direct typisiert, waehrend ein Direct-only-Oracle 7 abdeckt. 45/45 Singleton-Quellspans im Original geprueft. Dokumentierter Referenzfortschritt fuer Herkunft/indirekte Rede, KEINE freie KI-Sprechererkennung, Personen-Goldvalidierung, psychologische Wirksamkeit, G5-Integration oder gemessene Nutzerentlastung.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
       ]
     }
   ],
