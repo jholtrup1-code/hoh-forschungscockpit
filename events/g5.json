@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T17:08:45Z",
+  "updated_at": "2026-11-15T18:10:36Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -417,6 +417,26 @@
         0,
         1,
         2,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C151-G07-QUESTION-MATCHED-FTS-ROW-GAP-20261115",
+      "completed_at": "2026-11-15T18:10:36Z",
+      "evidence": "Vorregistrierter synthetischer G07-Gegenversuch beweist eine nachweislich fehlende FTS5-Indexverknuepfung eines aktuellen, zum genauen Besitzer-Fragewort passenden Dokumentoriginals, das ausserhalb der ersten 256 allgemeinen C150-Kanaren liegt. Vorheriger Test-RED #43744185511 und unabhängige Tokenizer-Negativpruefung RED #43744568118, anschliessend vorregistrierte Korrektur auf explizit kompatible unicode61-Tokenisierung mit vollstaendiger Code-CI #43744822831 und nach privater Zustandssicherung G5-Voll-CI #43745168264 erfolgreich. Der explizit aktivierbare begrenzte Besitzer-Frage-Check stoppt die private Trefferfreigabe bei belegter Indexluecke; unpruefbare/abgeschnittene Faelle bleiben ungewiss. Kein Originaltext, Personenwissen oder Bedeutungs-/Relevanz-Gold; kein Nachweis vollstaendiger Indizierung.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
         0,
         0,
         0,
