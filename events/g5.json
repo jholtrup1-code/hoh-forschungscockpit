@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T02:02:00Z",
+  "updated_at": "2026-11-15T03:14:20.306Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -116,6 +116,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "G5-C136-G02-ROLE-REVIEW-FENCE-RED-GREEN-20261115",
+      "completed_at": "2026-11-15T03:14:20.306Z",
+      "evidence": "Zwei vorregistrierte synthetische G02-Gegenproben: Eine explizit gewünschte Sprecherrollen-Oberfläche wird aus SHA-geprüften Originalausschnitten für private, ungeprüfte Sichtung gewählt, während ein früherer rein lexikalischer Treffer nur wiedergegebene Rede zeigt. Eine unabhängige RED-Gegenprobe fand fehlerhaft als Dialogturn erkannte Markdown-Codebeispiele; der Parser enthält jetzt eine abschließende Fence-/Scope-Sperre. Die vollständige GitHub-CI des Entwicklungsbranches auf dem abschließenden Code-/Test-Commit bestand mit 71/71 Prüfschritten einschließlich normalem und optimiertem Python. Nur technische Quellen- und Fragenabgrenzung, keine allgemeine Semantik-, Urheber- oder Menschenbedeutungsvalidierung.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
         0,
         0,
         0,
