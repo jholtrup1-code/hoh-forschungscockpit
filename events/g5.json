@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T08:07:36.420Z",
+  "updated_at": "2026-11-15T09:10:33.641Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -242,6 +242,26 @@
         0,
         0,
         0
+      ]
+    },
+    {
+      "id": "G5-C142-G02-ARCHIVE-REAL-BLIND-SOURCE-REVIEW-CI-20261115",
+      "completed_at": "2026-11-15T09:10:33.641Z",
+      "evidence": "Vorregistrierte synthetische End-to-End-Integration: aktuelle SHA-/Version-/Passage-geprüfte, ausdrücklich freigegebene Offline-SQLite-Originale werden als echte zweiarmige, quellendeduplizierte und lokal verblindete Quellenrelevanz-Sichtung gegen eine einfache lexikalische Baseline aufbereitet; vollständige Frage und private Originallokatoren ausschließlich in geschütztem 0600-Paket, Armzuordnung in separatem schreibgeschütztem 0600-Schlüssel. Negativtest fand fehlende private Fragelesbarkeit (echter RED CI 43697550614); nach Reparatur und syntaktischem Zwischenfehler bestanden final 74/74 GitHub-Workflow-Schritte inklusive acht neuer Synthetiktests regulär und unter Python -O (Run 43697702529). Ohne echte Menschenratings ist weiterhin KEINE Relevanzsteigerung oder Bedeutungsqualität gemessen.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
       ]
     }
   ],
