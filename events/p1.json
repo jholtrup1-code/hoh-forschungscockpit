@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T03:36:55.618Z",
+  "updated_at": "2026-11-15T04:39:45.217Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -133,6 +133,26 @@
         1,
         0,
         1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-13-INCROMIN-REVISION-20261115",
+      "completed_at": "2026-11-15T04:39:45.217Z",
+      "evidence": "P1-13: Auf unabhängig veröffentlichtem, laut offiziellem Datenkatalog CC-BY-4.0-lizenziertem Gesprächsmaterial wurden drei fest registrierte automatische und manuell korrigierte Übersetzungspaare per originalem Git-Tag analysiert. 383 eindeutig zeitlich gepaarte Segmente, 109 Unterschiede auch nach Wortlautnormalisierung und 3 formale Negationsmarkerwechsel; unabhängige Kontrollzählung und 12/12 isolierte Tests bestanden. Ein Paar erlaubt nur 4/248 automatische Zeilen exakten Zeitabgleich, daher begrenzte Stichprobe. Messung betrifft Editions-/Quellentreue und schützt vor unbelegter Gleichsetzung mit Meinungsänderung; keine validierte Personenpsychologie, keine Modell-API, keine G5-Integration oder Github-Actions-CI.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
         0,
         0,
         0,
