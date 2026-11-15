@@ -47,26 +47,30 @@ function render(){
  const events=data.events||[];
  // KAL-001-R1: research events describe activity and NEVER increase maturity.
  // Only a separately reviewed, evidence-linked milestone in calibration.json may change a score.
- const freshToday=Array(13).fill(0), earlier=Array(13).fill(0);
- for(const milestone of [...(calibration.approved_milestones||[]),...automaticMilestones(events,calibration,today)]){
-   const idx=milestone.area_index;
+ const earlier=Array(13).fill(0), untilRead=Array(13).fill(0), sinceRead=Array(13).fill(0);
+ const readTime=seen?.at&&!Number.isNaN(Date.parse(seen.at))?Date.parse(seen.at):null;
+ const milestones=[...(calibration.approved_milestones||[]),...automaticMilestones(events,calibration,today)];
+ for(const milestone of milestones){
+   const idx=milestone.area_index,ts=Date.parse(milestone.approved_at);
    if(milestone.verified!==true||!Number.isInteger(idx)||idx<0||idx>12||
       !Number.isInteger(milestone.delta)||milestone.delta<=0||
       typeof milestone.evidence_ref!=="string"||!milestone.evidence_ref.trim()||
-      typeof milestone.approved_at!=="string")continue;
+      !Number.isFinite(ts))continue;
    const d=berlinDay(milestone.approved_at);if(d>today)continue;
-   (d===today?freshToday:earlier)[idx]+=milestone.delta;
+   if(d<today)earlier[idx]+=milestone.delta;
+   else if(readTime!==null&&ts<=readTime)untilRead[idx]+=milestone.delta;
+   else sinceRead[idx]+=milestone.delta;
  }
- const values=calibration.base.map((v,i)=>Math.min(calibration.caps[i],v+freshToday[i]+earlier[i]));data.displayValues=values;
+ const values=calibration.base.map((v,i)=>Math.min(calibration.caps[i],v+earlier[i]+untilRead[i]+sinceRead[i]));data.displayValues=values;
  const base=values.map((v,i)=>Math.min(v,calibration.base[i]+earlier[i]));
- const baselineTitle=today<=calibration.reviewed_at?"Bestätigter Kalibrierungsstand vom "+calibration.reviewed_at:"Bis gestern 24 Uhr";
+ const marked=values.map((v,i)=>Math.min(v,base[i]+untilRead[i]));
+ const baselineTitle="Bis gestern 24 Uhr";
  const legendFirst=document.querySelector(".legend span");if(legendFirst)legendFirst.textContent=baselineTitle;
- const isMarked=seen?.day===today&&Array.isArray(seen.values)&&seen.values.length===13;
- let newToday=0, confirmedToday=0;
- for(let i=1;i<13;i++){const marked=isMarked?Math.max(base[i],Math.min(values[i],seen.values[i])):base[i];confirmedToday+=marked-base[i];newToday+=values[i]-marked}
- document.getElementById("daily").textContent="Heute ("+today+"): +"+(confirmedToday+newToday)+" eigens bestätigte Reifepunkte · bis Lesepunkt: +"+confirmedToday+" · seitdem: +"+newToday+" · "+events.filter(ev=>berlinDay(ev.completed_at)===today).length+" Forschungsereignisse (nicht automatisch als Reife gewertet)";
+ const confirmedToday=marked.slice(1).reduce((sum,v,i)=>sum+v-base[i+1],0);
+ const newToday=values.slice(1).reduce((sum,v,i)=>sum+v-marked[i+1],0);
+ document.getElementById("daily").textContent="Heute ("+today+"): +"+(confirmedToday+newToday)+" belegte Reifeschritte · bis Lesepunkt: +"+confirmedToday+" · seitdem: +"+newToday+" · "+events.filter(ev=>berlinDay(ev.completed_at)===today).length+" Forschungsberichte separat";
  labels.forEach((name,i)=>{
- const value=values[i],before=base[i],marked=isMarked?Math.max(before,Math.min(value,seen.values[i])):before;
+ const value=values[i],before=base[i],markedValue=marked[i];
  const item=document.createElement("div");item.className="metric";
  const heading=document.createElement("div");heading.className="name";heading.textContent=name;
  const count=document.createElement("span");count.textContent=value+"/100";heading.append(count);item.append(heading);
@@ -80,11 +84,11 @@ function render(){
    if(added){const p=document.createElement("span");p.style.width=added+"%";p.style.background="#a8792b";bar.append(p)}
    const gray=document.createElement("span");gray.style.width=Math.max(0,100-value)+"%";gray.style.background="#dfe5e2";gray.style.display="flex";gray.style.alignItems="center";gray.style.paddingLeft="9px";gray.style.fontWeight="700";gray.style.fontSize="12px";gray.textContent="Tag "+(Math.floor((Date.parse(today+"T00:00:00Z")-Date.UTC(2026,10,7))/86400000)+1);bar.append(gray);
  }else{
-   [[before,"#245b42"],[marked-before,"#50a47b"],[value-marked,"#a8e1b8"],[100-value,"#dfe5e2"]].forEach(([width,color])=>{const p=document.createElement("span");p.style.width=Math.max(0,width)+"%";p.style.background=color;bar.append(p)})
+   [[before,"#245b42"],[markedValue-before,"#50a47b"],[value-markedValue,"#a8e1b8"],[100-value,"#dfe5e2"]].forEach(([width,color])=>{const p=document.createElement("span");p.style.width=Math.max(0,width)+"%";p.style.background=color;bar.append(p)})
  }
  item.append(bar);
  const note=document.createElement("div");note.className="detail";
- note.textContent=i===0?"Braun = historische Forschungsbeiträge, auf KAL-001 normiert; keine gemessenen Prozentwerte. Aktuelle Tagesereignisse: "+events.filter(x=>berlinDay(x.completed_at)===today).length+".": baselineTitle+": "+before+" · heute bis Lesepunkt: +"+(marked-before)+" · seit Lesepunkt: +"+(value-marked)+" · offen: "+(100-value);
+ note.textContent=i===0?"Braun = historische Forschungsbeiträge, auf KAL-001 normiert; keine gemessenen Prozentwerte. Aktuelle Tagesereignisse: "+events.filter(x=>berlinDay(x.completed_at)===today).length+".": baselineTitle+": "+before+" · heute bis Lesepunkt: +"+(markedValue-before)+" · seit Lesepunkt: +"+(value-markedValue)+" · offen: "+(100-value);
  item.append(note);
  const desc=document.createElement("div");desc.className="detail";desc.textContent=descriptions[i];item.append(desc);
  const goal=document.createElement("details");goal.className="evidence";const gs=document.createElement("summary");gs.textContent="Ziel, nächster Meilenstein und Hindernis";goal.append(gs);
