@@ -19,13 +19,14 @@ function shortEvidence(value){const first=String(value||"").split(/[.;]/)[0].tri
 // Auto-Check V1: conservative bounded technical evidence, not a human-validated scientific score.
 // Event text is a self-reported receipt; never infer real-user validation from CI.
 function automaticMilestones(events,calibration,today){
- const boundary=Date.parse("2026-11-15T18:44:00+01:00");
+ // KAL-002 already reviews 15 November. Automatic scoring starts on the next Berlin day to avoid double counting.
+ const boundary=Date.parse("2026-11-16T00:00:00+01:00");
  const groups=new Map();
  for(const ev of events){
   const t=Date.parse(ev.completed_at);if(!Number.isFinite(t)||t<=boundary||berlinDay(ev.completed_at)>today)continue;
   const evidence=String(ev.evidence||"");
-  const isSource=ev.source==="e12"&&/verified|back.?read|geprüft|gegengelesen|sha.?256|identical|gleichheit/i.test(evidence)&&/original|source|dokument|document|quell/i.test(evidence);
-  const isCode=ev.source==="g5"&&/vorregistriert|prospektiv|pre.?register/i.test(evidence)&&/synthetisch|synthetic/i.test(evidence)&&/CI|regression/i.test(evidence)&&/bestanden|erfolgreich|successful|green/i.test(evidence);
+  const isSource=ev.source==="e12"&&/verified|back.?read|geprüft|gegengelesen|sha.?256|identical|gleichheit/i.test(evidence)&&/original|source|dokument|document|quell/i.test(evidence)&&/full|complete|vollständig|vollstaendig|byte.?identical/i.test(evidence);
+  const isCode=ev.source==="g5"&&/vorregistriert|prospektiv|pre.?register/i.test(evidence)&&/synthetisch|synthetic/i.test(evidence)&&/CI|regression/i.test(evidence)&&/bestanden|erfolgreich|successful|green/i.test(evidence)&&/nach|reparatur|fix|check|gate|schutz|preflight/i.test(evidence);
   const isP1=ev.source==="p1"&&/vorregistriert|prospektiv|pre.?register/i.test(evidence)&&/test|prüfung|audit/i.test(evidence)&&/bestanden|geprüft|reproduziert|confirmed|verified/i.test(evidence);
   if(!isSource&&!isCode&&!isP1)continue;
   // Source and CI achievements only; never count them as practical human benefit or full understanding.
