@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T01:02:58.332Z",
+  "updated_at": "2026-11-15T01:09:36.117Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -82,6 +82,26 @@
         0,
         0,
         0
+      ]
+    },
+    {
+      "id": "G5-C134-G07-PRIVATE-OFFLINE-CLI-CI-20261115",
+      "completed_at": "2026-11-15T01:09:36.117Z",
+      "evidence": "Technisch reproduzierbare Offline-Besitzeroberfläche für die bereits vorhandene aktuelle mehrquellige Originalsichtung mit separaten unbestätigten Korrekturhinweisen. Ausdrückliches Opt-in, geschützte 0600-Fragedatei, schreibgeschütztes lokales Archiv, erneute Quellenprüfung und geschützte exklusive 0600-Ausgabe. Fünf reale synthetische SQLite-CLI-Tests je regulär und im Python-Optimierungsmodus sowie vollständige G5/Docker-CI mit 70/70 erfolgreichen Workflow-Schritten; keine Originaltexte oder Personentatsachen öffentlich, keine neue KI-/Bedeutungsvalidierung.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
       ]
     }
   ],
