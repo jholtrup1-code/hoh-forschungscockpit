@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T21:13:24.479Z",
+  "updated_at": "2026-11-15T22:18:37.171Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -548,6 +548,26 @@
       "id": "E12-CP047",
       "completed_at": "2026-11-15T21:13:24.479Z",
       "evidence": "Three previously metadata-only native chronicle-test originals from two bounded source branches were privately copied and independently back-read with identical complete normalized paragraph text, matching SHA-256 checks, verified original and private parent folders, and non-shared copies. The bounded source inventory now has individual source-to-copy receipts for six of thirteen documents; the remaining seven, historic revisions, media assets, and persistent Python integration remain open.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP048",
+      "completed_at": "2026-11-15T22:18:37.171Z",
+      "evidence": "Three previously metadata-only native chronicle-test documents from two bounded test folders were independently copied into a verified private archive and checked against their complete source paragraph texts with identical SHA-256 values, source-to-copy IDs, private parent location and non-shared copies. The bounded chronicle-test inventory now has direct individual verification receipts for nine of thirteen known native documents; four remain metadata-only. Historical test status is not a live day closure, and persistent Python/SQLite integration remains unverified.",
       "delta": [
         0,
         1,
