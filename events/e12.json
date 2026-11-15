@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T17:13:20.509Z",
+  "updated_at": "2026-11-15T18:20:04.462Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -472,6 +472,26 @@
         0,
         1,
         2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP044",
+      "completed_at": "2026-11-15T18:20:04.462Z",
+      "evidence": "Three previously unindexed native-document originals in two newly traversed source branches were privately copied and independently back-read, with identical complete normalized paragraph text, SHA-256 hashes, original and private-copy parent checks and non-shared copy metadata. Bounded recursive provider inventories established exact immediate subfolder and document-type page results in source, control and archive branches without asserting an all-MIME or complete-Drive scan. Persistent Python/SQLite integration remains unverified.",
+      "delta": [
+        0,
+        1,
+        1,
         0,
         0,
         0,
