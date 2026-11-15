@@ -1,6 +1,6 @@
 {
   "schema": "hoh-calibration-v1",
-  "version": "KAL-001-R1",
+  "version": "KAL-002",
   "reviewed_at": "2026-11-15",
   "status": "vorlaeufige redaktionelle Reifekalibrierung; keine empirischen Prozentwerte",
   "note": "Korrektur vom 15.11.2026: Event-Meldungen bleiben als Aktivitäts-/Belegprotokoll sichtbar. KAL-001-Reifebasis wird nicht automatisch durch addierte Eventpunkte erhöht. Frühere Addition wurde als fehlerhaft identifiziert.",
@@ -79,6 +79,34 @@
     "Unabhängige Goldstandards und unbekannte Fälle sind begrenzt",
     "Funktionen sind noch nicht als vollständiges Produkt integriert"
   ],
-  "score_policy": "Nur gesondert geprüfte und ausdrücklich eingetragene Fähigkeitsmeilensteine verändern Reifepunkte. G5/P1/E12-Ereignis-delta zählt als Forschungsaktivität, niemals automatisch als Reifezuwachs.",
-  "approved_milestones": []
+  "score_policy": "Konservative redaktionelle Reifeschritte ausschließlich nach einzeln belegter und dokumentierter Prüfung; kein Addieren von Forschungsereignissen. Der Prüfstatus bezieht sich auf den jeweiligen eng begrenzten technischen oder Quellen-Meilenstein, nicht auf eine unabhängige Gesamtvalidierung.",
+  "approved_milestones": [
+    {
+      "area_index": 1,
+      "delta": 1,
+      "approved_at": "2026-11-15T17:13:20.509Z",
+      "verified": true,
+      "evidence_ref": "events/e12.json#E12-CP043",
+      "scope": "Drei Word-Originale als byte-identische private Kopien plus ein natives Dokument vollständig gegengeprüft; nur begrenzter Quellen-Sicherungsschritt, keine vollständige Integration.",
+      "reviewed_at": "2026-11-15T18:45:00+01:00"
+    },
+    {
+      "area_index": 11,
+      "delta": 1,
+      "approved_at": "2026-11-15T17:08:45Z",
+      "verified": true,
+      "evidence_ref": "events/g5.json#G5-C150-G07-OWNER-QUESTION-FTS-PREFLIGHT-20261115",
+      "scope": "Vorregistrierte synthetische Gegenprobe, GitHub-Regressionslauf 75/75 laut Ereignisbeleg; technische Regression, keine unabhängige Menschenvalidierung.",
+      "reviewed_at": "2026-11-15T18:45:00+01:00"
+    },
+    {
+      "area_index": 12,
+      "delta": 1,
+      "approved_at": "2026-11-15T17:08:45Z",
+      "verified": true,
+      "evidence_ref": "events/g5.json#G5-C150-G07-OWNER-QUESTION-FTS-PREFLIGHT-20261115",
+      "scope": "Expliziter FTS-Preflight im vorhandenen privaten Besitzerfragen-Ablauf laut Ereignisbeleg; Teilfunktion, kein vollständiger realer End-to-End-Anwendungstest.",
+      "reviewed_at": "2026-11-15T18:45:00+01:00"
+    }
+  ]
 }
