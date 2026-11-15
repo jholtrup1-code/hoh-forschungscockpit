@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T16:18:47.298Z",
+  "updated_at": "2026-11-15T17:13:20.509Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -452,6 +452,26 @@
         0,
         1,
         1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP043",
+      "completed_at": "2026-11-15T17:13:20.509Z",
+      "evidence": "Three previously metadata-only Word originals were preserved as private byte-identical copies, with full raw-file SHA-256 comparisons, connector-extracted text agreement and verified Drive parent and non-shared metadata. One additional native project document was independently checked by complete paragraph-text equality and normalized SHA-256. New paginated folder-level inventories identified an updated root folder count and opened further recursive branches. No persistent Python index or full-Drive completeness is claimed.",
+      "delta": [
+        0,
+        1,
+        2,
         0,
         0,
         0,
