@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T14:11:37.152Z",
+  "updated_at": "2026-11-15T15:18:10Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -356,6 +356,26 @@
         0,
         0,
         0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C148-G04-SHORT-QUESTION-REPORTED-CORRECTION-CAUTION-20261115",
+      "completed_at": "2026-11-15T15:17:05Z",
+      "evidence": "Prospektiv registrierte G04-Abstinenzkorrektur fuer kurze private Besitzerfragen: Vor der Reparatur uebersah die bisherige C108-Standard-Zweiwortregel den exakten langen Einzelworttreffer eines aktuellen, weiterhin unbestaetigten Korrekturberichts (echter Test-RED #43728436130). Nur das explizit aktivierte C119-Antwortgate veranlasst nun konservative Besitzerpruefung statt Vorschlagsdateilesen; alte C108-Standardsuche bleibt unveraendert. Fuenf synthetische SQLite-Tests regulär und Python -O, finale Code-CI #43728738168 sowie wissenschaftlicher Zustandscheck #43729007844 und Voll-CI #43729007918 erfolgreich. Weder Bericht noch Worttreffer sind eine menschlich bestaetigte Bedeutungs- oder Autorenbewertung.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
         1,
         0,
         0,
