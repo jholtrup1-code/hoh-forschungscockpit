@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T07:11:59.927Z",
+  "updated_at": "2026-11-15T08:07:36.420Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -222,6 +222,26 @@
         0,
         1,
         1
+      ]
+    },
+    {
+      "id": "G5-C141-G02-OWNER-DECLARED-SURFACE-ORIGINAL-CI-20261115",
+      "completed_at": "2026-11-15T08:07:36.420Z",
+      "evidence": "In einem vorregistrierten rein synthetischen Besitzerfrage-Versuch wurde ein sicher freigegebenes, versions- und SHA-geprueftes SQLite-Original trotz fehlender exakter Fragewort-Uebereinstimmung ueber einen vom Besitzer selbst angegebenen alternativen Suchausdruck gefunden. Exakte Textspans werden dedupliziert, widerrufene Quellen gesperrt, keine Originaltexte oeffentlich. Vollstaendige GitHub-CI auf Testcommit c02314dd: 73/73 Workflow-Pruefungen erfolgreich, 13 SQLite-Tests normal und Python -O. Es handelt sich um benutzergesteuerte Woerterweiterung, nicht um automatisches Bedeutungs- oder Paraphrasenverstehen.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
       ]
     }
   ],
