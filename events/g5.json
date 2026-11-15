@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T06:03:18.244Z",
+  "updated_at": "2026-11-15T07:11:59.927Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -202,6 +202,26 @@
         0,
         0,
         0
+      ]
+    },
+    {
+      "id": "G5-C140-G01-G02-CURRENT-ARCHIVE-OWNER-ORIGINAL-20261115",
+      "completed_at": "2026-11-15T07:11:59.927Z",
+      "evidence": "Vorregistrierte synthetische End-to-End-Prüfung: Ein ausdrücklich freigegebener privater Archiv-Aufruf verbindet aktuelle SQLite-Dokumentoriginale mit der vorhandenen quellenpositionsgeprüften Fragesichtung. Exakte Version und Passage werden per SHA geprüft; widerrufene, überholte, beschädigte und sekundäre Quellen werden gesperrt, auch wenn eine Änderung zwischen zwei unabhängigen Archivprüfungen erfolgt. Acht neue Tests regulär und mit optimiertem Python, vollständige GitHub-CI 43688639603 mit 73/73 erfolgreichen Schritten. Neues privates Ausgabeprotokoll ohne Originaltexte in öffentlichen Meldungen. Keine unabhängige Rechte- oder Sprecherprüfung, kein semantisches Menschen-Gold.",
+      "delta": [
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
       ]
     }
   ],
