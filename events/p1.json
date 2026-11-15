@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T19:41:03.552Z",
+  "updated_at": "2026-11-15T20:44:04.262Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -462,6 +462,26 @@
         0,
         1,
         1
+      ]
+    },
+    {
+      "id": "P1-29-DBRC-PERSON-LINKAGE-20261115",
+      "completed_at": "2026-11-15T20:44:04.262Z",
+      "evidence": "P1-29: Die vollständige, CC-BY-4.0-autorenveröffentlichte japanische Dialogreparatur-JSONL wurde mit zuvor gespeicherter Prüfregel auf Personenverknüpfbarkeit auditiert. Alle 3990 Zeilen tragen dieselben 7 Root-Felder und 9 Feldpfade einschließlich zweier Dialoghistorienfelder; in keinem findet sich eine Respondent-/Teilnehmer-ID oder belegte zeitliche Personenverknüpfung. 140 question_id-Werte sind ausdrücklich Szenario-IDs und liegen im Release nach Szenario gruppiert vor. 12/12 isolierte synthetische Prüffälle und unabhängige Gesamtzählung bestanden; ein erster NaN-Parser-RED-Lauf wurde vor Abschluss repariert. Keine neue Studie zur tatsächlichen Nutzerentlastung, keine automatisch erkannte Einzelperson, keine psychologische Personen-Goldvalidierung, keine bezahlten Modellaufrufe, keine G5-Integration. Quellen-Eignungsbefund verhindert unzulässige Individualisierungsbehauptung; separate Autorenzuordnung kann außerhalb des Releases existieren.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
       ]
     }
   ],
