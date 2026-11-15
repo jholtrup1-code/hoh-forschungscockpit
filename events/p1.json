@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T13:50:47.403Z",
+  "updated_at": "2026-11-15T14:39:52.608Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -342,6 +342,26 @@
         0,
         2,
         0
+      ]
+    },
+    {
+      "id": "P1-23-REJECTED-PROPOSAL-DECISION-GATE-20261115",
+      "completed_at": "2026-11-15T14:39:52.608Z",
+      "evidence": "P1-23: Prospektive neue P1-Pruefung mit offiziell publizierten MIT-lizenzierten Aufgaben-Kontrollen: 103/103 Math-IDs zwischen explizit verworfenen und angenommenen Aenderungen strukturell gepaart; das ist KEIN Modell-Wirksamkeitstest. Eigenstaendig verfasster, von GitHub rueckgelesener Offline-Entscheidungsgate fuer explizit typisierte Nutzerereignisse besteht 120/120 synthetische Faelle (naive Letzterwaehnung 72/120; Reject-als-Accept-Mutation 84/120), 6/6 adversariale Negativpruefungen. Keine natuerlichsprachliche Intent-Erkennung, psychologische Personenvalidierung, gemessene Nutzerentlastung, bezahlte Modell-API oder G5-Integration. Preprint-Quelle nicht als peer-reviewed ausgegeben.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
       ]
     }
   ],
