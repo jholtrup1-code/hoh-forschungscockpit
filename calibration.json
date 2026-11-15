@@ -84,29 +84,32 @@
     {
       "area_index": 1,
       "delta": 1,
-      "approved_at": "2026-11-15T17:13:20.509Z",
+      "approved_at": "2026-11-15T18:45:00+01:00",
       "verified": true,
       "evidence_ref": "events/e12.json#E12-CP043",
       "scope": "Drei Word-Originale als byte-identische private Kopien plus ein natives Dokument vollständig gegengeprüft; nur begrenzter Quellen-Sicherungsschritt, keine vollständige Integration.",
-      "reviewed_at": "2026-11-15T18:45:00+01:00"
+      "reviewed_at": "2026-11-15T18:45:00+01:00",
+      "source_completed_at": "2026-11-15T17:13:20.509Z"
     },
     {
       "area_index": 11,
       "delta": 1,
-      "approved_at": "2026-11-15T17:08:45Z",
+      "approved_at": "2026-11-15T18:45:00+01:00",
       "verified": true,
       "evidence_ref": "events/g5.json#G5-C150-G07-OWNER-QUESTION-FTS-PREFLIGHT-20261115",
       "scope": "Vorregistrierte synthetische Gegenprobe, GitHub-Regressionslauf 75/75 laut Ereignisbeleg; technische Regression, keine unabhängige Menschenvalidierung.",
-      "reviewed_at": "2026-11-15T18:45:00+01:00"
+      "reviewed_at": "2026-11-15T18:45:00+01:00",
+      "source_completed_at": "2026-11-15T17:08:45Z"
     },
     {
       "area_index": 12,
       "delta": 1,
-      "approved_at": "2026-11-15T17:08:45Z",
+      "approved_at": "2026-11-15T18:45:00+01:00",
       "verified": true,
       "evidence_ref": "events/g5.json#G5-C150-G07-OWNER-QUESTION-FTS-PREFLIGHT-20261115",
       "scope": "Expliziter FTS-Preflight im vorhandenen privaten Besitzerfragen-Ablauf laut Ereignisbeleg; Teilfunktion, kein vollständiger realer End-to-End-Anwendungstest.",
-      "reviewed_at": "2026-11-15T18:45:00+01:00"
+      "reviewed_at": "2026-11-15T18:45:00+01:00",
+      "source_completed_at": "2026-11-15T17:08:45Z"
     }
   ]
 }
