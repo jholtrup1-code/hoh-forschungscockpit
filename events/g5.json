@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T04:13:00Z",
+  "updated_at": "2026-11-15T05:05:46.635Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -151,6 +151,26 @@
       "delta": [
         0,
         0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "G5-C138-G02-POST-FENCE-ORIGINAL-RED-GREEN-20261115",
+      "completed_at": "2026-11-15T05:05:46.635Z",
+      "evidence": "Synthetischer, vorregistrierter Originalquellen-Gegenversuch: Der bestehende Prüfer verlor vorher eine echte thematisch eigenständige Originalaussage direkt nach einem korrekt abgeschlossenen Markdown-Codebeispiel ohne Leerzeile. Echte negative GitHub-CI 43679324419; nach positionsgetreuer Fence-Maskierung vollständige GitHub-CI 43679405259 mit 71/71 erfolgreichen Schritten und drei neuen bestandenen Fällen (einschließlich umgekehrter Quellenreihenfolge und fehlerhaftem Fence). Beispieltexte bleiben ausgeschlossen; keine semantische Paraphraseninterpretation, Authentizitäts- oder Menschen-Goldbewertung.",
+      "delta": [
+        0,
+        1,
         1,
         0,
         0,
