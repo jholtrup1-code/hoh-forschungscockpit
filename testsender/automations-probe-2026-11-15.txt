@@ -1,0 +1,4 @@
+HOUSE OF HOLTRUP CHATGPT AUTOMATION TO GITHUB TEST
+status=sender_attempt
+marker=HOH-TEST-20261115-KIESELSTEIN
+parent_last_user_characters=16
