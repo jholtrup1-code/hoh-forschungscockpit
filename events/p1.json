@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T07:40:08.600Z",
+  "updated_at": "2026-11-15T08:43:23.350Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -220,6 +220,26 @@
         0,
         0,
         1,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-17-QULAC-CLARIFICATION-20261115",
+      "completed_at": "2026-11-15T08:43:23.350Z",
+      "evidence": "P1-17: Unabhängig veröffentlichte Crowd-Rückfrage-/Antwortdaten aus dem offen als MIT bereitgestellten 2019er Autorenrepository erstmals in P1 anhand eines vorab fixierten strengen binären Vergleichs untersucht. Aus 11.039 Quellzeilen (762 leere Facetten-Basiszeilen) blieben 1.193 exakte Ja/Nein-Antworten, 202 vergleichbare Fragegruppen und 257 alternative Facettenpaare; nur 88/257 unterschieden sich in der Antwort. Für 59 geeignete Topics lag die mittlere Paar-Unterscheidbarkeit einer kürzesten Frage bei 0,372881 gegenüber einem nachträglich optimierten, nicht einsetzbaren Auswahl-Orakel von 0,576271. GitHub-zurückgelesener P1-only Code: 14/14 synthetische Prüfungen, unabhängige 8-fach Aggregatkontrolle deckungsgleich. Großer Selektionsbias, kein echter KI-Rückfrageerfolg, keine realen Nutzerrückmeldungen, keine persönlichen Bedeutungs- oder Meinungswechsel-Goldlabels, keine G5-Integration oder Modell-API.",
+      "delta": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
         1,
         0
       ]
