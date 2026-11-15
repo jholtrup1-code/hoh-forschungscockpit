@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T15:33:05.672Z",
+  "updated_at": "2026-11-15T16:42:57.948Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -368,6 +368,26 @@
       "id": "P1-24-TEMPORAL-PROVENANCE-GATE-20261115",
       "completed_at": "2026-11-15T15:33:05.672Z",
       "evidence": "P1-24: Nach prospektiv gespeicherter Versuchsvorgabe wurde eine lokale P1-only-Standardbibliotheksprüfung für bereits eindeutig und vollständig chronologisch nummerierte Ereignisse ausgeführt. 144/144 unabhängig von der Datenanlieferungsreihenfolge kanonisch rekonstruierte rein synthetische Folgen; 12/12 unvollständige/mehrdeutige Ordinaleingaben fail-closed zurückgewiesen, plus zwei zusätzliche unabhängige Negativ-/Positivkontrollen. Codebyte-Git-Blob identisch lokal und privat zurückgelesen. Neuer technischer Reihenfolge-Provenienzschutz, NICHT Erkennung freier Sprache, kein Nachweis echter Quellenchronologie, keine menschliche Goldvalidierung, keine gemessene Entlastung oder G5-Integration. Keine externe bezahlte Modell-API.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "P1-25-QUOTED-ORIGIN-CONTAMINATION-20261115",
+      "completed_at": "2026-11-15T16:42:57.948Z",
+      "evidence": "P1-25: Nach Vorregistrierung wurde an 168 eigens erzeugten, eindeutig getypten Dialogereignissen die Übernahme fremder Zitate in aktuelle Nutzerabsichten geprüft: der unveränderte Vorläufer bestand 24/168, ein davor geschalteter expliziter Herkunftsfilter 168/168; 12/12 ungültige Herkunftseingaben zurückgewiesen. Original-P1-23-Code und P1-25-Programm aus GitHub isoliert ausgeführt, unabhängiger Fixture-Oracle 168/168. Alle Provenienzrollen künstlich vorgegeben, keine menschliche Autor-/Bedeutungsvalidierung, keine freie Spracherkennung, keine G5-Integration, keine externen Modellaufrufe.",
       "delta": [
         0,
         0,
