@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T19:13:32.922Z",
+  "updated_at": "2026-11-15T20:09:58.843Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -455,6 +455,26 @@
         0,
         0,
         0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C153-G04-OWNER-LINKED-CROSS-QUESTION-CORRECTION-REVIEW-20261115",
+      "completed_at": "2026-11-15T20:09:58.843Z",
+      "evidence": "Prospektiv vorregistrierter synthetischer G04-Gegenversuch: Ein privater Besitzer kann nun mit einer geschuetzten lokalen Datei genau einen bereits registrierten Originalausschnitt angeben, dessen aktuell unbestaetigter Korrekturbericht bei einer spaeteren lexikalisch anders formulierten Frage zur privaten Einsicht angeboten wird. Der vorherige exakte Wortueberschneidungsmodus uebersah dies (tatsaechlicher Test-RED #43755812189), danach vollstaendige Code-CI #43755984760 und unabhaengige Zugriffs-, Ruecknahme- und Dateimutations-Gegenproben, finale Voll-CI #43756099507 erfolgreich. Ein aktueller Bericht stoppt den unbewerteten Entwurfsverbrauch vor Dateizugriff, eine Ruecknahme loest keine aktive Warnung mehr aus. Der Besitzerverweis ist keine semantische KI-Erkennung, keine Autorenidentitaet, keine bewiesene Relevanz oder psychologische Goldbewertung. Keine privaten Originaldaten publiziert.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
         1,
         1,
         0,
