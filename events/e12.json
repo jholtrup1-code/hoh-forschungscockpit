@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T01:18:01.753Z",
+  "updated_at": "2026-11-15T02:15:40.264Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -141,6 +141,26 @@
         0,
         0,
         1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP027",
+      "completed_at": "2026-11-15T02:14:26.251Z",
+      "evidence": "Eight additional native-document originals independently re-read and matched with privately stored full-text copies and SHA-256 digests; private parent and access metadata checked, append-only checkpoint retained. Wider inventory and persistent index remain incomplete.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ]
     }
