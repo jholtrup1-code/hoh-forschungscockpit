@@ -1,0 +1,4 @@
+HOH-SENDER-TEST-SEGMENT
+segment_complete=true
+private_drive_written=true
+future_message_visible=true
