@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T11:21:27.118Z",
+  "updated_at": "2026-11-15T12:17:11.604Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -361,6 +361,26 @@
         0,
         0,
         2,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP038",
+      "completed_at": "2026-11-15T12:17:11.604Z",
+      "evidence": "Six previously unpaired native workshop source IDs were independently verified against private full-text copies with exact normalized paragraph-text and matching SHA-256 checks; source/copy parent and private sharing status verified. Paginated source-ID reconciliation remains incomplete, so no global coverage claim is made.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
         0
       ]
     }
