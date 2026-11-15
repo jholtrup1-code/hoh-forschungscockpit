@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T12:10:22.605Z",
+  "updated_at": "2026-11-15T13:13:40.749Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -316,6 +316,26 @@
         0,
         0,
         0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C146-G07-STRICT-CURRENT-NATIVE-MIXED-OWNER-20261115",
+      "completed_at": "2026-11-15T13:11:27Z",
+      "evidence": "Vorregistrierte synthetische SQLite-Gegenprobe mit echtem Test-RED und vollstaendigem Code-/State-GREEN: Ein expliziter privater Mixed-Owner-Fragemodus schliesst Sekundaerberichte, sonstige Dokumente, ueberholte oder widerrufene Originalversionen und nicht zum aktuellen Reader passende Dokumenthuellen VOR dem lexikalischen Ranking aus; aktuelle unveraenderte native Dokumentoriginale und user-Chatoriginale erreichen weiterhin die bestehende quelltreue 0600-Reviewausgabe mit frischer Widerrufspruefung. Fuenf neue synthetische Tests, volle GitHub-CI 74/74 und wissenschaftlicher Zustandscheck erfolgreich. Der historische Altmodus bleibt unveraendert; keine echte menschliche Relevanz-, Autoren-, Rechte- oder Bedeutungsbestaetigung.",
+      "delta": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
         1,
         0,
         0,
