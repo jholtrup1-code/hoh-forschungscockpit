@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T09:34:36.527Z",
+  "updated_at": "2026-11-15T10:36:45.185Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -256,6 +256,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-19-QULAC-TWOQUESTION-COVERAGE-20261115",
+      "completed_at": "2026-11-15T10:36:45.185Z",
+      "evidence": "P1-19: Vorab registrierte neue Zwei-Rueckfragen-Pruefung auf bereits P1-17-bekanntem, oeffentlich lizenziertem Qulac-Crowd-Korpus. Von 59 Themen mit mindestens zwei geeigneten Ja/Nein-Fragen blieben nur 18 Themen mit je einem identisch beobachteten Facettenpaar ueber beide Fragen: 18 Paare statt vorregistrierten mindestens 30. Erste Kurzfrage trennte 6, zweite weitere 5; wegen selektiver Stichprobe keine Wirksamkeits- oder Modellfaehigkeitsbehauptung. 14/14 isolierte synthetische Tests und 11/11 unabhaengige Gegenzaehlungen bestaetigt. Gepruefte Daten-Eignungsgrenze, keine neuen Personenlabels, keine bezahlte Modell-API, keine G5-Uebernahme.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
         0,
         0,
         0,
