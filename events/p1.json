@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T06:35:16.771Z",
+  "updated_at": "2026-11-15T07:40:08.600Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -191,6 +191,26 @@
       "delta": [
         0,
         1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-16-INDIVIDUAL-RATING-OVERLAP-20261115",
+      "completed_at": "2026-11-15T07:40:08.600Z",
+      "evidence": "P1-16: Auf 271 bereits zuvor veröffentlichten und untersuchten englischen pragmatischen Gesprächsitems wurden 2.285 menschliche Einzelurteile unter Rücknahme- und Kontrollbedingung durch eigenständige, reproduzierbare Sekundärauswertung verglichen. Bei 255 Items mit fallendem Rohmittel zeigen 152 dennoch mindestens ein gleiches oder höheres Einzelurteil zwischen Bedingungen; nur 103/271 Items sind streng getrennt. 16/16 isolierte technische Tests plus 10/10 unabhängige Histogramm-Kontrollzahlen bestanden. Publizierter Gruppenrichtungseffekt bleibt bestehen, aber keine individuelle Einstimmigkeit, keine psychologische Personenvalidierung oder nachgewiesene KI-Fähigkeit. Bereits bekannte Daten, posthoc-Neufrage, keine neuen API-Aufrufe oder G5-Integration.",
+      "delta": [
+        0,
+        0,
         0,
         1,
         0,
