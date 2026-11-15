@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T21:34:47.859Z",
+  "updated_at": "2026-11-15T22:43:25.389Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -488,6 +488,26 @@
       "id": "P1-30-SPINOS-SCHEMA-RIGHTS-20261115",
       "completed_at": "2026-11-15T21:34:47.859Z",
       "evidence": "P1-30: Neu gepruefter F07-Quellenkandidat: Das original veroeffentlichte SPINOS-README dokumentiert pseudonymisierte Autor-ID, Zeitstempel und mehrheitlich menschliche Standpunktannotation, anders als ein zuvor gepruefter nicht personenverknuepfbarer Dialogreparaturdatensatz. Offizielles Repository zeigt jedoch keine Datenlizenz und liefert nur untrusted Pickle; README-Beispielpfade stimmen nicht mit den Release-Dateipfaden ueberein. Daher nur Metadaten- und Reproduzierbarkeitsaudit; KEINE Rohdaten ausgefuehrt, keine psychologische Personen-Goldvalidierung, keine Nutzerwirksamkeit, keine G5-Integration und keine bezahlte Modell-API.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-31-CCPE-SPEAKER-PREFERENCE-20261115",
+      "completed_at": "2026-11-15T22:43:25.389Z",
+      "evidence": "P1-31: Vorregistrierter technischer Sprecherherkunfts-Audit auf 100 von 502 oeffentlich CC-BY-4.0-lizenzierten, unabhaengig annotierten Dialogen (2.310 Turns). 1.815 Praeferenz-Annotationseintraege: 1.808 USER- vs. 7 ASSISTANT-Ursprung (5 Dialoge). Die vorregistrierte >=5%-Hypothese ist NICHT bestaetigt; 0,386% naive Sprecher-Fehlzuordnungen belegen kleines, aber reales Quellrollenrisiko. 967 Turns ohne Segmentinformation wurden nicht als negative Praeferenz-Goldbelege gewertet. P1-Code aus GitHub rueckgelesen: 9/9 isolierte V8-Tests und unabhaengige Nachzaehlung; Ausfuehrungsabweichung Python->V8 dokumentiert. Keine Personen-/Bedeutungs-Goldvalidierung, keine nachgewiesene Nutzungsentlastung, keine G5-Integration, keine externe kostenpflichtige Modell-API.",
       "delta": [
         0,
         0,
