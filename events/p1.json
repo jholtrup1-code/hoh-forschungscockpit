@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T22:43:25.389Z",
+  "updated_at": "2026-11-15T23:34:57.282Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -508,6 +508,26 @@
       "id": "P1-31-CCPE-SPEAKER-PREFERENCE-20261115",
       "completed_at": "2026-11-15T22:43:25.389Z",
       "evidence": "P1-31: Vorregistrierter technischer Sprecherherkunfts-Audit auf 100 von 502 oeffentlich CC-BY-4.0-lizenzierten, unabhaengig annotierten Dialogen (2.310 Turns). 1.815 Praeferenz-Annotationseintraege: 1.808 USER- vs. 7 ASSISTANT-Ursprung (5 Dialoge). Die vorregistrierte >=5%-Hypothese ist NICHT bestaetigt; 0,386% naive Sprecher-Fehlzuordnungen belegen kleines, aber reales Quellrollenrisiko. 967 Turns ohne Segmentinformation wurden nicht als negative Praeferenz-Goldbelege gewertet. P1-Code aus GitHub rueckgelesen: 9/9 isolierte V8-Tests und unabhaengige Nachzaehlung; Ausfuehrungsabweichung Python->V8 dokumentiert. Keine Personen-/Bedeutungs-Goldvalidierung, keine nachgewiesene Nutzungsentlastung, keine G5-Integration, keine externe kostenpflichtige Modell-API.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-32-CCPE-HOLDOUT-20261116",
+      "completed_at": "2026-11-15T23:34:57.282Z",
+      "evidence": "P1-32: Neuer prospektiv abgegrenzter, noch nicht in P1-31 analysierter 402-Dialog-Holdout desselben oeffentlich CC-BY-4.0-lizenzierten, menschlich linguistisch annotierten CCPE-Korpus. 7466 Praeferenz-Annotationen: 7399 USER-Sprecher, 67 ASSISTANT-Sprecher in 49 von 402 Dialogen. Die vorregistrierte <=1%-Sprecherquote trifft deskriptiv zu (0,8974%), ihr dialogclusterbasiertes 95%-Intervall (0,6423%-1,1782%) schliesst jedoch >1% ein. Die vorregistrierte Dialog-Warnschwelle >10% wurde mit 12,19% erreicht. 14/14 isolierte synthetische Codepruefungen und unabhaengige Zweitzaehlung stimmen exakt. Nur Quellsprecher, keine unabhaengige Referenz zur wahren Vorliebeninhaberschaft, keine menschliche Bedeutungs- oder Nutzenvalidierung, keine G5-Integration oder bezahlte Modell-API. Keine doppelte Zaehllung der 100 P1-31-Dialoge.",
       "delta": [
         0,
         0,
