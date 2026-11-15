@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T00:15:32.149Z",
+  "updated_at": "2026-11-15T01:18:01.753Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -108,6 +108,26 @@
       "id": "E12-CP025",
       "completed_at": "2026-11-15T00:15:32.149Z",
       "evidence": "Acht weitere zuvor inventarisierte Werkstattdokumente als vollständige aktuelle Google-Docs-Texte gelesen, privat kopiert und durch unabhängigen Volltext-, SHA-256- und Elternordnerabgleich geprüft. Direkte Werkstattinventur zusätzlich über drei echte Provider-Seiten (100+100+72) bestätigt; übrige Baumstruktur und SQLite-Integration weiterhin offen.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP026",
+      "completed_at": "2026-11-15T01:18:01.753Z",
+      "evidence": "Acht zuvor inventarisierte Werkstatt-Originale wurden neu als vollständige aktuelle Google-Docs-Texte privat gesichert; 8/8 unabhängige Volltext- und SHA-256-Vergleiche sowie private Elternordnerprüfung bestanden. Zwei gleich nummerierte, aber unterschiedliche Quellen-IDs getrennt erfasst. Referenzierte Fremdquellen und integrierter E12-SQLite-Index bleiben ungeprüft.",
       "delta": [
         0,
         1,
