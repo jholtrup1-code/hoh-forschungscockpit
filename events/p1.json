@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T14:39:52.608Z",
+  "updated_at": "2026-11-15T15:33:05.672Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -355,6 +355,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "P1-24-TEMPORAL-PROVENANCE-GATE-20261115",
+      "completed_at": "2026-11-15T15:33:05.672Z",
+      "evidence": "P1-24: Nach prospektiv gespeicherter Versuchsvorgabe wurde eine lokale P1-only-Standardbibliotheksprüfung für bereits eindeutig und vollständig chronologisch nummerierte Ereignisse ausgeführt. 144/144 unabhängig von der Datenanlieferungsreihenfolge kanonisch rekonstruierte rein synthetische Folgen; 12/12 unvollständige/mehrdeutige Ordinaleingaben fail-closed zurückgewiesen, plus zwei zusätzliche unabhängige Negativ-/Positivkontrollen. Codebyte-Git-Blob identisch lokal und privat zurückgelesen. Neuer technischer Reihenfolge-Provenienzschutz, NICHT Erkennung freier Sprache, kein Nachweis echter Quellenchronologie, keine menschliche Goldvalidierung, keine gemessene Entlastung oder G5-Integration. Keine externe bezahlte Modell-API.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
         0,
         0,
         0,
