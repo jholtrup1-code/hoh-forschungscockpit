@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T22:10:00Z",
+  "updated_at": "2026-11-15T23:11:47.428Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -516,6 +516,26 @@
         2,
         1,
         0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C156-G07-MIXED-PRIVATE-ASOF-SOURCE-LEDGER-20261116",
+      "completed_at": "2026-11-15T23:11:47.428Z",
+      "evidence": "Vorregistrierte rein synthetische G07-Integration: Ein privat ausgeloester gemischter Chat-/Dokument-Quellenpruefauftrag kann zwei getrennt SHA-gepruefte historische Originalquellen mit ihren zum ausdruecklich gewaehlten Berichtszeitpunkt verfuegbaren, noch unbestatigten Korrekturmeldungen verbinden. Zukuenftige aktuelle Korrekturhinweise werden in der historischen Ausgabe unterdrueckt. Echte Test-first RED-Laeufe #43772920474/#43772923736, Zwischenpruefung #43773025340, danach GREEN #43773082458; unabhaengige negative Manipulationspruefungen GREEN #43773171358/#43773174446 (75/75). Nach privater Zustandssicherung wissenschaftliche CI #43773355661 (8/8) und Code-CI #43773356347 (75/75) erfolgreich. Keine autonome Quellenrelevanz, keine Personen-/Autoren-Goldbewertung, keine privaten Originaltexte oder personenbezogenen Inhalte publiziert.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
         1,
         0,
         0,
