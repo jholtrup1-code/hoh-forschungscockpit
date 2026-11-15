@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T10:17:35Z",
+  "updated_at": "2026-11-15T11:11:27.905Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -277,6 +277,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C144-G01-CURRENT-FORMAL-SOURCE-ELIGIBILITY-CI-20261115",
+      "completed_at": "2026-11-15T11:11:27.904Z",
+      "evidence": "Vorregistrierter rein synthetischer SQLite-RED/GREEN-Nachweis: Ein bestehender Quelleninventurbericht unterscheidet jetzt gespeicherte Chat-/Dokumentoriginale von formal zu den aktuellen privaten Fragewegen passenden user-Rollenumschlaegen und zuletzt importierten nicht widerrufenen nativen Dokumenten. Ueberlange Dokumente, fuer den privaten Leser unzulaessige UID-Formate, ueberholte Versionen und nichtnative Sekundaerberichte werden nicht als direkt nutzbare native Quellen gezaehlt. Separate FTS-Tabellenanwesenheit ist kein Indexvollstaendigkeitsbeweis. Finale private Code-CI #43707480462 und private State-CI #43707651904/#43707651994 erfolgreich; 17 synthetische Quellenaudit-Tests regulär und optimiert. Keine Autor-, Rechte-, Lebensbedeutungs- oder Relevanzbewertung.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
         0,
         0,
         0,
