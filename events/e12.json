@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T07:22:26.268Z",
+  "updated_at": "2026-11-15T08:22:12.224Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -268,6 +268,26 @@
       "id": "E12-CP033",
       "completed_at": "2026-11-15T07:22:26.268Z",
       "evidence": "Acht weitere bislang unverarbeitete native Werkstattdokumente ausschließlich privat gesichert; acht unabhängige aktuelle Original-Kopie-Volltext- und SHA-256-Abgleiche sowie acht Elternordner- und Nichtfreigabeprüfungen bestanden. Eine weitere Unterordnerebene metadata-basiert inventarisiert und eine historische Produktidee anhand einer Originaltextposition bestätigt. Verlinkte Medienquellen und dauerhafte E12-Integration weiterhin offen.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP034",
+      "completed_at": "2026-11-15T08:22:12.224Z",
+      "evidence": "Eight additional native workshop documents were verified against private full-paragraph-text copies with matching checksums and folder checks; original passages substantiate an early guided-workflow concept, not deployed independent software.",
       "delta": [
         0,
         1,
