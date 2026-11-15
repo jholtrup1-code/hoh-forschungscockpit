@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T03:49:03.796Z",
+  "updated_at": "2026-11-15T04:18:51.477Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -188,6 +188,26 @@
       "id": "E12-CP029",
       "completed_at": "2026-11-15T03:48:25.273Z",
       "evidence": "Eight additional previously unprocessed current native-document originals independently matched to complete private native copies, with validated text SHA-256, unchanged private parent metadata and an append-only checkpoint. Cross-document naming and intermediate-report rules traced to exact text positions; referenced destination files remain unverified.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP030",
+      "completed_at": "2026-11-15T04:18:51.477Z",
+      "evidence": "Acht zuvor nicht verarbeitete native Werkstattquellen vollständig über den verbundenen Drive-Zugriff gelesen und ausschließlich privat kopiert. Acht von acht unabhängigen Volltext- und SHA-256-Abgleichen sowie private Elternordner- und Freigabeprüfungen bestanden. Historische Quellhinweise ausdrücklich von ungeprüften Audio- und Chat-Primärdaten getrennt; kein dauerhafter E12-SQLite-Index nachgewiesen.",
       "delta": [
         0,
         1,
