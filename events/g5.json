@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T21:12:03.208Z",
+  "updated_at": "2026-11-15T22:10:00Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -496,6 +496,26 @@
         0,
         1,
         1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C155-G03-SOURCE-BOUND-ASOF-REPORTED-REVIEW-20261115",
+      "completed_at": "2026-11-15T22:09:58Z",
+      "evidence": "Prospektiv vorregistrierte, rein synthetische G03-Retrospektive: Zwei getrennt aufgezeichnete Originalquellen behalten trotz gleichen Wortlauts und verschachtelter spaeterer Bestaetigungs-, Korrektur- und Ruecknahmemeldungen eigene, quellengebundene Review-Zustaende zum ausdruecklich gewaehlten Zeitpunkt. Echte Test-RED-Laeufe #43767320363 (Kern) und #43767397673 (gesicherte lokale Bedienung); danach Code-Voll-CI #43767373839/#43767415539 sowie unabhaengige Manipulations-Gegenproben #43767455557 mit jeweils 75/75 Schritten erfolgreich; nach privater Zustandssicherung Voll-CI #43767663495 und wissenschaftliche Zustandspruefung #43767663588 erfolgreich. Acht synthetische neue Tests auch unter Python -O. Nur technische Berichtszeit, keine nachgewiesene gelebte Ereigniszeit, Autorenidentitaet, persoenliche Bedeutung oder Human-Gold; keine privaten Originalinhalte publiziert.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
         1,
         0,
         0,
