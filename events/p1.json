@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T11:37:02.562Z",
+  "updated_at": "2026-11-15T12:37:36.880Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -302,6 +302,26 @@
         0,
         0,
         0
+      ]
+    },
+    {
+      "id": "P1-21-CUPID-LABEL-ROLE-SAFETY-20261115",
+      "completed_at": "2026-11-15T12:37:36.880Z",
+      "evidence": "P1-21: Neu vorregistrierter Schutz gegen Generator-/Goldlabel-Leckage bei kontext- und zeitabhängigen Präferenztests: Offline-Auswertungs- und sichere Dialog-Eingangsansicht als P1-only Python/Standardbibliothek geprüft, 15/15 synthetische Negativ-/Positivtests unter normaler und isolierter Ausführung bestanden; zwei originale GitHub-Codeblobs stimmen mit lokal getesteten Bytes überein. Freigegebener öffentlicher Benchmark samt Schema und CC-BY-4.0-Datenkarte geprüft, Original-Parquet im Lauf NICHT abrufbar, somit 0 externe Fälle und keine psychologische Fähigkeitsvalidierung. Keine Modell-API oder G5-Integration.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
       ]
     }
   ],
