@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T18:10:36Z",
+  "updated_at": "2026-11-15T19:13:32.922Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -436,6 +436,26 @@
         0,
         0,
         2,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C152-G07-GERMAN-LATIN-QUESTION-INDEX-WITNESS-20261115",
+      "completed_at": "2026-11-15T19:13:32.922Z",
+      "evidence": "Prospektiv registrierte rein synthetische Frage-zu-Original-Suchindexpruefung: Bisher uebersehene deutschsprachige FTS5-Token mit Umlauten/Eszett koennen unter explizit verifizierter unicode61-Tokenisierung nun als fehlender invertierter Quellzeileneintrag erkannt werden (tatsaechlicher Test-RED #43750427556, Code-CI #43750585807). Unabhaengige Gegenprobe fand einen falschen Fehleralarm bei nichtkanonischem Dokument-Berichtsdatum (RED #43750739066), danach Regelangleichung an die aktuelle berechtigte Quellensichtung, vollstaendige Code-CI #43750827813 erfolgreich. Vier neue synthetische Tests auch unter Python -O; nur begrenzte quellenbezogene Pruefung, keine Bedeutung, keine menschliche Relevanzwertung oder Archivvollstaendigkeit belegt.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
         1,
         0,
         0,
