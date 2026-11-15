@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T09:17:44.670Z",
+  "updated_at": "2026-11-15T10:15:01.258Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -308,6 +308,26 @@
       "id": "E12-CP035",
       "completed_at": "2026-11-15T09:17:44.670Z",
       "evidence": "Eight previously unprocessed native workshop documents privately copied and independently backread with exact paragraph-text and matching SHA-256 checksums; all eight source/copy parent checks and private visibility checks passed. Historical draft review and source-control concepts confirmed as documentation, not deployed software.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP036",
+      "completed_at": "2026-11-15T10:15:01.258Z",
+      "evidence": "Vier weitere früheste native Werkstattdokumente wurden als vollständige aktuelle Absatztexte ausschließlich privat kopiert; vier unabhängige Original-Kopie-Text- und SHA-256-Abgleiche sowie vier Elternordner- und Nichtfreigabeprüfungen bestanden. Historische Austausch- und Quellprüfregeln anhand von Originalpositionen bestätigt; drei native Werkstattquellen und die dauerhafte E12-Integration bleiben offen.",
       "delta": [
         0,
         1,
