@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-14T22:06:10.283Z",
+  "updated_at": "2026-11-15T01:02:58.332Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -57,6 +57,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "G5-C133-G07-CURRENT-TYPED-CORRECTION-REVIEW-CI-20261115",
+      "completed_at": "2026-11-15T01:02:58.332Z",
+      "evidence": "Vorregistrierter synthetischer SQLite/FTS-Besitzerprüfauftrag verbindet bestehende aktuelle, separat etikettierte Chat-/Dokumentoriginale mit unbestätigten späteren Korrekturhinweisen, ohne diese zu bestätigtem Personenwissen oder automatischer Antwort zu machen. Eine echte negative Integrations-CI wurde nach repariertem Eingabevertrag durch vollständige grüne GitHub-G5/Docker-Regression ersetzt (69/69 Workflow-Schritte, fünf reale C133-Tests jeweils unter Python regulär und -O). Neue Technik: ein gemeinsames privates Sichtungspaket; keine neue FTS, keine unabhängige semantische Validierung, keine Originaltexte veröffentlicht.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
         0,
         0,
         0,
