@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T18:36:14.580Z",
+  "updated_at": "2026-11-15T19:41:03.552Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -442,6 +442,26 @@
         0,
         0,
         0
+      ]
+    },
+    {
+      "id": "P1-28-ORDER-ORIGIN-COMPOSITION-20261115",
+      "completed_at": "2026-11-15T19:41:03.552Z",
+      "evidence": "P1-28: Erstmals wurden zwei unveraenderte P1-only Entscheidungs-/Zitatherkunfts-Originalmodule mit einer neuen P1-only Zeitordnungspruefung in einem isolierten Lauf verbunden. 96/96 absichtlich adversariale, explizit vorgetypte und rueckwaerts angelieferte synthetische Dialogfaelle ergaeben den vorab bestimmten Zustand; jede der drei einzelnen/unvollstaendigen Baselines 0/96, gerade weil die Faelle gezielt gegen sie konstruiert wurden. 20/20 Fehlerbedingungen fail-closed. Privater Vorregistrierungs-, Code- und Ausfuehrungsbeleg nach GitHub-Ruecklesung vorhanden. Keine freie Spracherkennung, keine unabhaengigen menschlichen Bedeutungsreferenzen, keine Nutzungswirksamkeit, kein Original-Python-P1-24-Lauf, keine GitHub-CI oder G5-Integration.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
       ]
     }
   ],
