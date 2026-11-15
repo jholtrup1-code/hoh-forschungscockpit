@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T15:18:10Z",
+  "updated_at": "2026-11-15T16:10:40.952Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -376,6 +376,26 @@
         0,
         2,
         1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C149-G01-LIVE-FTS-ROW-CANARY-20261115",
+      "completed_at": "2026-11-15T16:10:40.952Z",
+      "evidence": "Vorregistrierter rein synthetischer SQL-Gegenversuch zeigte eine konkrete Quellenzugriffs-Luecke: In einer FTS5-External-Content-Tabelle blieben originalgetreue, SHA- und passage-gepruefte Chat-/Dokumenttexte vorhanden, obwohl einzelne aktuelle Originalzeilen ueber den tatsaechlichen invertierten Suchindex nicht mehr erreichbar waren. Erst echter Test-RED #43733368175, danach begrenzte schreibgeschuetzte rowid-/Token-MATCH-Pruefung, Voll-CI #43733629630 und nach persistiertem wissenschaftlichem Zustand Voll-CI #43733880518 (75/75) sowie Zustandspruefung #43733880305 (8/8) erfolgreich. Der Audit meldet nur nichtpersonenbezogene Zaehler und kann einen gefundenen Indexfehler nachweisen; ein fehlender Treffer beweist weder komplette Indizierung noch Quellenrechte oder menschliche Relevanz.",
+      "delta": [
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
         1,
         0,
         0,
