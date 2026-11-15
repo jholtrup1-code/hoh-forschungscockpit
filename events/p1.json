@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T00:34:22.008Z",
+  "updated_at": "2026-11-15T03:36:55.618Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -108,6 +108,26 @@
       "id": "P1-11-GECCO-CUES-20261115",
       "completed_at": "2026-11-15T00:34:22.008Z",
       "evidence": "P1-11: Vorab dokumentierter eng begrenzter, unabhängig öffentlich CC-BY-4.0-lizenzierter deutschsprachiger Sprechakt-Baseline-Audit an 87 expertengruppierten Zustimmung-/Ablehnung-Aussagebeispielen. Ein festes lexikalisches Anfangswort-Verfahren traf nur für 34/87 eine Entscheidung (34/34 labelkongruent unter selektiver Abdeckung); 53/87 Enthaltungen. Zwölf isolierte synthetische Tests, Original-Git-Blob und unabhängige 36/51-Klassenzählung geprüft. Belegt werden Grenzen einfacher Wortlautmarker, keine zuverlässige Erkennung innerer Überzeugungen, keine menschliche Personenvalidierung, keine P1-GitHub-CI.",
+      "delta": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-12-DBRC-REPAIR-VARIATION-20261115",
+      "completed_at": "2026-11-15T03:36:55.618Z",
+      "evidence": "P1-12: Vorab registrierte, reproduzierbar auf isolierten eigenen V8-Code geprüfte Sekundärauswertung eines laut Autoren-README CC-BY-4.0-lizenzierten öffentlichen japanischen Korpus mit 3990 menschlich formulierten Erwartungen nach simulierten Dialogstörungen. Alle 140 mehrfach annotierten Störungsszenarien weisen unterschiedliche Wortlaute erwarteter Reparaturen auf; selbst ein optimistischer jeweils häufigster Szenario-Wortlaut trifft exakt nur 159/3990 Antworten. 12/12 synthetische Tests und unabhängige Aggregatkontrolle bestanden, privater Receipt vorhanden. Messung betrifft nur exakte Textoberfläche und beweist weder semantische Reparaturgüte noch psychologisches Personenverstehen oder Übertragbarkeit auf deutsche Nutzer.",
       "delta": [
         0,
         1,
