@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T05:18:54.595Z",
+  "updated_at": "2026-11-15T06:16:58.944Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -240,6 +240,26 @@
         0,
         0,
         1,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP032",
+      "completed_at": "2026-11-15T06:16:58.944Z",
+      "evidence": "Acht zuvor unverarbeitete native Werkstattoriginale vollständig ausschließlich privat kopiert; unabhängiger Volltext- und SHA-256-Abgleich sowie Elternordner- und Nichtfreigabeprüfung jeweils 8/8 bestanden. Historische Regeln zur Quellenrücklese und getrennten Chat-Berichten anhand von Originaltextpositionen geprüft. Eine weitere Unterordner-Ebene paginiert inventarisiert; Fremdquellen und dauerhafte E12-Integration weiterhin offen.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         1,
         0
       ]
