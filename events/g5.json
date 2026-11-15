@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T20:09:58.843Z",
+  "updated_at": "2026-11-15T21:12:03.208Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -475,6 +475,26 @@
         0,
         0,
         2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C154-G07-OWNER-DIRECTED-MIXED-CURRENT-UNBOUND-REVIEW-20261115",
+      "completed_at": "2026-11-15T21:12:03.208Z",
+      "evidence": "Vorregistrierter rein synthetischer G07-Integrationstest verbindet explizit vom Besitzer ausgewählte, SHA-geprüfte historische Korrekturquelle bei anders formulierter späterer Frage in EINEM privaten Prüfpaket mit aktuellen Chat- und Dokumentoriginalen. Zuerst echtes Test-RED #43761653308, danach Voll-CI #43761832161 und unabhängige Mutations-/Opt-in-Gegenkontrolle #43761970978 (je 75/75 Schritte), nach privater Statussicherung vollständige CI #43762228568 (75/75) und Zustandsprüfung #43762228556 (8/8). Korrekturhinweis bleibt bei zwei unabhängigen fiktiven Referenten ausdrücklich ungebunden; kein automatisches Personen-/Bedeutungswissen, keine menschliche Relevanzfreigabe und keine echten privaten Originale publiziert.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
         1,
         1,
         0,
