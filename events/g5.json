@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T09:10:33.641Z",
+  "updated_at": "2026-11-15T10:17:35Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -257,6 +257,26 @@
         0,
         1,
         1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C143-G01-SUPERSEDED-CURRENT-V2-SNAPSHOT-20261115",
+      "completed_at": "2026-11-15T10:17:35Z",
+      "evidence": "Synthetic SQLite test-first RED/GREEN: historical retained source editions were incorrectly counted current; audited latest-version eligibility now separates superseded and withdrawn editions, and incompatible v1 private comparison snapshots fail closed pending fresh v2 baseline. Full CI and scientific-state checks passed; no person/meaning gold.",
+      "delta": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
