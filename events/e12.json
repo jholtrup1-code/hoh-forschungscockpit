@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T04:18:51.477Z",
+  "updated_at": "2026-11-15T05:18:54.595Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -220,6 +220,26 @@
         0,
         0,
         0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP031",
+      "completed_at": "2026-11-15T05:18:54.595Z",
+      "evidence": "Acht weitere bisher unerschlossene native Werkstattquellen als aktuelle Volltexte mit vollständigen privaten Kopien gesichert; 8/8 unabhängige Quell-Kopie-Textvergleiche und SHA-256-Prüfungen sowie private Elternordner- und Freigabeprüfungen bestanden. Historische Produktvisions- und Ideenarchiv-Aussagen an konkrete Originaltextpositionen zurückgeführt, ohne die genannten Fremdquellen oder einen persistenten E12-Index als unabhängig geprüft auszugeben. House-Inventur bleibt offen.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
         1,
         0
       ]
