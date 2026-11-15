@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T10:15:01.258Z",
+  "updated_at": "2026-11-15T11:21:27.118Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -341,6 +341,26 @@
         0,
         0,
         0,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP037",
+      "completed_at": "2026-11-15T11:21:27.118Z",
+      "evidence": "Reconciliation of the paginated 269-document workshop inventory with available private source-copy receipts identified at least ten native source IDs without individually traceable completion evidence, rather than the previously reported three. Four such sources were now independently read and privately verified by exact source-copy text and SHA-256 checks (three nonempty; one confirmed empty). Six identified records remain pending; no global completeness claim is made.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
         0
       ]
     }
