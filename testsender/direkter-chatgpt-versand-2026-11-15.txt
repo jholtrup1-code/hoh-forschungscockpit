@@ -1,0 +1,6 @@
+HOUSE OF HOLTRUP – TEST CHATGPT → GITHUB
+source=chatgpt_assistant_action
+transport=official_connected_github_action
+synthetic_only=true
+real_conversation_export=false
+marker=HOH-SENDEPROBE-FEDERKIEL-20261115
