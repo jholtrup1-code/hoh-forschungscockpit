@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T13:13:40.749Z",
+  "updated_at": "2026-11-15T14:11:37.152Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -336,6 +336,26 @@
         0,
         0,
         1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C147-G07-OWNER-QUESTION-FRESH-INPUT-CHECK-20261115",
+      "completed_at": "2026-11-15T14:11:18Z",
+      "evidence": "Vorregistrierte rein synthetische SQLite-Gegenprobe: Bei einem geschuetzten gemischten Originalquellen-Review konnte der lokal private Fragetext zwischen erster Quellenabfrage und zweitem Quellensnapshot geaendert werden, ohne die Ausgabe zu stoppen. Echter test-only Fehlerlauf #43722350859; anschliessend zweiter sicherer Byte- und Berechtigungscheck vor 0600-Export, Testlauf #43722463460 sowie unabhaengiger Berechtigungs-Gegenversuch #43722568427 erfolgreich. Private wissenschaftliche Zustands- und gesamte Code-CI #43722906317/#43722906305 erfolgreich. Frage- und Quellendaten nicht oeffentlich; dies beweist weder menschliche Relevanz noch Autorenidentitaet oder dauerhafte Quellenfreigabe.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
         1,
         0,
         0,
