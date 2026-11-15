@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T08:43:23.350Z",
+  "updated_at": "2026-11-15T09:34:36.527Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -236,6 +236,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-18-FOLLOWUP-RATING-STEM-AUDIT-20261115",
+      "completed_at": "2026-11-15T09:34:36.527Z",
+      "evidence": "P1-18: Erstmalige streng vorregistrierte P1-Sekundärprüfung von zwei öffentlich im Autorenrepository lizenzierten, menschlich bewerteten Follow-up-Dialogbedingungen. Obwohl je 101 IDs paarbar sind, sind 17 ursprüngliche Nutzer- oder Systemtexte NICHT identisch (6 Nutzer-, 11 System-Änderungen); diese wurden vor einem Kontextvergleich ausgeschlossen. Bei 84 tatsächlich identischen Gesprächsanfängen hatten 46/84 Nützlichkeitsbewertungen eine Differenz von mindestens 10/100 Punkten. 16/16 isolierte Negative/Positivtests des GitHub-zurückgelesenen P1-JS-Cores sowie unabhängige Zweitzählung über vier Rubriken bestätigt. Weder Kausalwirkung des Follow-ups noch individueller menschlicher Bedeutungs-/Lerneffekt, Selbstbericht oder Kostenersparnis bewiesen; Autorenpublikation zeigte bereits generelle Follow-up-Effekte. G5 blieb unverändert, keine bezahlte Modell-API.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
