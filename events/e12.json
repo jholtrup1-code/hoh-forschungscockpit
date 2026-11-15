@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T22:18:37.171Z",
+  "updated_at": "2026-11-15T23:12:00.279Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -568,6 +568,26 @@
       "id": "E12-CP048",
       "completed_at": "2026-11-15T22:18:37.171Z",
       "evidence": "Three previously metadata-only native chronicle-test documents from two bounded test folders were independently copied into a verified private archive and checked against their complete source paragraph texts with identical SHA-256 values, source-to-copy IDs, private parent location and non-shared copies. The bounded chronicle-test inventory now has direct individual verification receipts for nine of thirteen known native documents; four remain metadata-only. Historical test status is not a live day closure, and persistent Python/SQLite integration remains unverified.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP049",
+      "completed_at": "2026-11-15T23:12:00.279Z",
+      "evidence": "Four previously metadata-only native documents in the last two bounded chronicle-test folders were independently preserved in a private archive and verified against full ordered source-paragraph text, with checked source-to-copy IDs, UTF-8 SHA-256 source digests, private parent folders, and non-shared copies. Individual evidence receipts now cover all thirteen native documents in this specific six-folder test branch; this is not a whole-Drive, media, revisions, or persistent Python-index completion claim.",
       "delta": [
         0,
         1,
