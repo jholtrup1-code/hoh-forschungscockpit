@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T12:17:11.604Z",
+  "updated_at": "2026-11-15T13:15:07.618Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -375,6 +375,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP039",
+      "completed_at": "2026-11-15T13:15:07.618Z",
+      "evidence": "Historical source-ID/hash-receipt reconciliation corrected an earlier undercount against a paginated native-document inventory; fourteen previously unparsed private receipts were recovered and two source-copy text/parent/privacy checks independently repeated. This is receipt-audit progress, not a claim of full corpus completeness or software integration.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
         0,
         0,
         0,
