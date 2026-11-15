@@ -1,9 +1,9 @@
 {
   "schema": "hoh-calibration-v1",
-  "version": "KAL-001",
+  "version": "KAL-001-R1",
   "reviewed_at": "2026-11-15",
   "status": "vorlaeufige redaktionelle Reifekalibrierung; keine empirischen Prozentwerte",
-  "note": "Die bisherigen additiven Forschungsereignisse bleiben sichtbar, erhöhen die Reifewerte aber nur bis zu einer evidenzbezogenen Obergrenze. Höhere Grenzen erfordern einen neuen dokumentierten Meilenstein-Nachweis.",
+  "note": "Korrektur vom 15.11.2026: Event-Meldungen bleiben als Aktivitäts-/Belegprotokoll sichtbar. KAL-001-Reifebasis wird nicht automatisch durch addierte Eventpunkte erhöht. Frühere Addition wurde als fehlerhaft identifiziert.",
   "base": [
     12,
     34,
@@ -78,5 +78,7 @@
     "Mehrdeutigkeit und zeitliche Entwicklung noch nicht ausreichend validiert",
     "Unabhängige Goldstandards und unbekannte Fälle sind begrenzt",
     "Funktionen sind noch nicht als vollständiges Produkt integriert"
-  ]
+  ],
+  "score_policy": "Nur gesondert geprüfte und ausdrücklich eingetragene Fähigkeitsmeilensteine verändern Reifepunkte. G5/P1/E12-Ereignis-delta zählt als Forschungsaktivität, niemals automatisch als Reifezuwachs.",
+  "approved_milestones": []
 }
