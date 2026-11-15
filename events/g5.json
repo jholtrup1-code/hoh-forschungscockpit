@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T05:05:46.635Z",
+  "updated_at": "2026-11-15T06:03:18.244Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -177,6 +177,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "G5-C139-G02-PRIVATE-UNPREFIXED-OWNER-REVIEW-CI-20261115",
+      "completed_at": "2026-11-15T06:00:47Z",
+      "evidence": "Vorregistrierter synthetischer Full-CI-Fortschritt: ein lokaler explizit freigegebener Besitzerfrage-Aufruf verbindet bereitgestellte private unpräfixierte Textoriginale mit dem bestehenden SHA-/Offset-geprüften Quellenleser. Geschützte 0600-Eingabe/Ausgabe, keine Originale in öffentlichen Ausgaben, sichere Abstinenz bei unpassender Quellform; ein lexikalischer Codebeispiel-Distraktor wird gegenüber einer echten unpräfixierten Originalpassage verworfen. 7 neue Offline-Regressionstests normal und Python -O sowie 72/72 GitHub-Workflow-Schritte bestanden. Nur vorbereitete Quellenliste, keine Archiv-Vollintegration oder Menschen-/Semantik-Goldprüfung.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
         0,
         0,
         0,
