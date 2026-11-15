@@ -2,7 +2,7 @@
 *{box-sizing:border-box}body{font:16px/1.5 system-ui,Arial,sans-serif;background:#f1f4f1;color:#20362b;max-width:720px;margin:0 auto;padding:14px}header,section{background:white;border-radius:16px;padding:20px;margin:12px 0;box-shadow:0 2px 8px #0000000c}h1{font-size:24px;margin:0}h2{font-size:19px;margin:0 0 12px}.sub{color:#5b6860;font-size:13px}.stamp{background:#e6f3ea;border-radius:8px;padding:9px;font-weight:650;margin:12px 0}.metric{margin:21px 0}.name{display:flex;justify-content:space-between;gap:10px;font-weight:700}.bar{display:flex;width:100%;height:25px;overflow:hidden;border-radius:7px;background:#dfe5e2;margin-top:6px}.bar span{height:100%;flex:none}.detail{font-size:12px;color:#53655b;margin-top:6px}.evidence{font-size:13px;background:#f1f7f2;padding:9px;border-radius:7px;margin-top:7px}.legend{display:flex;flex-wrap:wrap;gap:10px;font-size:12px}.legend span:before{content:"";display:inline-block;background:var(--c);width:11px;height:11px;margin-right:5px}.day{cursor:pointer;border-right:1px solid #fff9}.day:focus-visible{outline:2px solid black;outline-offset:-2px}button{background:#245b42;color:white;border:0;border-radius:9px;padding:12px;font-weight:700;font-size:15px}.warn{color:#845e24}.dayinfo{padding:10px;background:#fff5e8;border-radius:8px;font-size:13px;margin-top:9px}</style></head><body>
 <header><h1>HOUSE OF HOLTRUP</h1><strong>Forschungscockpit</strong><p class="stamp">COCKPIT V2 · Tagesbasis / persönlicher Abruf / neue Forschung</p><div id="status" class="sub">Lade Forschungsdaten …</div></header>
 <section><h2>Forschung seit deinem bestätigten Lesepunkt</h2><p class="sub">Neue Forschungsergebnisse werden sofort sichtbar – auch wenn die wissenschaftlichen Reifebalken unverändert bleiben. Die drei Grüntöne hier zeigen Meldungen, keine Reifeprozente.</p><div id="activity"></div></section>
-<section><h2>Fortschritt</h2><div class="legend"><span style="--c:#245b42">Bis gestern 24 Uhr</span><span style="--c:#50a47b">Heute schon bestätigt</span><span style="--c:#a8e1b8">Heute neu seit Bestätigung</span><span style="--c:#dfe5e2">Noch offen</span></div><p id="daily" class="stamp"></p><p class="sub warn">KAL-001-R1: Vorläufige Reifewerte – keine gemessenen Prozentzahlen. Forschungsereignisse bleiben sichtbar, erhöhen die Balken aber nicht automatisch. Das geschieht erst nach gesonderter belegter Meilensteinprüfung.</p><div id="metrics"></div></section>
+<section><h2>Fortschritt</h2><div class="legend"><span style="--c:#245b42">Bis gestern 24 Uhr</span><span style="--c:#50a47b">Heute schon bestätigt</span><span style="--c:#a8e1b8">Heute neu seit Bestätigung</span><span style="--c:#dfe5e2">Noch offen</span></div><p id="daily" class="stamp"></p><p class="sub warn">Je Bereich zwei Balken: oben die vorsichtige, getrennt geprüfte Reife; direkt darunter die Forschungsereignisse in drei Grüntönen. Hellgrün bedeutet hier neue Meldungen seit deinem letzten bestätigten Lesepunkt – nicht automatisch neu erreichte Reife.</p><div id="metrics"></div></section>
 <section><h2>Was heute konkret passiert ist</h2><div id="work"></div></section>
 <section><h2>Dein persönlicher Lesepunkt</h2><p id="seen"></p><button id="confirm">Diesen Stand habe ich gelesen</button><p class="sub">Erst dein Klick verschiebt das heutige Hellgrün nach Mittelgrün. Neue Forschungsprüfungen verändern diesen Lesepunkt nicht. Speicherung auf diesem Gerät und in diesem Browser.</p></section>
 <script>
@@ -59,6 +59,25 @@ function render(){
    [[before,"#245b42"],[marked-before,"#50a47b"],[value-marked,"#a8e1b8"],[100-value,"#dfe5e2"]].forEach(([width,color])=>{const p=document.createElement("span");p.style.width=Math.max(0,width)+"%";p.style.background=color;bar.append(p)})
  }
  item.append(bar);
+ // Separate, reproducible activity strip BY AREA: event counts are not maturity.
+ const activityAll=events.filter(ev=>Array.isArray(ev.delta)&&ev.delta[i]>0&&berlinDay(ev.completed_at)<=today);
+ const readerTime=seen?.at&&!Number.isNaN(Date.parse(seen.at))?Date.parse(seen.at):null;
+ const activityPrior=activityAll.filter(ev=>berlinDay(ev.completed_at)<today).length;
+ const activityRead=activityAll.filter(ev=>berlinDay(ev.completed_at)===today&&readerTime!==null&&Date.parse(ev.completed_at)<=readerTime).length;
+ const activityNew=activityAll.filter(ev=>berlinDay(ev.completed_at)===today&&(readerTime===null||Date.parse(ev.completed_at)>readerTime)).length;
+ const activityHeading=document.createElement("div");activityHeading.className="detail";activityHeading.style.marginTop="9px";
+ activityHeading.textContent="Forschungsereignisse · vor heute "+activityPrior+" · heute gelesen "+activityRead+" · neu "+activityNew+" (keine Reifepunkte)";
+ item.append(activityHeading);
+ const activityStrip=document.createElement("div");activityStrip.className="bar";activityStrip.style.height="11px";activityStrip.style.marginTop="3px";
+ activityStrip.setAttribute("aria-label","Neue Forschungsereignisse in diesem Bereich: "+activityNew+", heute bereits bestätigt: "+activityRead+", frühere Tage: "+activityPrior);
+ const activityTotal=activityPrior+activityRead+activityNew;
+ // Relative length is number of events, never a completion percentage.
+ const unit=Math.max(12,Math.max(...labels.map((_,j)=>events.filter(ev=>Array.isArray(ev.delta)&&ev.delta[j]>0&&berlinDay(ev.completed_at)<=today).length)));
+ for(const [amount,color] of [[activityPrior,"#245b42"],[activityRead,"#50a47b"],[activityNew,"#a8e1b8"]]){
+   if(!amount)continue;const seg=document.createElement("span");seg.style.width=(amount/unit*100)+"%";seg.style.background=color;seg.style.minWidth="0";activityStrip.append(seg);
+ }
+ const remaining=document.createElement("span");remaining.style.flex="1";remaining.style.background="#dfe5e2";activityStrip.append(remaining);
+ item.append(activityStrip);
  const note=document.createElement("div");note.className="detail";
  note.textContent=i===0?"Braun = historische Forschungsbeiträge, auf KAL-001 normiert; keine gemessenen Prozentwerte. Aktuelle Tagesereignisse: "+events.filter(x=>berlinDay(x.completed_at)===today).length+".": baselineTitle+": "+before+" · heute bis Lesepunkt: +"+(marked-before)+" · seit Lesepunkt: +"+(value-marked)+" · offen: "+(100-value);
  item.append(note);
@@ -72,7 +91,7 @@ function render(){
    const summary=document.createElement("summary");
    const newest=relevant[0];summary.textContent=newest?"Letzter Beleg ("+dayLabel(newest.completed_at)+"): "+shortEvidence(newest.evidence)+" · "+relevant.length+" Einzelbelege öffnen":"Bisheriger Beleg: "+shortEvidence(data.evidence_by_area?.[areaKeys[i]])+" · Details öffnen";
    details.append(summary);
-   for(const ev of relevant){const p=document.createElement("p");p.textContent=dayLabel(ev.completed_at)+" · "+ev.source.toUpperCase()+" · +"+ev.delta[i]+": "+ev.evidence;details.append(p)}
+   for(const ev of relevant){const p=document.createElement("p");p.textContent=dayLabel(ev.completed_at)+" · "+ev.source.toUpperCase()+" · "+ev.evidence;details.append(p)}
    if(data.evidence_by_area?.[areaKeys[i]]){const p=document.createElement("p");p.textContent="Früherer Checkpoint CP007: "+data.evidence_by_area[areaKeys[i]];details.append(p)}
    item.append(details)
  }
