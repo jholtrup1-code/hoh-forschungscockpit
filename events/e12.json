@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T04:19:05.573Z",
+  "updated_at": "2026-11-16T05:23:48.734Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -695,6 +695,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP055",
+      "completed_at": "2026-11-16T05:23:48.734Z",
+      "evidence": "Three previously unprocessed private archival leaf folders were fully enumerated (11 raw Markdown files) and checked for immediate-child completeness. Three canonical master originals were independently copied and byte-for-byte SHA-256 verified against their private copies, including parent IDs and non-shared permissions. Eight related split files were independently hash-audited: their generated wrappers plus a previously unrecognized two-byte overlap at each of five adjoining boundaries had to be removed; all three reconstructed originals then matched their masters byte-for-byte. An isolated in-run SQLite FTS5 audit indexed 28,714 original lines and verified anchored term results. Split files were not double-counted as conversations. Whole-Drive recursion, historical revisions, binary media and persistent Python integration remain unverified. No private original text is public.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
         0,
         0,
         0,
