@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T19:08:07.865Z",
+  "updated_at": "2026-11-16T20:09:15.268Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -821,6 +821,26 @@
         0,
         0,
         2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C171-G02-ARTICLE-NEGATED-TOPIC-ATTRIBUTION-20261116",
+      "completed_at": "2026-11-16T20:09:15.268Z",
+      "evidence": "G02 C171: Vorregistrierter fiktiver Dialogtest deckte sechs fehlerhafte Quellen-/Themenzuschreibungen bei negierten Themen mit eingeschobenen deutschen Artikeln auf (RED GitHub Actions #43945906128). Eng begrenzte Reparatur sperrt solche falschen Aussagenkandidaten; passende positive und erneute explizite Themenbezüge bleiben erhalten. Vollstaendige Code-CI #43946171399 und #43946575212 (je 83/83) sowie wissenschaftliche Zustandspruefung #43946575309 (8/8) erfolgreich. Technische Syntax- und Originalstellenkontrolle, keine Sprecher-Authentifizierung, keine menschliche Bedeutungsbewertung.",
+      "delta": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
         1
       ]
     }
