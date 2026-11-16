@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T22:16:40.774Z",
+  "updated_at": "2026-11-16T23:22:12.056Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -888,6 +888,26 @@
       "id": "E12-CP064",
       "completed_at": "2026-11-16T22:16:40.774Z",
       "evidence": "Four previously unmanifested technical-workshop Google Docs were completely exported, preserved as private native Drive copies, and independently re-exported byte-identically (18,376 UTF-8 bytes, four SHA-256 source/copy matches). Metadata back-read confirmed the private destination parent and non-shared state for all copies, checkpoint and append-only manifest. An isolated Python SQLite FTS5 test indexed 172 original lines and verified sample line anchors. Scoped document/folder pagination was completed for two immediate branches (40+1 and 7+0); deeper House inventory, seven background contents, durable raw-text persistence, and permanent Python E12 indexing remain open. No private original content, personal data or URLs were published.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP065",
+      "completed_at": "2026-11-16T23:22:12.056Z",
+      "evidence": "Four previously unmanifested technical source documents were independently exported in full, privately copied in the authorized Google Drive app folder, re-exported, and matched byte-for-byte with four SHA-256 pairs (27,200 bytes). An isolated SQLite FTS5 search verified 215 original-text lines and sample original-line hashes. A bounded inventory cross-check established 22 of 40 immediate workshop Docs now recorded by original ID in the append-only manifest; two additional nested archive leaf folders were paginated. Private checkpoint and manifest were written, parent/visibility metadata verified, and contents back-read. Historical test claims remain document claims rather than independent test reproductions. Permanent Python indexing and separate raw text uploads remain open. No private original text or URLs were published.",
       "delta": [
         0,
         1,
