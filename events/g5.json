@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T17:16:58.720Z",
+  "updated_at": "2026-11-16T18:20:32.837Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -768,6 +768,26 @@
       "id": "G5-C168-G07-PINNED-DOCUMENT-ANSWER-CONSUMER-ABSTENTION-20261116",
       "completed_at": "2026-11-16T17:16:58.720Z",
       "evidence": "C168: In vorregistrierten fiktiven Tests konnte der bisherige private Chat-Antwortverbraucher einen Entwurf lesen, obwohl eine gesondert nutzerseitig als erforderlich markierte Dokument-Originalversion zurueckgezogen war. Neue explizite Quellenbindung prueft die identische Frage, Dokumentstatus und gesicherte Eingabe; bei fehlender, entzogener, im begrenzten Index nicht gefundener oder noch unbewerteter benoetigter Originalversion wird vor dem Lesen einer Antwortdatei oder dem Aufruf eines Lesers abgebrochen. Echte RED-Pruefung 43915275662, vollstaendige GREEN-Code-Pruefungen 43915939014 und 43916468000 (81/81), wissenschaftlicher Zustand 43916468422 (8/8). Technischer Integrationsschutz, keine menschliche Bedeutungsvalidierung oder Lebensfakten.",
+      "delta": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C169-G07-FRESH-WAL-REVALIDATION-BEFORE-OUTPUT-20261116",
+      "completed_at": "2026-11-16T18:20:32.837Z",
+      "evidence": "Vorregistrierter fiktiver G07-Fehlerfall mit zwei echten SQLite-WAL-Verbindungen: Ein lokal gemeldeter Quellenwiderruf konnte nach der bisherigen Datenbankpruefung, waehrend des letzten privaten PIN-Datei-Checks, noch mit einem veralteten nur privat ausgegebenen Quellpaket kollidieren. Der korrigierte Pfad erneuert die Quellensicht unmittelbar vor dem Schreiben ueber eine frische lesende Datenbankverbindung und verweigert im Test die Ausgabe. Korrigierter echter Vorher-Fehlerlauf 43927264422, anschliessende vollstaendige Code-Tests 43927418076 und 43927624286 (je 82/82), Forschungsstatus 43927624498 (8/8) erfolgreich. Zwei fruehe ungueltige Test-Hook-Laeufe sind nicht als Befund gezaehlt. Keine dauerhafte Sperre gegen spaetere Schreiber und keine persoenliche Bedeutungsbewertung.",
       "delta": [
         0,
         0,
