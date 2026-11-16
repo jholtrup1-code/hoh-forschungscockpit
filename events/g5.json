@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T21:14:29.335Z",
+  "updated_at": "2026-11-16T22:10:15.635Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -857,6 +857,26 @@
         0,
         1,
         2,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C173-G07-DELAYED-OWNER-REQUIRED-ORIGINAL-CURRENT-20261116",
+      "completed_at": "2026-11-16T22:08:35.000Z",
+      "evidence": "G07 C173: Vorregistrierter fiktiver verzögerter Besitzer-Originaltest zeigte vier echte Fehlannahmen beim bloßen erneuten Lesen eines gespeicherten privaten 0600-Berichts nach Quellenwiderruf, Frage-/Quellenbindungswechsel oder Textveränderung (RED #43966388694). Ein neuer lesender Gate prüft geschützte Frage und Versionsmarke sowie den exakt ursprünglichen unbewerteten Originalausschnitt mit zwei frischen SQLite-Verbindungen und erneutem Dateilesen. Er verweigert auch einen WAL-Widerruf zwischen beiden Prüfungen, typfalsche JSON-Werte und Duplikatschlüssel; niemals wird der gespeicherte KI-Antwortentwurf dadurch freigegeben. Vollständige Code-CI #43966750767 und unabhängige Gegenprobe #43966973742 je 84/84 erfolgreich. Technische Quellensicherheit ohne neue menschliche Bedeutungs-, Autorschafts- oder Relevanzbewertung; kein dauerhafter Schutz gegen zukünftige externe Schreiber.",
+      "delta": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
         0,
         0,
         0,
