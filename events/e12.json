@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T03:23:57.616Z",
+  "updated_at": "2026-11-16T04:19:05.573Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -675,6 +675,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP054",
+      "completed_at": "2026-11-16T04:19:05.573Z",
+      "evidence": "Three previously unprocessed private archival subfolders were separately paginated by document and folder type, identifying 10 Markdown source records. Three canonical original sources were preserved in the authorized private archive and independently re-downloaded byte-for-byte with matching SHA-256 digests, verified private destination parent and non-shared status. All seven related split variants reconstructed their respective canonical master bytes exactly after generated export wrappers were removed, preventing double-counting. An isolated in-run SQLite FTS5 test indexed 23,126 anchored original text lines. Other MIME types, whole-Drive inventory, historical revisions and durable Python integration remain unverified. No original private text was published.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
         0,
         0,
         0,
