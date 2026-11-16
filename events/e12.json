@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T05:23:48.734Z",
+  "updated_at": "2026-11-16T06:19:59.779Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -715,6 +715,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP056",
+      "completed_at": "2026-11-16T06:19:59.779Z",
+      "evidence": "Three previously unprocessed nested historical Markdown source folders were fully paginated and cross-checked against all MIME types, identifying 10 originals: three canonical master files and seven generated split variants. The three complete masters (738,321 bytes in total) were copied to the authorized private archive and independently verified byte-for-byte with matching SHA-256 digests and private parent/visibility status. All seven split variants reconstructed their canonical originals exactly after generated wrappers were removed, without duplicate conversation counts. An isolated in-run Python SQLite FTS5 audit verified 10,058 original text lines with anchored line matches. Historical revisions, remaining folders and persistent Python integration remain open; no private original text was published.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
         0,
         0,
         0,
