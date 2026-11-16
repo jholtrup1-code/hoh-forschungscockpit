@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T09:38:49.653Z",
+  "updated_at": "2026-11-16T14:19:27.767Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -714,6 +714,26 @@
         1,
         0,
         2,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C166-G07-ASOF-REVIEW-EVENT-REPLAY-GUARD-20261116",
+      "completed_at": "2026-11-16T14:19:27.767Z",
+      "evidence": "Vorregistrierter synthetischer G07-Quellenverlaufstest: Der historische private Antwortpruefer akzeptierte eine doppelt wiedergegebene Korrekturmeldung bei passenden Zaehlern und gleichen Zeitstempeln (echter RED-Lauf 43883348286). Der Quellenschutz prueft nun die lueckenlose pro-Quellkandidat-Reihenfolge gemeldeter Review-Ereignisse, verhindert Replay und fehlende Ordnungsnummern. Vollstaendige technische Codepruefung 43883929354 (79/79) und nach persistiertem Privatstatus erneute Codepruefung 43884331394 (79/79) sowie Forschungsstatus 43884331581 (8/8) erfolgreich. Keine eigenstaendige Autoren-, Personen- oder Bedeutungspruefung, keine Originalzitate.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
         1,
         0,
         1,
