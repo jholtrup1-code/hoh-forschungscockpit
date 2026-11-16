@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T19:42:28.156Z",
+  "updated_at": "2026-11-16T20:41:46.212Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -772,6 +772,26 @@
         0,
         0,
         0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-48-ROLE-RETRIEVAL-SUBGROUP-20261116",
+      "completed_at": "2026-11-16T20:41:46.212Z",
+      "evidence": "P1-48: Vorregistrierte Zweitauswertung desselben öffentlichen, lizenzierten Gesprächs-Gedächtnisbenchmarks wie P1-47, kein neues unabhängiges Korpus. Beim Abruf von als Wissensaktualisierung markierten Belegen stieg Hit@1 durch Ausschluss von Assistenten-Turns von 40/72 auf 46/72 (+8,33 Prozentpunkte), zugleich brachen Assistenten-Fragen von 36/56 auf 3/56 ein. Zwei getrennte Implementierungen mit exakt gleichem Ergebnis und 20/20 synthetischen Tests. Aggregierte Schwellen formal erfüllt, universeller Einsatz wegen Untergruppenschaden nicht gerechtfertigt; kein menschliches Bedeutungs- oder Nutzengold, keine Modell-API und keine G5-Integration.",
+      "delta": [
+        0,
+        0,
+        1,
         1,
         0,
         0,
