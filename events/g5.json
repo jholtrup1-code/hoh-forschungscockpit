@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T08:16:59.313Z",
+  "updated_at": "2026-11-16T09:38:49.653Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -701,6 +701,26 @@
         0,
         0,
         1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C165-G03-HISTORICAL-TIMELINE-SNAPSHOT-REVALIDATION-20261116",
+      "completed_at": "2026-11-16T09:38:49.653Z",
+      "evidence": "Vorregistrierter synthetischer G03-Test belegt ein bislang moegliches veraltetes privates Zeitlinien-Ergebnis bei spaeterer gueltiger Review-Aenderung. Echte Test-first Fehlerlaeufe 43840232170 und 43840419895; Korrektur durch unabhaengigen frischen SQLite/WAL-Original-und-Review-Rueckleseabgleich vor Ausgabe. Vollstaendige Codepruefung 43840787574 und Zustands-/Code-Endpruefung 43841221490/43841221571 erfolgreich. Ein Ereignis nach historischem Stichtag wird weiterhin nicht als zum Stichtag vorhanden ausgegeben. Best-effort Pruefung, keine atomare Schreibsperre, keine geprueften Lebensdeutungen oder Autorenidentitaet, keine privaten Rohtexte.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
         1
       ]
     }
