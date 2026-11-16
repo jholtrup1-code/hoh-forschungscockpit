@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T01:50:19.916Z",
+  "updated_at": "2026-11-16T02:39:31.309Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -579,6 +579,26 @@
         0,
         0,
         1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-36-CASINO-ROLE-PREFERENCE-20261116",
+      "completed_at": "2026-11-16T02:39:31.309Z",
+      "evidence": "P1-36: CC-BY-4.0-Autorenkorpus mit 100 menschlichen Zwei-Personen-Verhandlungen und 200 vorab selbst berichteten aufgabenspezifischen Prioritaeten. Vorregistrierter, auf 155 direkt vergleichbare Personenrollen begrenzter Test: nicht zugeordnete erste Themen-Erwaehnung stimmt 104/155, sprechergebundene 110/155 mit der berichteten Topprioritaet ueberein (+3,87 Prozentpunkte). Vorregistrierte mindestens +10-Punkte-Hypothese NICHT erreicht. Sprechergebundenes Verfahren hat nur 155/200 Abdeckung gegenueber 184/200; 18/18 isolierte Negativ-/Synthetiktests und unabhaengige Nachzaehlung bestanden. Keine behauptete psychologische Personenbedeutung, keine gepruefte KI-Menschenkenntnis oder tatsaechliche Nutzerentlastung, keine Modell-API und keine G5-Integration.",
+      "delta": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         1,
         0
