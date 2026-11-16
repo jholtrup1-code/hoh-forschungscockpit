@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T00:14:01.792Z",
+  "updated_at": "2026-11-16T01:09:10Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -556,6 +556,26 @@
         0,
         1,
         0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C158-G01-UNICODE61-BOUNDARY-FALSE-FTS-GAP-20261116",
+      "completed_at": "2026-11-16T01:09:02Z",
+      "evidence": "Vorregistrierte synthetische G01-Gegenpruefung beseitigt zwei falsch-positive Suchindexfehler: Ein Unicode61-Quellenwort mit zusammenhaengenden Zeichen aus verschiedenen Schriften und ein Wort mit angrenzendem kombinierenden Unicode-Zeichen durften nicht als fehlender invertierter Indexeintrag gelten. Echte test-first RED-Kontrollen #43783790146 und #43784084051, volle CODE-CI #43783869239/#43784164790 (75/75) und nach privater Zustandsicherung CODE-CI #43784458909 (75/75), wissenschaftliche Zustandspruefung #43784458720 (8/8) GREEN. Eigenstaendiges fehlendes Wort mit geloeschtem FTS-Index bleibt erkennbar. Keine Menschen-, Bedeutungs-, Relevanzbewertung oder privaten Originaltexte.",
+      "delta": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
         1,
         0,
         0,
