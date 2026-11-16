@@ -1,7 +1,7 @@
 <!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HOUSE OF HOLTRUP · Cockpit V2</title><style>
 *{box-sizing:border-box}body{font:16px/1.5 system-ui,Arial,sans-serif;background:#f1f4f1;color:#20362b;max-width:720px;margin:0 auto;padding:14px}header,section{background:white;border-radius:16px;padding:20px;margin:12px 0;box-shadow:0 2px 8px #0000000c}h1{font-size:24px;margin:0}h2{font-size:19px;margin:0 0 12px}.sub{color:#5b6860;font-size:13px}.stamp{background:#e6f3ea;border-radius:8px;padding:9px;font-weight:650;margin:12px 0}.metric{margin:21px 0}.name{display:flex;justify-content:space-between;gap:10px;font-weight:700}.bar{display:flex;width:100%;height:25px;overflow:hidden;border-radius:7px;background:#dfe5e2;margin-top:6px}.bar span{height:100%;flex:none}.detail{font-size:12px;color:#53655b;margin-top:6px}.evidence{font-size:13px;background:#f1f7f2;padding:9px;border-radius:7px;margin-top:7px}.legend{display:flex;flex-wrap:wrap;gap:10px;font-size:12px}.legend span:before{content:"";display:inline-block;background:var(--c);width:11px;height:11px;margin-right:5px}.day{cursor:pointer;border-right:1px solid #fff9}.day:focus-visible{outline:2px solid black;outline-offset:-2px}button{background:#245b42;color:white;border:0;border-radius:9px;padding:12px;font-weight:700;font-size:15px}.warn{color:#845e24}.dayinfo{padding:10px;background:#fff5e8;border-radius:8px;font-size:13px;margin-top:9px}</style></head><body>
 <header><h1>HOUSE OF HOLTRUP</h1><strong>Forschungscockpit</strong><p class="stamp">COCKPIT V2 · Tagesbasis / persönlicher Abruf / neue Forschung</p><div id="status" class="sub">Lade Forschungsdaten …</div></header>
-<section><h2>Forschungsfortschritt</h2><div class="legend"><span style="--c:#245b42">Bis gestern 24 Uhr</span><span style="--c:#50a47b">Heute schon bestätigt</span><span style="--c:#a8e1b8">Heute neu seit Bestätigung</span><span style="--c:#dfe5e2">Noch offen</span></div><p id="daily" class="stamp"></p><p class="sub warn">Ein Balken pro Bereich. Kleine technische Nachweise werden automatisch und höchstens einmal pro Bereich und Tag berücksichtigt; keine Punkte für bloße Meldungszahlen. Die Reifewerte bleiben vorläufige, begrenzte Einschätzungen.</p><div id="metrics"></div></section>
+<section><h2>Forschungsfortschritt</h2><div class="legend"><span style="--c:#245b42">Bis gestern 24 Uhr</span><span style="--c:#50a47b">Heute schon bestätigt</span><span style="--c:#a8e1b8">Heute neu seit Bestätigung</span><span style="--c:#dfe5e2">Noch offen</span></div><p id="daily" class="stamp"></p><p class="sub warn">Ein Balken pro Bereich. Mehrere unterschiedliche, belegte technische Teilfähigkeiten können zählen (höchstens zwei je Bereich und Tag). Wiederholungen zählen nicht erneut. Keine Punkte für bloße Meldungszahlen oder als Nachweis menschlichen Verstehens. Die Reifewerte sind vorläufige Einschätzungen.</p><div id="metrics"></div></section>
 <section><h2>Forschungsberichte</h2><p class="sub">Aktivitätsprotokoll, nicht Fortschrittspunkte.</p><div id="activity"></div></section>
 <section><h2>Was heute konkret passiert ist</h2><div id="work"></div></section>
 <section><h2>Dein persönlicher Lesepunkt</h2><p id="seen"></p><button id="confirm">Diesen Stand habe ich gelesen</button><p class="sub">Erst dein Klick verschiebt das heutige Hellgrün nach Mittelgrün. Neue Forschungsprüfungen verändern diesen Lesepunkt nicht. Speicherung auf diesem Gerät und in diesem Browser.</p></section>
@@ -19,26 +19,42 @@ function shortEvidence(value){const first=String(value||"").split(/[.;]/)[0].tri
 // Auto-Check V1: conservative bounded technical evidence, not a human-validated scientific score.
 // Event text is a self-reported receipt; never infer real-user validation from CI.
 function automaticMilestones(events,calibration,today){
- // KAL-002 already reviews 15 November. Automatic scoring starts on the next Berlin day to avoid double counting.
+ // KAL-003: conservative provisional technical milestones, not scientific human-understanding validation.
+ // Earlier reviewed 15 Nov milestones are frozen; only 16 Nov onward is automatically assessed.
  const boundary=Date.parse("2026-11-16T00:00:00+01:00");
- const groups=new Map();
- for(const ev of events){
-  const t=Date.parse(ev.completed_at);if(!Number.isFinite(t)||t<=boundary||berlinDay(ev.completed_at)>today)continue;
-  const evidence=String(ev.evidence||"");
-  const isSource=ev.source==="e12"&&/verified|back.?read|geprüft|gegengelesen|sha.?256|identical|gleichheit/i.test(evidence)&&/original|source|dokument|document|quell/i.test(evidence)&&/full|complete|vollständig|vollstaendig|byte.?identical/i.test(evidence);
-  const isCode=ev.source==="g5"&&/vorregistriert|prospektiv|pre.?register/i.test(evidence)&&/synthetisch|synthetic/i.test(evidence)&&/CI|regression/i.test(evidence)&&/bestanden|erfolgreich|successful|green/i.test(evidence)&&/nach|reparatur|fix|check|gate|schutz|preflight/i.test(evidence);
-  const isP1=ev.source==="p1"&&/vorregistriert|prospektiv|pre.?register/i.test(evidence)&&/test|prüfung|audit/i.test(evidence)&&/bestanden|geprüft|reproduziert|confirmed|verified/i.test(evidence);
-  if(!isSource&&!isCode&&!isP1)continue;
-  // Source and CI achievements only; never count them as practical human benefit or full understanding.
-  const indices=isSource?[1]:isCode?[11,12]:[11];
-  const family=isSource?"source-verification":isCode?"technical-regression":"method-audit";
-  const date=berlinDay(ev.completed_at);
-  for(const i of indices){const k=date+":"+i+":"+family;if(!groups.has(k))groups.set(k,{area_index:i,delta:1,approved_at:ev.completed_at,evidence_ref:ev.source+":"+ev.id,scope:family,verified:true,automatic:true})}
+ const proposals=[];
+ const families=new Set();
+ const ordered=events.slice().sort((a,b)=>Date.parse(a.completed_at)-Date.parse(b.completed_at));
+ for(const ev of ordered){
+  const time=Date.parse(ev.completed_at);
+  if(!Number.isFinite(time)||time<=boundary||berlinDay(ev.completed_at)>today)continue;
+  const e=String(ev.evidence||""),id=String(ev.id||"");
+  const hasEvidence=e.length>=130&&Array.isArray(ev.delta)&&ev.delta.length===13;
+  if(!hasEvidence)continue;
+  const source=ev.source;
+  const realSource=source==="e12"&&/original|source|quell|dokument|document/i.test(e)&&/full|complete|vollst.ndig|byte.identical|sha.?256/i.test(e)&&/verified|identical|back.?read|re.?exported|gepr.ft|matching/i.test(e);
+  const technical=source==="g5"&&/vorregistriert|prospektiv|pre.?register|test.first/i.test(e)&&/synthetisch|synthetic|fiktiv|fictive/i.test(e)&&/CI|test|regression|RED/i.test(e)&&/bestanden|erfolgreich|green|successful|reparatur|korrigiert|fix|sperrt|stoppt|verweigert|behebt|verhindert/i.test(e);
+  if(!realSource&&!technical)continue;
+  const mappings=[];
+  if(realSource)mappings.push([1,"original-source-verification"]);
+  if(technical){
+   if(/G01|G02|G07/.test(id))mappings.push([2,/G01/.test(id)?"lexical-retrieval":/G02/.test(id)?"source-attribution":"protected-original-answer"]);
+   if(/G03/.test(id))mappings.push([4,"historical-timeline"]);
+   if(/G04/.test(id))mappings.push([5,"correction-safety"]);
+   if(/G02/.test(id))mappings.push([6,"question-topic-scope"]);
+   // Technical reproducibility and integration, never count as independent human validation.
+   if(/G07/.test(id))mappings.push([12,"private-answer-integration"]);
+  }
+  for(const [area,family] of mappings){
+   if(!(ev.delta[area]>0))continue;
+   const day=berlinDay(ev.completed_at),key=day+":"+area+":"+family;
+   if(families.has(key))continue;families.add(key);
+   proposals.push({area_index:area,delta:1,approved_at:ev.completed_at,evidence_ref:source+":"+id,scope:family,verified:true,automatic:true,assessment:"provisional-technical"});
+  }
  }
- // At most one distinct evidence family per day and area, never activity-volume points.
- const byDayArea=new Map();
- for(const m of groups.values()){const k=berlinDay(m.approved_at)+":"+m.area_index;if(!byDayArea.has(k))byDayArea.set(k,m)}
- return [...byDayArea.values()];
+ // Cap technical score increments at 2 per area and day, independent of event volume.
+ const counts=new Map();
+ return proposals.filter(m=>{const key=berlinDay(m.approved_at)+":"+m.area_index,n=counts.get(key)||0;if(n>=2)return false;counts.set(key,n+1);return true});
 }
 function render(){
  if(!data)return;
