@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T18:20:32.837Z",
+  "updated_at": "2026-11-16T19:08:07.865Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -796,6 +796,26 @@
         0,
         0,
         0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C170-G01-EXACT-PIN-LEXICAL-TOPK-RECALL-20261116",
+      "completed_at": "2026-11-16T19:08:07.865Z",
+      "evidence": "G01-C170: Vorregistrierter fiktiver End-to-End-Lexikaltest zeigte, dass die exakt durch den Besitzer markierte und bereits indexierte Originalversion hinter 24 ranghoeheren Stichworttreffern verloren ging (RED 43934941722). Der reparierte private Originalabruf begrenzt die echte FTS5-Suche vor BM25/LIMIT auf die exakt markierte UID und Versionspruefsumme; nur der Originaltreffer wird als ungepruefter Kandidat zurueckgegeben, nicht als persoenliche Wahrheit. Bestehende Widerrufs-, Fehlbestands- und Nichttreffergrenzen bleiben erhalten. Vollstaendige Codepruefungen 43935497088 und 43935869643 (je 82/82) sowie wissenschaftlicher Zustand 43935869623 (8/8) bestanden; zusaetzliche private CLI-/Berechtigungstests bestanden. Keine reale Bedeutung oder Autorenidentitaet bestaetigt.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
         1,
         0,
         0,
