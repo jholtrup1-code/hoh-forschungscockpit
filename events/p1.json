@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T05:36:59.453Z",
+  "updated_at": "2026-11-16T06:43:20.456Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -632,6 +632,26 @@
         0,
         0,
         1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-41-HUMAN-REFLECTION-REFERENCE-20261116",
+      "completed_at": "2026-11-16T06:43:20.456Z",
+      "evidence": "P1-41: Vorregistrierte CC-BY-NC-Forschungsprobe menschlicher Expert- und Laienbewertungen von Dialogreflexionen. 1.788 Einzelurteile zu 298 Reflexionen aus nur 15 Dialogen; 3 Expert- und 3 Laienbewertungen je Reflexion. Bei 90 Expert-Mehrheit-Nein wurden 20 (22,22%) von der Laienmehrheit als kontextstimmig akzeptiert; 60 von 208 Expert-Ja wurden abgelehnt. Nur befragte Beobachter-Referenz, KEIN personenseitig bestaetigtes Bedeutungs-Gold und KEINE verbesserte KI-Faehigkeit. Naives Intervall wegen 15 Dialog-Clustern nicht inferenzgueltig. Aus privaten GitHub-Codeblobs 19+3 isolierte Parser-/Sicherheitstests sowie unabhaengige 2x2-Nachzaehlung bestanden. Kein G5-Transfer, keine bezahlte Modell-API.",
+      "delta": [
+        0,
+        0,
+        0,
         1,
         0,
         0,
