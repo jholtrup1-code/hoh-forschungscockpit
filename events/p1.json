@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T00:35:25.178Z",
+  "updated_at": "2026-11-16T01:50:19.916Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -559,6 +559,26 @@
         0,
         0,
         0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-35-RELATIONAL-HUMAN-CONTEXT-20261116",
+      "completed_at": "2026-11-16T01:50:19.916Z",
+      "evidence": "P1-35: Vorregistrierte, unabhängig crowd-bewertete Testhälfte eines veröffentlichten MIT-lizenzierten Simulationskorpus: 60 wort- und vorgeschichteidentisch gepaarte Dialogbedingungen über 50 eigenständige künstliche Szenario-IDs. Negative minus positive Beziehungsvorgeschichte: mittlere menschliche Konfliktbewertungsdifferenz +0,0875 auf 1–5-Skala, Median 0; 2.000-faches Szenario-Bootstrapintervall [-0,025; +0,2025] überdeckt Null. 22/22 isolierte, aus privatem GitHub zurückgelesene Autorencode-Tests und unabhängige Zweitzählung bestanden. Kein verlässlich gerichteter Bedingungseffekt in diesem Holdout, kein menschlicher Personen-/Bedeutungs-Goldstandard, keine KI-Fähigkeits- oder Nutzerentlastungsvalidierung, keine Modell-API oder G5-Übernahme. P1-34 zuvor wegen Schemafehler ohne eigene Ergebnismeldung gestoppt.",
+      "delta": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
         0,
         1,
         0
