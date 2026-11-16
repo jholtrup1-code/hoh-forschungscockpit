@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T03:36:21.270Z",
+  "updated_at": "2026-11-16T05:36:59.453Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -620,6 +620,26 @@
         0,
         0,
         0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-40-LED-STATUS-20261116",
+      "completed_at": "2026-11-16T05:36:59.453Z",
+      "evidence": "P1-40: Unabhaengig als neues exploratives 70-Dialog-Design vor Statusauswertung protokollierte, CC-BY-NC-SA-4.0-lizenzierte synthetische LED-Testannotationen an unveraendertem Original-Git-Blob auditiert. 426 annotierte Ereignisse; nur 274 nach menschlichen Statuslabels formal positiv und bereits/gegenwaertig, 152 konservativ zurueckzuhalten (111 Negation/Hypothese/Zukunft, 41 allein Zeit unklar); 64 Nicht-S1/S2-Subjekt-IDs. 19/19 isolierte Guard-Tests, zweite unabhängige Nachzählung; README-Schemaabweichung P1-39 separat abgebrochen, hier nicht doppelt bewertet. Nur Quellen-/Faktizitaetsrisiko, keine neue Modellfaehigkeit, keine menschliche Biografie-/Bedeutungs-Goldvalidierung oder G5-Integration.",
+      "delta": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
         1,
         0
       ]
