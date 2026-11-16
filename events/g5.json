@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T03:06:06Z",
+  "updated_at": "2026-11-16T04:19:14.417Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -622,6 +622,26 @@
         0,
         1,
         1
+      ]
+    },
+    {
+      "id": "G5-C161-G07-REAL-OWNER-CLI-ROLE-BOUND-PREDRAFT-20261116",
+      "completed_at": "2026-11-16T04:19:14.417Z",
+      "evidence": "Vorregistrierte synthetische G07-Integrationspruefung: Die bislang optionale Pruefung nur heuristisch zugeschriebener Sprecherrollen wird bei ausdruecklicher geschuetzter Besitzer-Aufgabe jetzt am tatsaechlichen C120/C121-Antwortdatei- und Reader-Eingang vor jeder Verwendung erzwungen. Bei unbestaetigter Rollenquelle oder fehlendem Kandidaten wird kein Entwurf geladen; eine getrennte private Originalsichtung bleibt moeglich. Unabhaengige Gegenprobe fand tatsaechlichen Fehler bei einer zwischenzeitlich veraenderten SQLite-Originalquelle (CI RED 43802724481), repariert; vollstaendige Codepruefung 43802935533 und poststate 43803271006 erfolgreich, wissenschaftliche Zustandspruefung 43803270972 erfolgreich. Bindung ist ausdruecklich optional und noch keine Garantie fuer andere Legacy-Wege, dieselbe Quellenidentitaet, authentifizierte Sprecher, psychologische Bedeutungen oder menschliche Goldbewertungen. Keine privaten Originaltexte publiziert.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        2
       ]
     }
   ],
