@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T07:36:12.848Z",
+  "updated_at": "2026-11-16T16:17:39.123Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -748,6 +748,26 @@
       "id": "E12-CP057",
       "completed_at": "2026-11-16T07:36:12.848Z",
       "evidence": "Three previously unprocessed private archival leaf folders were paginated separately by document, folder, and all-MIME queries: 10 source records, including three canonical masters and seven split variants. All three complete master originals were copied into the authorized private archive and independently re-fetched: 629,775 bytes match byte-for-byte, with matching SHA-256 hashes, source/copy parents and non-shared permissions verified. All seven split variants were raw-hashed and reconstructed against their canonical masters after generated wrapper headers and a single extra leading LF in each continuation were removed. An isolated in-run SQLite FTS5 audit indexed 8,224 original text lines and independently checked anchored hits. No split file was counted as an additional conversation. Whole-Drive recursion, revisions, binary archives and durable Python integration remain unverified. No private source text was published.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP058",
+      "completed_at": "2026-11-16T16:17:39.123Z",
+      "evidence": "One previously unprocessed archival leaf was fully enumerated (3 Markdown source files: one canonical master and two generated split variants). The complete canonical original (166,421 bytes) was preserved in the authorized private Drive folder and independently re-downloaded byte-identically with matching SHA-256 digest, correct destination parent and non-shared status. Both split files were raw-hashed; removing generated headers plus a 2-byte join overlap exactly reconstructed the canonical master, avoiding duplicate conversation counts. An isolated in-run Python/SQLite FTS5 check indexed 6,214 original lines and checked anchored hits. This closes the specified 18-leaf parent inventory scope, not whole-Drive recursion, historical revisions, media or durable E12 indexing. No private source text was published.",
       "delta": [
         0,
         1,
