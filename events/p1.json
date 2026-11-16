@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T20:41:46.212Z",
+  "updated_at": "2026-11-16T21:42:49.886Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -792,6 +792,26 @@
         0,
         0,
         1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-49-LEXICAL-ROLE-INTENT-SAFETY-FAIL-20261116",
+      "completed_at": "2026-11-16T21:40:19.187Z",
+      "evidence": "P1-49: Vor erneuter Frageneinsicht festgelegte, unabhaengig reproduzierte Zweitauswertung eines bereits verwendeten, MIT-lizenzierten technischen 470-Fragen-Gedaechtnisbenchmarks. Keine einzige der 470 Fragen enthielt das explizite Stichwort assistant oder chatbot; die vorregistrierte rein lexikalische Rollenumschaltung wurde deshalb nie aktiv. Gesamt Hit@1 282/470 statt Allrollen-BM25 253/470, aber Assistenten-Untergruppe nur 3/56 statt 36/56; verpflichtendes Sicherheitstor GESCHEITERT. 23/23 synthetische isolierte Tests und getrennte sechs Klassen plus Grosszuegig-Teilwortpruefung bestaetigen dies. Kein neuer unabhaengiger Datensatz, keine Personen-Bedeutungsvalidierung, keine G5-Integration oder bezahlte Modell-API.",
+      "delta": [
+        0,
+        0,
+        0,
         1,
         0,
         0,
