@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T01:09:10Z",
+  "updated_at": "2026-11-16T02:09:33Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -577,6 +577,26 @@
         0,
         1,
         1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C159-G02-QUOTED-TOPIC-SOURCE-ROLE-ABSTENTION-20261116",
+      "completed_at": "2026-11-16T02:09:33Z",
+      "evidence": "Vorregistrierte synthetische G02-Quellenrahmenpruefung: Ein als Markdown-Blockzitat dargestellter Themenhinweis darf nicht einer spaeteren Sprecherzeile als aktive unzitierte Kontextvorgabe dienen. Zwei echte test-first Negativlaeufe prueften auch verschachtelte und tab-eingerueckte Zitatmarkierungen; nach Korrekturen waren die vollstaendige Code-CI sowie die wissenschaftliche Zustandspruefung erfolgreich. Unzitierte neue Themenabschnitte bleiben verwendbar und SHA-gebundene Fundstellen unveraendert. Keine Sprecher-Authentifizierung, keine psychologische Bedeutungs- oder Personenbewertung, keine Originaltexte.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
