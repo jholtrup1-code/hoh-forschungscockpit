@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T00:19:03.380Z",
+  "updated_at": "2026-11-16T01:20:29.019Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -622,6 +622,26 @@
         0,
         1,
         0
+      ]
+    },
+    {
+      "id": "E12-CP051",
+      "completed_at": "2026-11-16T01:20:29.019Z",
+      "evidence": "Seven bounded Claude-export folder scopes were paginated by document and folder type, yielding 141 distinct metadata records. Two complete original Markdown sources were independently preserved as byte-identical, SHA-256-verified private copies with checked parent locations and private sharing. A reproducible two-case audit showed that two split-file pairs exactly reconstitute their corresponding full master texts after removing generated wrapper headers; the split files must not be double-counted as distinct conversations. An in-run Python/SQLite FTS5 test indexed 3,315 lines from the two complete sources. Whole-Drive all-MIME coverage and persistent Python integration remain unverified.",
+      "delta": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
       ]
     }
   ],
