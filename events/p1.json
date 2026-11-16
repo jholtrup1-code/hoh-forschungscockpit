@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T06:43:20.456Z",
+  "updated_at": "2026-11-16T10:00:24.428Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -661,6 +661,26 @@
         0,
         1,
         1,
+        0
+      ]
+    },
+    {
+      "id": "P1-42-ETC-SELFREPORT-OBSERVER-DISAGREEMENT-20261116",
+      "completed_at": "2026-11-16T10:00:24.428Z",
+      "evidence": "P1-42: Before target-data inspection preregistered, noncommercial CC-BY-NC-4.0 Japanese ETC LREC2026 test subset: 25 public, author-published dialogues / 250 utterances with participant-authored momentary emotion descriptions and three independent human category ratings. Exact category-set disagreement in 133/250 (53.2%), no 3-vote set-majority in 21/250 (8.4%); 2,000 deterministic dialogue-bootstrap interval 45.6–59.6%, not individual-population inference. Full original SHA-verified public source; 16/16 isolated GitHub-readback authored-code tests, independent second original-file recount 25/25 exact. This validates observer-label uncertainty only, NOT true emotion, personal belief evolution, AI improvement or measured user benefit; no paid model API, no G5 change.",
+      "delta": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
         0
       ]
     }
