@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T22:10:15.635Z",
+  "updated_at": "2026-11-16T23:07:33.000Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -881,6 +881,26 @@
         0,
         0,
         2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C174-G02-INLINE-SECOND-SPEAKER-ABSTENTION-20261116",
+      "completed_at": "2026-11-16T23:06:10.000Z",
+      "evidence": "G02 C174: Prospektiver synthetischer Quellenrollen-Test belegte falsche Erstsprecher-Zuordnung nach einem zweiten Sprecherlabel innerhalb derselben Textzeile (6 echte Fehlassertionen, RED GitHub Actions #43975377757). Eine begrenzte Satz-/Semikolon-Grenzprüfung unterdrückt die mehrdeutige ganze Textzeile, behält getrennte Sprecherzeilen, normale Mehrsatz-Selbstberichte und legitime berichtete Rede bei. Nach zwei dokumentierten fehlgeschlagenen Reparaturversuchen vollständige Code-CI #43975784203 und Poststate #43976108910 (85/85) sowie Zustandsprüfung #43976108827 (8/8) erfolgreich. Keine authentifizierte Sprecheridentität, menschliche Bedeutungsbewertung oder Personenfreigabe.",
+      "delta": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
         1
       ]
     }
