@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T17:43:40.411Z",
+  "updated_at": "2026-11-16T18:50:59.739Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -733,6 +733,26 @@
         0,
         0,
         2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-46-THOUGHTTRACE-LEXICAL-CUE-20261116",
+      "completed_at": "2026-11-16T18:50:59.739Z",
+      "evidence": "P1-46: Neue prospektiv registrierte Sekundärprüfung des öffentlich CC-BY-4.0-lizenzierten ThoughtTrace-Korpus. Unter 1.090 als unzufrieden modellkategorisierten Reaktionen mit direkt folgendem Nutzertest enthielten 1.065 (97,7 %) keines der vorab fixierten engen englischen Widerspruchswörter. 2.155 Gespräche; 16/16 isolierte Tests und unabhängige Zählung. Reaktionskategorien stammen von einem Modell, nicht von unabhängigen menschlichen Goldkodierern; indirekte Widersprüche können trotzdem im Folgetext stehen. Keine neue validierte Personenfähigkeit, keine Nutzeraufwandsmessung, keine Modell-API, kein G5-Eingriff.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
         0,
         0,
         0,
