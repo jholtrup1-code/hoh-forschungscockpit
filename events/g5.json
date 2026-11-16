@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T02:09:33Z",
+  "updated_at": "2026-11-16T03:06:06Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -597,6 +597,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C160-G07-UNJUDGED-ROLE-PREDRAFT-ABSTENTION-20261116",
+      "completed_at": "2026-11-16T03:06:06Z",
+      "evidence": "Vorregistrierte synthetische G07-Anwendungspruefung: Eine nur heuristisch zugeschriebene Sprecherrolle aus einem SHA-geprueften Original darf keine neue persoenliche Antwort freigeben. Die neue ausdruecklich aufgerufene private Vorabpruefung haelt den Antwort-Loader sowohl mit als auch ohne unbestaetigte Rollenkandidaten zurueck und bietet nur auf Wunsch eine getrennte private Original-Pruefansicht. Test-first echter fehlender-Adapter-RED-Run 43795460580; Code GREEN 43795568571; zwei unabhaengige Original-/Fragedrift-Kontrollen GREEN 43795726259. Nach privater Zustandssicherung vollstaendige Code-CI 43795996869 und wissenschaftliche Zustands-CI 43795996765 erfolgreich. Dies ist kein universeller Schutz aller alten Consumer, keine authentifizierte Sprecheridentitaet oder menschliche Bedeutungsbewertung. Keine personenbezogenen Inhalte publiziert.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
         0,
         0,
         0,
