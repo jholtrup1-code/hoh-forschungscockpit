@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T01:20:29.019Z",
+  "updated_at": "2026-11-16T02:20:08.003Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -642,6 +642,26 @@
         0,
         1,
         1
+      ]
+    },
+    {
+      "id": "E12-CP052",
+      "completed_at": "2026-11-16T02:20:08.003Z",
+      "evidence": "Three previously metadata-only archived Markdown master transcripts from three independently paginated private source folders were copied into the authorized private archive and independently re-downloaded byte-for-byte with matching complete SHA-256 digests, source/copy parent IDs and non-shared status. All six related split-file variants were reconstructed exactly as their respective full masters after stripping generated wrappers; they are not six additional conversations. The three full sources were indexed in an isolated in-run SQLite FTS5 test (8,075 original lines), not a durable production index. Whole-Drive and media coverage remain open.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
       ]
     }
   ],
