@@ -13,7 +13,7 @@ const days=[["07.11.",3,"Forschungsstartakte RW-1.0"],["08.11.",4,"Frühe Quelle
 const key="hoh-cockpit-personal-view-v4-cal001r1";let data=null;let calibration=null;let seen=null;try{seen=JSON.parse(localStorage.getItem(key)||localStorage.getItem("hoh-cockpit-personal-view-v3-cal001")||localStorage.getItem("hoh-cockpit-personal-view-v2")||"null")}catch(e){};const localDate=()=>{const p=new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Berlin",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date());const get=k=>p.find(x=>x.type===k).value;return get("year")+"-"+get("month")+"-"+get("day")};
 const root=document.getElementById("metrics");
 const areaKeys=["vision","data","originals","psychology","temporal","corrections","questions","utility","autonomy","relations","meaning","validation","software"];
-const berlinDay=iso=>new Intl.DateTimeFormat("en-CA",{timeZone:"Europe/Berlin",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date(iso));
+const berlinDay=iso=>{const d=new Date(iso);if(!Number.isFinite(d.getTime()))return "";const parts=new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Berlin",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(d);const get=k=>parts.find(p=>p.type===k)?.value||"";return get("year")+"-"+get("month")+"-"+get("day")};
 const dayLabel=iso=>new Intl.DateTimeFormat("de-DE",{timeZone:"Europe/Berlin",day:"2-digit",month:"2-digit",year:"numeric"}).format(new Date(iso));
 function shortEvidence(value){const first=String(value||"").split(/[.;]/)[0].trim();return first.length>135?first.slice(0,132)+"…":first}
 // Auto-Check V1: conservative bounded technical evidence, not a human-validated scientific score.
