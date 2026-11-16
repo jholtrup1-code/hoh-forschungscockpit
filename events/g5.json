@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T14:19:27.767Z",
+  "updated_at": "2026-11-16T16:13:51Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -736,6 +736,26 @@
         0,
         1,
         0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C167-G01-PINNED-REQUIRED-ORIGINAL-WITHDRAWN-DISTRACTOR-20261116",
+      "completed_at": "2026-11-16T16:13:51Z",
+      "evidence": "Vorregistrierter synthetischer G01-C167-Fall: Nach logischem Widerruf einer explizit benoetigten Originalversion bleibt eine thematisch irrelevante, wortgleiche aktive Dokumentquelle in der normalen lexikalischen Kandidatensuche sichtbar. Der neue optional nutzergebundene C41-Quellenfilter verweigert Substitution: bei fehlender, widerrufener oder nicht innerhalb begrenzter FTS-Treffer gefundener exakter Originalversion wird kein Ersatzbeleg ausgegeben; bei gueltigem Original bleibt die Relevanz ungeprueft. Echte Test-first RED-Läufe 43903937052 und 43904505892, vollständige Code-GREEN-Pruefungen 43904145173 und 43904618499 (80/80 Schritte). Sicherer privater CLI-Pin und negative Berechtigungsprobe. Technische Integritaet, keine validierten persoenlichen Aussagen oder privaten Originalzitate.",
+      "delta": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        1,
         1,
         0,
         0,
