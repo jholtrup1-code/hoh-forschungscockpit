@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-15T23:11:47.428Z",
+  "updated_at": "2026-11-16T00:14:01.792Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -536,6 +536,26 @@
         1,
         1,
         1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C157-G04-HISTORICAL-ASOF-DRAFT-PRECONSUMPTION-20261116",
+      "completed_at": "2026-11-16T00:14:01.792Z",
+      "evidence": "Vorregistrierter rein synthetischer G04-Gegenversuch: Ein neuer privater Fragenverbraucher verweigert das Oeffnen vorgeschlagener Antworten sowohl bei einem unbestaetigten historischen Korrekturbericht als auch bei einem historischen Stand ohne Korrektur. Zwei unabhängige gleichlautende Quellvorkommen werden nicht auf eine Person bezogen; bei manipuliertem historischen Einzelereignis-Zaehler oder nach Cutoff eingeschleustem Bericht erfolgt Ablehnung. Echte Test-first RED-Runs 43778289282/43778676028, finale private Code-CI 43778785453 sowie nach wissenschaftlichem Zustand Code 43779051331 (75/75) und Forschungszustand 43779051286 (8/8) erfolgreich. Keine Bedeutungs- oder Relevanz-Goldwertung; keine personenbezogenen Inhalte.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
         1,
         0,
         0,
