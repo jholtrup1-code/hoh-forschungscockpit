@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T17:15:21.563Z",
+  "updated_at": "2026-11-16T18:20:04.016Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -788,6 +788,26 @@
       "id": "E12-CP059",
       "completed_at": "2026-11-16T17:15:21.563Z",
       "evidence": "Four previously unmanifested native Google Docs from two privately authorized source branches were fully read, copied into the private source-bridge archive and independently re-exported as plain text. All four source/copy export byte streams matched under SHA-256, and ordered Google Docs paragraph content matched. Private parent-folder IDs and non-shared metadata were verified. The two source folders were enumerated with completed document search pagination, and an in-run SQLite FTS5 index checked 1,397 original lines with anchored matches. A private checkpoint and append-only historical manifest delta were written and back-read. Native fulltext copies persist privately; persistent Python indexing and separate text-file upload remain unverified. No private quotations, personal data or source URLs were published.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP060",
+      "completed_at": "2026-11-16T18:20:04.016Z",
+      "evidence": "Four previously unmanifested native source documents from two already authorized folders (two technical workshop records and two early application/source-inventory records) were fully exported as plain text and independently re-exported from newly created private native Drive copies. All 21,878 exported bytes matched exactly across source and copy under SHA-256; each source and copy was checked for expected parent and non-shared status. An isolated Python SQLite FTS5 audit indexed 194 original lines and checked four anchored hits against original lines and SHA-256 digests. A private append-only manifest delta and checkpoint were written and back-read. Additional source branches, separate raw-text persistence, historical revisions and durable Python E12 integration remain open. No private source text was published.",
       "delta": [
         0,
         1,
