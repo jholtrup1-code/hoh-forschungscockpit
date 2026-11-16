@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T18:50:59.739Z",
+  "updated_at": "2026-11-16T19:42:28.156Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -748,6 +748,26 @@
       "id": "P1-46-THOUGHTTRACE-LEXICAL-CUE-20261116",
       "completed_at": "2026-11-16T18:50:59.739Z",
       "evidence": "P1-46: Neue prospektiv registrierte Sekundärprüfung des öffentlich CC-BY-4.0-lizenzierten ThoughtTrace-Korpus. Unter 1.090 als unzufrieden modellkategorisierten Reaktionen mit direkt folgendem Nutzertest enthielten 1.065 (97,7 %) keines der vorab fixierten engen englischen Widerspruchswörter. 2.155 Gespräche; 16/16 isolierte Tests und unabhängige Zählung. Reaktionskategorien stammen von einem Modell, nicht von unabhängigen menschlichen Goldkodierern; indirekte Widersprüche können trotzdem im Folgetext stehen. Keine neue validierte Personenfähigkeit, keine Nutzeraufwandsmessung, keine Modell-API, kein G5-Eingriff.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-47-RECENCY-PRIOR-BM25-FAIL-20261116",
+      "completed_at": "2026-11-16T19:40:33.041Z",
+      "evidence": "P1-47: Neue vor Zieldatenpruefung registrierte und vollstaendig reproduzierte technische Negativprobe auf 500 MIT-lizenzierten LongMemEval-cleaned-Oracle-Fragen (Original-SHA256 verifiziert). In 72 Knowledge-Update-Faellen BM25 40/72 Beleg-Hit@1, pauschal um 25% Chronologiegewicht ergaenzt nur 36/72; bei 398 weiteren Faellen 213/398 gegen 192/398. Beide vorregistrierten Nutzer-Nutzentore gescheitert. 34/500 Chronologien vor Bewertung korrekt sortiert, 16/16 isolierte synthetische Tests und unabhaengige Zweitimplementierung bestaetigen alle sechs Hauptklassen. Nur kuratierte technische Belegmarker, kein unabhängiges menschliches Personenbedeutungs-Gold, kein nachgewiesener Beziehungs-/Gedankenwechsel, keine Modell-API und keine G5-Aenderung.",
       "delta": [
         0,
         0,
