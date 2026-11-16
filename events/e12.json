@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T20:17:33.491Z",
+  "updated_at": "2026-11-16T21:18:02.352Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -848,6 +848,26 @@
       "id": "E12-CP062",
       "completed_at": "2026-11-16T20:17:33.491Z",
       "evidence": "Three previously unmanifested native technical-workshop sources were independently exported in full, preserved as private native Drive copies, and verified byte-identical against the original text/plain exports using SHA-256 (16,311 total bytes). An isolated SQLite FTS5 audit indexed 161 source lines and checked 14 matching line anchors. The source folder's immediate contents and a separate seven-document background folder were inventoried; private checkpoint and append-only manifest delta were written and back-read with verified private parent-folder metadata. Separate persistent raw-text files and durable Python E12 indexing remain open. No private quotations, personal details or URLs are included.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP063",
+      "completed_at": "2026-11-16T21:18:02.352Z",
+      "evidence": "Four previously unmanifested native technical-workshop originals spanning four intermediate motor versions were fully exported and preserved as private native Drive copies. All four pairs were independently re-exported byte-identically under SHA-256 (19,435 bytes), with authenticated private destination parent and non-shared status verified. An isolated SQLite FTS5 test indexed 208 original-text lines and verified sampled line anchors against source SHA-256 digests. Direct document pagination and a six-folder nested branch were inventoried. Private append-only manifest and checkpoint were written and back-read. Durable Python E12 integration and separate raw-text storage remain open; connector file-reference egress was blocked. No private source quotations or URLs were published.",
       "delta": [
         0,
         1,
