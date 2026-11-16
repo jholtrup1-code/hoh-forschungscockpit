@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T21:42:49.886Z",
+  "updated_at": "2026-11-16T22:41:31.878Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -820,6 +820,26 @@
         0,
         0,
         0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-51-CIRCA-INDIRECT-UNCERTAINTY-20261116",
+      "completed_at": "2026-11-16T22:41:31.878Z",
+      "evidence": "P1-51: vor Ergebnisanalyse registrierter, mit einer zweiten eigenständigen Zählung bestätigter Test eines neuen öffentlich attribuierten Gesprächsdatensatzes. 34.268 fremdannotierte konstruierte Dialogpaare geprüft, 20 mit nur vier statt fünf Stimmen gemäß separater P1-51-Vorregistrierung ausgeschlossen. Auf 34.248 vollständigen Fällen sind 8.929 (26,07 %) nicht eindeutig als bestimmtes Ja oder Nein mehrheitskodiert; in 17.424 (50,88 %) unterscheiden sich die menschlichen Fremdurteile. Beide vorregistrierten deskriptiven Schwellen erfüllt; 18/18 isolierte Softwarekontrollen bestanden. Nur F05/F07-Interpretationsunsicherheit in erfundenen Szenarien; keine Personenbedeutungs-, Meinungswechsel- oder Nutzennacharbeitsvalidierung, keine bezahlte Modell-API, keine G5-Integration. P1-50-Stopp nicht zusätzlich gezählt.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
         1,
         0
       ]
