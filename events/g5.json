@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T20:09:15.268Z",
+  "updated_at": "2026-11-16T21:14:29.335Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -841,6 +841,26 @@
         0,
         0,
         1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C172-G07-OWNER-REVIEW-QUESTION-INTEGRITY-20261116",
+      "completed_at": "2026-11-16T21:14:29.335Z",
+      "evidence": "G07 C172: Vorregistrierter synthetischer End-to-End-Test zeigte, dass der tatsaechliche private Besitzer-Frageprozess trotz korrekt wiedergefundenem exakt markierten Original (24 lexikalische Ablenker) nur den ungeprueften Antwortentwurf blockierte, aber das Original nicht im geschuetzten Reviewpaket bereitstellte (RED #43956470723). Nach Reparatur wird die exakt versionierte Originalstelle ungeprueft im privaten 0600 Review ausgegeben, waehrend der Antwortleser gesperrt bleibt (GREEN #43956748758). Unabhaengiger vorregistrierter Race-Test wies die Ausgabe bei veraenderter lokaler Frage-Datei nach (RED #43957076057), danach verhindert ein zusaetzlicher Originalfrage-Bytevergleich die veraltete Ausgabe (GREEN #43957336687). Vollstaendige Code-CI #43957798577 83/83 und Forschungszustand #43957798572 8/8 erfolgreich. Keine Originaltexte, Personentatsachen, menschliche Bedeutungsbewertung oder automatische Antwortfreigabe publiziert.",
+      "delta": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        2,
         1
       ]
     }
