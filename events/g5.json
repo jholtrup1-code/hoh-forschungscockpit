@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T05:12:50Z",
+  "updated_at": "2026-11-16T06:14:30.780Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -661,6 +661,26 @@
         0,
         0,
         1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C163-G02-EXPLICIT-TOPIC-SCOPE-AND-NEGATION-20261116",
+      "completed_at": "2026-11-16T06:14:30.780Z",
+      "evidence": "Vorregistrierte synthetische G02-Fragebezugspruefung: Eine fruehere Themenangabe durfte nach einem ausdruecklichen Themenwechsel nicht laenger eine spaetere unbestaetigte Sprecherzeile als zur Frage passend markieren. Test-first echter RED-Lauf 43814702070 und vollstaendige GREEN-CI 43814807569. Unabhaengige Negationspruefung zeigte weiteren echten Fehler: Ein verneint erwaehntes Thema wurde faelschlich wieder als aktives Thema behandelt (RED 43814930945). Konservative Abstinenzkorrektur, vollstaendige Code-CI 43815067929 sowie poststate 43815267376 und wissenschaftliche 8/8-Zustandspruefung 43815267341 erfolgreich. Sechs neue rein fiktive Testmethoden regelhaft und unter Python -O. Kein Human-Gold, keine echten Sprecher-/Personenfakten, keine semantische Bedeutung, keine privaten Originaltexte.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        2,
         1
       ]
     }
