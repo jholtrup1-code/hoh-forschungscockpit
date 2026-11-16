@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T04:19:14.417Z",
+  "updated_at": "2026-11-16T05:12:50Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -642,6 +642,26 @@
         0,
         1,
         2
+      ]
+    },
+    {
+      "id": "G5-C162-G07-CANONICAL-SAME-ARCHIVE-OCCURRENCE-20261116",
+      "completed_at": "2026-11-16T05:12:50Z",
+      "evidence": "Vorregistrierter synthetischer G07-Quellenidentitaets-Test: Ein neuer expliziter Besitzer-Auftrag bindet jede unbestaetigte Sprecherrolle an die identische aktuelle Originalaufzeichnung im privaten Fragenpaket, nicht nur an aehnlichen Wortlaut oder den Hash einer separaten Quelle. Gleichlautende verschiedene Quellen, vertauschte Fundstellen und fehlende Bindungen werden abgewiesen. Unabhaengiger Test-first Negativlauf 43808370156 entdeckte moegliche Doppelzaehlung einer Originalaufzeichnung unter mehreren Rollen-IDs; Korrektur und komplette Code-CI 43808437991 sowie poststate 43808589844 und wissenschaftliche Zustandstests 43808589877 erfolgreich. Altes ungebundenes Format wird nicht als verbunden ausgegeben, weiterhin keine automatischen persoenlichen Antworten, keine Authentifizierung oder menschliches Bedeutungs-Gold. Keine privaten Originaltexte publiziert.",
+      "delta": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
       ]
     }
   ],
