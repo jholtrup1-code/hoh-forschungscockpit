@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T15:45:56.875Z",
+  "updated_at": "2026-11-16T16:50:48.699Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -688,6 +688,26 @@
       "id": "P1-43-LAY-UNANIMITY-REVIEW-TRADEOFF-20261116",
       "completed_at": "2026-11-16T15:45:56.875Z",
       "evidence": "P1-43: Predeclared, reproducible secondary check of 298 reflection items with 1,788 expert/lay human ratings (same already studied corpus, only 15 dialogue contexts). Unanimous lay-judge gate automatically decided 156/298 and referred 142; expert-disagreed acceptances 20->3, but expert-agreed correct acceptances preserved only 86/208 (41.35%) vs predeclared >=50%. Joint application-utility screen FAILED. 22/22 isolated code safety checks plus independently tallied original-data counts agree. No new person meaning gold, actual user effort metric, model capability, paid API or G5 transfer.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-44-CROSSITEM-GLOBAL-TRANSFER-FAIL-20261116",
+      "completed_at": "2026-11-16T16:50:48.699Z",
+      "evidence": "P1-44: Vor Ziel-Dateninspektion registrierte unabhaengige querschnittliche, CC-BY-4.0-lizenzierte Selbstbericht-Probe (489 anonyme Bewertende, 16 heterogene Bewertungs-/Glaubensobjekte, 7824 Testpaare). Ohne Person-Leckage gab die objektbezogene Gruppenbaseline MAE 0.7401, ein ueber andere Items gelerntes globales Person-Offset verschlechterte auf MAE 0.7466; vorregistriertes Nutzentor >=0.05 Verbesserung NICHT bestanden. 8/8 isolierte synthetische Code-Tests und unabhaengiger Originaldaten-Zaehler bestaetigt, 2000er Personen-Cluster-Bootstrap. Nur enge Negativkontrolle gegen ungedeckte fachuebergreifende Personalisierung, keine Meinungsentwicklung, UND-/Beziehungsdeutung, direkte Nutzerarbeitsmessung, neue Modellfaehigkeit oder G5-Integration. Null bezahlte Modellaufrufe.",
       "delta": [
         0,
         0,
