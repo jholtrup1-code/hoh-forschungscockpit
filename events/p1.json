@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T16:50:48.699Z",
+  "updated_at": "2026-11-16T17:43:40.411Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -713,6 +713,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-45-DBRC-SEVERITY-HETEROGENEITY-20261116",
+      "completed_at": "2026-11-16T17:43:40.411Z",
+      "evidence": "P1-45: Neue, vor Zielwertinspektion registrierte SEKUNDAERE Auswertung eines zuvor fuer eine andere Forschungsfrage genutzten, vom Autor als CC BY 4.0 freigegebenen Gespraechsreparatur-Datensatzes. 3990 menschliche Schwere-Ratings, 140 identische Fehlerszenarien: 124/140 enthalten sowohl niedrige (1-4) als auch hohe (7-10) Urteile. Szenariobezogener Leave-One-Out-MAE 1.6908 statt globalem MAE 2.3013 (Verbesserung 0.6106); beide vorregistrierten Kriterien erfuellt. 16/16 isolierte Negativ-/Positivtests, unabhaengige Feld-/Aggregatnachzaehlung erfolgreich. Szenariokontext hilft, ersetzt aber keinen individuellen Selbstbericht. Keine neue unabhaengige Studie, kein Personen-/Meinungs-/Beziehungsgold, keine gemessene Nutzerarbeitsersparnis, keine G5-Aenderung oder bezahlte Modell-API.",
+      "delta": [
+        0,
+        0,
+        0,
+        2,
         0,
         0,
         0,
