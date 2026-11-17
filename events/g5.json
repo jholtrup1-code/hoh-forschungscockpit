@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T07:14:25.606Z",
+  "updated_at": "2026-11-17T08:13:43Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1068,6 +1068,26 @@
       "id": "G5-C183-G02-SECONDARY-MARKDOWN-ROLE-SCOPE-OWNER-REVIEW-20261117",
       "completed_at": "2026-11-17T07:14:25.606Z",
       "evidence": "G02: Eine vorregistrierte, rein fiktive und ohne Modell-API ausgefuehrte Quellenpruefung verarbeitet jetzt die sekundäre Markdown-Chatansicht nach einer exakten lokalen SQLite/FTS-Originalwiederoeffnung aus dem bestehenden Zwei-Ansichten-Frageweg. Ein enger Rollen-Textoberflaechenfilter trennt ausdruecklich markierte, nicht authentifizierte Nutzer-Zeilen von Assistant-Text, fremder Rede, Zitaten, Codebeispielen und spekulativen Aussagen; unvollstaendige oder mehrdeutige Ansichten fuehren zur Abstinenz. 11 neue synthetische Tests einschliesslich echter lokaler SQLite-FTS-C35/C182/C183-Integration sowie komplette Code- und Zustands-CI bestanden auch unter Python -O. Das ist KEIN Nachweis echter ChatGPT-Autorschaft, persoenlicher Bedeutung oder live genutzter Oracle-Personendaten.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C184-G02-QUESTION-LOCAL-ROLE-QUOTE-SUFFICIENCY-20261117",
+      "completed_at": "2026-11-17T08:13:43Z",
+      "evidence": "G02: Eine vorregistrierte rein fiktive End-to-End-Originalpruefung deckte eine konkrete Nutzbarkeitsluecke auf: Eine per SQLite/FTS fuer eine Lebensfrage wiedergefundene sekundäre Markdown-Chat-Textansicht konnte eine als User beschriftete, aber zur Frage thematisch voellig fremde Ich-Passage liefern, wenn das Suchwort nur im benachbarten Assistant-Text oder in einem anderen Dokument stand. Ein neuer ausschliesslich privater Frageanker-Filter verlangt daher eine ganze passende Inhaltswortform INNERHALB des exakt wiedergeoeffneten, nicht authentifizierten User-Zitats; andernfalls Abstinenz. Bei fiktiver Positivkontrolle bleiben Originalspan und relative Position erhalten, bei Negativkontrolle wird eine falsche thematische Zuordnung unterdrueckt. 9 synthetische Methoden einschliesslich echtem lokalen SQLite/FTS/C182/C183-Verbund und vollstaendige Code-CI 92/92 normal und -O bestanden. Nur lexikalische Eingrenzung, KEINE semantische Relevanz, Autorschaft, Human-Gold oder lebende Oracle-Personendatenbank nachgewiesen.",
       "delta": [
         0,
         0,
