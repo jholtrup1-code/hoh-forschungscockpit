@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T03:03:33.944Z",
+  "updated_at": "2026-11-17T04:07:52.843Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1001,6 +1001,26 @@
         0,
         0,
         2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C180-G01-TECHNICAL-DOC-CROSS-PROVIDER-BYTE-REVISION-20261117",
+      "completed_at": "2026-11-17T04:07:52.843Z",
+      "evidence": "G01: Zwei tatsaechlich ueber einen getrennten authentifizierten Providerzugang gelesene TECHNISCHE Google-Docs-Textexporte stimmten in ihrer vollstaendigen Bytezahl und lokal berechneten SHA-256 jeweils mit dem bestehenden privaten Oracle-Quellenmanifest und dessen Suchindex ueberein; die jeweils separat gelesene aktuelle Dokumentrevision entsprach ebenfalls der uebermittelten Quellenrevision. Eine neue Offline-Quellenpruefung verlangt neben Versions-/Indexabgleich die eigenstaendige Hash-Pruefung tatsaechlicher Exportbytes und weist fiktive gleich lange Byte-Manipulation, fehlende Quelle und Revisionsdrift zurueck (vollstaendige Code-CI 88/88). Dies ist ein begrenzter technischer Zwei-Dokumente-Nachweis, KEIN Nachweis eines persoenlichen Chat- und Lebensdokumentenarchivs, keiner Personenbedeutung oder nachtraeglicher Aenderungssicherheit.",
+      "delta": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
         1
       ]
     }
