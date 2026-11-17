@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T06:07:30Z",
+  "updated_at": "2026-11-17T07:14:25.606Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1057,6 +1057,26 @@
         0,
         1,
         2,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C183-G02-SECONDARY-MARKDOWN-ROLE-SCOPE-OWNER-REVIEW-20261117",
+      "completed_at": "2026-11-17T07:14:25.606Z",
+      "evidence": "G02: Eine vorregistrierte, rein fiktive und ohne Modell-API ausgefuehrte Quellenpruefung verarbeitet jetzt die sekundäre Markdown-Chatansicht nach einer exakten lokalen SQLite/FTS-Originalwiederoeffnung aus dem bestehenden Zwei-Ansichten-Frageweg. Ein enger Rollen-Textoberflaechenfilter trennt ausdruecklich markierte, nicht authentifizierte Nutzer-Zeilen von Assistant-Text, fremder Rede, Zitaten, Codebeispielen und spekulativen Aussagen; unvollstaendige oder mehrdeutige Ansichten fuehren zur Abstinenz. 11 neue synthetische Tests einschliesslich echter lokaler SQLite-FTS-C35/C182/C183-Integration sowie komplette Code- und Zustands-CI bestanden auch unter Python -O. Das ist KEIN Nachweis echter ChatGPT-Autorschaft, persoenlicher Bedeutung oder live genutzter Oracle-Personendaten.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
         0,
         0,
         0,
