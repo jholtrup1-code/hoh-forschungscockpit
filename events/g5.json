@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T00:07:09.141Z",
+  "updated_at": "2026-11-17T01:08:30.131Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -921,6 +921,26 @@
         0,
         0,
         2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C176-G07-OWNER-REPLAY-REVIEW-20261117",
+      "completed_at": "2026-11-17T01:07:05.000Z",
+      "evidence": "C176 G07: Vorregistrierter fiktiver End-to-End-Besitzer-Fragentest pruefte die Weitergabe eines C175-Quellenkonflikts an einen tatsaechlich aufrufbaren geschuetzten lokalen Frage-/Pruefbericht. Der erwartete Testfehler vor Implementierung (#43992861203: fehlende Besitzeranwendung, NICHT Fehler im Zeitlinienkern) und die vollstaendige erfolgreiche G5-Code-CI (#43992941304) belegen jetzt: zwei Importe desselben byteidentischen Originals mit widersprechenden Annotationen werden nur privat zur Originalpruefung vorgelegt; auch unterschiedliche aufgezeichnete Originale begruenden keine freigegebene persoenliche Veraenderungsantwort. Die Eingabe verlangt Besitzer-Opt-in, 0600-Dateischutz, Quellenhash-/Offset-Pruefung und erneutes geschuetztes Einlesen; oeffentlich erscheinen ausschliesslich textfreie Statusfelder. Fuenf fiktive Tests normal/-O, keine echten privaten Originale, keine authentifizierte Bedeutung und kein Livearchiv-Versionsschutz.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        1,
         1
       ]
     }
