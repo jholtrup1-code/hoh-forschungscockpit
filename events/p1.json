@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T13:35:39.439Z",
+  "updated_at": "2026-11-17T14:42:09.706Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1108,6 +1108,26 @@
       "id": "P1-65-DBRC-SEVERITY-SPREAD-20261117",
       "completed_at": "2026-11-17T13:35:39.439Z",
       "evidence": "P1-65: Vorregistrierte sekundäre Auswertung eines bereits in P1-12 verwendeten, laut Autoren-README CC BY 4.0 freigegebenen japanischen Dialog-Reparaturkorpus. 3990 menschliche Schwerebewertungen in 140 identischen vorgegebenen Fehlerszenarien: 131/140 Szenarien mit Spannweite mindestens 5 von 10 Skalenpunkten; strikter Leave-one-out-Szenariomedian MAE 1,6288 gegen globalen Median MAE 2,2143. 12/12 isolierte eigene Negativkontrollen, unabhängige vollständige Feld- und Median-Zweitauszaehlung. Neue Erkenntnis zur Bewertungsheterogenitaet, kein neuer unabhaengiger Datensatz, keine prospektiv eingesetzte KI, keine persoenliche Bedeutungsvalidierung oder Usernutzenmessung. G5 unveraendert.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-66-CIRCA-CROSS-QUESTION-LABEL-CONFLICT-20261117",
+      "completed_at": "2026-11-17T14:42:09.706Z",
+      "evidence": "P1-66: Auf bereits in P1-51 verwendeten, offen verfuegbaren, von fuenf Menschen bewerteten konstruierten Antwortdaten wurde vor der Neu-Auswertung eine eigene eng begrenzte Kontextfrage registriert. Erste 4000 Quellzeilen fixiert, 3832 gueltige Mehrheitslabels. 101 Gruppen wortgleich normalisierter Antworten auf mindestens zwei unterschiedliche Fragen: 10/101 Gruppen (9,90%) weisen unterschiedliche menschliche Mehrheitsinterpretationen auch zwischen verschiedenen Fragen auf. Antworttext-allein-In-Sample-Orakel hat 10 Fehler auf 243 Gruppeneintraegen. Zwei unabhaengige Auszaehlungen und 8/8 isolierte eigene Kontrollen stimmen. Kein kausaler Frageeffekt, keine longitudinale persoenliche Glaubensreferenz, kein realer Nutzenversuch; Corpus ist P1-51-Wiederverwendung, kein neuer unabhaengiger Studienzaehler; keine G5-Aenderung.",
       "delta": [
         0,
         0,
