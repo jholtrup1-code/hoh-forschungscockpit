@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T22:24:29.357Z",
+  "updated_at": "2026-11-17T23:17:37.675Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1388,6 +1388,26 @@
       "id": "E12-CP089",
       "completed_at": "2026-11-17T22:24:29.357Z",
       "evidence": "Three previously unprocessed PDF attachments were fully downloaded and duplicated as byte-identical originals to the authorized non-shared private Drive app folder (200,039 bytes; all three independent SHA-256 original/copy comparisons matched). Complete locally extracted PDF text was line-indexed with a temporary SQLite FTS5 integrity_check=ok (270 nonblank lines), and a separate readable full-text derivative was privately persisted in a native Google Doc with its own export hash and readback. Verified source-line hashes distinguish a self-labeled fictional composition from authored correspondence, and two historical draft versions show 20 overlapping line occurrences rather than independent evidence. The private CP089 checkpoint and append-only manifest were checked for correct parent IDs, non-shared status, source hashes and continuity. The bounded correspondence branch advances to 24/28 processed; other Drive folders and persistent cross-run indexing remain incomplete.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP090",
+      "completed_at": "2026-11-17T23:17:37.675Z",
+      "evidence": "The four remaining files of a bounded correspondence-attachment folder (two PDFs and two images) were fully downloaded, copied into a verified private Drive app folder, independently downloaded again, and matched byte-for-byte by SHA-256 (776,329 total source bytes). PDF text extraction indexed 976 nonblank original lines with an in-memory SQLite FTS5 integrity check; two complete readable text derivatives were privately persisted as native documents and read back equal to source text after documented removal of nonprinting PDF control characters. A historically dated external article supplies a directly verified product-vision passage, without claiming independent media-origin authentication. The two images were visually classified, not OCR-indexed. All four source/copy folder IDs and non-shared metadata, the new private checkpoint, and the append-only manifest were verified and read back. The bounded archive is now 28/28 files copied and classified; the broader Drive recursion and persistent SQLite integration remain unfinished.",
       "delta": [
         0,
         1,
