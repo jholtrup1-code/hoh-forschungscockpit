@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T01:19:18.367Z",
+  "updated_at": "2026-11-17T02:18:07.766Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -956,6 +956,26 @@
         1,
         0,
         0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C178-G01-OWNER-QUESTION-INDEX-AND-LIVE-ARCHIVE-FRESHNESS-20261117",
+      "completed_at": "2026-11-17T02:18:07.766Z",
+      "evidence": "Synthetic local SQLite test-first: owner question now distinguishes missing chat/document family, question-specific FTS index gaps and exact unjudged original reopening. Independent late second-connection withdrawal/new-edition regression prevents stale live-manifest currentness; full source CI 87/87. No real personal archive coverage or human meaning validation.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
         1,
         0,
         0,
