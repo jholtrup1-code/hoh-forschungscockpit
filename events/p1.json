@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T06:34:43.290Z",
+  "updated_at": "2026-11-17T07:41:00.029Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -993,6 +993,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-60-REPAIRQA-THIRD-POSITION-CUE-20261117",
+      "completed_at": "2026-11-17T07:41:00.029Z",
+      "evidence": "P1-60: Auf dem neu und unabhängig freigegebenen nichtkommerziellen Repair-QA-Testkorpus wurden 658 menschlich doppelt formulierte dritte Reparaturzüge reproduzierbar ausgewertet. Ein vorab fixiertes Neunwort-Korrektursignal fehlte bei 548/1316 menschlichen Reparaturformulierungen (41,64%). Unter 658 Paaren war kein Normalisierungs-Wortlautpaar identisch; 308 Paare unterschieden sich in der Signalwortpräsenz. Zwei eigene isolierte Prüfwege (15/15 Negativ-/Kontrolltests plus unabhängige Aggregatkontrolle) stimmen überein. Rein lexikalische F05-Reparatursignale sind kein zuverlässiger Negativbeleg. Positivfallkorpus ohne Nicht-Reparaturen; keine falschen Positiven, echten Sprecherabsichten, geänderten Meinungen, psychologischen Personenfähigkeiten, realen Kosten oder G5-Integration validiert.",
+      "delta": [
+        0,
+        1,
+        0,
+        2,
         0,
         0,
         0,
