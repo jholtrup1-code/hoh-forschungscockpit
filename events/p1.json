@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T15:41:25.806Z",
+  "updated_at": "2026-11-17T16:33:30.413Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1148,6 +1148,26 @@
       "id": "P1-67-FRICTION-NOT-FAILURE-20261117",
       "completed_at": "2026-11-17T15:40:15.222Z",
       "evidence": "P1-67: Prospektiver, quellengebundener Negativfalltest anhand 9 Original-Metadatendateien menschlich annotierter technischer Hilfsgespraeche (ACL 2025, ConvoKit CC BY 4.0). Batch1 ausgeschlossen, 180 ungesichtete Zielzeilen, davon 173 mit registrierten Endekategorien. Eine harte Regel 'beobachtete Gespraechsfriktion = kein Fortschritt' lag 66-mal gegen menschlich bewerteten Fortschritt falsch und uebersah 19 No-Progress-Faelle ohne Friktion. Konfusionsmatrix TP28/FP66/FN19/TN60. 17/17 synthetische Schutzpruefungen und unabhaengige Zweitauszaehlung bestanden. Nur deskriptive Rekonstruktion, keine neue kausale Wirkung, keine gepruefte personenbezogene Bedeutung oder nachgewiesene produktive Anwendungsverbesserung. G5 unveraendert, externe Modellkosten 0.",
+      "delta": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-68-ARGUMENT-ROLE-STANCE-20261117",
+      "completed_at": "2026-11-17T16:33:30.413Z",
+      "evidence": "P1-68: Prospektiver F07-Test mit 30/30 erreichbaren, offen lizenzierten und unabhaengig annotierten deutschen Argumentationsdokumenten. 23/30 enthalten sowohl Pro- als auch Gegenargumentrollen bei eigener Dokumentpositionsannotation; Gegenargumentrolle-als-Autorenposition-Regel TP11 FP12 FN4 TN3, 14/30 korrekt gegen 15/30 konstante Mehrheitsbaseline. H1 bestanden, H2 nicht erreicht. 18/18 isolierte Kontrollen und unabhaengiger zweiter Parser in 30/30 Quellen konsistent. Keine personenspezifische Bedeutungs- oder Meinungswechselvalidierung, keine G5-Integration.",
       "delta": [
         0,
         1,
