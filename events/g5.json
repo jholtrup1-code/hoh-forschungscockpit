@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T23:07:33.000Z",
+  "updated_at": "2026-11-17T00:07:09.141Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -901,6 +901,26 @@
         0,
         0,
         1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C175-G02-IDENTICAL-ORIGINAL-REPLAY-LONGITUDINAL-GUARD-20261117",
+      "completed_at": "2026-11-17T00:07:09.141Z",
+      "evidence": "C175 G02: Vorregistrierter fiktiver Vergleich auf der tatsaechlichen Zeitlinien-/Menschenmotor-API zeigte zwei falsch als langfristig verschieden eingeordnete Aussagen aus EINEM byteidentischen, zweimal importierten Original mit verschiedenen Importkennungen, Zeitmetadaten und widersprechenden externen Stance-Tags (echter RED #43984535673, zwei Fehlassertionen). Die korrigierte Originalpruefung verlangt nun unterschiedliche vollstaendige Quellen-SHA fuer einen zeitlich getrennten Aenderungskandidaten, erhaelt beide Originalspuren und kennzeichnet widerspruechliche Annotationen desselben Originals als pruefbeduerftig. Vollstaendige G5-Code-CI #43984637241 SUCCESS mit sechs fiktiven Testmethoden normal/-O und historischen Regressionen. Keine echten Lebensdaten, authentifizierten Sprecher, Autorbewertungen oder bestaetigten Veraenderungen.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
         1
       ]
     }
