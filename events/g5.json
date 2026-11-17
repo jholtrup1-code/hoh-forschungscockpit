@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T18:06:17Z",
+  "updated_at": "2026-11-17T19:10:47.816Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1294,6 +1294,26 @@
         1,
         0,
         0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C195-G07-ADJACENT-DAY-SOURCE-REASSIGNMENT-20261117",
+      "completed_at": "2026-11-17T19:10:47.816Z",
+      "evidence": "Prospectively registered, owner-opt-in offline adjacent-day original reconciliation now links SHA-verified same-source identities crossing an Europe/Berlin recorded-day boundary in two immutable local SQLite snapshots. The frozen fictional day-chapter correction task correctly paired 2/2 opposite cross-midnight source moves, marked both day source packets for private re-review and classified same-day original changes separately. An additional independent post-green regression preserved a simultaneous original-content correction during relocation. Eleven synthetic tests passed regular and optimized Python. Full 103-step code CI #44155556031 and independent 8-step scientific-state CI #44155556029 both passed on the identical private research commit 01a16199867f211144be3cddf3bdabca5a7ad6d9. No live personal Oracle source, authenticated author/lived-day truth, human meaning gold or manuscript action established.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        1,
         1,
         0,
         2,
