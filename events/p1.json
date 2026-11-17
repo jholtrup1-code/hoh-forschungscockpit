@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T11:36:32.318Z",
+  "updated_at": "2026-11-17T12:39:40.766Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1073,6 +1073,26 @@
         1,
         0,
         1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-64-R1-KABLE-LABEL-ELIGIBILITY-20261117",
+      "completed_at": "2026-11-17T12:39:40.766Z",
+      "evidence": "P1-64-R1: Original-KaBLE-Autorendaten (MIT-Lizenz, Original-Git-Blobs geprueft) enthalten in 100 unabhaengig reservierten gepaarten Szenarien vier Aufgaben mit 400 Antwortfeldern. Davon 150 nicht als einzelnes A/B/C auswertbar: 100 zusammengesetzte '(B),(C)'-Goldfelder und 50 leere Goldfelder. Prospektive Einzellabel-Eignungspruefung daher gestoppt, keine Hypothesenscores. 14/14 isolierte synthetische Schutztests, unabhaengige zweite Strukturauszaehlung. 0 neue psychologische Personen-Goldvalidierung, 0 extern bezahlte Modellaufrufe, kein G5-Eingriff. Nur neue quellengebundene Schema-/Validierungserkenntnis.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
         0,
         0,
         0,
