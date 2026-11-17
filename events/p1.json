@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T01:34:18.744Z",
+  "updated_at": "2026-11-17T02:39:40.051Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -893,6 +893,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-55-CCPE-PREFERENCE-CUE-SELECTIVITY-20261117",
+      "completed_at": "2026-11-17T02:39:40.051Z",
+      "evidence": "P1-55: Neu zugängliche, öffentlich CC-BY-4.0-lizenzierte menschenverfasste 100-Dialog-Stichprobe vor Auswertung registriert; 1.228 USER-Aeusserungen mit 876 fremdannotierten Praeferenzen. Strengere Wortsignal-und-Annotations-Auswahl reduziert 183 auf 23 Fehlpositive und hebt Praezision 82,72 auf 95,99 Prozent, verliert aber 325 annotierte Praeferenzen; F1 sinkt von 90,54 auf 76,00 Prozent. Beide selektiven Vorregistrierungs-Gates bestanden, keine Uebernahme in Produkt: Referenzen sind Drittannotationen, keine Sprecherbestaetigung oder Langzeitentwicklung. GitHub-zurueckgelesener P1-Code: 31 synthetische Assertions bestanden, separate Originaldaten-Nachzaehlung stimmt exakt. Keine personenbezogenen Daten, keine bezahlten Modellaufrufe, keine G5-Aenderung.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
         0,
         0,
         0,
