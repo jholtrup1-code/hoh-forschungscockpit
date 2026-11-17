@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T15:06:36.209Z",
+  "updated_at": "2026-11-17T16:10:11.837Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1242,6 +1242,26 @@
         0,
         1,
         1
+      ]
+    },
+    {
+      "id": "G5-C192-G07-OWNER-LOCAL-DAY-ORIGINALS-20261117",
+      "completed_at": "2026-11-17T16:10:11.837Z",
+      "evidence": "A prospectively preregistered owner-only fictional on-disk SQLite day-intake task now extracts all SHA-verified user-envelope archive originals recorded within one Europe/Berlin calendar day, preserving private chronology across chats and daylight-saving fallback. Compared on frozen originals, a naive UTC calendar-day grouping omitted one correct local-day source and included two adjacent-day sources; the bounded private source packet selected all three correct records. Nine new synthetic regressions passed both regular and optimized Python, full 100-step source CI and separate 8-step scientific CI passed on the identical private research state. No personal Oracle archive, event-day/author authentication, human meaning gold, or book manuscript authorization was established.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        2
       ]
     }
   ],
