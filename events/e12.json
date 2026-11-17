@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T12:16:34.096Z",
+  "updated_at": "2026-11-17T13:15:14.300Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1168,6 +1168,26 @@
       "id": "E12-CP078",
       "completed_at": "2026-11-17T12:16:34.096Z",
       "evidence": "Four previously unprocessed native Google Docs in the bounded original-voices folder were fully exported through the connected Drive service, copied to the authorized private application folder, and independently re-exported. All four original/copy text byte streams matched by SHA-256 (248,360 bytes total); the copies' destination parent and non-shared state and a new private checkpoint plus append-only manifest were read back and verified. A temporary SQLite FTS5 indexed 1,259 nonblank original lines and passed integrity check. The directly inventoried folder had 40 entries and no further pagination token; 14 native documents and three non-native files remain. The source documents explicitly distinguish unreviewed raw candidates from validated evidence; underlying media and cross-run SQLite integration were not independently verified.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP079",
+      "completed_at": "2026-11-17T13:15:14.300Z",
+      "evidence": "Four previously unprocessed native source-folder documents were fully exported as text/plain, copied to the authorized private Drive application folder, and independently re-exported. All four source/copy byte streams matched SHA-256 (17,629 bytes in total); six private artifacts were checked for correct parent and non-shared status, and the append-only manifest plus CP079 private checkpoint were read back. Temporary Python SQLite FTS5 indexed 150 nonblank lines and passed integrity check. The source documents themselves classify their transcripts as automatic and not audio-verified; underlying media and persistent cross-run E12 were not verified. The directly listed folder holds 40 files, with 10 native Docs and three non-native sources remaining.",
       "delta": [
         0,
         1,
