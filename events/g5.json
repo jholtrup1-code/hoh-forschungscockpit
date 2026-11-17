@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T09:09:17.273Z",
+  "updated_at": "2026-11-17T10:03:21Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1117,6 +1117,26 @@
         0,
         1,
         2,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C186-G07-FROZEN-SYNTHETIC-OWNER-QUESTION-DIFFERENTIAL-20261117",
+      "completed_at": "2026-11-17T10:03:21Z",
+      "evidence": "Ein vorregistrierter, rein fiktiver achtfaelliger G07-Nutzbarkeitstest verglich denselben tatsaechlich laufenden lokalen SQLite-Originalsuch- und Wiederaufrufpfad mit einer einfachen Regel 'jeder FTS-Treffer rechtfertigt eine Selbstaussagen-Sichtung'. Die schwache Vergleichsregel waehlt sechs von sechs negativen Faellen falsch aus; der vorhandene C185-Rollen-/Fragefilter enthaelt sie alle zurueck und bewahrt beide positiven Originalzitate mit exakt wiedergeoeffneten privaten Quellstellen. Vier neue fokussierte Tests unter normalem und optimiertem Python sowie vollstaendige 95-Schritt-Code-CI und separate 8-Schritt-Forschungspruefung bestanden auf demselben Forschungszustand. Dies ist ein reproduzierbarer technischer Vergleich auf bewusst gestalteten Testdaten, KEIN nachgewiesener Nutzen an echten Lebensfragen, KEINE unabhaengige Autoren- oder Bedeutungsbewertung und KEIN Zugriff auf die laufende private Oracle-Datenbank.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
         0,
         0,
         0,
