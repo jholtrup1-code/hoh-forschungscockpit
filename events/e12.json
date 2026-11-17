@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T10:17:06.099Z",
+  "updated_at": "2026-11-17T11:17:05.370Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1128,6 +1128,26 @@
       "id": "E12-CP076",
       "completed_at": "2026-11-17T10:17:06.099Z",
       "evidence": "Four previously unprocessed native source-moments documents were fully exported through the connected Drive service, copied privately into the authorized non-shared app folder, and independently re-exported; four of four source/copy text byte streams matched by SHA-256 (55,419 bytes). Ephemeral Python SQLite FTS5 indexed 602 nonblank original-document lines and passed its integrity check. Four source metadata records, private copy parent IDs and non-shared status, the append-only manifest, and the new private checkpoint were read back and verified. A historical original-document status ledger distinguishes passage checking from full-context clearance, and an older overlap comparison warns of identifier collisions; this confirms the documents' stated methods, not a fresh audit of underlying audio. The bounded folder still has unprocessed items; cross-run persistent SQLite remains unverified, and the separate raw-text upload attempt was rejected by the connector.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP077",
+      "completed_at": "2026-11-17T11:17:05.370Z",
+      "evidence": "Four previously unprocessed native source-moments documents were independently exported in complete text/plain form, copied to the authorized private Drive application folder, re-exported and verified byte-identical by SHA-256 (52,326 source bytes). Their source IDs and metadata, private copy parent and non-shared state, and original-document line evidence were registered in the append-only private E12 manifest and a newly created private checkpoint, both read back after writing. A temporary Python SQLite FTS5 index of 391 nonblank document lines passed integrity verification. Direct folder pagination finished with no remaining document/folder page token; unprocessed sources and other House branches remain. Original media and persistent E12 integration were not verified.",
       "delta": [
         0,
         1,
