@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T21:17:40.659Z",
+  "updated_at": "2026-11-17T22:24:29.357Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1377,6 +1377,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP089",
+      "completed_at": "2026-11-17T22:24:29.357Z",
+      "evidence": "Three previously unprocessed PDF attachments were fully downloaded and duplicated as byte-identical originals to the authorized non-shared private Drive app folder (200,039 bytes; all three independent SHA-256 original/copy comparisons matched). Complete locally extracted PDF text was line-indexed with a temporary SQLite FTS5 integrity_check=ok (270 nonblank lines), and a separate readable full-text derivative was privately persisted in a native Google Doc with its own export hash and readback. Verified source-line hashes distinguish a self-labeled fictional composition from authored correspondence, and two historical draft versions show 20 overlapping line occurrences rather than independent evidence. The private CP089 checkpoint and append-only manifest were checked for correct parent IDs, non-shared status, source hashes and continuity. The bounded correspondence branch advances to 24/28 processed; other Drive folders and persistent cross-run indexing remain incomplete.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
         0,
         0,
         0,
