@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T02:17:43.619Z",
+  "updated_at": "2026-11-17T03:16:09.514Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -968,6 +968,26 @@
       "id": "E12-CP068",
       "completed_at": "2026-11-17T02:17:43.619Z",
       "evidence": "Four previously unmanifested Google Docs from technical-workshop, product-vision and source-quality branches were downloaded as full text/plain originals and archived as private native Drive copies. Four independent source/copy SHA-256 byte comparisons matched (100,755 bytes; 787 original lines). A bounded in-memory SQLite FTS5 test verified search hits against original line hashes. The private append-only manifest and checkpoint were re-read with the authorized destination parent and non-shared state. One direct workshop folder now lists 41 native Docs plus one child folder; another large subfolder yielded 100 items and remains incompletely paginated. Separate durable raw-text upload is blocked by connector file-reference validation, and cross-run Python indexing remains unverified. This is a verified private source bridge, not proof of full E12 or Oracle integration. No private content or source URLs published.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP069",
+      "completed_at": "2026-11-17T03:16:09.514Z",
+      "evidence": "Four previously unmanifested Google Docs source IDs were independently exported in complete text/plain form and copied privately. Original and copy exports matched byte-for-byte by SHA-256 in all four cases (82,261 bytes, 715 raw text lines); comparison against the prior manifest detected one byte-identical duplicate, leaving three newly distinct source contents. A bounded SQLite FTS5 test queried real exported lines, and line hashes were checked. The private manifest and checkpoint were appended, re-read and verified in the authorized non-shared Drive app folder with all four private copies. A direct source folder scan returned 130 items, while a two-page document-class search returned 106 and excluded 24 JSON/ZIP files. Permanent cross-run indexing and independent raw-text uploads remain blocked or unverified. No personal details, original text or private source URLs published.",
       "delta": [
         0,
         1,
