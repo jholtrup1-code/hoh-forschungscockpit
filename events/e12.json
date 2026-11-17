@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T20:20:18.091Z",
+  "updated_at": "2026-11-17T21:17:40.659Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1361,6 +1361,26 @@
         0,
         0,
         2,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP088",
+      "completed_at": "2026-11-17T21:17:40.659Z",
+      "evidence": "Four previously unprocessed private archive attachments in three ODT versions and one PDF were downloaded in full, independently copied within the authorized non-shared Drive app folder, and verified byte-for-byte by matching complete SHA-256 checksums (94,268 total binary bytes). Original and copied parent IDs plus visibility were checked from Drive metadata. Complete ODT paragraph and PDF page text was extracted locally, with 87 nonblank indexed lines and a successful temporary SQLite FTS5 integrity check; a line-overlap comparison found version/cross-format redundancy without claiming textual identity. The append-only private manifest and CP088 checkpoint were reread with expected hashes and correct private parent. This advances a bounded correspondence branch to 21/28 processed, not the whole Drive tree. Persistent indexing and a separately uploaded extracted-text derivative remain unavailable.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
         0
       ]
     }
