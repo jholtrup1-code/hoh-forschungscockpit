@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T16:10:11.837Z",
+  "updated_at": "2026-11-17T17:01:24.598Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1262,6 +1262,26 @@
         0,
         1,
         2
+      ]
+    },
+    {
+      "id": "G5-C193-G07-SAME-CHAT-DAY-BOUNDARY-ORIGINALS-20261117",
+      "completed_at": "2026-11-17T17:01:24.598Z",
+      "evidence": "Prospectively preregistered, owner-opt-in local on-disk SQLite source continuity task now retrieves exact SHA-verified recorded-time predecessor/successor USER-envelope originals for each active same-branch/same-chat day stream. Independent frozen fictional day task retrieves 3/3 boundary source anchors versus 0/3 in a day-only packet (a distinct downstream task); insertion-order distractors, other chats/branches, assistant turns, ambiguous timestamps, incomplete source inventory and concurrent supersession are guarded. Ten synthetic methods passed regular/optimized Python; 101-step source CI and independent 8-step scientific-state CI both passed on the identical private commit. No real personal Oracle archive, authenticated human authorship, lived-event chronology or independent meaning review asserted.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1
       ]
     }
   ],
