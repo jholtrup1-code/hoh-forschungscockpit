@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T04:32:21.714Z",
+  "updated_at": "2026-11-17T05:37:40Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -952,6 +952,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-58-R1-CCPE-MISSING-ANNOTATION-GATE-20261117",
+      "completed_at": "2026-11-17T05:37:40Z",
+      "evidence": "P1-58-R1: Methodischer Fehler bei einer Sekundaerpruefung desselben oeffentlich CC-BY-4.0-lizenzierten Korpus: unter 1.323 USER-Turns fehlte bei 212 das Annotationsfeld, davon 36 mit Praeferenz-Wortsignal. Vorab eingefrorene R0-Pruefung stoppt korrekt; transparente R1-Exploration, nach Schemaeinsicht geaendert, zeigt nur auf 1.111 explizit annotierten Turns 599 TP/26 FP/345 FN/141 TN (Precision 95,84%). Unter der unbestaetigten Annahme 'fehlend = negativ' hingegen 599 TP/62 FP/345 FN/317 TN (Precision 90,62%). Die 5,22-Punkte-Differenz ist ein Kennzahlenrisiko, keine neue Menschenverstehensfaehigkeit. 21/21 isolierte synthetische Tests und unabhaengige Vierfeldnachzaehlung bestanden. Urspruengliche vorregistrierte H1/H2 NICHT bestaetigt, keine unabhaengige persoenliche Bedeutungsreferenz, keine Modell-API, kein G5-Eingriff.",
+      "delta": [
+        0,
+        0,
+        1,
         0,
         0,
         0,
