@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T04:07:52.843Z",
+  "updated_at": "2026-11-17T05:07:40.000Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1012,6 +1012,26 @@
         0,
         1,
         2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C181-G01-PERSONAL-DRIVE-TWO-FAMILY-VIEWS-OFFLINE-SQLITE-20261117",
+      "completed_at": "2026-11-17T05:07:40.000Z",
+      "evidence": "G01: Erstmals wurden ueber den vorhandenen authentifizierten Google-Drive-Zugang tatsaechlich ZWEI persoenliche Quellenansichten unterschiedlicher Art unabhängig wiederholt gelesen: ein abgeleiteter Chat-Markdown-Text (sekundaere Darstellung) und die Absatz-Textansicht eines nativen Google Docs; Wiederholungslesungen stimmten, die Docs-Revision blieb stabil. Neuer ausschliesslich offline arbeitender Besitzer-Staging-Baustein trennt beide Formate, prueft UTF-8-Bytes und SHA-256 sowie Dateirechte und erzeugt ein Manifest fuer den vorhandenen lokalen SQLite-Importer. Sieben neue fiktive Tests inklusive echtem lokalen SQLite-Import, FTS-Originalwiederaufruf und Negativkontrollen bestanden in voller CI normal und unter Python -O. Der tatsaechliche Import in die Oracle-Personendatenbank, das rohe ChatGPT-Originalformat, Autoren-Gold und Gesamtarchiv-Abdeckung sind NICHT nachgewiesen; keine privaten Rohtexte oder Identifikatoren veroeffentlicht.",
+      "delta": [
+        0,
+        2,
+        1,
         0,
         0,
         0,
