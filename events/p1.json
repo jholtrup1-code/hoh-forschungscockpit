@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T02:39:40.051Z",
+  "updated_at": "2026-11-17T03:34:32.649Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -913,6 +913,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-56-INDIVIDUAL-PREFERENCE-SOURCE-GATE-20261117",
+      "completed_at": "2026-11-17T03:34:32.649Z",
+      "evidence": "P1-56: Neue unabhaengig bibliografisch, methodisch und hinsichtlich oeffentlicher Datensatzlizenz gepruefte Originalquelle zu eigenen menschlichen Antwortwahl-Praeferenzen. Original-HTML-Anhang und Anbieter-CC-BY-4.0-Lizenz gelesen; 3603 Teilnehmende/90256 Gespraeche sind Autorenzahlen, keine selbst ausgezaehlten Originaldaten. Datendatei ist ein Git-LFS-Zeiger auf ein 1,9-GB-Archiv. Zwei Erhebungswellen und wiederholte Praeferenzwahlen beweisen keine persoenliche Meinungsentwicklung. Datenschutzminimierte Stichprobe fehlt, daher korrekter STOP ohne Datenimport, Experiment, API-Ausgabe oder Personen-Gold. Nur verifizierter neuer Quellen- und Studiendesign-Fortschritt, keine G5-Uebernahme.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
