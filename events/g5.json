@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T19:10:47.816Z",
+  "updated_at": "2026-11-17T20:12:23.790Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1314,6 +1314,26 @@
         1,
         0,
         1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C196-G07-EDITOR-CHAPTER-CITATION-IMPACT-20261117",
+      "completed_at": "2026-11-17T20:12:23.790Z",
+      "evidence": "Prospectively preregistered owner-only synthetic chapter-citation dependency task compares an editor-supplied frozen two-day citation map with original SHA-reopened SQLite before/after snapshots. Unlike coarse day re-review (2 recorded days affected), the independently checked fixture correctly invalidates the one chapter citing a moved original while retaining one chapter with unchanged citation, and labels unrelated source changes advisory. Independent post-first-GREEN C196-R holdout produced genuine RED #44166192675: simultaneous same-day original and recorded-clock corrections had been collapsed to content-only; repaired and passed 11 synthetic methods normal/optimized Python. Final full source CI 104/104 #44166593057 and separate scientific-state CI 8/8 #44166593020 passed on identical private commit 45b56d3f. No production personal Oracle source, verified manuscript author mapping, lived event, human semantic gold or manuscript modification.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
         1,
         0,
         2,
