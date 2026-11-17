@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T20:41:45.469Z",
+  "updated_at": "2026-11-17T23:39:53.262Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1222,6 +1222,26 @@
         0,
         2,
         0
+      ]
+    },
+    {
+      "id": "P1-71-TYPED-EVIDENCE-GATE-20261118",
+      "completed_at": "2026-11-17T23:39:53.262Z",
+      "evidence": "P1-71: Prospektiv vor isolierter Ausfuehrung dokumentierter rein synthetischer Typ-/Belegsuffizienz-Vertrag nach bekanntem P1-70-Draft-Metrikfehler. Die auf privatem Branch gespeicherte eigene JS-Implementierung wurde exakt von GitHub zurueckgelesen, statisch sicherheitsgeprueft und in isoliertem V8 ausgefuehrt: zwei unterschiedlich formulierte Pruefalgorithmen stimmen fuer 21/21 vorab angelegte synthetische Faelle ueberein (16 strukturell unbelegt, 5 formell explizit doppelt belegt), dazu 4/4 Reihenfolgekontrollen. Nullbeleg-Draft-Baseline bleibt bei Scheinergebnis 1, reine Nichtnull-Delta-Pflicht verwirft alle fuenf bewusst stabilen Faelle. Validiert nur den technischen Eingabe-/Provenienzvertrag; keine unabhaengigen menschlichen Goldurteile, keine neu bestaetigte psychologische Personenerkennung oder praktische Anwendungsverbesserung. Keine G5-Integration, keine Modell-API-Aufrufe.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
       ]
     }
   ],
