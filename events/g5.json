@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T10:03:21Z",
+  "updated_at": "2026-11-17T11:06:22.794Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1141,6 +1141,26 @@
         0,
         0,
         1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C187-G08-FICTIONAL-SEMANTIC-ACTION-COLLISION-20261117",
+      "completed_at": "2026-11-17T11:06:22.794Z",
+      "evidence": "G08: Ein vorregistrierter, rein fiktiver Kontrasttest vergleicht anders gemeinte Ich-Aussagen zu gleicher Frage über den realen lokalen SQLite-Originalimport, Volltextsuche, versionsgebundenen Wiederaufruf und die vorhandene private Quellenprüfansicht. In drei von fünf fiktiven Kontrastpaaren liefert der Prüfpfad dieselbe ausdrücklich UNBEWERTETE Sichtungsentscheidung, obwohl die vorab festgelegten Bedeutungsvarianten verschieden sind; zwei weitere Paare bleiben wegen der Formulierung ausgeschlossen. Ein neuer quelltextfreier und fehlersperrender Prüfer weist diese Nichtunterscheidbarkeit reproduzierbar nach. Vier neue Tests unter normalem und optimiertem Python bestanden, ebenso die komplette 96-Schritt-Codeprüfung und die separate wissenschaftliche Integritätsprüfung auf identischem privaten Forschungsstand. Dies ist eine technische Diagnose einer Grenze der Stichwortsichtung, kein Fehler der bewusst unbewerteten Quellenansicht, keine neue semantische Antwort, kein menschlicher Bedeutungsnachweis und kein Zugriff auf die laufende private Oracle-Lebensdatenbank.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
         1
       ]
     }
