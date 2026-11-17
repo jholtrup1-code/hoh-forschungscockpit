@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T16:21:28.054Z",
+  "updated_at": "2026-11-17T17:16:10.146Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1282,6 +1282,26 @@
         0,
         2,
         1
+      ]
+    },
+    {
+      "id": "E12-CP084",
+      "completed_at": "2026-11-17T17:16:10.146Z",
+      "evidence": "Four previously unprocessed native-document text source copies in a directly inventoried correspondence archive branch were fully exported and privately duplicated. All four independent original/copy UTF-8 exports matched byte-for-byte SHA-256 (29,060 bytes); source and private-copy parent IDs and non-shared status, exact original-line locations, private append-only manifest, and checkpoint were read back. The five direct subfolders have 28 immediate items with no deeper children in the checked directory pages; 23 direct contents remain unprocessed. Temporary SQLite FTS5 indexed 621 nonblank original lines and passed integrity_check. A text source explicitly notes it is not a full MIME original; original-mail provenance and persistent E12 integration remain unverified.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
       ]
     }
   ],
