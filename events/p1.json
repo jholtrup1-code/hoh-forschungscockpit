@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T16:33:30.413Z",
+  "updated_at": "2026-11-17T19:33:38.345Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1173,6 +1173,26 @@
         1,
         0,
         1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-69-ANNOMI-AUTHOR-RIGHTS-CROSSCHECK-20261117",
+      "completed_at": "2026-11-17T19:33:38.345Z",
+      "evidence": "P1-69: Neue quellengebundene F07-Rechtepruefung anhand der Originalverlagsveroeffentlichung von 2023 und dem Autorenrepository: Die Autoren erklaeren eine 'Public Domain License', Einwilligung und Rechtefreigabe fuer demonstrierte Beratungsgespraeche. Im Repository fehlt weiterhin ein eindeutig benannter LICENSE/COPYING-Lizenztext; exaktes Lizenzinstrument und Einzelrechte nicht unabhaengig belegt. Daher keine Rohdaten/O-Texte geoeffnet oder verarbeitet, kein Experiment, keine neue psychologische Validierung und keine G5-Integration. Ein neuer, eng begrenzter gepruefter Quellen-/Rechtestatus, kein behaupteter Anwendungsnutzen.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
