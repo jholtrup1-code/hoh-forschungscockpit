@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T13:14:33.144Z",
+  "updated_at": "2026-11-17T14:07:00Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1202,6 +1202,26 @@
         0,
         1,
         2
+      ]
+    },
+    {
+      "id": "G5-C190-G07-BOUNDED-UTC-ARCHIVE-ENDPOINTS-20261117",
+      "completed_at": "2026-11-17T14:07:00Z",
+      "evidence": "G07: Prospektiv vorregistrierte, rein fiktive und mechanisch unabhaengig pruefbare private Archivnavigationsaufgabe liefert aus tatsaechlich geloesenen lokalen SQLite-Originalen die beiden korrekten UTC-Aufzeichnungs-Endpunkte eines strikt begrenzten Zeitfensters, wo eine naive Importreihenfolge beide verfehlt. Ein nach dem ersten Lauf entwickelter unabhaengiger Negativtest zeigte einen echten Fehler: Ein manipuliertes Original konnte durch Entfernen des Suchworts der SHA-Pruefung entgehen. Nach reproduziert roter CI wird jetzt jede User-Umschlag-Originalzeile vor der Suchbegriffsfilterung auf SHA-Integritaet geprueft. Neun fiktive Integrations- und Negativtests normal/optimiert und die vollstaendige 99-Schritt-Code-CI sowie separate wissenschaftliche Integritaetspruefung bestanden auf dem dokumentierten privaten Forschungsstand. Keine echte Oracle-Personendatenbankabfrage, keine authentifizierte Sprecheridentitaet, keine Bedeutung oder Lebensveraenderung und keine Human-Gold-Bewertung belegt.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1
       ]
     }
   ],
