@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T06:14:30.313Z",
+  "updated_at": "2026-11-17T07:23:09.785Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1048,6 +1048,26 @@
       "id": "E12-CP072",
       "completed_at": "2026-11-17T06:14:30.313Z",
       "evidence": "Four previously unmanifested native Google Docs (one remaining control document and three background documents) were exported as complete text/plain and independently compared against private native copies in the authorized non-shared Drive app folder. All four original/copy SHA-256 digests matched byte-for-byte (194,966 bytes); 632 nonblank source lines were indexed in a bounded, ephemeral SQLite FTS5 test, with private line-level proofs. The direct control folder's 42 document IDs and the background folder's seven document contents now each have source receipts. Four additional knowledge subfolders were inventoried at their immediate level, with deeper recursion still open. Private manifest and checkpoint were back-read and all six destination objects verified non-shared with the authorized parent. Raw .txt upload remains connector-reference blocked; a persistent E12 index is not verified. No personal names, original text, or private source URLs published.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP073",
+      "completed_at": "2026-11-17T07:23:09.785Z",
+      "evidence": "Four previously unprocessed native source-register documents were fully exported to local private text, privately copied in the authorized Google Drive app folder, and independently re-exported. Four original/copy raw UTF-8 SHA-256 values matched byte-for-byte (98,809 total bytes; four distinct hashes); an ephemeral Python SQLite FTS5 indexed 989 nonblank original lines and matched source-line checksums. Nine previously pending child folders were paginated by document and folder categories to exhaustion, with counts recorded but content processing still pending. An append-only private checkpoint and source manifest were written and back-read; all six new Drive objects were confirmed in the authorized non-shared parent. Historic inventory claims are not current full-source validation. Raw separate Drive text upload and cross-run persistent indexing remain blocked or unverified. This represents a private source bridge, not integrated E12 search; no original quotations, private URLs, names or secrets published.",
       "delta": [
         0,
         1,
