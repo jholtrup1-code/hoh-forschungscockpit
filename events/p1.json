@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T10:33:26.048Z",
+  "updated_at": "2026-11-17T11:36:32.318Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1059,6 +1059,26 @@
         0,
         0,
         1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-63-R1-GUM-AND-CUE-20261117",
+      "completed_at": "2026-11-17T11:36:32.318Z",
+      "evidence": "P1-63-R1: Eine vorab registrierte eng begrenzte Untersuchung an einem neu genutzten offiziellen, entsprechend den Autorenhinweisen CC-BY-lizenzierten GUM-Diskurskorpus (nur Gespraeche/Interviews) verglich einfache AND-Wortsignale mit menschlich annotierten rhetorischen Relationen. Nach separat dokumentiertem DEV-Schema-STOP wurde ein vor der TEST-Analyse eingefrorenes Holdout auf 113 Diskursrelationen aus vier Dokumenten ausgefuehrt: 32 AND-only-Heuristikzuordnungen, davon 6 Abweichungen (18,75%) von den Labels conjunction versus contrast/concession; 72/113 Enthaltungen. 18/18 eigene isolierte Syntax-/Negativkontrollen und unabhaengiger Tab-Parser/Matrix-Recount bestanden. Nur lexikalischer Diskurs-Proxy, keine psychologische Ambivalenz, reale Meinungsentwicklung, Personensinn-Goldvalidierung, LLM-Leistung oder gemessener Nutzereffekt; G5 unveraendert.",
+      "delta": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         1,
         0
