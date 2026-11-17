@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T01:16:01.465Z",
+  "updated_at": "2026-11-17T02:17:43.619Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -948,6 +948,26 @@
       "id": "E12-CP067",
       "completed_at": "2026-11-17T01:16:01.465Z",
       "evidence": "Four additional previously unmanifested workshop Google Docs were independently exported as complete text/plain originals and private native copies, with byte-identical SHA-256 matches for all four pairs (60,865 bytes; 466 lines). An isolated SQLite FTS5 run indexed the original lines and returned reproducible search-hit counts and checked source-line hashes. Immediate workshop document and folder searches were paginated to completion (40 documents, one child folder). Private source copies, an append-only manifest delta, and a checkpoint were saved and back-read with verified non-shared metadata in the authorized private app folder. Persistent raw text uploads and cross-run Python indexing remain unverified; no private original texts or URLs are included in this public event.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP068",
+      "completed_at": "2026-11-17T02:17:43.619Z",
+      "evidence": "Four previously unmanifested Google Docs from technical-workshop, product-vision and source-quality branches were downloaded as full text/plain originals and archived as private native Drive copies. Four independent source/copy SHA-256 byte comparisons matched (100,755 bytes; 787 original lines). A bounded in-memory SQLite FTS5 test verified search hits against original line hashes. The private append-only manifest and checkpoint were re-read with the authorized destination parent and non-shared state. One direct workshop folder now lists 41 native Docs plus one child folder; another large subfolder yielded 100 items and remains incompletely paginated. Separate durable raw-text upload is blocked by connector file-reference validation, and cross-run Python indexing remains unverified. This is a verified private source bridge, not proof of full E12 or Oracle integration. No private content or source URLs published.",
       "delta": [
         0,
         1,
