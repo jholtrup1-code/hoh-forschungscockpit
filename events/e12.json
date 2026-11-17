@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T17:16:10.146Z",
+  "updated_at": "2026-11-17T18:18:02.368Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1288,6 +1288,26 @@
       "id": "E12-CP084",
       "completed_at": "2026-11-17T17:16:10.146Z",
       "evidence": "Four previously unprocessed native-document text source copies in a directly inventoried correspondence archive branch were fully exported and privately duplicated. All four independent original/copy UTF-8 exports matched byte-for-byte SHA-256 (29,060 bytes); source and private-copy parent IDs and non-shared status, exact original-line locations, private append-only manifest, and checkpoint were read back. The five direct subfolders have 28 immediate items with no deeper children in the checked directory pages; 23 direct contents remain unprocessed. Temporary SQLite FTS5 indexed 621 nonblank original lines and passed integrity_check. A text source explicitly notes it is not a full MIME original; original-mail provenance and persistent E12 integration remain unverified.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP085",
+      "completed_at": "2026-11-17T18:18:02.368Z",
+      "evidence": "Four previously unprocessed native correspondence documents were fully exported and duplicated to the authorized non-shared private Drive app folder. Four independently re-exported original/copy text pairs matched byte-for-byte SHA-256 (235,534 bytes). Private source/copy parent metadata, source-line checksums, checkpoint and append-only manifest were verified by readback. The two targeted correspondence child folders are now 8/8 source documents text-processed; the broader correspondence branch still has 19 unopened artifacts. Temporary SQLite FTS5 indexed 6,834 nonblank lines with integrity_check=ok. These are Drive text sources rather than independently authenticated raw mail originals, and cross-run persistent indexing remains unproven.",
       "delta": [
         0,
         1,
