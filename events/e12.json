@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T16:15:08.286Z",
+  "updated_at": "2026-11-17T16:21:28.054Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1261,6 +1261,26 @@
         0,
         0,
         1,
+        1
+      ]
+    },
+    {
+      "id": "E12-CP083",
+      "completed_at": "2026-11-17T16:21:28.054Z",
+      "evidence": "Three previously unprocessed non-native source artifacts (two HTML files, one JSON file) in a directly inventoried private folder were fully downloaded and copied to the authorized private app folder. All three original/copy byte streams matched SHA-256 (530,151 total bytes), with source/copy parents and non-shared status independently verified. The original JSON contains 164 unique records; an uncompressed HTML data seed and an independently decompressed zlib/Base64 HTML seed each exactly match all 164 JSON records. In-memory SQLite FTS5 indexed 164 derived records, returned checked search counts, and passed integrity_check. A historical append-only manifest and CP083 private checkpoint containing original-file IDs, metadata, hashes, status, line-checksums and gaps were written and read back. The specific 40-file folder is now content-inventoried, not the complete archive. This is verification of three representations of a secondary compilation, not source-audio authentication or durable cross-run E12 integration.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
         1
       ]
     }
