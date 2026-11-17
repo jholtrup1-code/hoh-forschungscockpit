@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T07:23:09.785Z",
+  "updated_at": "2026-11-17T08:14:54.909Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1068,6 +1068,26 @@
       "id": "E12-CP073",
       "completed_at": "2026-11-17T07:23:09.785Z",
       "evidence": "Four previously unprocessed native source-register documents were fully exported to local private text, privately copied in the authorized Google Drive app folder, and independently re-exported. Four original/copy raw UTF-8 SHA-256 values matched byte-for-byte (98,809 total bytes; four distinct hashes); an ephemeral Python SQLite FTS5 indexed 989 nonblank original lines and matched source-line checksums. Nine previously pending child folders were paginated by document and folder categories to exhaustion, with counts recorded but content processing still pending. An append-only private checkpoint and source manifest were written and back-read; all six new Drive objects were confirmed in the authorized non-shared parent. Historic inventory claims are not current full-source validation. Raw separate Drive text upload and cross-run persistent indexing remain blocked or unverified. This represents a private source bridge, not integrated E12 search; no original quotations, private URLs, names or secrets published.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP074",
+      "completed_at": "2026-11-17T08:14:54.909Z",
+      "evidence": "Three previously unprocessed native document originals from a bounded source-moments folder and one previously unprocessed native correspondence source-register were independently exported as full text, privately copied in the authorized non-shared Google Drive app folder, and verified byte-identical (4/4 SHA-256; 36,921 raw bytes). An ephemeral SQLite FTS5 indexed 251 nonblank original lines and matched specific document lines to private source checksums. The moment folder and one correspondence-register leaf were independently paginated to exhaustion at the immediate level; 40 direct moment items include a non-document JSON entry and only part of the native content is processed. Four copies, the private append-only manifest and a newly versioned checkpoint were back-read with matching parent and non-shared metadata. Historic material distinguishes original authorship, provisional interpretation and export order from day attribution; this is not scientific validation or a complete correspondence archive. No permanent cross-run index is verified, and separate raw-text upload remains unverified. No private names, quotations, tokens or URLs included.",
       "delta": [
         0,
         1,
