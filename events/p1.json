@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-16T23:35:28.583Z",
+  "updated_at": "2026-11-17T00:34:07.955Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -861,6 +861,26 @@
         0,
         0,
         0,
+        0
+      ]
+    },
+    {
+      "id": "P1-53-CIRCA-FOURVOTE-CONSENSUS-20261117",
+      "completed_at": "2026-11-17T00:34:07.955Z",
+      "evidence": "P1-53: vor erneuter Zieldatenauswertung registrierter sekundärer Fuenfstimmen-Holdout-Test in bereits zuvor wissenschaftlich genutzten, oeffentlich attribuierten konstruierten Dialogsituationen. 34.248 vollstaendige Faelle mit 171.240 abhaengigen Folds. Konventionelle Vierstimmen-Mehrheit widersprach einer zurueckgehaltenen Fremdstimme in 40.741 Folds (23,79%). Vier-von-vier-Konsens akzeptiert selektiv 92.254 Folds (53,87% Abdeckung), darunter 8.134 Widersprueche (8,82% der selektierten). H1/H2 und hypothetische Kosten-Nutzen-H3 bei Strafgewicht 5 bestanden, bei billigeren Nachpruefungen verschlechtert sich Nutzen. 10/10 isolierte Kontrollen und eigenstaendig gezaehlte Ergebnisaggregate reproduziert. Keine echte Sprecherbedeutung, keine longitudinale Meinungsaenderung, kein Personen-Goldstandard, keine LLM-Modellkosten und keine G5-Integration.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
         0
       ]
     }
