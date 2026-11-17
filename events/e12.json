@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T11:17:05.370Z",
+  "updated_at": "2026-11-17T12:16:34.096Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1148,6 +1148,26 @@
       "id": "E12-CP077",
       "completed_at": "2026-11-17T11:17:05.370Z",
       "evidence": "Four previously unprocessed native source-moments documents were independently exported in complete text/plain form, copied to the authorized private Drive application folder, re-exported and verified byte-identical by SHA-256 (52,326 source bytes). Their source IDs and metadata, private copy parent and non-shared state, and original-document line evidence were registered in the append-only private E12 manifest and a newly created private checkpoint, both read back after writing. A temporary Python SQLite FTS5 index of 391 nonblank document lines passed integrity verification. Direct folder pagination finished with no remaining document/folder page token; unprocessed sources and other House branches remain. Original media and persistent E12 integration were not verified.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP078",
+      "completed_at": "2026-11-17T12:16:34.096Z",
+      "evidence": "Four previously unprocessed native Google Docs in the bounded original-voices folder were fully exported through the connected Drive service, copied to the authorized private application folder, and independently re-exported. All four original/copy text byte streams matched by SHA-256 (248,360 bytes total); the copies' destination parent and non-shared state and a new private checkpoint plus append-only manifest were read back and verified. A temporary SQLite FTS5 indexed 1,259 nonblank original lines and passed integrity check. The directly inventoried folder had 40 entries and no further pagination token; 14 native documents and three non-native files remain. The source documents explicitly distinguish unreviewed raw candidates from validated evidence; underlying media and cross-run SQLite integration were not independently verified.",
       "delta": [
         0,
         1,
