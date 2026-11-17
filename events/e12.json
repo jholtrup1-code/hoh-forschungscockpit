@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T19:13:50.813Z",
+  "updated_at": "2026-11-17T20:20:18.091Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1341,6 +1341,26 @@
         0,
         0,
         1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP087",
+      "completed_at": "2026-11-17T20:20:18.091Z",
+      "evidence": "Four newly processed private source files (two native text documents and two stored plain-text archives) were independently copied, downloaded, and bytewise SHA-256 matched (923,372 bytes). Parent-folder IDs and non-shared metadata for all originals and copies were verified, with a private append-only manifest and CP087 checkpoint read back. A temporary SQLite FTS5 index verified 9,141 nonblank source lines and passed integrity tests. The two separate plain-text archives were not byte-identical but shared 3,028 nonblank lines in a multiset comparison, showing a concrete line-level duplicate-risk, not message-level deduplication. One directly inventoried correspondence subfolder is now 6/6 text-processed; the mixed attachment subfolder is 2/13 processed. No cross-run persistent index or source-authenticity claim.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
         0
       ]
     }
