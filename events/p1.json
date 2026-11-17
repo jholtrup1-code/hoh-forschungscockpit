@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T07:41:00.029Z",
+  "updated_at": "2026-11-17T09:39:16.583Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1013,6 +1013,26 @@
         1,
         0,
         2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-61-SIGDIAL-REWRITE-AGGREGATE-RISK-20261117",
+      "completed_at": "2026-11-17T09:39:16.583Z",
+      "evidence": "P1-61: Explorative, zweimal unabhaengig nachgezaehlte Autorenaggregate einer 2026 veroeffentlichten Dialog-Rewrite-Untersuchung: 66 korrelierte Parser-Konfigurationen, 65 mit mehr Regressionen als Korrekturen, eine neutral. 14/14 eigene isolierte Struktur- und Gegenrechentests. Vorsicht gegen automatische Quellen-Paraphrasierung; keine eigene Parser-Replikation, kein unabhaengiger Personensinn-Goldstandard, keine neue ausgefuehrte Menschenstudie, keine bezahlte Modell-API, keine G5-Integration.",
+      "delta": [
+        0,
+        0,
+        1,
+        1,
         0,
         0,
         0,
