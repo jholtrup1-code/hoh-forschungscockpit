@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T20:12:23.790Z",
+  "updated_at": "2026-11-17T21:09:04.368Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1337,6 +1337,26 @@
         1,
         0,
         2,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C197-G01-AUTHORIZED-DRIVE-REVISION-TEXT-COVERAGE-20261117",
+      "completed_at": "2026-11-17T21:09:04.368Z",
+      "evidence": "First owner-permitted read-only native Google Drive technical-document revision observations were checked against actual fetched revision-text exports for two distinct sources, without publishing identities or source content. Each listed two revisions, but in BOTH cases the previous revision export contained only whitespace while the current revision supplied readable text: 2 of 4 listed revisions had usable text in this bounded probe. A newly preregistered privacy-preserving revision-content coverage verifier distinguishes listed versions from actually recovered originals and rejects stale, mismatched or unverified owner scope. Ten fictional positive/negative tests passed normal and optimized Python; full 105-step source CI #44176534781 plus independent 8-step scientific-state CI #44176534702 passed on the identical private code+state commit ea2fd144. Actual observations establish only a narrow technical owner source, not complete version history, personal archive coverage, Oracle database access, authorship/semantic gold or a book decision.",
+      "delta": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
         0,
         0,
         0,
