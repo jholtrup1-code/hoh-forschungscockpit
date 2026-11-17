@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T00:18:02.399Z",
+  "updated_at": "2026-11-17T01:16:01.465Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -928,6 +928,26 @@
       "id": "E12-CP066",
       "completed_at": "2026-11-17T00:18:02.399Z",
       "evidence": "Four additional previously unmanifested technical-workshop Google Docs were fully exported, privately copied and independently re-exported, with all four original/copy SHA-256 byte comparisons equal (55,127 bytes; 465 lines). A bounded in-memory SQLite FTS5 test queried actual original text and recorded verified line hashes. Four further nested archive leaf folders were individually paginated with two direct documents each and no child folders. The append-only private manifest and checkpoint were back-read with correct private parent and non-shared metadata. Original text, personal details and source URLs were not published. Global recursive inventory, independent durable text files and persistent Python E12 index remain open.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP067",
+      "completed_at": "2026-11-17T01:16:01.465Z",
+      "evidence": "Four additional previously unmanifested workshop Google Docs were independently exported as complete text/plain originals and private native copies, with byte-identical SHA-256 matches for all four pairs (60,865 bytes; 466 lines). An isolated SQLite FTS5 run indexed the original lines and returned reproducible search-hit counts and checked source-line hashes. Immediate workshop document and folder searches were paginated to completion (40 documents, one child folder). Private source copies, an append-only manifest delta, and a checkpoint were saved and back-read with verified non-shared metadata in the authorized private app folder. Persistent raw text uploads and cross-run Python indexing remain unverified; no private original texts or URLs are included in this public event.",
       "delta": [
         0,
         1,
