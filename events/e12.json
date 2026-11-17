@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T18:18:02.368Z",
+  "updated_at": "2026-11-17T19:13:50.813Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1308,6 +1308,26 @@
       "id": "E12-CP085",
       "completed_at": "2026-11-17T18:18:02.368Z",
       "evidence": "Four previously unprocessed native correspondence documents were fully exported and duplicated to the authorized non-shared private Drive app folder. Four independently re-exported original/copy text pairs matched byte-for-byte SHA-256 (235,534 bytes). Private source/copy parent metadata, source-line checksums, checkpoint and append-only manifest were verified by readback. The two targeted correspondence child folders are now 8/8 source documents text-processed; the broader correspondence branch still has 19 unopened artifacts. Temporary SQLite FTS5 indexed 6,834 nonblank lines with integrity_check=ok. These are Drive text sources rather than independently authenticated raw mail originals, and cross-run persistent indexing remains unproven.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP086",
+      "completed_at": "2026-11-17T19:13:50.813Z",
+      "evidence": "Four previously unprocessed native correspondence source documents were completely exported as UTF-8 text and independently duplicated to a verified, non-shared private Drive app folder. Four original/copy export pairs matched byte-for-byte SHA-256 (584,878 bytes), with both source and copy parent IDs, sharing status and provenance verified. An append-only manifest and private CP086 checkpoint record file IDs, original-source URLs, source metadata, hashes, source-line SHA checks, folder pagination and open gaps; both were read back with their private parent IDs verified. A temporary in-memory SQLite FTS5 index searched 10,597 nonblank lines and passed integrity_check. This advances a limited correspondence branch to 13 of 28 source files processed, not the whole archive. Mail RFC822/MIME provenance and persistent cross-run indexing remain unverified.",
       "delta": [
         0,
         1,
