@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T12:06:11.964Z",
+  "updated_at": "2026-11-17T13:14:33.144Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1182,6 +1182,26 @@
         0,
         1,
         1
+      ]
+    },
+    {
+      "id": "G5-C189-G02-ARCHIVE-PINNED-ANNOTATED-TIMELINE-20261117",
+      "completed_at": "2026-11-17T13:14:33.144Z",
+      "evidence": "Prospectively preregistered local SQLite source-bound timeline now reopens actual archived source bytes, verifies SHA/role/recording timestamp and preserves unjudged annotations before private review. Nine synthetic SQL tests normal/optimized and 98-step full CI passed. No personal Oracle production archive, independent human meaning review or authentic authorship inferred.",
+      "delta": [
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        2
       ]
     }
   ],
