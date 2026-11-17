@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T05:18:56.230Z",
+  "updated_at": "2026-11-17T06:14:30.313Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1028,6 +1028,26 @@
       "id": "E12-CP071",
       "completed_at": "2026-11-17T05:18:56.230Z",
       "evidence": "Four previously unreceipted native document originals were independently exported as complete text/plain, copied into the authorized non-shared private Drive app folder and confirmed byte-identical by SHA-256 (121,629 bytes). A bounded, ephemeral SQLite FTS5 test indexed 561 nonblank original lines and validated search hits against source text. The private append-only manifest and checkpoint were written and back-read with verified parent folder and private visibility. Direct-folder inventory recorded 41 of 42 identified control-document IDs with private source receipts; two archived child folders were checked empty, and one additional 11-item source register was directly inventoried. Three background files and further House recursion remain open. Raw text upload remains connector-blocked; permanent cross-run indexing has not been demonstrated. This is a source bridge, not a fully integrated E12 search service. No personal data, quotations or private URLs included.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP072",
+      "completed_at": "2026-11-17T06:14:30.313Z",
+      "evidence": "Four previously unmanifested native Google Docs (one remaining control document and three background documents) were exported as complete text/plain and independently compared against private native copies in the authorized non-shared Drive app folder. All four original/copy SHA-256 digests matched byte-for-byte (194,966 bytes); 632 nonblank source lines were indexed in a bounded, ephemeral SQLite FTS5 test, with private line-level proofs. The direct control folder's 42 document IDs and the background folder's seven document contents now each have source receipts. Four additional knowledge subfolders were inventoried at their immediate level, with deeper recursion still open. Private manifest and checkpoint were back-read and all six destination objects verified non-shared with the authorized parent. Raw .txt upload remains connector-reference blocked; a persistent E12 index is not verified. No personal names, original text, or private source URLs published.",
       "delta": [
         0,
         1,
