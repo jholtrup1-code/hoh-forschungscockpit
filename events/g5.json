@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T01:08:30.131Z",
+  "updated_at": "2026-11-17T01:19:18.367Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -941,6 +941,26 @@
         0,
         0,
         1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C177-G01-CURRENT-LATEST-ORIGINAL-ELIGIBILITY-20261117",
+      "completed_at": "2026-11-17T01:19:18.367Z",
+      "evidence": "C177 G01: Vorregistrierte fiktive Originaldatei-/SQLite-Laufpruefung entdeckte zwei getrennte falsche Aussagen ueber AKTUELL nutzbare Archivquellen: Ein physisch wiederhergestelltes altes Original galt trotz juengerem Import als komplett aktuell, und eine unentzogene alte Version liess einen nicht gelisteten Quellensatz aktuell erscheinen, obwohl die letzte importierte Version entzogen war. Nach echtem Fehlerlauf #43994266416 und korrigiertem C112-Original-Leser bestaetigte vollstaendige GitHub-Code-CI #43994342052 alle 87 Pruefschritte inkl. 17 C112-Tests regulär/-O. Historische Quellen bleiben sichtbar, aber nicht als aktuell zugelassen. Keine echten persoenlichen Originale, keine menschlichen Bedeutungsbewertungen oder Livearchiv-Vollstaendigkeit belegt.",
+      "delta": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
         1
       ]
     }
