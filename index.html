@@ -1,10 +1,10 @@
 <!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HOUSE OF HOLTRUP · Cockpit V2</title><style>
 *{box-sizing:border-box}body{font:16px/1.5 system-ui,Arial,sans-serif;background:#f1f4f1;color:#20362b;max-width:720px;margin:0 auto;padding:14px}header,section{background:white;border-radius:16px;padding:20px;margin:12px 0;box-shadow:0 2px 8px #0000000c}h1{font-size:24px;margin:0}h2{font-size:19px;margin:0 0 12px}.sub{color:#5b6860;font-size:13px}.stamp{background:#e6f3ea;border-radius:8px;padding:9px;font-weight:650;margin:12px 0}.metric{margin:21px 0}.name{display:flex;justify-content:space-between;gap:10px;font-weight:700}.bar{display:flex;width:100%;height:25px;overflow:hidden;border-radius:7px;background:#dfe5e2;margin-top:6px}.bar span{height:100%;flex:none}.detail{font-size:12px;color:#53655b;margin-top:6px}.evidence{font-size:13px;background:#f1f7f2;padding:9px;border-radius:7px;margin-top:7px}.legend{display:flex;flex-wrap:wrap;gap:10px;font-size:12px}.legend span:before{content:"";display:inline-block;background:var(--c);width:11px;height:11px;margin-right:5px}.day{cursor:pointer;border-right:1px solid #fff9}.day:focus-visible{outline:2px solid black;outline-offset:-2px}button{background:#245b42;color:white;border:0;border-radius:9px;padding:12px;font-weight:700;font-size:15px}.warn{color:#845e24}.dayinfo{padding:10px;background:#fff5e8;border-radius:8px;font-size:13px;margin-top:9px}</style></head><body>
 <header><h1>HOUSE OF HOLTRUP</h1><strong>Forschungscockpit</strong><p class="stamp">COCKPIT V2 · Tagesbasis / persönlicher Abruf / neue Forschung</p><div id="status" class="sub">Lade Forschungsdaten …</div></header>
-<section><h2>Forschungsfortschritt</h2><div class="legend"><span style="--c:#245b42">Bis gestern 24 Uhr</span><span style="--c:#50a47b">Heute schon bestätigt</span><span style="--c:#a8e1b8">Heute neu seit Bestätigung</span><span style="--c:#dfe5e2">Noch offen</span></div><p id="daily" class="stamp"></p><p class="sub warn">Ein Balken pro Bereich. Mehrere unterschiedliche, belegte technische Teilfähigkeiten können zählen (höchstens zwei je Bereich und Tag). Wiederholungen zählen nicht erneut. Keine Punkte für bloße Meldungszahlen oder als Nachweis menschlichen Verstehens. Die Reifewerte sind vorläufige Einschätzungen.</p><div id="metrics"></div></section>
+<section><h2>Forschungsfortschritt</h2><div class="legend"><span style="--c:#245b42">Bestätigter Altstand</span><span style="--c:#50a47b">Heute bestätigt</span><span style="--c:#a8e1b8">Seit letztem Lesepunkt neu</span><span style="--c:#dfe5e2">Noch offen</span></div><p id="daily" class="stamp"></p><p class="sub warn">Ein Balken pro Bereich. Mehrere unterschiedliche, belegte technische Teilfähigkeiten können zählen (höchstens zwei je Bereich und Tag). Wiederholungen zählen nicht erneut. Keine Punkte für bloße Meldungszahlen oder als Nachweis menschlichen Verstehens. Die Reifewerte sind vorläufige Einschätzungen.</p><div id="metrics"></div></section>
 <section><h2>Forschungsberichte</h2><p class="sub">Aktivitätsprotokoll, nicht Fortschrittspunkte.</p><div id="activity"></div></section>
 <section><h2>Was heute konkret passiert ist</h2><div id="work"></div></section>
-<section><h2>Dein persönlicher Lesepunkt</h2><p id="seen"></p><button id="confirm">Diesen Stand habe ich gelesen</button><p class="sub">Erst dein Klick verschiebt das heutige Hellgrün nach Mittelgrün. Neue Forschungsprüfungen verändern diesen Lesepunkt nicht. Speicherung auf diesem Gerät und in diesem Browser.</p></section>
+<section><h2>Dein persönlicher Lesepunkt</h2><p id="seen"></p><button id="confirm">Diesen Stand habe ich gelesen</button><p class="sub">Dein Klick bestätigt den aktuellen Stand: Vortage werden dunkelgrün, heutiger Fortschritt mittelgrün. Späterer Fortschritt bleibt hellgrün – auch über Mitternacht. Speicherung auf diesem Gerät und in diesem Browser.</p></section>
 <script>
 const labels=["Gesamtvision","Daten & Quellen","Originale wiederfinden","Psychologie & Menschenverstehen","Gedankenentwicklung","Korrekturen nutzen","Neue Fragen & Einsichten","Praktischer Nutzen","Autonome Forschung","Gefühle & Beziehungen","Bedeutungswandel","Unabhängige Prüfung","Umsetzung in Software"];
 const descriptions=["Wie nah die gesamte Menschenmaschine ihrem Ziel ist.","Originale und ihre Herkunft zuverlässig sichern.","Auf eine Frage echte Textstellen mit Fundstelle finden.","Aussagen und Quellenrollen technisch korrekt unterscheiden.","Veränderungen von Gedanken über längere Zeit verfolgen.","Frühere Korrekturen in späteren Aufgaben anwenden.","Neue sinnvolle Forschungsfragen entwickeln.","Forschung in nützliche Anwendungen übertragen.","Selbstständige Forschung mit überprüfbaren Ergebnissen.","Gefühle und Beziehungen sorgfältig untersuchen.","Veränderte und gleichzeitig bestehende Deutungen erkennen.","Psychologische Ergebnisse unabhängig vergleichen.","Forschungswissen in funktionierende Software umsetzen."];
@@ -63,8 +63,11 @@ function render(){
  const events=data.events||[];
  // KAL-001-R1: research events describe activity and NEVER increase maturity.
  // Only a separately reviewed, evidence-linked milestone in calibration.json may change a score.
- const earlier=Array(13).fill(0), untilRead=Array(13).fill(0), sinceRead=Array(13).fill(0);
+ // Reader checkpoint persists across midnight: unconfirmed changes stay light-green.
+ // After explicit confirmation, completed previous days become dark, today's confirmed portion medium.
+ const darkAdd=Array(13).fill(0), mediumAdd=Array(13).fill(0), lightAdd=Array(13).fill(0);
  const readTime=seen?.at&&!Number.isNaN(Date.parse(seen.at))?Date.parse(seen.at):null;
+ const readDay=readTime===null?null:berlinDay(seen.at);
  const milestones=[...(calibration.approved_milestones||[]),...automaticMilestones(events,calibration,today)];
  for(const milestone of milestones){
    const idx=milestone.area_index,ts=Date.parse(milestone.approved_at);
@@ -73,18 +76,24 @@ function render(){
       typeof milestone.evidence_ref!=="string"||!milestone.evidence_ref.trim()||
       !Number.isFinite(ts))continue;
    const d=berlinDay(milestone.approved_at);if(d>today)continue;
-   if(d<today)earlier[idx]+=milestone.delta;
-   else if(readTime!==null&&ts<=readTime)untilRead[idx]+=milestone.delta;
-   else sinceRead[idx]+=milestone.delta;
+   if(readTime!==null){
+     if(readDay===today){
+       if(d<today)darkAdd[idx]+=milestone.delta;
+       else if(ts<=readTime)mediumAdd[idx]+=milestone.delta;
+       else lightAdd[idx]+=milestone.delta;
+     }else if(ts<=readTime)darkAdd[idx]+=milestone.delta;
+     else lightAdd[idx]+=milestone.delta;
+   }else if(d<today)darkAdd[idx]+=milestone.delta;
+   else lightAdd[idx]+=milestone.delta;
  }
- const values=calibration.base.map((v,i)=>Math.min(calibration.caps[i],v+earlier[i]+untilRead[i]+sinceRead[i]));data.displayValues=values;
- const base=values.map((v,i)=>Math.min(v,calibration.base[i]+earlier[i]));
- const marked=values.map((v,i)=>Math.min(v,base[i]+untilRead[i]));
- const baselineTitle="Bis gestern 24 Uhr";
+ const values=calibration.base.map((v,i)=>Math.min(calibration.caps[i],v+darkAdd[i]+mediumAdd[i]+lightAdd[i]));data.displayValues=values;
+ const base=values.map((v,i)=>Math.min(v,calibration.base[i]+darkAdd[i]));
+ const marked=values.map((v,i)=>Math.min(v,base[i]+mediumAdd[i]));
+ const baselineTitle=readDay===today?"Bis gestern 24 Uhr":readTime!==null?"Bis zu deinem letzten Lesepunkt":"Frühere abgeschlossene Tage";
  const legendFirst=document.querySelector(".legend span");if(legendFirst)legendFirst.textContent=baselineTitle;
  const confirmedToday=marked.slice(1).reduce((sum,v,i)=>sum+v-base[i+1],0);
  const newToday=values.slice(1).reduce((sum,v,i)=>sum+v-marked[i+1],0);
- document.getElementById("daily").textContent="Heute ("+today+"): +"+(confirmedToday+newToday)+" belegte Reifeschritte · bis Lesepunkt: +"+confirmedToday+" · seitdem: +"+newToday+" · "+events.filter(ev=>berlinDay(ev.completed_at)===today).length+" Forschungsberichte separat";
+ document.getElementById("daily").textContent="Stand "+today+" · seit letztem Lesepunkt: +"+newToday+" Reifeschritte · heute bereits bestätigt: +"+confirmedToday+" · "+events.filter(ev=>berlinDay(ev.completed_at)===today).length+" Forschungsberichte (separat)";
  labels.forEach((name,i)=>{
  const value=values[i],before=base[i],markedValue=marked[i];
  const item=document.createElement("div");item.className="metric";
