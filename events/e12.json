@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T03:16:09.514Z",
+  "updated_at": "2026-11-17T04:16:44.494Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -988,6 +988,26 @@
       "id": "E12-CP069",
       "completed_at": "2026-11-17T03:16:09.514Z",
       "evidence": "Four previously unmanifested Google Docs source IDs were independently exported in complete text/plain form and copied privately. Original and copy exports matched byte-for-byte by SHA-256 in all four cases (82,261 bytes, 715 raw text lines); comparison against the prior manifest detected one byte-identical duplicate, leaving three newly distinct source contents. A bounded SQLite FTS5 test queried real exported lines, and line hashes were checked. The private manifest and checkpoint were appended, re-read and verified in the authorized non-shared Drive app folder with all four private copies. A direct source folder scan returned 130 items, while a two-page document-class search returned 106 and excluded 24 JSON/ZIP files. Permanent cross-run indexing and independent raw-text uploads remain blocked or unverified. No personal details, original text or private source URLs published.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP070",
+      "completed_at": "2026-11-17T04:16:44.494Z",
+      "evidence": "Four previously unmanifested private Google Docs were exported in full as original text and copied into the authorized private Drive app folder; all four independent source/copy raw-byte SHA-256 comparisons matched (130,913 bytes; 602 original lines). An isolated in-memory SQLite FTS5 indexed those original lines and returned checked original-line hashes. A bounded folder audit verified four direct document-category listings to completion and identified remaining unfinished recursive branches. The append-only private manifest and checkpoint were back-read with all six destination objects confirmed under the authorized non-shared parent. Durable raw text upload remains blocked by connector file-reference validation; cross-run persistent indexing is not verified. This is only a private source bridge, not full E12 integration. No personal details, private document text, or source URLs are published.",
       "delta": [
         0,
         1,
