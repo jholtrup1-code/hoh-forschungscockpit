@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T17:01:24.598Z",
+  "updated_at": "2026-11-17T18:06:17Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1275,6 +1275,26 @@
         0,
         0,
         0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C194-G04-OWNER-DAY-ORIGINAL-REVISION-AUDIT-20261117",
+      "completed_at": "2026-11-17T18:06:17Z",
+      "evidence": "Prospectively preregistered, owner-only offline SQLite recorded-day original revision audit now safely compares TWO independently reopened local archive snapshots. A frozen fictional chapter-source update identifies four actionable source differences (newly on day, no longer on day, SHA-verified original content corrected, recorded clock corrected) that reuse of the previous one-snapshot day packet would miss. Fail-closed controls cover invalid and concurrent sources, bounded complete original scans, protected 0600 private output, and public redaction. Ten synthetic checks passed regular/optimized Python; full 102-step source CI and independent 8-step scientific CI passed on the exact same private scientific state commit. No authenticated human authorship, personal Oracle SELECT, real historical-day truth, independent semantic gold, or manuscript decision was established.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
         0,
         2,
         0,
