@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T04:16:44.494Z",
+  "updated_at": "2026-11-17T05:18:56.230Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1008,6 +1008,26 @@
       "id": "E12-CP070",
       "completed_at": "2026-11-17T04:16:44.494Z",
       "evidence": "Four previously unmanifested private Google Docs were exported in full as original text and copied into the authorized private Drive app folder; all four independent source/copy raw-byte SHA-256 comparisons matched (130,913 bytes; 602 original lines). An isolated in-memory SQLite FTS5 indexed those original lines and returned checked original-line hashes. A bounded folder audit verified four direct document-category listings to completion and identified remaining unfinished recursive branches. The append-only private manifest and checkpoint were back-read with all six destination objects confirmed under the authorized non-shared parent. Durable raw text upload remains blocked by connector file-reference validation; cross-run persistent indexing is not verified. This is only a private source bridge, not full E12 integration. No personal details, private document text, or source URLs are published.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP071",
+      "completed_at": "2026-11-17T05:18:56.230Z",
+      "evidence": "Four previously unreceipted native document originals were independently exported as complete text/plain, copied into the authorized non-shared private Drive app folder and confirmed byte-identical by SHA-256 (121,629 bytes). A bounded, ephemeral SQLite FTS5 test indexed 561 nonblank original lines and validated search hits against source text. The private append-only manifest and checkpoint were written and back-read with verified parent folder and private visibility. Direct-folder inventory recorded 41 of 42 identified control-document IDs with private source receipts; two archived child folders were checked empty, and one additional 11-item source register was directly inventoried. Three background files and further House recursion remain open. Raw text upload remains connector-blocked; permanent cross-run indexing has not been demonstrated. This is a source bridge, not a fully integrated E12 search service. No personal data, quotations or private URLs included.",
       "delta": [
         0,
         1,
