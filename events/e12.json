@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T09:17:12.176Z",
+  "updated_at": "2026-11-17T10:17:06.099Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1108,6 +1108,26 @@
       "id": "E12-CP075",
       "completed_at": "2026-11-17T09:17:12.176Z",
       "evidence": "Four previously unprocessed native source-moments documents were exported in full and copied privately into the authorized non-shared Drive app folder. Four independent original/copy text exports matched byte-for-byte by SHA-256 (80,408 bytes); an ephemeral SQLite FTS5 indexed 867 nonblank source-document lines with a successful integrity check. The immediate folder was re-paginated to exhaustion by document and folder type; the private versioned checkpoint and append-only manifest were written and back-read, with destination parent and non-shared status confirmed. A historical source-document warning distinguishes secondary summaries and preliminary candidates from primary recordings; the recordings themselves were not revalidated. Persistent cross-run indexing remains unverified; this is a source bridge, not integrated E12.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP076",
+      "completed_at": "2026-11-17T10:17:06.099Z",
+      "evidence": "Four previously unprocessed native source-moments documents were fully exported through the connected Drive service, copied privately into the authorized non-shared app folder, and independently re-exported; four of four source/copy text byte streams matched by SHA-256 (55,419 bytes). Ephemeral Python SQLite FTS5 indexed 602 nonblank original-document lines and passed its integrity check. Four source metadata records, private copy parent IDs and non-shared status, the append-only manifest, and the new private checkpoint were read back and verified. A historical original-document status ledger distinguishes passage checking from full-context clearance, and an older overlap comparison warns of identifier collisions; this confirms the documents' stated methods, not a fresh audit of underlying audio. The bounded folder still has unprocessed items; cross-run persistent SQLite remains unverified, and the separate raw-text upload attempt was rejected by the connector.",
       "delta": [
         0,
         1,
