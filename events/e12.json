@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T15:17:37.599Z",
+  "updated_at": "2026-11-17T16:15:08.286Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1242,6 +1242,26 @@
         0,
         1,
         0
+      ]
+    },
+    {
+      "id": "E12-CP082",
+      "completed_at": "2026-11-17T16:15:08.286Z",
+      "evidence": "Two remaining native documents in a directly inventoried private source folder were completely exported, copied to the authorized non-shared private app folder and independently re-exported; both pairs matched byte-for-byte SHA-256 (516,502 raw export bytes). Their metadata, private copies and append-only checkpoint/manifest were verified by readback. This completes the 37/37 native-document subset in that specific folder, not the whole archive. A compact LZW16/Base64 document was reproducibly decoded to a valid 164-record JSON array with 164 unique identifiers and nonempty text fields; temporary SQLite FTS5 indexed all 164 derived text fields and passed integrity checks. The derived record set remains secondary material; original media and durable cross-run indexing are not verified. Two HTML and one JSON source in the folder, and further archive branches, remain open.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
       ]
     }
   ],
