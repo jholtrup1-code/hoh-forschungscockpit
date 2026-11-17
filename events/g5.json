@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T08:13:43Z",
+  "updated_at": "2026-11-17T09:09:17.273Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1097,6 +1097,26 @@
         0,
         1,
         1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C185-G07-SINGLE-COMMAND-PRIVATE-ROLE-QUESTION-REVIEW-20261117",
+      "completed_at": "2026-11-17T09:08:14.980Z",
+      "evidence": "G07: In einer vorregistrierten rein fiktiven End-to-End-Pruefung ist der vorhandene lokale, nur lesende SQLite-Originalfragebefehl jetzt mit einer auf exakte Nutzer-Rollen-Textmarkierung und Frage begrenzten Pruefansicht verbunden. Ein ausgewähltes Originalzitat wird ausschliesslich privat mit exakt wiederaufrufbarer, versionsgebundener Originalstelle ausgegeben; benachbarte Assistentenantworten oder Dokumenttexte erzeugen keine falsche ausgewaehlte Nutzerstelle. Ein unabhängiger Folgetest reproduzierte die fehlende private Original-Ruecksprungstelle (RED), worauf die Korrektur und saemtliche sieben neuen fiktiven Testmethoden in regulaerer und optimierter Python-Ausfuehrung sowie vollständiger Code- und Forschungszustands-CI bestanden. Keine persoenliche Oracle-Datenbank abgefragt, keine authentifizierte Chatrolle oder menschliche Bedeutung bestaetigt, keine privaten Originaltexte veroeffentlicht.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
         0,
         0,
         0,
