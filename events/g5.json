@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T02:18:07.766Z",
+  "updated_at": "2026-11-17T03:03:33.944Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -976,6 +976,26 @@
         0,
         0,
         1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C179-G04-LATE-CORRECTION-PREWRITE-GUARD-20261117",
+      "completed_at": "2026-11-17T03:02:23.000Z",
+      "evidence": "G04: Vorregistrierte fiktive End-to-End-Besitzerfrage deckte zwei spaet nach vorheriger Korrektur-/Quellenpruefung eintreffende SQLite-Zweitschreiber-Aenderungen auf: eine neue gemeldete Korrektur und deren spaeteren Widerruf konnten zuvor zu veralteter privater Ausgabe fuehren (echter RED mit zwei False-Accept-Assertions). Der private Frage-/Antwort-CLI prueft jetzt die unveraenderte Quellen-/Korrekturentscheidung ueber eine frische Lesedatenbankverbindung unmittelbar vor der Ausgabe neu; komplette Code-CI 87/87 GREEN. Ein unabhaengig vorregistrierter WAL-Zweitschreiber-Test bestand ebenfalls 87/87 normal/-O. Technisch begrenzter Last-Check ohne dauerhafte Schreibsperre, ohne echte persoenliche Goldbewertung oder Livearchiv-Abdeckung.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
         1,
         0,
         0,
