@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T08:14:54.909Z",
+  "updated_at": "2026-11-17T09:17:12.176Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1088,6 +1088,26 @@
       "id": "E12-CP074",
       "completed_at": "2026-11-17T08:14:54.909Z",
       "evidence": "Three previously unprocessed native document originals from a bounded source-moments folder and one previously unprocessed native correspondence source-register were independently exported as full text, privately copied in the authorized non-shared Google Drive app folder, and verified byte-identical (4/4 SHA-256; 36,921 raw bytes). An ephemeral SQLite FTS5 indexed 251 nonblank original lines and matched specific document lines to private source checksums. The moment folder and one correspondence-register leaf were independently paginated to exhaustion at the immediate level; 40 direct moment items include a non-document JSON entry and only part of the native content is processed. Four copies, the private append-only manifest and a newly versioned checkpoint were back-read with matching parent and non-shared metadata. Historic material distinguishes original authorship, provisional interpretation and export order from day attribution; this is not scientific validation or a complete correspondence archive. No permanent cross-run index is verified, and separate raw-text upload remains unverified. No private names, quotations, tokens or URLs included.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP075",
+      "completed_at": "2026-11-17T09:17:12.176Z",
+      "evidence": "Four previously unprocessed native source-moments documents were exported in full and copied privately into the authorized non-shared Drive app folder. Four independent original/copy text exports matched byte-for-byte by SHA-256 (80,408 bytes); an ephemeral SQLite FTS5 indexed 867 nonblank source-document lines with a successful integrity check. The immediate folder was re-paginated to exhaustion by document and folder type; the private versioned checkpoint and append-only manifest were written and back-read, with destination parent and non-shared status confirmed. A historical source-document warning distinguishes secondary summaries and preliminary candidates from primary recordings; the recordings themselves were not revalidated. Persistent cross-run indexing remains unverified; this is a source bridge, not integrated E12.",
       "delta": [
         0,
         1,
