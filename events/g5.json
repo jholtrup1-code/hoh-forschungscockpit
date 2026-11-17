@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T05:07:40.000Z",
+  "updated_at": "2026-11-17T06:07:30Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1037,6 +1037,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C182-G01-TWO-REPRESENTATION-OWNER-QUESTION-READONLY-CLI-20261117",
+      "completed_at": "2026-11-17T06:07:30Z",
+      "evidence": "G01: Preregistered fictional end-to-end SQLite experiment showed that one owner question can now independently retrieve and exactly re-open an explicitly selected secondary chat Markdown TEXT VIEW and a native document paragraph TEXT VIEW through source-version-pinned, pre-ranking FTS queries. It separately reports missing, superseded, withdrawn and term-not-indexed states without upgrading the secondary view to an authenticated chat message. A tested local owner-only CLI reads an existing SQLite in mode=ro with private question file and 0600 private answer, rejecting insecure paths; 4 plus 3 new synthetic methods and complete source CI GREEN normal/-O. No actual live personal Oracle database query, no validated human meaning or authorship.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
         0,
         0,
         0,
