@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T11:06:22.794Z",
+  "updated_at": "2026-11-17T12:06:11.964Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1161,6 +1161,26 @@
         0,
         0,
         2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C188-G07-LATE-OWNER-SOURCE-PREWRITE-CHECK-20261117",
+      "completed_at": "2026-11-17T12:06:11.964Z",
+      "evidence": "G07: Vorregistrierter praktischer Fehlerschutz für eine private lokale Frage an zwei verschiedene Quellenansichten. Nach der ersten tatsächlich erfolgten SQLite-Originalöffnung kann eine zweite Datenbankverbindung eine Quelle zurückziehen oder durch eine neuere Version ersetzen, bevor der private Sichtungsbericht geschrieben wird. Ein neuer unabhängiger schreibgeschützter Quellen- und Rollen-Nachtest unmittelbar vor Ausgabe verwirft in diesen Fällen den veralteten Bericht. Fünf vorab geplante fiktive Tests und ein anschließender unabhängiger Native-Dokument-Gegenfall bestanden unter normalem und optimiertem Python; komplette 97-Schritt-Code-CI und 8-Schritt-Forschungsintegritätsprüfung auf demselben privaten Commit erfolgreich. Nicht nachgewiesen: dauerhafte Sperre gegen spätere Änderungen, tatsächliche laufende Oracle-Lebensquellen, authentifizierte Chat-Autorenschaft oder menschliche Bedeutungsvalidität.",
+      "delta": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
         1
       ]
     }
