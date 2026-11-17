@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T14:13:31.984Z",
+  "updated_at": "2026-11-17T15:17:37.599Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1208,6 +1208,26 @@
       "id": "E12-CP080",
       "completed_at": "2026-11-17T14:13:31.984Z",
       "evidence": "Four previously unprocessed native documents in a directly inventoried private source folder were completely exported as text/plain, copied to the authorized private Drive app folder and independently re-exported. All four source and copy byte streams matched SHA-256 (20,148 bytes total); source/copy parent IDs and non-shared status were checked. An append-only private source manifest and a private CP080 checkpoint with file IDs, source times, hashes, original-line checksums, source status and open inventory were written and read back. Temporary SQLite FTS5 indexed 128 nonblank source lines and passed integrity_check. Source text identifies provisional or context-inferred material; original audio and a persistent cross-run database remain unverified. In the directly inventoried folder, six native documents and three non-native files remain.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP081",
+      "completed_at": "2026-11-17T15:17:37.599Z",
+      "evidence": "Four previously unprocessed native source documents were completely exported with the connected Drive service, copied into the authorized non-shared private application folder and independently re-exported. SHA-256 confirms four byte-identical original/copy pairs covering 660,365 original bytes. Temporary Python SQLite FTS5 indexed 5,986 nonblank lines and passed integrity_check; the private append-only source manifest and checkpoint were written and read back with the destination parent verified. The directly inventoried folder retains two open native documents and three non-native files; audio, speaker attribution and persistent cross-run indexing remain unverified.",
       "delta": [
         0,
         1,
