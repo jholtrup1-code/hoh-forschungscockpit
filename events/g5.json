@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T14:07:00Z",
+  "updated_at": "2026-11-17T15:06:36.209Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1212,6 +1212,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C191-G07-STREAMING-COMPLETE-SQLITE-WINDOW-20261117",
+      "completed_at": "2026-11-17T15:06:36.209Z",
+      "evidence": "Ein vorregistrierter, ausschließlich fiktiver lokaler G07-Besitzer-Archivtest vergrößert die vollständig SHA-geprüfte SQLite-Aufzeichnungsfensterprüfung von 5.000 auf 50.000 Zeilen mit gebündelter SQL-Lektüre. Im unabhängig festgelegten 5.001-Zeilen-Test liegt die früheste passende Aufzeichnung erst hinter der früheren Grenze: Der alte Grenzwert verweigert die Aussage, das neue Verfahren findet beide korrekten UTC-Endpunkte und die vollständige Trefferzahl. Ein verfälschter nichtpassender Originaleintrag hinter Zeile 5.000 und eine 50.001-Zeilen-Überschreitung führen weiterhin zur Ablehnung. Zwölf lokale synthetische Regressionstests bestanden regulär und unter Python -O; vollständige 99-Schritt-Code-CI und getrennte 8-Schritt-Forschungsprüfung erfolgreich auf demselben dokumentierten Forschungsstand. Keine persönliche Oracle-Datenbankabfrage, keine verifizierte Urheberschaft, keine psychologische Bedeutung oder menschliche Bewertung.",
+      "delta": [
+        0,
+        0,
+        0,
         0,
         0,
         0,
