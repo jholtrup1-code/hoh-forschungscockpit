@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T15:18:11.128Z",
+  "updated_at": "2026-11-18T16:18:33.276Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1728,6 +1728,26 @@
       "id": "E12-CP106",
       "completed_at": "2026-11-18T15:18:11.128Z",
       "evidence": "Three previously unmanifested historical research synthesis documents were independently exported as complete text from the authorized connected Drive, copied into the private app folder, then re-exported byte-for-byte identical (88,343 bytes; three matching SHA-256 pairs). Ephemeral SQLite FTS5 validated 456 nonblank original lines and integrity_check=ok. Four additional nested administrative folders were directly inventoried. The new private checkpoint and append-only manifest were read back with the correct unshared Drive parent; durable E12 indexing and whole-House completeness remain open.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP107",
+      "completed_at": "2026-11-18T16:18:33.276Z",
+      "evidence": "Three previously unmanifested native Drive originals were exported completely, preserved as private native copies, and independently re-exported byte-identical (19,894 UTF-8 bytes; three matching SHA-256 pairs). A temporary SQLite FTS5 check passed integrity_check=ok and indexed 157 nonblank original lines with private line-position evidence. Five nested archival folders were directly inventoried, and a two-page provider document inventory was rerun. Private checkpoint CP107 and append-only manifest were read back in the correct unshared parent. Durable E12 SQLite and whole-House completeness remain open.",
       "delta": [
         0,
         1,
