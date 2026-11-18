@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T23:17:37.675Z",
+  "updated_at": "2026-11-18T00:22:25.714Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1417,6 +1417,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP091",
+      "completed_at": "2026-11-18T00:22:25.714Z",
+      "evidence": "Three previously unrecorded private Google Docs from two distinct House subfolders were fully exported, copied into the authorized non-shared Drive app folder and independently re-exported byte-identically. The three source/copy SHA-256 pairs matched (70,292 bytes total). Complete extracted text was tested in a temporary SQLite FTS5 index (392 nonblank lines; integrity_check=ok), and private line-level original evidence with hashes distinguishes a writing-method workshop source, a historical technical-methods source and an archival folder map from independently validated events. A bounded subfolder document listing was paginated 50+11 with no further token; this is not total House completeness. The checkpoint and append-only private manifest were independently reread with correct folder parents and non-shared status. The previous standalone checkpoint document currently returns 404 despite a parent-folder listing; its historical manifest record remains readable. No persistent cross-run E12 indexing is claimed.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
