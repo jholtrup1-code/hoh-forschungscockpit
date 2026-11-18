@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T11:12:37.143Z",
+  "updated_at": "2026-11-18T12:20:24.922Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1648,6 +1648,26 @@
       "id": "E12-CP102",
       "completed_at": "2026-11-18T11:12:37.143Z",
       "evidence": "Three previously unmanifested native archival research documents were fully downloaded as text, independently copied to the authorized private Drive app folder and re-exported byte-identically: 90,207 bytes across three matching SHA-256 pairs. A temporary SQLite FTS5 index covered 399 nonempty original lines, passed integrity checks and returned checked source-line matches. An additional nested archival folder was inventoried (42 direct items; 41 document-filtered results and one JSON). Private checkpoint CP102 and an append-only manifest were saved, independently read back, and verified in the unshared intended parent folder. No persistent cross-run E12 index, verified historical implementation claims, or complete House-wide recursive inventory is claimed.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP103",
+      "completed_at": "2026-11-18T12:20:24.922Z",
+      "evidence": "Three previously unmanifested native method originals (V7–V9) were fully exported from the connected private Drive source, copied to the authorized private app folder, then re-exported byte-for-byte identical (19,209 bytes, three matching SHA-256 pairs). An ephemeral Python SQLite FTS5 index validated 119 nonblank original lines and source-position lookups. Another nested source-register folder was directly inventoried (11 immediate items; 5 native Docs, 5 ZIP files, 1 XLSX). The private CP103 checkpoint and append-only manifest were independently read back, with correct private parent and non-shared metadata. Durable E12 indexing and House-wide inventory completeness are not claimed.",
       "delta": [
         0,
         1,
