@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T06:41:57.986Z",
+  "updated_at": "2026-11-18T07:38:00.205Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1348,6 +1348,26 @@
       "id": "P1-78-LOCOMO-EVIDENCE-WINDOW-20261118",
       "completed_at": "2026-11-18T06:41:57.986Z",
       "evidence": "P1-78: preregistered independent noncommercial fictional long-term dialogue source, nine heldout conversations; 1780/1787 QA records had exact author-cited original turn IDs. The last-three-session-only memory window retained all cited turns for 198/1780 (11.12%) versus full-history 1780/1780. 11/11 isolated synthetic source-contract tests and independent alternate tally fully agreed; exact original Git blob and SHA256 checked. Narrow evidence-availability baseline only, no actual answer or real-user psychology gold, no paid model calls or G5 changes. One editorial validation point, NOT a scientific percent.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-79-QUERY-AWARE-CITATION-RETRIEVAL-20261118",
+      "completed_at": "2026-11-18T07:38:00.205Z",
+      "evidence": "P1-79 distinct secondary analysis on previously studied CC BY-NC 4.0 fictional long-conversation corpus: 1780 exact author-cited QA evidence sets. On identical 10-turn selection budget, fixed query-aware lexical BM25 retrieved all cited original turns for 870/1780 versus 19/1780 using last-ten-turn recency; top-10 failed pre-fixed 60% sufficiency and fully retrieved only 25/384 multi-reference sets. 15/15 isolated synthetic tests; separately programmed dense BM25 agreed on 225/225 exact top-ten rankings. Same corpus, no new independent study; citation availability only, not answer correctness, human-meaning gold, personal benefit or G5 adoption. One editorial validation point.",
       "delta": [
         0,
         0,
