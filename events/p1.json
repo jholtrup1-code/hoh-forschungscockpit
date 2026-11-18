@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T02:45:27.760Z",
+  "updated_at": "2026-11-18T03:38:49.262Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1288,6 +1288,26 @@
       "id": "P1-74-ARGUMENT-ROLE-HELDOUT-20261118",
       "completed_at": "2026-11-18T02:45:27.760Z",
       "evidence": "P1-74: preregistered disjoint heldout segment b032..b061 from previously studied CC BY-NC-SA 4.0 human-annotated German argument corpus. Of 30 fixed paths, 29 original XML files were available (one author-repository-confirmed missing, no replacement), two independent source parsers agreed 29/29, and 26/29 contained both proponent and opponent argument units despite one annotated document stance. 13/13 isolated synthetic parser controls passed. A naive author-source-to-self-endorsement projection would be semantically invalid; this is same-corpus replication, NOT human gold for dual beliefs or improved real-user outcomes, NOT independent new corpus, no private texts/model calls/G5 changes. Editorial delta only one validation point.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-75-TASKMASTER-HUMAN-REJECT-PROXY-20261118",
+      "completed_at": "2026-11-18T03:38:49.262Z",
+      "evidence": "P1-75: prospectively frozen first 200 conversations from independent original CC BY 4.0 crowd-annotated Taskmaster-1 task-dialog corpus. 1123 unique accept/reject transaction-status annotations (1079 accept, 44 reject); frozen turn-only negation cue rule versus always-accept baseline balanced accuracy 0.611 vs 0.500, but 34/44 rejections remain missed and 5 false alarms. 11/11 own isolated negative controls; independently written recount exactly matches all four confusion cells; original author Git blob and prereg-before-target commit verified. New corpus offers only narrowly measured human-annotated task-status proxy, no downstream benefit or personal psychological gold, no private content/model calls/G5 writes. Editorial delta one validation point; not a scientific percentage.",
       "delta": [
         0,
         0,
