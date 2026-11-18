@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T08:15:35.637Z",
+  "updated_at": "2026-11-18T09:19:46.735Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1588,6 +1588,26 @@
       "id": "E12-CP099",
       "completed_at": "2026-11-18T08:15:35.637Z",
       "evidence": "Three previously unmanifested native Google Docs in a workshop archive and a methodological research folder were fully exported and copied as private native documents. Independently retrieved plain-text copies matched the originals byte-for-byte with SHA-256 across 175,340 bytes. A temporary SQLite FTS5 index of 596 nonblank source lines passed its integrity test and source-line lookups. The last direct workshop-ideas document was inventoried and processed. A private CP099 checkpoint and append-only source manifest were read back with the required parent folder and non-shared status. No persistent cross-run E12 index, independently verified historical source claims, or complete House-wide recursion is claimed.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP100",
+      "completed_at": "2026-11-18T09:19:46.735Z",
+      "evidence": "Three previously unmanifested archival method documents were fully exported through the connected Drive source, copied into the authorized private app folder, and independently re-exported byte-identically (34,511 bytes; three matching SHA-256 pairs). A temporary FTS5 index verified 173 nonblank original-text lines and passed integrity checks. The direct folder inventory was reconciled with paginated document-filter results (58 native documents plus 3 Markdown text files, 50+11), and one additional nested folder was inventoried. Private CP100 and append-only manifest were read back with the correct parent and non-shared status. No persistent E12 SQLite service or complete House-wide recursive inventory is claimed.",
       "delta": [
         0,
         1,
