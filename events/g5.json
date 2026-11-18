@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T13:16:55.288Z",
+  "updated_at": "2026-11-18T16:05:12.513Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1574,6 +1574,26 @@
         1,
         0,
         0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C209-G07-TWO-TIME-MIXED-VOICE-REPLAY-20261118",
+      "completed_at": "2026-11-18T16:05:12.513Z",
+      "evidence": "Preregistered private fictional two-time question task now contrasts two strictly ordered, distinct SHA-verified full originals with one unauthenticated self-surface candidate each. Later third-party speech remains separate; exact earlier-assistant wording is flagged as possible reuse instead of proving changed personal meaning. Independently preregistered replay counterexample initially failed: differently dated IDs containing an identical complete original could pose as two separate sources; repaired with fail-closed original-hash check while distinct originals remain eligible. Sixteen synthetic tests pass in normal and optimized Python. Full source and scientific-state GitHub CI both succeeded at the same final private commit; no human-authenticated authorship, independent real occasion, psychological meaning, model API, new provider, productive data or personal source text.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        1,
         0,
         1,
         1,
