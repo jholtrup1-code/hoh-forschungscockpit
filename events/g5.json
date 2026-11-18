@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T22:08:09.963Z",
+  "updated_at": "2026-11-18T23:13:18.261Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1737,6 +1737,26 @@
         1,
         0,
         0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C217-G07-FROZEN-PAIRED-SYNTHETIC-EVIDENCE-SCORER-20261119",
+      "completed_at": "2026-11-18T23:13:18.261Z",
+      "evidence": "Prospectively preregistered G07 synthetic equal-available-input comparison of two source-verified correction-review methods: a frozen-prediction SHA receipt is scored only after separate fictional reference labels are supplied. Six real in-memory SQLite task tests passed in normal and optimized Python, with full source and science workflows successful on identical private Git commit 9b1d1f5f7f1d92df64f30d60c1f4bcac12cc092c. Paired accounting distinguished one wrong quotation suppressed from one correct quotation withheld; correlated agreeing false labels still caused a wrong-source quote. This is a modest reproducible experimental scoring and negative-control capability, not independently blinded human labels, true person identity, semantic gold, or superiority over external studies. No original personal data or external model API use.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
         0,
         0,
         0,
