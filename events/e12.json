@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T09:19:46.735Z",
+  "updated_at": "2026-11-18T10:15:26.822Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1608,6 +1608,26 @@
       "id": "E12-CP100",
       "completed_at": "2026-11-18T09:19:46.735Z",
       "evidence": "Three previously unmanifested archival method documents were fully exported through the connected Drive source, copied into the authorized private app folder, and independently re-exported byte-identically (34,511 bytes; three matching SHA-256 pairs). A temporary FTS5 index verified 173 nonblank original-text lines and passed integrity checks. The direct folder inventory was reconciled with paginated document-filter results (58 native documents plus 3 Markdown text files, 50+11), and one additional nested folder was inventoried. Private CP100 and append-only manifest were read back with the correct parent and non-shared status. No persistent E12 SQLite service or complete House-wide recursive inventory is claimed.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP101",
+      "completed_at": "2026-11-18T10:15:26.822Z",
+      "evidence": "Three newly confirmed private Drive originals from two archival branches were fully exported as text, copied to the authorized private app folder and independently re-exported byte-for-byte identical with matching SHA-256 (34,589 bytes total). A temporary SQLite FTS5 search indexed 152 nonempty original lines, passed integrity checks and located source-line matches. One previously pending nested document was fully processed; a separate dated source folder was directly inventoried (five items). Private checkpoint CP101 and append-only manifest were independently read back and verified in the intended unshared parent folder. No durable cross-run SQLite service, completed House-wide inventory, or implemented product capability is claimed.",
       "delta": [
         0,
         1,
