@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T15:27:00.000Z",
+  "updated_at": "2026-11-18T16:37:44.022Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1508,6 +1508,26 @@
       "id": "P1-86-STATUS-COLLISION-AUTHOR-LABELS-20261118",
       "completed_at": "2026-11-18T14:40:20.000Z",
       "evidence": "P1-86 documented independent arithmetic reproduction of a synthetic licensed dialogue-memory benchmark: among 254 questions with both needed and forbidden source IDs, 30 carry raw identical status/state-status pairs; 3 pairs also pass the tiered eligibility filter, all in the 17 previously documented forbidden-selection questions. 13/13 synthetic controls; 736-row baseline independently reproduced, 595/735 complete-and-safe and 17/254 forbidden-selection unchanged. This is a secondary structural status-filter limit, not new human consent evidence, real data leakage, answer-quality proof or G5 integration. Public event recovered after the previous verified backend routing failure; no duplicate credit.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-87-MEMORA-DUAL-PROBE-COVERAGE-20261118",
+      "completed_at": "2026-11-18T16:37:44.022Z",
+      "evidence": "Prospectively registered independent Apache-2.0 synthetic benchmark evaluation-instrument audit: 150 weekly questions from 10 generated personas; 98/150 contain both remembering and forgetting checks (predeclared <50% hypothesis rejected), but reasoning has 0/50 with forgetting checks vs 48/50 remembering and 50/50 recommending. Original source blobs pinned, all 150 rubrics structurally valid, 8/8 synthetic negative controls and separate exact count. This is task-stratified benchmark coverage, NOT model recall performance, real consent, longitudinal psychology, human correction gold or deployment.",
       "delta": [
         0,
         0,
