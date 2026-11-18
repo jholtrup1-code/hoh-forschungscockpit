@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T16:05:12.513Z",
+  "updated_at": "2026-11-18T16:20:55.566Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1592,6 +1592,26 @@
         0,
         0,
         1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C210-G07-HISTORICAL-MIXED-VOICE-CUTOFF-20261118",
+      "completed_at": "2026-11-18T16:20:55.566Z",
+      "evidence": "Prospectively registered C210 fictional historical mixed-turn question adds an explicit recording-time cutoff to the already validated owner-private two-original review. Earlier cutoff abstains rather than revealing a not-yet-recorded selected original; equal/later cutoff allows the SHA-bound unjudged pair; timezone offsets are compared by instant. Future off-scope originals and assistant material are excluded, while in-scope SHA tampering, duplicate IDs, prior-assistant wording ambiguity and identical-original replay remain guarded. Nineteen new synthetic tests passed in normal and optimized Python; full private source and scientific-state CI succeeded on the same commit. No verified person, lived event, chronology of meaning, human gold, automatic answer, model API or new provider.",
+      "delta": [
+        0,
+        0,
+        0,
         0,
         1,
         0,
