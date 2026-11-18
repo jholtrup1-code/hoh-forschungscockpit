@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T19:06:41.724Z",
+  "updated_at": "2026-11-18T20:12:27.000Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1676,6 +1676,26 @@
         0,
         1,
         1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C214-G04-REFERENT-SCOPED-CORRECTION-20261118",
+      "completed_at": "2026-11-18T20:12:27.000Z",
+      "evidence": "Prospective strictly fictional same-topic, different-referent follow-up test reproduced cross-referent correction quotation in the previous unscoped exact-original method. A new complete, explicitly caller-supplied but unauthenticated per-original referent-review scope selects only the matching candidate, otherwise abstains; original hash/clock integrity is still rechecked even for excluded sources. Thirteen adversarial synthetic tests passed in ordinary and optimized Python; full source and scientific-state workflows independently succeeded on identical private commit cfc2fd8f4d1d378818229a053e59a6fc0749ea1c. This establishes a deterministic guard, not authenticated human authorship, learned identity, personal meaning, or a benchmark superiority claim; no personal originals or external model calls.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
         1,
         0,
         0,
