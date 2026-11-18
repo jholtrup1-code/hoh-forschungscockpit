@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T17:43:25.161Z",
+  "updated_at": "2026-11-18T18:38:34.559Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1562,6 +1562,26 @@
         0,
         1,
         1
+      ]
+    },
+    {
+      "id": "P1-89-F02-F07-RETELLING-SOURCE-METHOD-20261118",
+      "completed_at": "2026-11-18T18:38:34.559Z",
+      "evidence": "Verified direct peer-reviewed 2026 open-access full-article methodology for longitudinal autobiographical retelling: 210 selected repeated-event narrators, author-reported internal vs external detail recurrence, separate event-time thoughts from retrospective evaluation and inferred others, with limited category inter-rater agreement. Source-method advancement for F02/F07 only; omitting or changing a retold detail is not confirmed belief change. No individual participant records opened, no new model/dataset run, no person-confirmed meaning labels, no G5 integration.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
       ]
     }
   ],
