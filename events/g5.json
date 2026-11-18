@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T21:13:26.135Z",
+  "updated_at": "2026-11-18T22:08:09.963Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1717,6 +1717,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C216-G07-DUAL-UNVERIFIED-LABEL-DISAGREEMENT-20261118",
+      "completed_at": "2026-11-18T22:08:09.963Z",
+      "evidence": "Preregistered, isolated synthetic SQLite study exposed a technical failure mode in single-map referent attribution. A new source-integrity-replaying guard accepts two separate but UNAUTHENTICATED complete referent claims and withholds private correction quotes when the claims conflict. Seven actual-integration regression tests passed in normal and optimized Python, with full source and scientific-state workflows successful on the same private commit. A deliberately wrong first claim was prevented from presenting a wrong-referent quotation when the second disputed it, at the measured cost of withholding a correct quote under reverse disagreement; matching correlated false maps remain unsafe. This is a bounded technical abstention and reviewer disagreement result, not proof of independent human identity, correct real-life meaning, or external benchmark superiority. No personal originals or paid model API were used.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
         0,
         0,
         0,
