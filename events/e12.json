@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T06:21:14.366Z",
+  "updated_at": "2026-11-18T07:20:56.742Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1548,6 +1548,26 @@
       "id": "E12-CP097",
       "completed_at": "2026-11-18T06:21:14.366Z",
       "evidence": "Three previously unmanifested historical literary workshop/mapping Drive documents were fully exported and copied as private native documents, with independent original-copy SHA-256 equality across 69,245 bytes. Temporary SQLite FTS5 indexed 257 nonblank lines and passed integrity checks. Four previously untraversed nested folders were enumerated; three child documents remain awaiting full-text processing. A private CP097 checkpoint and append-only manifest were read back with verified parent IDs and non-shared status. No persistent cross-run search index or complete repository-wide inventory is claimed.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP098",
+      "completed_at": "2026-11-18T07:20:56.742Z",
+      "evidence": "Three previously unprocessed native Google Docs in three nested archival subfolders were fully exported, copied into the authorized private Drive app folder, independently re-exported and verified byte-identical with matching SHA-256 (10,440 bytes total). A temporary SQLite FTS5 indexed 83 nonblank original lines and passed integrity checks. All three child folders were corroborated by direct inventory and document-filtered provider searches, with no further document page token. A private CP098 checkpoint and append-only manifest were read back with correct parents and non-shared status. No externally verified original audio, durable cross-run search index or complete House-wide inventory is claimed.",
       "delta": [
         0,
         1,
