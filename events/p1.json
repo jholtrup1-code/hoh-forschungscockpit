@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T18:38:34.559Z",
+  "updated_at": "2026-11-18T19:42:30.142Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1580,6 +1580,26 @@
         0,
         0,
         1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "P1-90-HUMAN-MEMORY-MISALIGNMENT-EXPOSURE-AUDIT-20261118",
+      "completed_at": "2026-11-18T19:42:30.142Z",
+      "evidence": "P1-90 verified two 2026 public full-text HUMAN-study preprint methods, without participant records or P1 model tests. Original memory-user study: 172/457 entries judged unsuitable by participants, not independently verified factual errors; abstract 304 diary reports vs methods 148 analyzed with no confirmed denominator reconciliation. Separate randomized 992-completer, five-session study reports rising usefulness over repeated sessions but no significant additional usefulness trend from conversation-memory or survey personalization. These studies constrain future human-utility design; not P1 human-correction gold, causal proof of personal meaning, new dataset experiment, peer-reviewed verification or G5 integration.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0
       ]
