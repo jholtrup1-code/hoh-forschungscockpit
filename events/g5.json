@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T03:12:20Z",
+  "updated_at": "2026-11-18T04:19:10.166Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1377,6 +1377,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C199-G07-CITED-SPAN-REWRITE-GATE-20261118",
+      "completed_at": "2026-11-18T04:19:10.166Z",
+      "evidence": "A preregistered owner-only local archive citation task now verifies the exact SHA of a Unicode-codepoint anchored quoted passage against independently SHA-checked old and new original snapshots. In two completely fictional chapter-source revisions, the prior whole-original citation check flags both changed sources, while the new exact quote-span check identifies one preserved source excerpt at its original offsets and one changed cited passage. An independent holdout confirms that finding the old quotation shifted elsewhere must not silently re-anchor a citation. Twelve synthetic tests run under standard and optimized Python, and private full code CI 107/107 plus scientific-state CI 8/8 passed at the same private source/state commit. No personal originals, real manuscript use, meaning assessment, new remote integration, author authentication or publication of private text was involved.",
+      "delta": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
         0,
         0,
         0,
