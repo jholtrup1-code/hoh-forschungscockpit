@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T10:40:49.187Z",
+  "updated_at": "2026-11-18T11:34:18.119Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1428,6 +1428,26 @@
       "id": "P1-82-GOVERNED-RETRIEVAL-FORBIDDEN-CUE-20261118",
       "completed_at": "2026-11-18T10:40:49.187Z",
       "evidence": "P1-82 pre-registered independent CC BY 4.0 synthetic governed-memory corpus experiment (736 eligible English questions). At K=5, query-aware BM25 retained complete expected evidence without forbidden selected items in 480/735 vs 402/735 for fixed pool-tail retrieval, but also selected scorer-forbidden memory items in 243/254 marked queries vs 75/254. The preregistered safety gate FAILED (+66.14 percentage points forbidden exposure). 15/15 isolated synthetic controls, independent full recount across 736 rows and 100/100 top-five rankings checked. Scorer-only synthetic labels; not real disclosure, verified user benefit, independent person meaning gold, model answer correctness or G5 integration. One editorial validation point only.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-83-STRICT-STATUS-GATE-EVIDENCE-LOSS-20261118",
+      "completed_at": "2026-11-18T11:34:18.119Z",
+      "evidence": "P1-83 preregistered-method SECONDARY analysis of already examined CC BY 4.0 synthetic long-term-memory benchmark, 736 valid questions. Compared identical BM25@5 ranking with strict input-visible active+current status gate: forbidden item selection fell 243/254 to 12/254 but complete-and-safe evidence fell 480/735 to 130/735, losing 587 formerly complete cases. Other active preserved/ephemeral and superseded states must not be categorically erased without query/time/scope analysis. 17/17 isolated synthetic tests; prior BM25 top-5 exactly matched for 736/736, independent recount confirmed all main counters. Preregistered utility gate FAILED; no new independent corpus, actual human meaning gold, answer accuracy, private data, paid model calls or production G5 adoption. One editorial validation point only.",
       "delta": [
         0,
         0,
