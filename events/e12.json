@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T13:19:13.101Z",
+  "updated_at": "2026-11-18T14:15:04.409Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1688,6 +1688,26 @@
       "id": "E12-CP104",
       "completed_at": "2026-11-18T13:19:13.101Z",
       "evidence": "Three previously unmanifested method/synthesis originals were fully exported from the connected private Drive and secured as native private copies. Independent text/plain re-exports matched exactly (42,967 bytes; three matching SHA-256 pairs). An ephemeral SQLite FTS5 index validated 218 nonblank lines and actual line-numbered matches. A document-filtered inventory was paginated (50+11), and three additional top-level branches were checked (0, 0, and 5 direct entries). The append-only private CP104 manifest and checkpoint were read back with the authorized unshared parent. No durable E12 indexing or full House inventory is claimed.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP105",
+      "completed_at": "2026-11-18T14:15:04.409Z",
+      "evidence": "Three previously unmanifested archival synthesis originals were completely exported from the authorized Drive source and preserved in the private app folder as native documents. Independently re-exported original/copy bytes matched for all three sources (65,387 bytes, three identical SHA-256 pairs); 368 nonblank physical lines were checked with an ephemeral SQLite FTS5 index and integrity checks. Private checkpoint CP105 and append-only historical manifest were independently read back, with all private copies and both receipts verified in the correct unshared parent. Four administrative subfolders were inventoried, including paginated document searches covering 97 and 272 unique results. The House-wide recursion and durable cross-run SQLite integration remain incomplete.",
       "delta": [
         0,
         1,
