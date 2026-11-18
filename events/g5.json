@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T05:09:47.403Z",
+  "updated_at": "2026-11-18T06:14:20.396Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1416,6 +1416,26 @@
         1,
         1,
         0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C201-G07-QUESTION-BOUND-CORRECTION-SCOPE-20261118",
+      "completed_at": "2026-11-18T06:12:55.387Z",
+      "evidence": "A preregistered fictional four-original correction-review task exposed a wrong-question source-priority risk in the prior as-of method: an unrelated later self-correction was preferred. The new private question-scoped review validates original and quoted SHA, editor-asserted question-group membership and exact per-group question digest before choosing question-specific owner-review candidates. A separate adversarial wrong-question holdout was reproduced as failing before repair, then fixed; all 23 synthetic new tests pass normal and Python -O, full code CI 109/109 and state CI 8/8 pass on the same SHA. No independent question relevance, speaker, meaning or personal fact was verified, and no automatic answer was released.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
         1,
         0,
         0,
