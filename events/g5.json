@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T12:07:55.378Z",
+  "updated_at": "2026-11-18T13:16:55.288Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1552,6 +1552,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C208-G02-MULTITURN-ASSISTANT-ORIGIN-20261118",
+      "completed_at": "2026-11-18T13:16:55.288Z",
+      "evidence": "Prospectively registered G02 source-role and earlier-assistant wording review on one entirely fictional multi-turn question. A 5-hit literal Ich baseline was separated into 3 unauthenticated direct-self surface candidates, 1 reported-other-speech candidate, and 1 reporter interpretation; exactly one later direct-self candidate had a verified exact wording overlap in an earlier SHA-verified supplied assistant original. Unlabelled narration, corruption, later/equal AI dates and privacy negatives abstain or preserve unjudged roles. A pre-registered red test exposed C125 omission of explicit Ich komme, corrected and covered by new tests; separate malformed test-fixture newline was corrected. Nineteen prospective and independently added synthetic adversarial methods passed regular and optimized Python. Full private source workflow 116/116 and scientific-state workflow 8/8 succeeded at identical commit 6e9aae34540f50645cd1c5b8fb71448b0cf70897. No human-authenticated role, authorship, personal meaning, model, private source or production integration. Novel gain is narrow fictional source-review utility, not psychological truth.",
+      "delta": [
+        0,
+        0,
+        1,
         0,
         0,
         0,
