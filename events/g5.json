@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T18:17:18.497Z",
+  "updated_at": "2026-11-18T19:06:41.724Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1656,6 +1656,26 @@
         0,
         0,
         0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C213-G04-QUESTION-BOUND-CORRECTION-QUOTE-20261118",
+      "completed_at": "2026-11-18T19:06:41.724Z",
+      "evidence": "Prospective synthetic G04 task-source regression: with an explicitly supplied unverified literal topic bridge, a later differently worded question can privately receive the single latest as-of SHA/Unicode-bound correction-labelled original quotation instead of an obsolete baseline quotation. Later unrelated-topic reports, third-party/unknown speech, future sources, conflicting latest corrections, changed source clocks/roles/bytes and outdated exact correction pins abstain or fail closed. Seventeen new tests passed in normal and optimized Python and both complete private source plus scientific-state workflows passed on identical canonical code/state SHA. This does not establish real authorship, semantic relevance, human belief, independent personal meaning or automatic answer authorization. No personal originals or external model API.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
         1,
         0,
         0,
