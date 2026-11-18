@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T00:41:07.081Z",
+  "updated_at": "2026-11-18T01:33:37.630Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1252,6 +1252,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "P1-73-SOURCE-SPAN-TUPLE-ID-20261118",
+      "completed_at": "2026-11-18T01:33:37.630Z",
+      "evidence": "Git-readback P1-72 evaluators showed two distinct source_id/span_id pairs falsely collapsing under colon and U+0001 serialization; P1-only structural tuple comparison independently reproduced 24/24 synthetic checks and 5/5 order checks. Only provenance contract; no human-gold or demonstrated user benefit.",
+      "delta": [
+        0,
+        0,
+        1,
         0,
         0,
         0,
