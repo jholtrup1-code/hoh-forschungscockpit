@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T08:41:08.275Z",
+  "updated_at": "2026-11-18T09:38:13.637Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1393,6 +1393,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-81-PAIRED-PERSPECTIVE-GATE-REJECTED-20261118",
+      "completed_at": "2026-11-18T09:38:13.637Z",
+      "evidence": "P1-81 preregistered paired published human-outcome proxy audit of one released model's first-person and observer judgments: 3016 balanced positive/negative pairs, 5817 valid branches. Requiring BOTH perspectives to predict change still produced 608 false positives among 2918 negatives (20.84% FPR), 27.53% sensitivity and 56.76% precision. This fails predeclared safety/utility thresholds and did not materially improve on observer alone. Own safety-scanned code passed 21/21 isolated synthetic controls; a separately written aggregator confirmed all five confusion matrices. Public author-created labels licensed with source repository; no third-party original text stored, private sources, paid model calls, actual person-meaning gold or G5 change. One new independent publicly annotated corpus evaluation, not real-user human-psychology validation.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
         0,
         0,
         0,
