@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T13:38:14.666Z",
+  "updated_at": "2026-11-18T15:27:00.000Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1488,6 +1488,26 @@
       "id": "P1-85-SCOPE-STATUS-COUNTERFACTUAL-20261118",
       "completed_at": "2026-11-18T13:38:14.666Z",
       "evidence": "P1-85 preregistered synthetic single-source access-scope counterfactual against source-verified P1-84 tiered status eligibility: for 12 identical-content-and-status request pairs differing only in caller context, status-only selected the memory in all 12 forbidden synthetic contexts. An explicit fictional owner/team scope check retained 12/12 allowed and selected 0/12 denied, with 8/8 extra negative/positive controls and separate arithmetic recount. This is a reproducible software authorization-boundary demonstration, NOT independent permission or consent evidence, human-meaning validation, a new dataset family, real data leakage, production access control, or G5 integration. One editorial validation point.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-86-STATUS-COLLISION-AUTHOR-LABELS-20261118",
+      "completed_at": "2026-11-18T14:40:20.000Z",
+      "evidence": "P1-86 documented independent arithmetic reproduction of a synthetic licensed dialogue-memory benchmark: among 254 questions with both needed and forbidden source IDs, 30 carry raw identical status/state-status pairs; 3 pairs also pass the tiered eligibility filter, all in the 17 previously documented forbidden-selection questions. 13/13 synthetic controls; 736-row baseline independently reproduced, 595/735 complete-and-safe and 17/254 forbidden-selection unchanged. This is a secondary structural status-filter limit, not new human consent evidence, real data leakage, answer-quality proof or G5 integration. Public event recovered after the previous verified backend routing failure; no duplicate credit.",
       "delta": [
         0,
         0,
