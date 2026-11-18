@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-17T21:09:04.368Z",
+  "updated_at": "2026-11-18T03:12:20Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1357,6 +1357,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C198-G01-TECHNICAL-RELAY-INDEX-GAP-20261118",
+      "completed_at": "2026-11-18T03:12:20Z",
+      "evidence": "Prospectively preregistered owner-authorized technical Drive-to-restricted-relay audit reconciled exact original bytes with an already-present server receipt, but independently confirmed that the bounded research consumer index does not reopen that source. A new fail-closed source-free checker prevents falsely reporting inbox presence as indexed full-version recovery, rejects mismatched provenance, digest, timestamp and excerpts, and passed 14 synthetic tests both normal and optimized Python. A separate real technical original passed an isolated local SQLite byte-readback smoke test, not the production importer. Full private code CI 106/106 and science CI 8/8 passed on the same state commit. No personally meaningful finding, complete archive, verified historical revision or productive personal Oracle database access claimed.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
