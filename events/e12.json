@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T21:21:31.832Z",
+  "updated_at": "2026-11-18T22:22:06.497Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1848,6 +1848,26 @@
       "id": "E12-CP112",
       "completed_at": "2026-11-18T21:21:31.832Z",
       "evidence": "Two previously unreceipted native archive working documents and one additional native background document were privately copied and independently re-exported through the connected Drive service. All three original/copy text/plain byte-pairs matched SHA-256 (166,205 bytes total); temporary SQLite FTS5 integrity_check=ok covered 3,027 nonempty source lines with original-position receipts. The six-document archive subfolder was closed by direct ID reconciliation; a seven-document background subfolder was paginated and left partially open. Private checkpoint and append-only manifest were read back in the intended unshared app folder. Persistent SQLite and complete House recursion remain unverified.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP113",
+      "completed_at": "2026-11-18T22:22:06.497Z",
+      "evidence": "Three previously unreceipted native research-source guide documents in a nested Drive source-register folder were fully exported through the existing connection and independently re-exported from private native copies. Original/copy bytes and SHA-256 matched across all three (36,928 UTF-8 bytes); a transient SQLite FTS5 integrity check indexed 302 nonempty lines with private source-line proofs. The folder's five native documents were enumerated with a final null page token, leaving two unprocessed native documents. Historical manifest reconciliation also established that six apparently open background documents had already been source-verified in earlier checkpoints; they were not re-counted. Private receipt and append-only manifest were read back in the intended unshared folder. Cross-run SQLite and global recursion remain unverified.",
       "delta": [
         0,
         1,
