@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T17:10:34Z",
+  "updated_at": "2026-11-18T18:17:18.497Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1636,6 +1636,26 @@
         2,
         0,
         1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C212-G02-NUMERIC-DAY-ORIGINAL-SPAN-20261118",
+      "completed_at": "2026-11-18T18:17:18.497Z",
+      "evidence": "Preregistered synthetic G02 source-exact regression: German numeric day followed by an explicit month no longer splits an original self-report into two lexical fragments, and the downstream bounded self-surface gate now preserves the same full SHA/Unicode-offset candidate without general punctuation relaxation. An earlier C211 negative test was invalid because it used literal backslash-n; replaced by a genuine physical-newline two-original question-level positive, while historical-as-of abstention remains enforced. Multiple real red CI runs exposed independent splitter, regex-escape, and downstream self-surface faults; repaired with focused controls. Both complete private source CI and scientific-state CI succeeded at identical canonical commit dbbb329929a7139616ccfc7a201c4e61852521ef. Only fictional originals; no validated lived event time, speaker identity, human meaning, model API, private data, or new integration.",
+      "delta": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
         1,
         0,
         0,
