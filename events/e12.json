@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T01:18:55.770Z",
+  "updated_at": "2026-11-18T02:23:08.913Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1448,6 +1448,26 @@
       "id": "E12-CP092",
       "completed_at": "2026-11-18T01:18:55.770Z",
       "evidence": "Three previously unprocessed native Drive technical/methods sources (50,642 complete original UTF-8 text export bytes) were copied to the authorized non-shared private Drive app folder and independently re-exported. All three original/copy SHA-256 pairs matched byte-for-byte. Source-line evidence and status distinctions were recorded privately, while a temporary SQLite FTS5 index validated 436 nonblank lines with integrity_check=ok. Parent IDs, non-shared status, append-only private CP092 manifest and the separate checkpoint were read back. Full House recursion and persistent cross-run E12 indexing remain open; no live production code execution is implied.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP093",
+      "completed_at": "2026-11-18T02:23:08.913Z",
+      "evidence": "Three previously unprocessed historical technical and research-method native Google Docs from a bounded private source folder were fully exported (73,848 UTF-8 bytes), copied as non-shared native documents into the authorized private app folder and independently re-exported. All three source/copy byte comparisons and SHA-256 hashes matched. Exact original-line provenance and source-status distinctions were privately documented; temporary SQLite FTS5 indexed 338 nonblank source lines with passed integrity tests. A fresh two-page metadata query found 50+8 current native Docs (58 unique), resolving the prior unverified 61-document count as not reproducible in this run. CP093 and the append-only private manifest were read back with correct parent IDs and non-shared status. Plain-text export upload remained blocked by connector file-reference validation; the complete original texts persist in private native Drive copies. No persistent running E12 index or independent validation of historical method claims is asserted.",
       "delta": [
         0,
         1,
