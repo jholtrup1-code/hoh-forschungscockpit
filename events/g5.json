@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T07:06:26.113Z",
+  "updated_at": "2026-11-18T08:04:54.263Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1456,6 +1456,26 @@
         0,
         0,
         1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C203-G07-EXACT-QUOTED-SURFACE-CONTRAST-20261118",
+      "completed_at": "2026-11-18T08:04:26Z",
+      "evidence": "In an isolated, preregistered fictional owner-question task, C203 adds exact Unicode-codepoint source-offset change highlighting between a SHA-verified baseline quoted excerpt and an eligible later editor-labelled self-correction candidate. C201/C202 already provided full-source/question/as-of checks, but no direct anchored before/after surface-change ranges. Sixteen bounded synthetic positive and negative tests passed in normal and optimized Python; complete private source CI 111/111 and scientific CI 8/8 passed at the same post-state commit. Later off-topic and third-party excerpts are not treated as the new correction. This is a private technical reading aid: no independently verified human relevance, changed belief, personal meaning, attribution or automatic answer.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
         1,
         0,
         0,
