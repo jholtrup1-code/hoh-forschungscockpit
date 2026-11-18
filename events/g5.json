@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T04:19:10.166Z",
+  "updated_at": "2026-11-18T05:09:47.403Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1397,6 +1397,26 @@
         0,
         0,
         2,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C200-G04-ASOF-SELF-REPORT-VS-THIRD-PARTY-20261118",
+      "completed_at": "2026-11-18T05:06:52.287Z",
+      "evidence": "A prospective local-SQLite synthetic correction task now separates a later explicitly annotated third-party report from an earlier explicitly annotated self-correction candidate instead of blindly selecting the chronologically last mention. Full stored-original and exact quote-span SHA, timezone-normalized as-of time, future-report exclusion and ambiguous equal-time correction abstention were tested with 15 synthetic positive/negative methods under normal and optimized Python. Full private source CI 108/108 and independent scientific-state CI 8/8 passed on the same checked commit. The annotation is external and unverified; no real person's authorship, interpretation or belief, automatic answer, private data transfer, new integration or manuscript outcome was validated.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
         0,
         0,
         0,
