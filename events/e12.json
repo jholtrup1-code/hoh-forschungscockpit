@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T14:15:04.409Z",
+  "updated_at": "2026-11-18T15:18:11.128Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1708,6 +1708,26 @@
       "id": "E12-CP105",
       "completed_at": "2026-11-18T14:15:04.409Z",
       "evidence": "Three previously unmanifested archival synthesis originals were completely exported from the authorized Drive source and preserved in the private app folder as native documents. Independently re-exported original/copy bytes matched for all three sources (65,387 bytes, three identical SHA-256 pairs); 368 nonblank physical lines were checked with an ephemeral SQLite FTS5 index and integrity checks. Private checkpoint CP105 and append-only historical manifest were independently read back, with all private copies and both receipts verified in the correct unshared parent. Four administrative subfolders were inventoried, including paginated document searches covering 97 and 272 unique results. The House-wide recursion and durable cross-run SQLite integration remain incomplete.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP106",
+      "completed_at": "2026-11-18T15:18:11.128Z",
+      "evidence": "Three previously unmanifested historical research synthesis documents were independently exported as complete text from the authorized connected Drive, copied into the private app folder, then re-exported byte-for-byte identical (88,343 bytes; three matching SHA-256 pairs). Ephemeral SQLite FTS5 validated 456 nonblank original lines and integrity_check=ok. Four additional nested administrative folders were directly inventoried. The new private checkpoint and append-only manifest were read back with the correct unshared Drive parent; durable E12 indexing and whole-House completeness remain open.",
       "delta": [
         0,
         1,
