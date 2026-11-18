@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T11:09:00.540Z",
+  "updated_at": "2026-11-18T12:07:55.378Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1536,6 +1536,26 @@
         0,
         0,
         0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C207-G08-CONDITIONAL-QUESTION-TASK-UTILITY-20261118",
+      "completed_at": "2026-11-18T12:07:55.378Z",
+      "evidence": "Prospective G08 fictional question-task comparison, method and four-case N/P/W/T task matrix preregistered before implementation: conditional C204 unjudged original review without prior assistant overlap, and C206 independent persisted dual-archive replay only for a prior-assistant exact-overlap pair. Valid pair shown privately after independent double original replay; withdrawn or altered archived assistant source yields abstention, no stale pair. Eleven new synthetic adversarial tests passed normal and Python -O, complete private source CI 115/115 and scientific-state CI 8/8 succeeded on the same commit. Strictly synthetic technical task utility, no true authorship, human meaning, model API calls, new connectors or production access.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
         1,
         0,
         0,
