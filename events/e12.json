@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T19:22:20.767Z",
+  "updated_at": "2026-11-18T20:16:38.593Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1808,6 +1808,26 @@
       "id": "E12-CP110",
       "completed_at": "2026-11-18T19:22:20.767Z",
       "evidence": "Three previously unmanifested native Drive documents were completely exported and retained as three private native copies. Independent raw text/plain exports matched each original byte-for-byte with SHA-256 verification (23,557 total bytes). A temporary SQLite FTS5 index checked 144 nonempty original lines with integrity_check=ok and line-position evidence in a private checkpoint. Direct archive inventories and a 50+11 paginated folder filter were verified. The private checkpoint and append-only manifest were re-read in the intended unshared app folder. Cross-run SQLite and full recursive inventory remain open.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP111",
+      "completed_at": "2026-11-18T20:16:38.593Z",
+      "evidence": "Three previously non-receipted native Drive sources (two compiled working text bands and one chronology register) were fully exported through the existing Drive connection, copied privately, independently re-exported and verified byte-identical with SHA-256 (272,923 UTF-8 bytes). A transient Python SQLite FTS5 integrity check covered 5,125 nonempty original lines with private line-position receipts. Two correspondence subfolders were inventoried and the private checkpoint and append-only manifest were re-read in the intended unshared app folder. Original correspondence authenticity, durable SQLite and full House recursion remain outside this verified step.",
       "delta": [
         0,
         1,
