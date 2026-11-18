@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T07:20:56.742Z",
+  "updated_at": "2026-11-18T08:15:35.637Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1568,6 +1568,26 @@
       "id": "E12-CP098",
       "completed_at": "2026-11-18T07:20:56.742Z",
       "evidence": "Three previously unprocessed native Google Docs in three nested archival subfolders were fully exported, copied into the authorized private Drive app folder, independently re-exported and verified byte-identical with matching SHA-256 (10,440 bytes total). A temporary SQLite FTS5 indexed 83 nonblank original lines and passed integrity checks. All three child folders were corroborated by direct inventory and document-filtered provider searches, with no further document page token. A private CP098 checkpoint and append-only manifest were read back with correct parents and non-shared status. No externally verified original audio, durable cross-run search index or complete House-wide inventory is claimed.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP099",
+      "completed_at": "2026-11-18T08:15:35.637Z",
+      "evidence": "Three previously unmanifested native Google Docs in a workshop archive and a methodological research folder were fully exported and copied as private native documents. Independently retrieved plain-text copies matched the originals byte-for-byte with SHA-256 across 175,340 bytes. A temporary SQLite FTS5 index of 596 nonblank source lines passed its integrity test and source-line lookups. The last direct workshop-ideas document was inventoried and processed. A private CP099 checkpoint and append-only source manifest were read back with the required parent folder and non-shared status. No persistent cross-run E12 index, independently verified historical source claims, or complete House-wide recursion is claimed.",
       "delta": [
         0,
         1,
