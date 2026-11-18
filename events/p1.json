@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T16:37:44.022Z",
+  "updated_at": "2026-11-18T17:43:25.161Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1542,6 +1542,26 @@
         0,
         1,
         0
+      ]
+    },
+    {
+      "id": "P1-88-MEMUSE-COVERAGE-CONTRACT-20261118",
+      "completed_at": "2026-11-18T17:43:25.161Z",
+      "evidence": "P1-88 verified publisher metadata and original author evaluation-code contract for an independently human-reviewed long-term conversational-memory source, WITHOUT opening any personal original dialogue. The published scorer conditions percentages on submitted responses, so missing replies can change metric denominators. A new P1-only complete-response preflight passed 15/15 local synthetic controls (Git blob 2dd29d0). No real-user evaluation or model invocation, no new independently evaluated dataset family, no individual correction/consent gold and no G5 integration. One validation and one software editorial point only.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
       ]
     }
   ],
