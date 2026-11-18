@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T08:04:54.263Z",
+  "updated_at": "2026-11-18T09:09:02.648Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1476,6 +1476,26 @@
         0,
         0,
         0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C204-G02-QUESTION-PRIOR-ASSISTANT-OVERLAP-20261118",
+      "completed_at": "2026-11-18T09:09:02.648Z",
+      "evidence": "Prospectively registered, isolated fictional same-question trial: existing C203 SHA-verified private baseline/correction comparison previously had no veto for literal excerpt overlap with a separately supplied earlier assistant original. C204 cross-checks exact complete quotes against up to twelve bounded SHA-reopened earlier assistant source envelopes and withholds the private before/after review when an earlier verbatim overlap exists. Twenty-two synthetic positive, temporal, privacy and fail-closed controls passed in normal and optimized Python. Full private source CI 112/112 and scientific-state CI 8/8 succeeded on the same commit. Source roles/timestamps are caller-supplied; exact overlap is an authorship-risk signal, never proven copying, personal meaning, or independent human gold. No new providers, remote systems, private text publication, or model API calls.",
+      "delta": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
         1,
         0,
         0,
