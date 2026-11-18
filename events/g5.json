@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T20:12:27.000Z",
+  "updated_at": "2026-11-18T21:13:26.135Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1695,6 +1695,26 @@
         0,
         0,
         1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C215-G07-REFERENT-ORACLE-SENSITIVITY-20261118",
+      "completed_at": "2026-11-18T21:13:26.135Z",
+      "evidence": "Frozen, strictly fictional eight-case source-reopened G07 utility comparison measured ordinary latest-topic selection, unscoped correction review and caller-scoped correction review on the same original sets. With accurate externally supplied referent labels, scoping retained two correct original excerpts, avoided one cross-referent quotation and one missed positive relative to unscoped review; a complete but deliberately false supplied referent map still produced a wrong-person original quotation. Missing mapping and source tampering fail closed. Four new integration/contract test methods passed normal and optimized Python; full source and scientific-state CI succeeded on identical private commit cb931cfedfb0c2083b42812a7c3321ed057c982e. This measures information-sensitive technical behavior, not independent human meaning or authorship, equal-input superiority, or superiority over external studies. No personal originals or external model API calls.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
         0,
         1,
         0,
