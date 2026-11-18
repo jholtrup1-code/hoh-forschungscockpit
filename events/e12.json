@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T16:18:33.276Z",
+  "updated_at": "2026-11-18T17:19:58.360Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1748,6 +1748,26 @@
       "id": "E12-CP107",
       "completed_at": "2026-11-18T16:18:33.276Z",
       "evidence": "Three previously unmanifested native Drive originals were exported completely, preserved as private native copies, and independently re-exported byte-identical (19,894 UTF-8 bytes; three matching SHA-256 pairs). A temporary SQLite FTS5 check passed integrity_check=ok and indexed 157 nonblank original lines with private line-position evidence. Five nested archival folders were directly inventoried, and a two-page provider document inventory was rerun. Private checkpoint CP107 and append-only manifest were read back in the correct unshared parent. Durable E12 SQLite and whole-House completeness remain open.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP108",
+      "completed_at": "2026-11-18T17:19:58.360Z",
+      "evidence": "Three previously unmanifested native Drive originals were completely exported and privately preserved as independent native copies, with original/copy byte-identical SHA-256 results (101,958 UTF-8 bytes). A transient Python SQLite FTS5 check validated 336 nonblank source lines (integrity_check=ok) with private line-position evidence. Two previously open archive folders were directly inventoried; the 05 Wissen document filter was rechecked over 50+11 paginated entries. Private checkpoint CP108 and append-only manifest were re-read, and all five receipt/source-copy objects verified in the intended unshared app folder. Durable E12 SQLite and full House recursion remain open.",
       "delta": [
         0,
         1,
