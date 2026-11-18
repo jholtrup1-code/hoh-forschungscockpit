@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T07:38:00.205Z",
+  "updated_at": "2026-11-18T08:41:08.275Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1368,6 +1368,26 @@
       "id": "P1-79-QUERY-AWARE-CITATION-RETRIEVAL-20261118",
       "completed_at": "2026-11-18T07:38:00.205Z",
       "evidence": "P1-79 distinct secondary analysis on previously studied CC BY-NC 4.0 fictional long-conversation corpus: 1780 exact author-cited QA evidence sets. On identical 10-turn selection budget, fixed query-aware lexical BM25 retrieved all cited original turns for 870/1780 versus 19/1780 using last-ten-turn recency; top-10 failed pre-fixed 60% sufficiency and fully retrieved only 25/384 multi-reference sets. 15/15 isolated synthetic tests; separately programmed dense BM25 agreed on 225/225 exact top-ten rankings. Same corpus, no new independent study; citation availability only, not answer correctness, human-meaning gold, personal benefit or G5 adoption. One editorial validation point.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-80-PLAN-IS-NOT-PERFORMED-ACTION-20261118",
+      "completed_at": "2026-11-18T08:41:08.275Z",
+      "evidence": "P1-80 prospective, source-role separated synthetic 21-day pilot on newly verified CC BY 4.0 author sample (one fictional persona only). A naive planned-intention-as-completed-action rule made 10/21 errors (8 false performed claims) versus diary 4/21; a simple device-only signal answered 16/21 without error while strict diary-device agreement answered 12/21 without error, so the more complex method was dominated. Own isolated V8 negatives 12/12; separate corrected tally agrees all 20 confusion/abstention fields; the independent checker initially had a reported label-mapping bug. New limited technical evidence against intent-to-fact promotion, not an independent human-referenced study, no actual autobiographical meaning/answer benefit or production adoption. No private content, model calls or G5 edits.",
       "delta": [
         0,
         0,
