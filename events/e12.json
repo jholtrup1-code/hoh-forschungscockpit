@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T03:25:36.523Z",
+  "updated_at": "2026-11-18T04:14:12.012Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1488,6 +1488,26 @@
       "id": "E12-CP094",
       "completed_at": "2026-11-18T03:25:36.523Z",
       "evidence": "Three previously unprocessed historical methodological native Google Docs were privately copied into the authorized non-shared Drive app folder, independently exported and byte-compared to their full original text exports. All three source-copy SHA-256 pairs matched (135,953 bytes total); 630 nonblank original lines passed temporary SQLite FTS5 and integrity checks. Private line-level provenance, source-status limitations, parent IDs, CP094 checkpoint and append-only manifest were verified by readback. A fresh listing of one bounded folder found 58 native Docs on two pages and 67 total immediate entries; discrepancy with an earlier 71 count remains unresolved. No live research system or durable cross-run index is asserted.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP095",
+      "completed_at": "2026-11-18T04:14:12.012Z",
+      "evidence": "Three previously unprocessed historical methodology source documents were completely exported and copied as non-shared native documents into the authorized private Drive app folder. Independent original/copy text exports matched byte-for-byte and SHA-256 for all three (108,406 total bytes). A temporary SQLite FTS5 indexed 506 nonblank source lines and passed integrity checks. Private CP095 and the append-only manifest were confirmed by fresh reads with correct parent and sharing metadata. Two-page enumeration found 58 unique native documents among 71 immediate items; four previously omitted non-native files explain the earlier incomplete classification. Six immediate child folders were also inventoried, but deeper recursive coverage, a persistent E12 index and external validation of the historical source claims remain open.",
       "delta": [
         0,
         1,
