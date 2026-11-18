@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T20:16:38.593Z",
+  "updated_at": "2026-11-18T21:21:31.832Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1828,6 +1828,26 @@
       "id": "E12-CP111",
       "completed_at": "2026-11-18T20:16:38.593Z",
       "evidence": "Three previously non-receipted native Drive sources (two compiled working text bands and one chronology register) were fully exported through the existing Drive connection, copied privately, independently re-exported and verified byte-identical with SHA-256 (272,923 UTF-8 bytes). A transient Python SQLite FTS5 integrity check covered 5,125 nonempty original lines with private line-position receipts. Two correspondence subfolders were inventoried and the private checkpoint and append-only manifest were re-read in the intended unshared app folder. Original correspondence authenticity, durable SQLite and full House recursion remain outside this verified step.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP112",
+      "completed_at": "2026-11-18T21:21:31.832Z",
+      "evidence": "Two previously unreceipted native archive working documents and one additional native background document were privately copied and independently re-exported through the connected Drive service. All three original/copy text/plain byte-pairs matched SHA-256 (166,205 bytes total); temporary SQLite FTS5 integrity_check=ok covered 3,027 nonempty source lines with original-position receipts. The six-document archive subfolder was closed by direct ID reconciliation; a seven-document background subfolder was paginated and left partially open. Private checkpoint and append-only manifest were read back in the intended unshared app folder. Persistent SQLite and complete House recursion remain unverified.",
       "delta": [
         0,
         1,
