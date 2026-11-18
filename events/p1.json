@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T11:34:18.119Z",
+  "updated_at": "2026-11-18T12:44:20.730Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1448,6 +1448,26 @@
       "id": "P1-83-STRICT-STATUS-GATE-EVIDENCE-LOSS-20261118",
       "completed_at": "2026-11-18T11:34:18.119Z",
       "evidence": "P1-83 preregistered-method SECONDARY analysis of already examined CC BY 4.0 synthetic long-term-memory benchmark, 736 valid questions. Compared identical BM25@5 ranking with strict input-visible active+current status gate: forbidden item selection fell 243/254 to 12/254 but complete-and-safe evidence fell 480/735 to 130/735, losing 587 formerly complete cases. Other active preserved/ephemeral and superseded states must not be categorically erased without query/time/scope analysis. 17/17 isolated synthetic tests; prior BM25 top-5 exactly matched for 736/736, independent recount confirmed all main counters. Preregistered utility gate FAILED; no new independent corpus, actual human meaning gold, answer accuracy, private data, paid model calls or production G5 adoption. One editorial validation point only.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-84-TIERED-MEMORY-STATUS-20261118",
+      "completed_at": "2026-11-18T12:44:20.730Z",
+      "evidence": "P1-84 prospective-method secondary comparison on 736 already-reviewed licensed synthetic memory questions: tiered active-state gate increased safe+complete retrieval from strict 130/735 to 595/735 while exposing 17/254 forbidden pools, versus 243/254 with unrestricted BM25. Historical lexical superseded expansion passed prereg baseline thresholds but did worse than tiered-only (593 safe+complete, 32 forbidden). GitHub-readback isolated code 26/26 checks and independently recounted all 736 cases. Not a new dataset, real authorization proof, human meaning gold, answer-quality validation, or production G5 adoption. One editorial validation point.",
       "delta": [
         0,
         0,
