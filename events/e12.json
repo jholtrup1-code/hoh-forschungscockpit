@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T12:20:24.922Z",
+  "updated_at": "2026-11-18T13:19:13.101Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1668,6 +1668,26 @@
       "id": "E12-CP103",
       "completed_at": "2026-11-18T12:20:24.922Z",
       "evidence": "Three previously unmanifested native method originals (V7–V9) were fully exported from the connected private Drive source, copied to the authorized private app folder, then re-exported byte-for-byte identical (19,209 bytes, three matching SHA-256 pairs). An ephemeral Python SQLite FTS5 index validated 119 nonblank original lines and source-position lookups. Another nested source-register folder was directly inventoried (11 immediate items; 5 native Docs, 5 ZIP files, 1 XLSX). The private CP103 checkpoint and append-only manifest were independently read back, with correct private parent and non-shared metadata. Durable E12 indexing and House-wide inventory completeness are not claimed.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP104",
+      "completed_at": "2026-11-18T13:19:13.101Z",
+      "evidence": "Three previously unmanifested method/synthesis originals were fully exported from the connected private Drive and secured as native private copies. Independent text/plain re-exports matched exactly (42,967 bytes; three matching SHA-256 pairs). An ephemeral SQLite FTS5 index validated 218 nonblank lines and actual line-numbered matches. A document-filtered inventory was paginated (50+11), and three additional top-level branches were checked (0, 0, and 5 direct entries). The append-only private CP104 manifest and checkpoint were read back with the authorized unshared parent. No durable E12 indexing or full House inventory is claimed.",
       "delta": [
         0,
         1,
