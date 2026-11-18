@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T18:19:44.961Z",
+  "updated_at": "2026-11-18T19:22:20.767Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1788,6 +1788,26 @@
       "id": "E12-CP109",
       "completed_at": "2026-11-18T18:19:44.961Z",
       "evidence": "Three previously unmanifested native Drive documents were exported fully, copied into the existing private app folder, independently re-exported and verified as three byte-identical SHA-256 pairs; source-folder pagination 50+11 was checked and remaining unmanifested direct sources reduced to three. Private CP109 and incremental manifest were read back.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP110",
+      "completed_at": "2026-11-18T19:22:20.767Z",
+      "evidence": "Three previously unmanifested native Drive documents were completely exported and retained as three private native copies. Independent raw text/plain exports matched each original byte-for-byte with SHA-256 verification (23,557 total bytes). A temporary SQLite FTS5 index checked 144 nonempty original lines with integrity_check=ok and line-position evidence in a private checkpoint. Direct archive inventories and a 50+11 paginated folder filter were verified. The private checkpoint and append-only manifest were re-read in the intended unshared app folder. Cross-run SQLite and full recursive inventory remain open.",
       "delta": [
         0,
         1,
