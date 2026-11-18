@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T06:14:20.396Z",
+  "updated_at": "2026-11-18T07:06:26.113Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1435,6 +1435,26 @@
         0,
         0,
         1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C202-G07-QUESTION-TIME-EXACT-ORIGINAL-ABSTENTION-20261118",
+      "completed_at": "2026-11-18T07:05:52Z",
+      "evidence": "A preregistered fictional owner-question check found that the existing source-review status could remain available even when the editor-labelled baseline original was recorded after the question's as-of time. The new isolated question-time readiness gate explicitly abstains in that case and whenever any supplied exact original is missing, stale or corrupt, without falling back to partial sources. It reuses existing SHA-checked original and excerpt replays, question-digest binding and two-pass local consistency checks. Sixteen new synthetic methods passed under normal and optimized Python; complete source CI and scientific-state CI passed on the same private commit. The source and question labels remain editor-supplied; no real human meaning, authorship, answer truth or productive data access was validated.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
         1,
         1,
         0,
