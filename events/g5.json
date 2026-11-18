@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T16:20:55.566Z",
+  "updated_at": "2026-11-18T17:10:34Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1614,6 +1614,26 @@
         0,
         0,
         1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C211-G03-RECORDED-VS-REPORTED-TWO-CLOCK-20261118",
+      "completed_at": "2026-11-18T17:10:34Z",
+      "evidence": "Preregistered G03 fictional two-clock task now binds two unverified reported-event timestamp proposals separately to the exact SHA/Unicode-span validated source quotations from a private question. It distinguishes source recording order from the opposite, equal or concordant proposed event-clock order while preserving the historical as-of recording cutoff and ambiguous speaker/earlier-assistant provenance. First real CI failure exposed an existing conservative lexical parser abstention on numeric German day punctuation; fixture revised to spelled-out dates, and an explicit negative test preserves abstention for that unsupported form. Sixteen new normal and optimized Python tests and full source plus research-state CI passed on the same private commit. Reported dates remain user-supplied and NOT proven lived event times, author identity, meaning or causation; no original data or new external model/service.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        2,
         0,
         1,
         1,
