@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T09:09:02.648Z",
+  "updated_at": "2026-11-18T10:07:29.195Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1496,6 +1496,26 @@
         0,
         0,
         1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C205-G07-PRIVATE-DUAL-ORIGINAL-NAVIGATION-20261118",
+      "completed_at": "2026-11-18T10:07:29.195Z",
+      "evidence": "Prospectively registered isolated fictional question trial: C204 correctly withheld a private before/after quotation comparison when a supplied SHA-valid earlier assistant original contained a complete selected quote, but offered no bounded source-pair navigation for owner verification. C205 now privately presents both exact original source anchors, original SHA-256 digests, Unicode character offsets and all bounded earlier assistant occurrences, while preserving C204's blocked surface diff and prohibiting automatic authorship or meaning conclusions. Twenty synthetic positive/adversarial methods passed in regular and optimized Python. Complete private source CI 113/113 and scientific-state CI 8/8 passed on the same post-state commit. Source roles and recording times remain supplied annotations, not authenticated identity; no real personal original, external service, model calls, manuscripts or new data permissions.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
         1,
         0,
         0,
