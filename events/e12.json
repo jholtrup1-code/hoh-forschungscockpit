@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T04:20:25.121Z",
+  "updated_at": "2026-11-19T05:13:56.597Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1988,6 +1988,26 @@
       "id": "E12-CP119",
       "completed_at": "2026-11-19T04:20:25.121Z",
       "evidence": "Three previously unindexed private native Docs from two verified House subfolders were completely exported, privately copied, independently re-exported and byte/SHA-256 compared (27,236 UTF-8 bytes total); all three exact matches. A temporary Python SQLite FTS5 indexed 138 nonempty original lines and passed integrity checks; line-specific source hashes were privately recorded. The append-only private source manifest and checkpoint were read back with exact app parent IDs and shared=false. A larger folder listing proved incomplete at its scan cap and remains explicitly open. Historical documents' claims about operational systems were not independently validated; no durable E12 SQLite or full recursive inventory was claimed.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP120",
+      "completed_at": "2026-11-19T05:13:56.597Z",
+      "evidence": "Three previously metadata-only native source documents privately archived and independently byte/SHA-256 verified; two previously capped Drive folders paginated to terminal pages and non-document items reconciled. Temporary FTS5 integrity and exact source hits checked; no persistent index claimed.",
       "delta": [
         0,
         1,
