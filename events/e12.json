@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T01:14:22.670Z",
+  "updated_at": "2026-11-19T02:18:51.673Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1928,6 +1928,26 @@
       "id": "E12-CP116",
       "completed_at": "2026-11-19T01:14:22.670Z",
       "evidence": "One previously unprocessed versioned archive was fully fetched from an authorized private Drive folder, copied privately, independently re-downloaded, and verified byte-for-byte and with SHA-256 (659,687 original bytes). All 10 archive members passed ZIP checks. A transient full-text index covered 2,136 parsed text records/lines and passed integrity_check; a bundled historical SQLite database also passed read-only integrity_check. A reproducible source-parsing correction established that multiline semicolon CSV has 1,442 logical records where naive comma parsing falsely counted 7,155; the data-row count matches its archival SQLite table, without treating historical claims as verified facts. A private checkpoint and historical manifest were written, parent/private permissions and contents checked. Large archives and persistent E12 integration remain open.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP117",
+      "completed_at": "2026-11-19T02:18:51.673Z",
+      "evidence": "One previously unprocessed versioned ZIP archive (12,875,982 bytes) was fully downloaded, privately copied and independently re-downloaded; source/copy bytes and SHA-256 matched, all 12 ZIP members passed CRC, and archived SQLite passed read-only integrity checks. Independent field-by-field comparisons confirmed exact parity for 83,180 coverage records and 8,228 indexed search-hit records between semicolon-CSV exports and the bundled database. A temporary full-text index of 92,130 parsed records/lines passed integrity_check. Private append-only manifest and checkpoint were read back with the expected parent IDs and no sharing. These are internal historical-snapshot checks, not claims of complete original source availability, semantic accuracy, or durable cross-run integration.",
       "delta": [
         0,
         1,
