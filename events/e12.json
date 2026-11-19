@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T14:14:34.455Z",
+  "updated_at": "2026-11-19T15:23:09.356Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -2188,6 +2188,26 @@
       "id": "E12-CP129",
       "completed_at": "2026-11-19T14:14:34.455Z",
       "evidence": "Two previously unmanifested non-native files (PDF/DOCX) in a directly inventoried House chronicle folder were fully downloaded, privately copied and independently SHA-256/byte-for-byte verified (136,820 original bytes). Complete readable-text extracts were stored in two private native documents and reread exactly; a 652-line temporary FTS5 index passed integrity checking. Source IDs remain separate, deeper recursion and durable index integration remain open.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP130",
+      "completed_at": "2026-11-19T15:23:09.356Z",
+      "evidence": "Three previously unmanifested Google Docs in separately inventoried dated source folders were fully exported as current plain text (11,061 UTF-8 bytes), privately copied and independently reread with byte-for-byte/SHA-256 identity. Six dated folder pages were enumerated (107 immediate entries, one unprocessed non-native file); private copy parents, privacy metadata, checkpoint and appended manifest were rechecked. A 32-line temporary FTS5 index passed integrity checking. House-wide recursion and durable SQLite indexing remain open.",
       "delta": [
         0,
         1,
