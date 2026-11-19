@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T07:17:54.116Z",
+  "updated_at": "2026-11-19T09:08:30.079Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -2048,6 +2048,26 @@
       "id": "E12-CP122",
       "completed_at": "2026-11-19T07:17:54.116Z",
       "evidence": "Three previously unmanifested authorized native Drive originals across historical workshop, sources and product vision were privately retained and byte-for-byte matched by independent plain-text exports and SHA-256. A temporary FTS5 index passed integrity checks, and new direct-folder inventory gaps were recorded.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP123",
+      "completed_at": "2026-11-19T08:20:59.619Z",
+      "evidence": "Three previously unmanifested historical native Docs were fully read, privately copied, independently text-exported and source/copy SHA-256 matched for 104,758 UTF-8 bytes. Original lines and hashes, source metadata, copy parent and privacy were checked; nine further native files and two non-native assets remain explicitly open. Temporary text export verifies current text, not historical revisions or active instructions.",
       "delta": [
         0,
         1,
