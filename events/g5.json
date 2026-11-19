@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T19:08:00.000Z",
+  "updated_at": "2026-11-19T21:01:00.000Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2141,6 +2141,26 @@
         0,
         0,
         2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C237-G07-PRIVATE-EVENT-ORIGINAL-REVIEW-20261119",
+      "completed_at": "2026-11-19T21:01:00.000Z",
+      "evidence": "An owner-private source review can now display exact SHA-verified, length-bounded original wording of a reported correction/withdrawal event next to the previously disputed correction, rather than an event locator alone. Eight new adversarial fictional tests (37 in the extended module) passed in normal and optimized Python; complete source and scientific-state checks succeeded on the same private commit. Historical cutoff, role, original bytes and source drift gates remain enforced, and public metadata contains no source text. The event's truth, authorship, referent and improvement in actual human decision quality are not validated; automatic answer abstention is unchanged.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
         1
       ]
     }
