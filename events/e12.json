@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T05:13:56.597Z",
+  "updated_at": "2026-11-19T06:19:30.770Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -2008,6 +2008,26 @@
       "id": "E12-CP120",
       "completed_at": "2026-11-19T05:13:56.597Z",
       "evidence": "Three previously metadata-only native source documents privately archived and independently byte/SHA-256 verified; two previously capped Drive folders paginated to terminal pages and non-document items reconciled. Temporary FTS5 integrity and exact source hits checked; no persistent index claimed.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP121",
+      "completed_at": "2026-11-19T06:19:30.770Z",
+      "evidence": "Three source documents not previously recorded by source ID in the private E12 manifest were fully exported via the authorized Drive connector, privately copied and independently re-exported, with 60,570 UTF-8 bytes matched byte-for-byte and with Python SHA-256 checks. Temporary SQLite FTS5 indexed 237 nonempty original lines and passed integrity_check; source line hashes and folder provenance are recorded privately. A previously archived fourth candidate was detected and excluded after hash reconciliation; its redundant new copy was deleted. Additional House subfolders were directly inventoried but no global recursive completeness or persistent E12 integration is claimed. Private checkpoint, append-only manifest and all three new copies were read back with expected private parent and shared=false.",
       "delta": [
         0,
         1,
