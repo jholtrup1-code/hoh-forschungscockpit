@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T11:04:38.464Z",
+  "updated_at": "2026-11-19T12:09:39.025Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1976,6 +1976,26 @@
         0,
         0,
         1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C229-G04-SHA-BOUND-TEMPORAL-SOURCE-EVENT-GATE-20261119",
+      "completed_at": "2026-11-19T12:09:39.025Z",
+      "evidence": "Prospectively preregistered C229 G04 synthetic temporal source-event gate uses exact original SHA and recorded as-of time before an owner-private two-original answer candidate can be reused after a reported withdrawal or correction. A later-recorded event cannot retroactively erase historical review; a reported withdrawal of contradictory negative evidence cannot authenticate the positive answer. Fifteen new SQLite integration tests passed regular and optimized Python; real RED CI 44520599571 (module absent), initial full GREEN 44520754602, same-source/private-state source CI 44521075448 and science CI 44521075382 SUCCESS at identical private SHA dd34abbeb6de7a3ef163f3684081ea17604534e0. All status events and object refs remain unverified fictional reports; false withdrawal may suppress a correct candidate. No human meaning gold, original text or paid model calls.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
         1,
         0,
         0,
