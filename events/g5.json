@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T21:07:00.000Z",
+  "updated_at": "2026-11-19T22:13:05.117Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2181,6 +2181,26 @@
         0,
         0,
         0,
+        1
+      ]
+    },
+    {
+      "id": "G5-C239-G02-DECLARED-QUESTION-FAMILY-HOLDOUT-20261119",
+      "completed_at": "2026-11-19T22:13:05.117Z",
+      "evidence": "Prospectively preregistered synthetic C19 paired-source holdout revealed a blind-evaluation leakage mode: two disjoint original sources can carry differently worded questions with different raw and normalized hashes yet an explicitly declared shared study-question family. A new optional complete SHA-only family declaration rejects reuse of such declared families between development and heldout trials, while malformed or incomplete declarations fail closed; legacy calls say this check was not performed. Test-first CI initially failed at the missing new interface, then 29/29 extended tests passed in regular and optimized Python plus the complete source suite. Full code and scientific state workflows succeeded on the identical private revision. Question-family declarations are unverified, not semantic paraphrase detection; no independent human meaning gold or real-world question-answer improvement has been established. All examples are fictional; no private text or external model call.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
         1
       ]
     }
