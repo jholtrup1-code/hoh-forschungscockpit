@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T04:06:27.657Z",
+  "updated_at": "2026-11-19T05:03:00.116Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1841,6 +1841,26 @@
         0,
         0,
         2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C222-G07-BOUNDED-TWO-ORIGINAL-REPORT-JOIN-20261119",
+      "completed_at": "2026-11-19T05:03:00.116Z",
+      "evidence": "A preregistered, offline two-source task on fictional SQLite now SHA-verifies every original before combining one unambiguous handoff report with an independently recorded placement report into a private, explicitly unverified location review. Fifteen new adversarial repository tests passed regular and optimized Python; full code and research-state checks succeeded on identical private commit 297fa9976f84c9b9247b5a42e0211926f77c6cf9 (source run #44462297136, state run #44462297107). Distractors, future-recorded items, competing facts, tampering and missing evidence produce abstention/error. A narrow rule-based fictional reported-location task, not independently validated personal understanding, human gold or an external benchmark result. No private originals or paid external model calls.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
         1
       ]
     }
