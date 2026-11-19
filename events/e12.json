@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T17:14:35.031Z",
+  "updated_at": "2026-11-19T18:16:03.207Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -2248,6 +2248,26 @@
       "id": "E12-CP132",
       "completed_at": "2026-11-19T17:14:35.031Z",
       "evidence": "Three previously unmanifested native Drive documents in distinct dated source folders were completely exported as current plain text (62,407 UTF-8 bytes), privately copied, independently re-exported and verified byte-for-byte with SHA-256. Six additional dated folders were directly inventoried (75 returned native items); six of the 24 identified dated folders remain. Private source-copy parent IDs, nonshared status, checkpoint and append-only manifest were read back. A temporary FTS5 index of 213 nonempty source lines passed integrity checking; durable index integration and full House recursion remain open.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP133",
+      "completed_at": "2026-11-19T18:16:03.207Z",
+      "evidence": "Three previously unmanifested native source documents were independently exported and verified byte-for-byte and by SHA-256 against private Drive copies (27,111 UTF-8 bytes), including source-line checks and a temporary 95-line FTS5 integrity pass. Six further dated source folders were independently enumerated with matching Drive pagination results (84 immediate entries, 83 native documents and one Markdown file), completing direct enumeration of the 24 previously identified dated folders only. The private checkpoint, copy parents and append-only manifest were read back; full House recursion, many individual contents, revision history and persistent indexing remain open.",
       "delta": [
         0,
         1,
