@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T09:08:30.079Z",
+  "updated_at": "2026-11-19T09:12:40.875Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -2068,6 +2068,26 @@
       "id": "E12-CP123",
       "completed_at": "2026-11-19T08:20:59.619Z",
       "evidence": "Three previously unmanifested historical native Docs were fully read, privately copied, independently text-exported and source/copy SHA-256 matched for 104,758 UTF-8 bytes. Original lines and hashes, source metadata, copy parent and privacy were checked; nine further native files and two non-native assets remain explicitly open. Temporary text export verifies current text, not historical revisions or active instructions.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP124",
+      "completed_at": "2026-11-19T09:12:40.875Z",
+      "evidence": "Three additional historical native Google Docs from a directly inventoried House subfolder were fully read, privately copied and independently re-read; 76,975 UTF-8 text-export bytes matched byte-for-byte and by SHA-256. Original line positions, source parent IDs, private-copy parents and sharing status were verified, and private checkpoint plus append-only manifest were read back. Six files in that direct archive and wider recursive/non-native inventory remain open. No persistent SQLite integration or historical revision completeness is claimed.",
       "delta": [
         0,
         1,
