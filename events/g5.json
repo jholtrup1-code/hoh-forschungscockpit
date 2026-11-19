@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T07:07:25.638Z",
+  "updated_at": "2026-11-19T08:08:45.628Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1901,6 +1901,26 @@
         0,
         0,
         2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C225-G02-QUESTION-SURFACE-HOLDOUT-REPLAY-20261119",
+      "completed_at": "2026-11-19T08:08:45.628Z",
+      "evidence": "Prospectively registered G02 C19 sealed-trial question-surface replay guard closes a measured near-exact train/heldout question leakage: separate raw question hashes with only Unicode NFC or whitespace differences previously passed hash-only split auditing; optional all-trials replay must now match the existing sealed raw question digest and rejects the near-duplicate without returning raw texts. Eight new adversarial synthetic methods, 24 total, passed normal and optimized Python; full private source and scientific-state workflows both successful at the same verified commit 0ca44379d4c79e8aed9f4b82861bd9fc9e4919a5. Exact-hash-only studies explicitly cannot claim this extra check. No general paraphrase recognition, human gold, private original disclosure, or paid model inference.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
         1
       ]
     }
