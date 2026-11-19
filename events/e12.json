@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T00:16:11.159Z",
+  "updated_at": "2026-11-19T01:14:22.670Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1921,6 +1921,26 @@
         0,
         0,
         1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP116",
+      "completed_at": "2026-11-19T01:14:22.670Z",
+      "evidence": "One previously unprocessed versioned archive was fully fetched from an authorized private Drive folder, copied privately, independently re-downloaded, and verified byte-for-byte and with SHA-256 (659,687 original bytes). All 10 archive members passed ZIP checks. A transient full-text index covered 2,136 parsed text records/lines and passed integrity_check; a bundled historical SQLite database also passed read-only integrity_check. A reproducible source-parsing correction established that multiline semicolon CSV has 1,442 logical records where naive comma parsing falsely counted 7,155; the data-row count matches its archival SQLite table, without treating historical claims as verified facts. A private checkpoint and historical manifest were written, parent/private permissions and contents checked. Large archives and persistent E12 integration remain open.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
         0
       ]
     }
