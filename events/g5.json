@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T21:01:00.000Z",
+  "updated_at": "2026-11-19T21:07:00.000Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2161,6 +2161,26 @@
         0,
         0,
         1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C238-G07-LATE-ORIGINAL-PINNED-FOCUS-20261119",
+      "completed_at": "2026-11-19T21:07:00.000Z",
+      "evidence": "Prospectively registered synthetic long-original review found that a fixed first-800-character event preview can omit a late negation. A caller-chosen, unverified focus span with strict Unicode offsets and exact SHA256 of the underlying full-original substring now provides an additional private review quote without replacing the full-source locator or initial preview. Ten new adversarial tests (47 total) passed under normal and optimized Python; full source and scientific-state CI succeeded on identical private source/ledger revision. Invalid offsets, forged hashes, cross-event references, future/irrelevant events, unauthorized views and source mutation fail or remain hidden. Neither event truth, speaker authentication, human meaning nor improved real-world decisions are established; no private original wording is published.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
         1
       ]
     }
