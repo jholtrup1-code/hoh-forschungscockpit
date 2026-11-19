@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T15:23:09.356Z",
+  "updated_at": "2026-11-19T16:14:44.928Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -2208,6 +2208,26 @@
       "id": "E12-CP130",
       "completed_at": "2026-11-19T15:23:09.356Z",
       "evidence": "Three previously unmanifested Google Docs in separately inventoried dated source folders were fully exported as current plain text (11,061 UTF-8 bytes), privately copied and independently reread with byte-for-byte/SHA-256 identity. Six dated folder pages were enumerated (107 immediate entries, one unprocessed non-native file); private copy parents, privacy metadata, checkpoint and appended manifest were rechecked. A 32-line temporary FTS5 index passed integrity checking. House-wide recursion and durable SQLite indexing remain open.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP131",
+      "completed_at": "2026-11-19T16:14:44.928Z",
+      "evidence": "Three previously unmanifested native source documents were completely exported as plain text (165,071 UTF-8 bytes), privately copied, independently re-exported and byte/SHA-256 verified. Six additional dated Drive folders were directly enumerated (298 returned immediate entries). The private checkpoint and append-only source manifest were read back; an in-memory FTS5 index of 454 nonempty original lines passed integrity checking. Other folders, nonnative sources, and durable indexing remain open.",
       "delta": [
         0,
         1,
