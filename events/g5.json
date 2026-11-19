@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T08:08:45.628Z",
+  "updated_at": "2026-11-19T09:05:37.789Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1921,6 +1921,26 @@
         0,
         0,
         1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C226-G02-BLIND-REVIEW-ALLOCATION-AUDIT-20261119",
+      "completed_at": "2026-11-19T09:05:37.789Z",
+      "evidence": "Prospectively registered sealed-C19 blind-review assignment audit tested on disjoint synthetic development/heldout trials. It detects observable cross-partition reuse of a claimed reviewer digest, judgment artifact or known ancestry while enforcing original packet SHA binding and complete trial coverage; missing ancestry remains explicitly incomplete. Twelve new integration tests pass under normal and optimized Python. Test-first red run 44492629698 identified the absent implementation; complete source run 44492691897 and same-state source/scientific runs 44493020577 and 44493020728 passed at exact private SHA 22fdec55244e2499c7b66a4d08472956e7ac3d6a. All reviewer identities and lineage are self-declared, so no independently authenticated human reviewer, blinding, meaning gold, real-person fact or external model call is claimed.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
         1
       ]
     }
