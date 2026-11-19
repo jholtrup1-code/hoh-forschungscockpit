@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T11:13:02.386Z",
+  "updated_at": "2026-11-19T12:13:16.659Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -2128,6 +2128,26 @@
       "id": "E12-CP126",
       "completed_at": "2026-11-19T11:13:02.386Z",
       "evidence": "Three previously unindexed native Docs in a directly listed archive folder were completely text-exported, privately copied and independently SHA-256 matched (47,404 bytes). Two distinct source files were confirmed byte-identical and recorded as separate source identities but one unique text body; 12 of 12 native Docs in this immediate folder now verified. House-wide recursion, original historical revisions and persistent SQLite integration remain open.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP127",
+      "completed_at": "2026-11-19T12:13:16.659Z",
+      "evidence": "Two previously incomplete non-native source files (PDF and PNG) in a directly enumerated private archive were independently fetched as complete binaries, privately copied and checked byte-for-byte with SHA-256 (54,400 and 436,175 bytes). Source and private-copy parent IDs, sharing status, and append-only checkpoint content were verified. PDF text locations were extracted; the image was inspected without claiming OCR. Wider recursive inventory and persistent SQLite integration remain open.",
       "delta": [
         0,
         1,
