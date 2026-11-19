@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T13:11:51.389Z",
+  "updated_at": "2026-11-19T14:08:21.024Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2021,6 +2021,26 @@
         0,
         0,
         2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C231-G03-ASOF-CLAIM-ENTRY-REPLAY-20261119",
+      "completed_at": "2026-11-19T14:08:21.024Z",
+      "evidence": "A preregistered, fully synthetic historical question demonstrated that a later-supplied alleged event-date revision could be used by the earlier two-clock review for an older as-of question. The new bounded third-clock adapter selects only the most recent claim-entry metadata available at the requested as-of cutoff and abstains when no claim or conflicting same-time entries were available. Reuses SHA/Unicode original-span and assistant-overlap checks; 15 new tests pass normally and under Python -O. Full private source and scientific-state GitHub workflows completed/success on the identical code+state SHA 8696d3da705b7ac55baf1f74275e51c180a50035. Entry times and narrated event dates remain unverified self-declarations: no independently proven historical timestamps, person identity, human meaning gold, private originals or paid model calls.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
         1
       ]
     }
