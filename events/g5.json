@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T23:13:18.261Z",
+  "updated_at": "2026-11-19T00:13:10.242Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1761,6 +1761,26 @@
         0,
         0,
         1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C218-G08-COPIED-JUDGMENT-LINEAGE-AUDIT-20261119",
+      "completed_at": "2026-11-19T00:13:10.242Z",
+      "evidence": "Prospectively preregistered a strictly synthetic test of the previously unverified 'two agreeing reviewers' assumption. A deterministic quality gate tied to immutable source/request prediction fingerprints now flags duplicated judgment artifacts, reused declared judgment ancestors, missing lineage and disjoint-but-still-unverified lineage. Ten adversarial checks passed in regular and optimized Python, including a real synthetic SQLite source-path integration. Both full private code and research-state workflows passed on the identical private commit; 218 private technical events and zero human semantic gold. Neither reviewer independence, real identity nor external-benchmark superiority is established. No private original texts or paid model API were used.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
         1
       ]
     }
