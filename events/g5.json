@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T17:06:56.405Z",
+  "updated_at": "2026-11-19T18:04:54.547Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2101,6 +2101,26 @@
         0,
         0,
         2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C235-G04-REFERENT-SCOPED-CLAIM-EVENT-20261119",
+      "completed_at": "2026-11-19T18:04:54.547Z",
+      "evidence": "Prospectively registered synthetic-only C235 integrates an existing complete caller-supplied referent-scoping method with the separately recorded unverified correction-withdrawal event gate. Without the composition, a newer correction from a different hypothetical referent could be selected for private review; with the explicit scoped method, the target's source remains separate and only a claimed event against that selected source withholds the ordinary review quote. All original source and claimed event SHA/role/as-of checks, excluded-original corruption rejection, and cross-stage change/restore detection remain active. Eight newly frozen integration tests failed before implementation because the combined API was absent; afterward 29/29 tests passed normally and with optimized Python alongside the full existing source suite. Private code and scientific state were independently checked on the same commit 3a61d423b2dc84cfeadf20e6152e7623f79d79ac. No human source author, referent mapping, event authority, personal meaning or real-world truth is authenticated; no private texts, external models or production connectors were used.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
         1
       ]
     }
