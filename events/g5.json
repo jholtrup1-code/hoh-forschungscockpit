@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T05:03:00.116Z",
+  "updated_at": "2026-11-19T06:13:45.074Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1861,6 +1861,26 @@
         0,
         0,
         1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C223-G07-FROZEN-OBJECT-ALIAS-TASK-UTILITY-20261119",
+      "completed_at": "2026-11-19T06:13:45.074Z",
+      "evidence": "Preregistered frozen eight-case fictional SQLite answer-utility experiment compares the same available originals across naive first-placement, exact two-original join, and a declared-object-reference scope gate. A reproducible same-phrase/different-object false join is withheld by the new gate. Heldout synthetic outcomes (correct/wrong/correct abstain/missed): baseline 1/6/1/0, unscoped 2/3/3/0, gated 2/1/5/0. A deliberately deceptive identical object reference STILL produces a wrong answer and is counted; supplied reference tokens are not independently authenticated. First full CI found a SQLite TEXT-affinity test-assumption error, corrected with an explicit regression. Twelve current SQLite tests passed normal and Python -O; full source and scientific-state CI both succeeded at exact private commit 0e2a7171f62ab3c30f37755cba52e410c7e76a81 (runs 44470480381 and 44470480282). No private originals, genuine human-meaning gold or paid model calls; no general semantic superiority claimed.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
         1
       ]
     }
