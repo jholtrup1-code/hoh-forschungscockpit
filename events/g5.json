@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T12:09:39.025Z",
+  "updated_at": "2026-11-19T13:11:51.389Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2001,6 +2001,26 @@
         0,
         0,
         1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C230-G07-UNVERIFIED-SOURCE-EVENT-TRADEOFF-20261119",
+      "completed_at": "2026-11-19T13:11:51.389Z",
+      "evidence": "Prospectively registered, synthetic-only C230 comparison executed both previously verified owner-review policies on ten source-disjoint SHA-checked fictional cases, with scoring labels used only after decisions. Fourteen new tests passed in normal and optimized Python in full GitHub source workflow and the same-code/private-state scientific checks. Withholding unauthenticated withdrawal/correction claims suppressed two stipulated wrong review candidates but also hid two stipulated correct review candidates. A matched observed-event counterfactual shows the policies cannot infer claim truth from identical observable sources. This is an aggregate-only testing capability, not better real-life answer accuracy, verified event authority or independent human meaning judgment.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
         1
       ]
     }
