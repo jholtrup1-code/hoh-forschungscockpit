@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T01:08:01.206Z",
+  "updated_at": "2026-11-19T03:05:10.175Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1797,6 +1797,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C220-G07-MISSING-REVIEW-ANCESTRY-TASK-HOLD-20261119",
+      "completed_at": "2026-11-19T03:05:10.175Z",
+      "evidence": "Reproducible fictional six-task, frozen-source holdout: missing declared review ancestry changes a private correction-source decision. One wrong-person quote was withheld but one correct quote was also withheld; four unchanged. False but complete provenance declarations still bypass. Ten genuine repository integration tests passed under normal and optimized Python and full source/scientific workflow checks were successful on the same code+state commit. No human gold or external benchmark comparison.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
