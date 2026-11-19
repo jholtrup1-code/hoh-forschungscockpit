@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T19:18:43.423Z",
+  "updated_at": "2026-11-19T20:16:52.747Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -2288,6 +2288,26 @@
       "id": "E12-CP134",
       "completed_at": "2026-11-19T19:18:43.423Z",
       "evidence": "Two previously unprocessed non-native originals (one DOCX and one Markdown file; 43,475 raw bytes) were completely fetched, privately copied, independently redownloaded and verified byte-for-byte by SHA-256. Two private searchable text derivatives were reread and their explicit normalization/reconstruction rules tested. A temporary 35-line FTS5 index passed integrity checking. Root and selected nested Drive folders were enumerated with finished page cursors; six newly inventoried files remain metadata-only. Private copy/manifest/checkpoint parents and nonshared status were verified. Durable indexing and remaining House recursion are still open.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP135",
+      "completed_at": "2026-11-19T20:16:52.747Z",
+      "evidence": "Three previously metadata-only originals (two native documents and one PDF; 192,166 bytes in complete exported or raw source files) were independently fetched, privately copied and refetched byte-identically with SHA-256 verification. An eight-page PDF also received a private searchable text derivative with extraction normalization checked; a temporary 323-line FTS5 source index passed integrity testing. Three nested folders were cross-checked by paginated Drive search and direct listing with matching IDs and no further page cursor; three manuscript originals remain unprocessed. Private checkpoint and append-only manifest were read back with the required private parent. No durable cross-run index or full recursive inventory is claimed.",
       "delta": [
         0,
         1,
