@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T03:05:10.175Z",
+  "updated_at": "2026-11-19T04:06:27.657Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1821,6 +1821,26 @@
         0,
         0,
         1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C221-G02-CROSS-TRIAL-HELDOUT-SOURCE-LEAKAGE-GUARD-20261119",
+      "completed_at": "2026-11-19T04:06:27.657Z",
+      "evidence": "Two individually valid but jointly overlapping blinded study packets can misrepresent development data as held-out evaluation. A new pre-score C19-compatible synthetic audit rejects reused exact original SHA across different source IDs/questions, reused recorded-message identity across versions, repeated question SHA, tampered seals and invalid partition structure. Eleven actual repository tests passed regular and optimized Python; full source and scientific-state CI both succeeded at identical private SHA 579efe709f88d09f0fb54be8f2f7f02037f7051a. Hash-disjointness does not establish semantic independence, genuine human ratings or external benchmark superiority. No private original text, person facts or paid model calls.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
         1
       ]
     }
