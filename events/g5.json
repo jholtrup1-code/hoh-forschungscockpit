@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T15:17:38.043Z",
+  "updated_at": "2026-11-19T16:09:23.018Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2055,6 +2055,26 @@
         0,
         1,
         0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C233-G04-UNVERIFIED-CORRECTION-EVENT-HOLDOUT-20261119",
+      "completed_at": "2026-11-19T16:09:23.018Z",
+      "evidence": "Synthetic-only prospective C233 question-bound correction transfer now checks a separately recorded, SHA-bound claimed withdrawal/correction against a previously selected correction original. Seventeen new unittest cases in normal and optimized Python and full private source CI passed on the same SHA as the private scientific guard. An in-scope later claimed event withholds the ordinary correction quote while preserving unjudged original/event locators for private review; historical, future and unrelated claims do not retroactively suppress it. False claimed withdrawals can over-hold valid review, and no claim authority, timestamp, person, source authorship, factual replacement or human meaning has been authenticated. No private original text or paid model API.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
         0,
         1,
         0,
