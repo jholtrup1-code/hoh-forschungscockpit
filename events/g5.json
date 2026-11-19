@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T18:04:54.547Z",
+  "updated_at": "2026-11-19T19:08:00.000Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2121,6 +2121,26 @@
         0,
         0,
         1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C236-G07-SCOPED-CORRECTION-QUESTION-TRADEOFF-20261119",
+      "completed_at": "2026-11-19T19:08:00.000Z",
+      "evidence": "Prospectively registered, synthetic SHA-disjoint ten-case correction-question comparison of three existing exact-source review policies: unscoped [3 correct candidates, 1 wrong, 2 correct abstentions, 4 missed]; explicitly referent-scoped [7,3,0,0]; reported-correction-event holdout [5,0,3,2]. Scoping recovers four valid private review candidates compared with the unscoped arm. Unverified reported-event holdout withholds three stipulated wrong candidates but also two stipulated valid candidates; opposite stipulated claim validity with unchanged observed originals produces opposite scoring. Eleven new tests passed in regular and optimized Python plus full source and scientific-state workflow checks on same private code/ledger revision. Trials are fictional, templated and not an independent real-world accuracy study. Event authority, referent identity and human meaning are not authenticated; no private originals, external models or automatic answers.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
         1
       ]
     }
