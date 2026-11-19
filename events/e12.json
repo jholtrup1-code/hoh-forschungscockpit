@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T13:19:25.770Z",
+  "updated_at": "2026-11-19T14:14:34.455Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -2168,6 +2168,26 @@
       "id": "E12-CP128",
       "completed_at": "2026-11-19T13:19:25.770Z",
       "evidence": "Three previously unverified native documents in separate nested folders were completely exported (70,502 UTF-8 bytes), privately copied, independently re-exported and SHA-256 matched. A temporary SQLite FTS5 index of 322 nonempty original lines passed integrity checking. Private source and copy metadata, receipt and append-only manifest were read back with expected private parent IDs and nonshared status. Additional direct folder inventory progressed, while full recursion and durable SQLite integration remain open.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP129",
+      "completed_at": "2026-11-19T14:14:34.455Z",
+      "evidence": "Two previously unmanifested non-native files (PDF/DOCX) in a directly inventoried House chronicle folder were fully downloaded, privately copied and independently SHA-256/byte-for-byte verified (136,820 original bytes). Complete readable-text extracts were stored in two private native documents and reread exactly; a 652-line temporary FTS5 index passed integrity checking. Source IDs remain separate, deeper recursion and durable index integration remain open.",
       "delta": [
         0,
         1,
