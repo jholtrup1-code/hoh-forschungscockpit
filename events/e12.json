@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T10:14:22.908Z",
+  "updated_at": "2026-11-19T11:13:02.386Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -2108,6 +2108,26 @@
       "id": "E12-CP125",
       "completed_at": "2026-11-19T10:14:22.908Z",
       "evidence": "Three previously unmanifested historical native Drive documents were completely read and copied into the authorized private archive. Independent source and copy text reads matched byte-for-byte with SHA-256 for 73,114 UTF-8 bytes; exact line locations, parent-folder IDs and private sharing status were verified and recorded in the append-only private checkpoint. The direct archival folder now has nine of twelve native documents verified, with broader recursion and durable SQLite integration still open.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP126",
+      "completed_at": "2026-11-19T11:13:02.386Z",
+      "evidence": "Three previously unindexed native Docs in a directly listed archive folder were completely text-exported, privately copied and independently SHA-256 matched (47,404 bytes). Two distinct source files were confirmed byte-identical and recorded as separate source identities but one unique text body; 12 of 12 native Docs in this immediate folder now verified. House-wide recursion, original historical revisions and persistent SQLite integration remain open.",
       "delta": [
         0,
         1,
