@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T06:13:45.074Z",
+  "updated_at": "2026-11-19T07:07:25.638Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1877,6 +1877,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C224-G02-MIXED-NAMESPACE-HOLDOUT-LEAKAGE-20261119",
+      "completed_at": "2026-11-19T07:07:25.638Z",
+      "evidence": "G02 prospective sealed-trial adversarial regression found and corrected an observable study holdout leakage: an old namespace-free recorded message ID and a newer namespaced copy of that same message ID formerly passed a cross-partition equality check despite different source bytes/questions. The conservative fixed guard treats absent namespaces as global on either side, while different explicit conversation namespaces remain distinct. Five new cases added to prior eleven; 16 C19 real sealed-packet tests passed normal and optimized Python in complete private GitHub source CI #44476438290 and same-code-state source #44476900348 plus science #44476900411 at SHA f970dab77fe8fc45a0170975e752d4d0ac69fe13. Synthetic only, no private source texts, independent human meaning judgments or external model calls; paraphrased/shared undocumented sources remain outside this check.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
