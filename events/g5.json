@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T00:13:10.242Z",
+  "updated_at": "2026-11-19T01:08:01.206Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1781,6 +1781,26 @@
         0,
         0,
         2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C219-G07-KNOWN-COPIED-JUDGMENT-TASK-TRADEOFF-20261119",
+      "completed_at": "2026-11-19T01:08:01.206Z",
+      "evidence": "Prospectively preregistered a fictional downstream question test of known declared copied-review lineage, instead of counting metadata alerts as useful decisions. The policy, bound to SHA-frozen source-review predictions and source/request fingerprints, withheld one wrongly attributed original quote but also withheld one correct quote in six synthetic SQLite cases; four other task outcomes were unchanged. Ten new adversarial methods passed normal and optimized Python after a documented test-fixture repair, and complete code plus research-state CI succeeded on identical private commit 8537e673c1a9de46d9274ce91c4abce95b951bf0. This is a conditional engineering tradeoff, not authenticated reviewer independence, actual personal meaning, or external scientific superiority. No private originals or paid model API calls.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
         1
       ]
     }
