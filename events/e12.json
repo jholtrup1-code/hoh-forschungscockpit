@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T23:19:46.619Z",
+  "updated_at": "2026-11-19T00:16:11.159Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1888,6 +1888,26 @@
       "id": "E12-CP114",
       "completed_at": "2026-11-18T23:19:46.619Z",
       "evidence": "Two previously unreceipted native source-register documents were fully text/plain exported through the connected Drive service and independently re-exported from private native copies. Their two original/copy byte pairs and SHA-256 checks matched (9,330 UTF-8 bytes), and a temporary SQLite FTS5 integrity check covered 52 nonempty original lines with private original-position receipts. The five-native-document source-register ID inventory was reconciled with earlier receipts, and three additional correspondence subfolders were directly inventoried with completed document-filter pages. A private checkpoint and cumulative manifest were appended and read back under the authorized unshared app folder. Historical content does not establish implementation; binary attachments, durable SQLite, and global recursion remain open.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP115",
+      "completed_at": "2026-11-19T00:16:11.159Z",
+      "evidence": "Three previously unreceipted non-native originals from an authorized nested Drive source-register folder (one XLSX workbook and two ZIP code archives) were completely downloaded, privately copied, re-downloaded, and byte/SHA-256 verified (252,793 original bytes). Python inspected five workbook sheets plus ZIP text members; a temporary SQLite FTS5 index covered 14,327 nonempty rows/lines with location and hash proofs, integrity_check=ok. Both private checkpoint and append-only manifest were read back with three matching source hashes, correct app-folder parent IDs and shared=false. Historical source contents are archival and no application code was executed or deployment verified. Remaining ZIPs and durable cross-run SQLite remain open.",
       "delta": [
         0,
         1,
