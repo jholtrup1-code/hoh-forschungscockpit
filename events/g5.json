@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T16:09:23.018Z",
+  "updated_at": "2026-11-19T17:06:56.405Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2081,6 +2081,26 @@
         0,
         0,
         1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C234-G04-CROSS-STAGE-SOURCE-CONTINUITY-20261119",
+      "completed_at": "2026-11-19T17:06:56.405Z",
+      "evidence": "Prospective synthetic C234 CI reproduced a previously hidden source-consistency gap between C213 exact-original private correction review and C233 later claimed-event validation: edits to already-checked source originals between the two stages, including write-then-restore commits on the same or a separate SQLite connection, could escape C233's event-only drift marker. The corrected wrapper brackets both stages with one SQLite modification marker and reopens every source with the existing SHA, role, timestamp and excerpt checks before private return. Three adversarial tests failed before repair; all 21 synthetic tests passed normally and under optimized Python, plus full existing source and scientific-state CI on identical private SHA 96f238d5ee6c4b953ad611c1797431655c7d9782. Does not authenticate a reported withdrawal, real-world timeline, source author, person or meaning; no external model calls or private text.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
         1
       ]
     }
