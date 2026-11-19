@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T12:13:16.659Z",
+  "updated_at": "2026-11-19T13:19:25.770Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -2148,6 +2148,26 @@
       "id": "E12-CP127",
       "completed_at": "2026-11-19T12:13:16.659Z",
       "evidence": "Two previously incomplete non-native source files (PDF and PNG) in a directly enumerated private archive were independently fetched as complete binaries, privately copied and checked byte-for-byte with SHA-256 (54,400 and 436,175 bytes). Source and private-copy parent IDs, sharing status, and append-only checkpoint content were verified. PDF text locations were extracted; the image was inspected without claiming OCR. Wider recursive inventory and persistent SQLite integration remain open.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP128",
+      "completed_at": "2026-11-19T13:19:25.770Z",
+      "evidence": "Three previously unverified native documents in separate nested folders were completely exported (70,502 UTF-8 bytes), privately copied, independently re-exported and SHA-256 matched. A temporary SQLite FTS5 index of 322 nonempty original lines passed integrity checking. Private source and copy metadata, receipt and append-only manifest were read back with expected private parent IDs and nonshared status. Additional direct folder inventory progressed, while full recursion and durable SQLite integration remain open.",
       "delta": [
         0,
         1,
