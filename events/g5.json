@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T10:05:49.882Z",
+  "updated_at": "2026-11-19T11:04:38.464Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1948,6 +1948,26 @@
       "id": "G5-C227-G07-NEGATIVE-ORIGINAL-CONFLICT-AWARE-ANSWER-20261119",
       "completed_at": "2026-11-19T10:05:49.882Z",
       "evidence": "Prospectively preregistered fictional reported-location task adds an explicit negative-original contradiction check before an already SHA-verified two-original answer is used. A matching eligible third claim withholding that place makes the candidate abstain; negative claims for other items, custodians, object refs, places or future recordings do not suppress the positive test answer. Seven fixed synthetic cases old decision 6 correct/1 wrong, new decision 6 correct/0 wrong/1 correct abstention; 12 new SQLite integration tests passed normal and optimized Python. Complete source CI #44502178878 and scientific-state CI #44502178660 both success on identical private commit 92075f0e419fc61f5968c18c04ac6ddb9648a7ed. Narrow pattern reports are not human truth, physical identity proof or a human-meaning evaluation; original texts/private locators never published; no paid model calls.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C228-G07-OWNER-PRIVATE-DISPUTED-ORIGINAL-REVIEW-20261119",
+      "completed_at": "2026-11-19T11:04:38.464Z",
+      "evidence": "Pre-registered C228 protects usability when an exact separately SHA-verified reported denial makes the prior two-original question-answer rule abstain: an opt-in PRIVATE owner review packet now preserves the two original positive locators and all eligible denying locators for manual comparison, while the automatic answer remains withheld. Six source-disjoint synthetic fixtures include a stipulated false denial and a stipulated true denial; 12 new tests pass normal and optimized Python with privacy and corrupted-original negatives. Test-first red CI #44510808804; complete source+private-science CI #44511249192 and #44511249016 both successful at identical private commit 009a16984f68f3224adc1eb2d933fd2281c73eeb. No independently validated statement truth, object identity, human review or real-life meaning is claimed; no private original content or paid model calls.",
       "delta": [
         0,
         0,
