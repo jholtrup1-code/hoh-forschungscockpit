@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T09:05:37.789Z",
+  "updated_at": "2026-11-19T10:05:49.882Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -1941,6 +1941,26 @@
         0,
         0,
         2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C227-G07-NEGATIVE-ORIGINAL-CONFLICT-AWARE-ANSWER-20261119",
+      "completed_at": "2026-11-19T10:05:49.882Z",
+      "evidence": "Prospectively preregistered fictional reported-location task adds an explicit negative-original contradiction check before an already SHA-verified two-original answer is used. A matching eligible third claim withholding that place makes the candidate abstain; negative claims for other items, custodians, object refs, places or future recordings do not suppress the positive test answer. Seven fixed synthetic cases old decision 6 correct/1 wrong, new decision 6 correct/0 wrong/1 correct abstention; 12 new SQLite integration tests passed normal and optimized Python. Complete source CI #44502178878 and scientific-state CI #44502178660 both success on identical private commit 92075f0e419fc61f5968c18c04ac6ddb9648a7ed. Narrow pattern reports are not human truth, physical identity proof or a human-meaning evaluation; original texts/private locators never published; no paid model calls.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
         1
       ]
     }
