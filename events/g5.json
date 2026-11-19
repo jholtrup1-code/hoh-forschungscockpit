@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T14:08:21.024Z",
+  "updated_at": "2026-11-19T15:17:38.043Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2036,6 +2036,26 @@
         2,
         0,
         1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C232-G03-PINNED-CLAIM-SNAPSHOT-20261119",
+      "completed_at": "2026-11-19T15:17:38.043Z",
+      "evidence": "Synthetic-only prospective C232 source-identity and time-question replay demonstrated a specific C231 limitation: a later appended, falsely backdated claim entry can retroactively change an earlier private review. A SHA-linked, separately pinned sequence checkpoint now makes that later append ineligible for earlier snapshot replay, detects altered/reordered/deleted checkpoint prefix and rechecks appended records against exact SHA/quote-bound original evidence. Fifteen unittest cases passed normal and optimized Python in complete private source CI; prior assistant and opt-in privacy gates preserved. The checkpoint is caller-provided and is NOT independent proof of real claim-entry time, author identity, historical events or human meaning. No external model API calls or private source excerpts.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
         1,
         0,
         0,
