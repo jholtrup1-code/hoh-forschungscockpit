@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T09:12:40.875Z",
+  "updated_at": "2026-11-19T10:14:22.908Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -2088,6 +2088,26 @@
       "id": "E12-CP124",
       "completed_at": "2026-11-19T09:12:40.875Z",
       "evidence": "Three additional historical native Google Docs from a directly inventoried House subfolder were fully read, privately copied and independently re-read; 76,975 UTF-8 text-export bytes matched byte-for-byte and by SHA-256. Original line positions, source parent IDs, private-copy parents and sharing status were verified, and private checkpoint plus append-only manifest were read back. Six files in that direct archive and wider recursive/non-native inventory remain open. No persistent SQLite integration or historical revision completeness is claimed.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP125",
+      "completed_at": "2026-11-19T10:14:22.908Z",
+      "evidence": "Three previously unmanifested historical native Drive documents were completely read and copied into the authorized private archive. Independent source and copy text reads matched byte-for-byte with SHA-256 for 73,114 UTF-8 bytes; exact line locations, parent-folder IDs and private sharing status were verified and recorded in the append-only private checkpoint. The direct archival folder now has nine of twelve native documents verified, with broader recursion and durable SQLite integration still open.",
       "delta": [
         0,
         1,
