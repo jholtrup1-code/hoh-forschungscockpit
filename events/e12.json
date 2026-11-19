@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "e12",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T02:18:51.673Z",
+  "updated_at": "2026-11-19T03:18:00.397Z",
   "events": [
     {
       "id": "E12-CP020",
@@ -1952,6 +1952,26 @@
         0,
         1,
         1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "id": "E12-CP118",
+      "completed_at": "2026-11-19T03:18:00.397Z",
+      "evidence": "A previously unprocessed 101,522,649-byte historical source ZIP was completely downloaded from an authorized Drive folder, copied to the private E12 app folder, independently downloaded again, byte/SHA-256 matched, and all 24 archive members CRC/SHA-256 checked. Its read-only SQLite snapshot passed integrity_check; SHA-256 recalculation for all 83,180 embedded message texts matched all stored fingerprints, with zero missing message/chat references and 479 consistent chat counts. A separate previously secured versioned snapshot independently matched all 83,180 source IDs and message-text hashes without a single mismatch. Eight CSVs were parsed and 31,233 CSV/text lines indexed in a temporary integrity-checked FTS5 database. The private append-only manifest, checkpoint, target parent IDs and shared=false were read back. These are archive-internal crosschecks, not external original-source authentication or durable E12 integration.",
+      "delta": [
+        0,
+        1,
+        2,
         0,
         0,
         0,
