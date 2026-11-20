@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-20T20:06:59.127Z",
+  "updated_at": "2026-11-20T21:06:21.487Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2637,6 +2637,26 @@
         1,
         1,
         1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C262-G07-THREE-STREAM-EXPLICIT-READ-ISOLATION-20261120",
+      "completed_at": "2026-11-20T21:06:21.487Z",
+      "evidence": "Prospectively registered C262 offline synthetic experiment on independent G5, P1 and E12 progress event prefixes. A global last-read timestamp baseline misses a backdated newly appended event; three source-specific SHA256-bound prefixes keep separately unread records and fail closed for old-history changes, wrong sources or new aliases. Independent C262-R negative test reproduced that global-only acknowledgement could silently clear a different research stream, then added a pure explicitly selected single-stream acknowledgement while retaining never-read markers. Fifteen synthetic tests ordinary and Python -O, complete existing private source and independent scientific GitHub CI SUCCESS at identical private branch commit f580067f. Not deployed, no real user read, human meaning judgment, private originals, model API call or manuscript change.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
         0,
         0,
         0,
