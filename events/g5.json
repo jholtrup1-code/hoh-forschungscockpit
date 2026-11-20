@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-20T00:07:09.215Z",
+  "updated_at": "2026-11-20T02:05:01.078Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2241,6 +2241,26 @@
         0,
         0,
         2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C242-G07-SOURCE-ANCHORED-ANNOTATION-REVIEW-20261120",
+      "completed_at": "2026-11-20T02:05:01.078Z",
+      "evidence": "A previously pending fictional, read-only two-original task review was independently verified in a complete push-triggered code workflow (14 new checks each in normal and optimized Python), followed by complete source and scientific-state workflows successful on an identical private code+state commit. The method requires complete caller-supplied role/action annotations and SHA/Unicode-bound original excerpts, rejects missing/future/conflicting evidence, and provides an opt-in private candidate without publishing source text. A false 'irrelevant' annotation can conceal a conflict and a false object identity can yield a wrong claim; annotations are not semantically authenticated. Exploratory fixtures preceded the written design registration, so this is a narrowly verified technical contract, not prospective blinded general-language understanding, independent human meaning gold, or benchmark superiority. No personal original or external model API used.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
         1
       ]
     }
