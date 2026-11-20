@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-20T15:12:55.649Z",
+  "updated_at": "2026-11-20T16:16:51.517Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2528,6 +2528,26 @@
       "id": "G5-C256-G07-DELAYED-DATE-OWNER-REVIEW-20261120",
       "completed_at": "2026-11-20T15:12:55.649Z",
       "evidence": "A prospectively preregistered owner-opted local SQLite G07 task compares real recorded-calendar-day intake against later-recorded originals explicitly mentioning that date. The frozen synthetic archive baseline C192 included one on-day USER-envelope original but omitted two later-recorded original date references. The new bounded original-SHA-verified review finds both with exact text offsets in private-only output; assistant envelopes, false digit substrings, other dates, earlier recordings, later out-of-window documents, corrupt originals, duplicate identities and concurrent mutation cannot be promoted as candidates. Ten synthetic tests passed normal and optimized Python; test-first workflow #44760251400 was RED because the new module was absent before code, implementation workflow #44760453410 GREEN, canonical exact same commit faede24e source #44760734423 and independent science #44760734144 SUCCESS. A literal mention is not validated life-event timing, source authorship, semantics, or archival completeness. No private source texts, paid model use, or new infrastructure.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C257-G07-THREE-ORIGINAL-CUSTODY-CONTRADICTION-20261120",
+      "completed_at": "2026-11-20T16:16:51.517Z",
+      "evidence": "A prospectively preregistered narrow G07 fictional owner question joins three individually SHA-verified source originals for a reported custody chain where C223 two-source baseline abstains. Test-first CI 44770227542 was red on missing module; separately preregistered adversarial red CI 44770723805 exposed a genuine false release of a reported-location candidate in presence of a matching negative-placement original. The repaired three-source review withholds contradictory candidates, and 10 new synthetic SQLite tests passed normal and optimized Python plus complete source CI 44770962395. No real-world facts, witness independence, human semantics or meaning gold verified, no private original text published or paid model call.",
       "delta": [
         0,
         0,
