@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-20T11:14:52.000Z",
+  "updated_at": "2026-11-20T12:14:18Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2458,6 +2458,26 @@
         0,
         2,
         0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C253-G08-PUBLIC-PRIVATE-CHECKPOINT-RECONCILE-20261120",
+      "completed_at": "2026-11-20T12:14:18Z",
+      "evidence": "Prospectively registered offline research-state/public-event reconciliation found an actual cross-repository restart inconsistency: the private C252 state still claimed pending verification and publication, while the public G5 feed and separately checked private source/scientific CI documented completed C252. A new read-only auditor distinguishes already published, stale private continuation and publication-open states by verified numeric technical-event lineage, while blocking duplicate current publication, unknown lineages, malformed progress vectors and invalid chronology. Code review additionally found legitimate zero-padded early private event IDs; the parser was repaired and a new adversarial test added. Fourteen synthetic tests passed normal Python and -O; complete GitHub source CI #44733867281 and independent scientific-state CI #44733867444 both succeeded on identical private commit 66d23339fb680c6a889408c0343a752c3a2d14b8. This is technical publication/replay consistency only, not proof of human meaning, source authorship or a model improvement. No private originals, external model calls or new infrastructure access.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
         0,
         0,
         1,
