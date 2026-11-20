@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-20T23:03:37.762Z",
+  "updated_at": "2026-11-20T23:19:59Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2701,6 +2701,26 @@
         0,
         0,
         1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C265-G07-SOURCE-DISJOINT-THREE-CAPABILITY-HELDOUT-20261121",
+      "completed_at": "2026-11-20T23:19:59Z",
+      "evidence": "Prospectively registered isolated synthetic nine-case G07 multi-capability comparison executed actual SHA-verifying measurement, attachment and work-order methods versus their same-input naive baselines. Six source-disjoint heldout fictional cases: four correct reported classifications, two correct abstentions, zero real-method wrong cases versus five naive wrong cases; developer-stipulated labels only, no independent semantic gold. Independent preregistered adversarial source-reference alias produced one verified failing regression (#44835379197), then SHA-locator checks were hardened to bind exact original request/blob ref and filenames. Thirteen tests ordinary and optimized Python plus complete existing private code CI #44835836255 and separate scientific-state CI #44835836274 SUCCESS on identical commit a984045c; no real originals, productive deployment, external model API, source authorship or physical truth certified.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
         1
       ]
     }
