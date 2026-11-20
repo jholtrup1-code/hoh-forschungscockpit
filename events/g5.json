@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-20T16:16:51.517Z",
+  "updated_at": "2026-11-20T17:15:55.048Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2556,6 +2556,26 @@
         0,
         0,
         1,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C258-G07-SOURCE-BOUND-AGREEMENT-20261120",
+      "completed_at": "2026-11-20T17:15:55.048Z",
+      "evidence": "Distinct G07 offline synthetic user-question task: a reported meeting is offered for PRIVATE review only if a SHA-pinned invitation and a separate explicit matching acceptance exist. An invite-only baseline wrongly declares agreement in invitation-only, decline and cancellation controls. Independent adversarial red test found a same-meeting negative source hidden by alternate claimed source role; repaired with conservative withholding. Ten SQLite methods passed ordinary and optimized Python plus complete private source CI on tested code commit d80df9b6. Actual agreement, attendance, speaker authenticity and human semantic gold remain unverified. No model API use or personal-source text published.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
         2,
         0,
         0,
