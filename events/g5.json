@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-20T21:06:21.487Z",
+  "updated_at": "2026-11-20T22:10:41.229Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2657,6 +2657,26 @@
         1,
         1,
         2,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C263-G07-SHA-VERIFIED-ATTACHMENT-COMPLETENESS-20261120",
+      "completed_at": "2026-11-20T22:10:41.229Z",
+      "evidence": "Prospectively registered C263 offline owner-question utility: compare SHA256-validated fictional request originals against exact SQLite attachment byte BLOBs, not mention-only or filename-only matching. Owner-private review identifies reported verified and absent requested references, without trusting declared sender identity or claiming real delivery. Genuine missing-implementation RED #44825896546, initial 11-test full source GREEN #44825978344. Independent preregistered C263-R found reproducible false abstention from an unrelated withdrawn blob (RED #44826133081); scoped withdrawal repair retains same-filename alias ambiguity protections, 13 synthetic tests normal and optimized Python plus complete source CI #44826318272 GREEN. SAME SHA fa7525a1 final full code #44826536081 and independent scientific state #44826535967 SUCCESS. No personal data, human meaning gold, productive integrations or model API.",
+      "delta": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1,
         0,
         0,
         0,
