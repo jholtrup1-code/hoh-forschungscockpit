@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-20T09:07:47.543Z",
+  "updated_at": "2026-11-20T10:10:04.996Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2421,6 +2421,26 @@
         0,
         0,
         1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C251-G02-EFFECTIVE-HELDOUT-EVIDENCE-CLUSTERS-20261120",
+      "completed_at": "2026-11-20T10:10:04.996Z",
+      "evidence": "Prospectively preregistered G02 methodological falsification: the existing question-level fictional heldout comparison counted seven answer attempts even when distinct heldout case IDs reused an identical verified original SHA under different source IDs, or shared a declared family. A new source/family graph computes connected evidence clusters separately from raw question accuracy: seven distinct examples yielded seven observable clusters; one exact repeated heldout original reduced the count to six; a transitive exact-source and caller-declared family overlap yielded five. Three real C240 integration and eight pure auditor synthetic tests passed normal and Python -O; full source and independent scientific-state CI both completed SUCCESS on identical private commit 46f66ae54a6773003cb7784b46a8b7cf403faa01. The instrument measures only observable SHA/family dependence, not human-independent samples or semantic correctness; no original/private data, human-gold or external model API requests.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
         1
       ]
     }
