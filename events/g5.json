@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-20T07:01:35.355Z",
+  "updated_at": "2026-11-20T07:10:43.916Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2361,6 +2361,26 @@
         0,
         0,
         2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C248-G03-PRIVATE-WITHDRAWAL-OWNER-EVIDENCE-20261120",
+      "completed_at": "2026-11-20T07:10:43.916Z",
+      "evidence": "A separately preregistered synthetic owner-use comparison discovered that an as-of declared date-claim withdrawal correctly blocked an old claim but left no original evidence for private inspection. Four test-first C248 cases failed as expected before code. New optional owner-opt-in mode now provides a bounded, source-hash/span-verified private original-excerpt and explicitly UNAUTHENTICATED withdrawal declaration while the public question still abstains and legacy default behavior is unchanged. Earlier historical snapshots do not expose later retractions, invalid source bindings fail closed, and no dates are promoted to verified historical facts. Sixteen C247/C248 tests total passed ordinary and optimized Python in the complete source workflow; full source and independent scientific-state workflows both succeeded on the exact same private commit 2a164d70. A separate maximal excerpt-length adversarial negative test remains open, so comprehensive boundary coverage is not claimed. No human semantic gold, personal original, external model call or restricted system used.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
         1
       ]
     }
