@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-20T18:05:46.571Z",
+  "updated_at": "2026-11-20T19:10:03.758Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2601,6 +2601,26 @@
         0,
         0,
         2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C260-G07-ORDER-PART-COMPLETION-EVIDENCE-20261120",
+      "completed_at": "2026-11-20T19:10:03.758Z",
+      "evidence": "C260 prospective isolated G07 user task: one SHA-verified fictional multi-part work order plus separate completion-report originals lets a PRIVATE owner reviewer distinguish documented completion claims from only-promised or missing-receipt parts. Same-input naive any-mention baseline wrongly marks a promise completed. Ten initial synthetic SQLite methods normal and optimized Python; independent pre-registered C260-R real RED revealed the promise classification lacked its own original locator (CI 44798663196), repaired with separately SHA-bound private promise source IDs. Eleven methods and full source CI 44799256429 plus independent scientific state CI 44799256480 both SUCCESS at the identical private branch commit 30a3c68b. No real-world work status, human meaning, source identity or person facts established, no original text or model API calls published.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        1,
         1
       ]
     }
