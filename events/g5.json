@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-20T04:06:46.838Z",
+  "updated_at": "2026-11-20T04:09:31.809Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2296,6 +2296,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C245-G02-CONTROLLED-ANNOTATION-CAUSAL-NEGATIVE-20261120",
+      "completed_at": "2026-11-20T04:09:31.809Z",
+      "evidence": "A new pre-registered causal falsification test changed one supplied semantic annotation while keeping the SHA-verified original fictional reports, recorded times, question, matching source IDs, exact excerpts and private all-original review bundle IDENTICAL. On three existing fictional valid examples, the source-reviewer's reported place changed in all three despite the replacement word appearing nowhere in the original text. This directly demonstrates dependence on externally supplied semantic labels, not independent original-language understanding. Eleven real new methods passed ordinary and optimized Python after an expected test-first source CI failure; full source and scientific-state CI passed on the same private C245 state commit f6fc09bd. This is a reproducible narrow NEGATIVE methodological finding, not external semantic gold or benchmark superiority; no personal originals, external model calls or private text publication.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
