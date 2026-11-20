@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-20T05:08:39.352Z",
+  "updated_at": "2026-11-20T07:01:35.355Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2335,6 +2335,26 @@
         0,
         0,
         0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C247-G03-ASOF-CLAIM-WITHDRAWAL-20261120",
+      "completed_at": "2026-11-20T07:01:35.355Z",
+      "evidence": "Prospectively registered and independently reviewed synthetic as-of event-date proposal withdrawal is now enforced in the actual owner-opt-in, SHA-original-bound three-clock review. An explicit later withdrawal prevents re-use of the latest reported date without resurrecting older proposals; an earlier as-of snapshot retains its then-current proposal without leaking future withdrawal metadata. A later explicit affirmative proposal remains reviewable. Forged or cross-source tombstones and hash/excerpt mutations fail closed. The newly discovered future-metadata leak was reproduced in test-first RED and fixed. Twelve real new synthetic tests passed under normal and optimized Python, with full source and scientific-state GitHub CI completed successfully on the identical private commit c3ef2c53. This certifies neither claim-entry time, event occurrence, authorship nor human meaning; no personal originals or external model calls.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        1,
         0,
         1,
         0,
