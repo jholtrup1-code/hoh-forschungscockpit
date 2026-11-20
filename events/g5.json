@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-20T17:15:55.048Z",
+  "updated_at": "2026-11-20T18:05:46.571Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2581,6 +2581,26 @@
         0,
         0,
         1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C259-G07-REPORTED-INVOICE-COVERAGE-20261120",
+      "completed_at": "2026-11-20T18:05:46.571Z",
+      "evidence": "Prospectively registered distinct G07 fictional owner-question utility. A report of one EUR-denominated invoice and unique SHA-pinned received-payment originals yields a PRIVATE typed arithmetic review of reported coverage or partial amount, rather than treating any payment as complete settlement. Deliberately naive same-input baseline falsely announces full payment on partial evidence. Ten real SQLite synthetic tests in ordinary and optimized Python, including independent adversarial RED proof of wrongly labeled cross-reference reversal that incorrectly allowed private release and subsequent fail-closed repair. Full private source and independent scientific state CI SUCCESS at identical commit 2af11c98, not actual banking settlement, debt, speaker authentication, or human meaning. No personal source text or paid model API.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2,
+        0,
+        0,
+        0,
+        2,
         1
       ]
     }
