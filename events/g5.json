@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-19T23:13:27.412Z",
+  "updated_at": "2026-11-20T00:07:09.215Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2208,6 +2208,26 @@
       "id": "G5-C240-G02-SOURCE-DISJOINT-QUESTION-UTILITY-20261119",
       "completed_at": "2026-11-19T23:13:27.412Z",
       "evidence": "Prospectively registered a 10-question, 3-development/7-heldout, fictional source-disjoint answer-utility test, using actual preexisting C19/C239 source/question-family holdout auditing and directly executing a simple lexical-first baseline versus two existing two-source/referent-scoped methods on identical SHA-checked originals. The test-first run failed before implementation; an initial implementation exposed two test-harness accounting faults, corrected without changing the frozen reference labels. Ten adversarial methods passed in normal and optimized Python, with both complete source and scientific-state CI successful on the identical private commit. Across seven heldout questions, wrong answers were 5 for the naive baseline, 2 for the unscoped source join, and 1 for the declared-object method; the latter retains an explicit false-consensus error. The small templated fictional labels are not independently human-rated or evidence of general semantic superiority; no personal source or model API use.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C241-G02-PAIRED-WORDING-ANSWER-COVERAGE-20261120",
+      "completed_at": "2026-11-20T00:07:09.215Z",
+      "evidence": "A prospectively registered synthetic paired-wording holdout compared three actually executed question-answer methods on ten fixed cases with identical declared roles, source identities, recording times, questions and separately stipulated fictional answer labels. Test-first CI failed because the new audit was absent. After implementation, 16 paired regression tests passed in ordinary and optimized Python, and complete source and scientific-state CI both succeeded on the identical private commit. Changing only the reported handoff/placement phrasing caused the strongest prior method's two correct heldout answers to disappear; missed true answers rose from zero to two, while wrong answers fell from one to zero. The audit explicitly distinguishes fewer wrong answers from retained answer coverage. Rewording equivalence and fictional truth labels remain caller-stipulated, not independently judged human meaning; no personal sources or model API were used.",
       "delta": [
         0,
         0,
