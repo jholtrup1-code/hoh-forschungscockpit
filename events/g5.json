@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-20T07:10:43.916Z",
+  "updated_at": "2026-11-20T08:04:32.507Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2377,6 +2377,26 @@
         0,
         0,
         2,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C249-G03-PAIR-COMPLETE-WITHDRAWAL-REVIEW-20261120",
+      "completed_at": "2026-11-20T08:04:32.507Z",
+      "evidence": "Prospectively preregistered synthetic G03 counterexample: an optional owner-only exact-original withdrawal audit returned a partial source excerpt before checking that its required partner source had any eligible or unambiguous claim. Test-first private GitHub CI reproduced three failing cases (missing future-only peer, equal-clock disputed peer, dual withdrawal). A code correction now verifies both source selections before private release while preserving legacy default abstention and single-withdrawal owner review. Five new tests passed, including direct 1200/1201 Unicode codepoint helper guard; the upstream 600-character turn gate makes the oversized branch a defense-in-depth test, not an end-to-end reachable case. Full source and independent scientific-state CI succeeded on the same private commit. No human meaning gold, original personal text, external model calls or factual timeline authentication.",
+      "delta": [
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
         0,
         0,
         0,
