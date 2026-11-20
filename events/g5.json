@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-20T02:05:01.078Z",
+  "updated_at": "2026-11-20T02:11:00.602Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2252,6 +2252,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C243-G07-PRIVATE-COMPLETE-ORIGINAL-REVIEW-20261120",
+      "completed_at": "2026-11-20T02:11:00.602Z",
+      "evidence": "A prospective test-first negative control showed that a previous annotation-assisted two-source private review concealed the third contradictory original when falsely tagged 'irrelevant': three new checks failed before the feature existed. A minimal reviewed patch now includes every eligible complete SHA-verified fictional original, including caller-claimed irrelevant originals, in a bounded opt-in private review bundle; the caller's potentially narrow excerpt cannot suppress the full locally verified source and aggregate overflow fails closed rather than truncating evidence. Seventeen synthetic methods passed normal and optimized Python; complete code and scientific-state workflows succeeded on the identical private commit. The offered annotation and resulting location remain unverified and can be wrong; the improvement is evidence inspectability for a human, not autonomous meaning understanding, human-gold, or verified personal facts. No private words, identifiers, new infrastructure or external model API were published or used.",
+      "delta": [
+        0,
+        0,
+        2,
         0,
         0,
         0,
