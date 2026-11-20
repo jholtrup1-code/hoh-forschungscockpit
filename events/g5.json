@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-20T10:10:04.996Z",
+  "updated_at": "2026-11-20T11:14:52.000Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2441,6 +2441,26 @@
         0,
         0,
         2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C252-G07-CHAPTER-CITATION-CONTEXT-DRIFT-20261120",
+      "completed_at": "2026-11-20T11:14:52.000Z",
+      "evidence": "Prospectively preregistered synthetic chapter-review counterexample: an exact SHA-verified citation and its recording time can remain unchanged while a directly preceding/following original USER turn in the same recorded chat is revised, inserted, removed, or appears across the selected two-day boundary. C196 exact-citation comparison alone returns zero invalidations in this case; the C252 optional private review adds a citation-specific context-drift flag, avoiding unrelated-chat day-wide warnings. Unordered equal-time turns and source changes during two verification scans fail closed. Test-first private GitHub RED #44724911305 verified missing C252 module; full source CI #44725769108 and independent scientific guard #44725769052 succeeded on identical commit b77b162911bf28ef94f6f23431031a26444fef80, including 12 new tests normal and Python -O. Only synthetic archive sources were used; the context window is restricted to two selected recorded days; no claim of authentic authorship, human meaning, automatic manuscript editing, private original publication or external model API calls.",
+      "delta": [
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
         1
       ]
     }
