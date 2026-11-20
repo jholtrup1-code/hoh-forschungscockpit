@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-20T22:10:41.229Z",
+  "updated_at": "2026-11-20T23:03:37.762Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2672,6 +2672,26 @@
         0,
         0,
         2,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C264-G07-UNIT-AWARE-SOURCE-MEASUREMENT-REVIEW-20261120",
+      "completed_at": "2026-11-20T23:03:37.762Z",
+      "evidence": "Prospectively registered isolated synthetic G07 owner question: SHA256-checked measurement originals with separate observation date and as-of recording boundary are compared using exact decimal unit normalization rather than unsafe numeric-token equality. 1.20 m and 120 cm agree numerically, 130 cm conflicts, invalid dimensions/roles/tampering abstain. Independent copied-original adversarial test reproduced false corroboration from byte-identical rows with differing IDs, then repaired using target-scoped original SHA identity. Seventeen synthetic regression tests ordinary and optimized Python plus complete prior code and independent scientific CI PASS at identical private research commit b2a625a5. No actual measurements, source-authorship certification, personal meaning gold, private text or model API.",
+      "delta": [
+        0,
+        0,
+        1,
         0,
         0,
         0,
