@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-20T13:14:24.059Z",
+  "updated_at": "2026-11-20T14:09:56.464Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2502,6 +2502,26 @@
         0,
         1,
         2
+      ]
+    },
+    {
+      "id": "G5-C255-G01-FTS-SEARCH-INTEGRITY-20261120",
+      "completed_at": "2026-11-20T14:09:56.464Z",
+      "evidence": "Prospectively preregistered synthetic user-question retrieval defect: intact original SHA and passage rows could survive deletion of only SQLite external-content FTS index, causing unchanged manifest reimport to report success while lexical search returned zero documents instead of two. Test-first private source CI #44749818118 failed on two expected negative tests; fixed by FTS5 rank=1 external-content integrity-check inside the existing atomic import batch before a success receipt, never silently rebuilding. Three new synthetic tests passed normal and optimized Python; same-commit private complete code #44750548780 and independent scientific state #44750548738 both succeeded at 0f4435ae34ec7fe95fce19decdb6b7ca5263fd05. Explicit separate local maintenance rebuild restores search and idempotent reimport; this does not prove relevance, human meaning, rights or archive completeness. No external model calls or person-original texts.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1
       ]
     }
   ],
