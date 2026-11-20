@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-20T12:14:18Z",
+  "updated_at": "2026-11-20T13:14:24.059Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2482,6 +2482,26 @@
         0,
         1,
         1
+      ]
+    },
+    {
+      "id": "G5-C254-G01-IMPORT-METADATA-RETRIEVABLE-20261120",
+      "completed_at": "2026-11-20T13:14:24.059Z",
+      "evidence": "G01 local source-import contract: test-first CI reproduced two alternate Python ISO calendar dates accepted by the import preflight yet rejected later by private reader, and ambiguous Unicode/whitespace local source IDs. A code repair rejects these BEFORE SQLite writes; canonical two-file SHA-verified import plus actual private document review still succeeds; malformed mixed batch stays atomic. Four new synthetic test methods pass normal and optimized Python; complete source and independent scientific state CI both SUCCESS at exact same private commit dc9c5169b456b4796239329bce766a50d324632b. No human semantic gold, independent rights verification or person-data inference.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        2
       ]
     }
   ],
