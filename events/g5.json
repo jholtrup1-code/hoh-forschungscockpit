@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-20T04:09:31.809Z",
+  "updated_at": "2026-11-20T05:08:39.352Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2317,6 +2317,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C246-G02-LITERAL-ORIGINAL-CHALLENGE-20261120",
+      "completed_at": "2026-11-20T05:08:39.352Z",
+      "evidence": "A preregistered source-literal consistency challenge now re-examines every SHA-verified eligible fictional original rather than accepting a caller-supplied place annotation as independent evidence. Against the earlier frozen counterfactual intervention, all three place substitutions absent from unchanged source words now cause conservative abstention while three actual narrow literal positive handoff/placement cases retain explicitly UNVERIFIED private review candidates. A falsely 'irrelevant'-labelled contradictory source is also detected and makes the candidate abstain; unexpected syntax, negation and quoted speech fail closed rather than becoming unsupported reported locations. Thirteen tests passed ordinary and optimized Python; the full source workflow and the scientific-state workflow both succeeded at the SAME private checked commit aa4066fa. The method recognizes only a tiny fixed German grammar: a false-but-source-present claim still passes; it does not authenticate authorship, facts, human meaning labels, general language understanding or scientific superiority. No private original, personal identifier, external model call or restricted system used.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
         0,
         0,
         0,
