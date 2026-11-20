@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-20T19:10:03.758Z",
+  "updated_at": "2026-11-20T20:06:59.127Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2617,6 +2617,26 @@
         0,
         1,
         2,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C261-G07-EXPLICIT-UNREAD-PREFIX-DELTA-20261120",
+      "completed_at": "2026-11-20T20:06:59.127Z",
+      "evidence": "Isolated G07 synthetic owner-usefulness prototype for WHAT CHANGED SINCE EXPLICIT READ? Frozen immutable event-prefix SHA256/count/ID acknowledgement preserves new appended but backdated public progress events that a timestamp-only baseline misses; ordinary read-only polling never acknowledges. Independent preregistered adversarial test exposed a real falsely counted new suffix for an already acknowledged C-number; repaired while allowing historic duplicate-number aliases inside the frozen old prefix. Actual test-first RED 44807353519, first code GREEN 44807438811, independent adversarial RED 44807682074, repaired 16 synthetic tests normal and Python -O with complete private source GREEN 44807925550; exact same-code+state full source 44808163251 and independent science 44808163205 both SUCCESS on private commit d1ba99dd. No real user read marker persisted, no dashboard deployment, no human meaning gold, no external model API, no private source texts.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
         0,
         0,
         0,
