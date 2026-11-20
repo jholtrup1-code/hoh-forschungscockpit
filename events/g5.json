@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-20T02:11:00.602Z",
+  "updated_at": "2026-11-20T04:06:46.838Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2281,6 +2281,26 @@
         0,
         0,
         1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C244-G07-EQUAL-ANNOTATION-NEGATIVE-ABLATION-20261120",
+      "completed_at": "2026-11-20T04:06:46.838Z",
+      "evidence": "A prospectively registered synthetic same-annotation ablation directly executed the existing SHA-verified two-original private reviewer and an independent annotation-only tuple comparator against the same seven reused fictional questions and caller-supplied labels. Both had exactly 2 correct, 1 wrong and 4 correct abstentions, so source verification did not demonstrate an answer-accuracy gain once added semantic labels were controlled. Adversarial corrupt source hashes were independently rejected, and all eligible complete originals were available privately for audit. Nine real test methods passed ordinary and optimized Python in full source CI at the tested implementation SHA; full source and scientific-state CI subsequently both succeeded on the identical ledger commit ec6735b. No human meaning gold, independent blind holdout or claimed scientific superiority. No personal texts or external model calls.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
         1
       ]
     }
