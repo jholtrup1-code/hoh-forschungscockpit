@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T18:09:19.061Z",
+  "updated_at": "2026-11-21T19:16:07.315Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3156,6 +3156,26 @@
         1,
         1,
         1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C288-G08-INDEPENDENT-WITHDRAWAL-QUESTION-TRANSFER-AND-CASE-FREEZE-20261121",
+      "completed_at": "2026-11-21T19:16:07.315Z",
+      "evidence": "Two newly composed unrelated fictional multi-line Unicode source/question families were evaluated with the actual historical-original verifier and later-reporter-role verifier. One complete ledger established a later-withdrawn source with locally labelled third-party report; a separately rebuilt nonwithdrawn ledger required abstention despite historically available wording. Both original SHA/ledger checks and disjoint-source checks passed with 11 synthetic tests under normal and optimized Python. Independently preregistered negative controls found a real missing outer-case identity/local-key freeze: two expected-failure CI assertions reproduced it; a paired-metadata/end-marker repair passed the complete regression suite and independent scientific-state CI on the same code/state commit. This is technical transfer and validation only, NOT human authorship, question meaning or release permission.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
         1,
         0,
         0,
