@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T07:08:34.843Z",
+  "updated_at": "2026-11-21T08:22:33.808Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2876,6 +2876,26 @@
         1,
         0,
         1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C274-G07-HISTORICAL-CITATION-ELIGIBILITY-AND-DUPLICATE-TEXT-GUARD-20261121",
+      "completed_at": "2026-11-21T08:22:33.808Z",
+      "evidence": "Synthetic, caller-pinned multi-citation review executes complete SHA-verified original and withdrawal history at two recorded-time checkpoints; controlled adversarial test reproduced duplicate original-text overcount, corrected with selected-source digest isolation; ten dedicated regressions plus full and independent scientific CI passed. No authentic rights, timestamps, authors or personal meaning claimed.",
+      "delta": [
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
         1,
         0,
         0,
