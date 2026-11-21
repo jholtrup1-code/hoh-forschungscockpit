@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T20:15:27.409Z",
+  "updated_at": "2026-11-21T21:12:14.859Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3195,6 +3195,26 @@
         0,
         0,
         1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C290-G07-THIRD-HISTORICAL-ORIGINAL-COUNTEREVIDENCE-20261121",
+      "completed_at": "2026-11-21T21:12:14.859Z",
+      "evidence": "A prospective synthetic three-source historical question now runs real SHA/visibility-ledger checks for each declared multiline Unicode original. The existing real two-original baseline sees matching exact quotations from two distinct original files, while a native-audited third active original carries a different literal passage and safely vetoes that apparent agreement, preserving all checked alternatives for owner-only review without an automatic answer. Same-wording and early-withdrawn third-source controls keep independence and temporal status explicitly unproved. An initial full CI identified invalid offline reuse of live SQLite validation, repaired in an atomic source/test commit. Twelve dedicated tests under ordinary and optimized Python, complete inherited source CI and independent scientific-state CI passed on one identical SHA. Exactly three declared source candidates were checked, not the wider source universe; no personal originals, author identity or human meaning were validated.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
         1,
         1,
         0,
