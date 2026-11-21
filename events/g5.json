@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T00:04:14.775Z",
+  "updated_at": "2026-11-21T01:07:50.713Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2742,6 +2742,26 @@
         0,
         2,
         2
+      ]
+    },
+    {
+      "id": "G5-C267-G04-PAIRED-TIME-SEQUENTIAL-CORRECTION-RED-GREEN-20261121",
+      "completed_at": "2026-11-21T01:07:50.713Z",
+      "evidence": "Prospectively preregistered synthetic G04 owner-private two-cutoff original review executes existing SHA-reopened as-of and question-bound correction methods to separate historical recorded-time baseline from a later reported correction. Naive latest-only question loses the past-cutoff distinction. Independent adversarial stage revealed false abstention for two successive differently pinned reported corrections; repaired with separate SHA-bound historical candidate while preserving one question/topic and cross-stage SQLite drift rejection. Sixteen source-backed regression tests pass normal and optimized Python; full existing source CI and independent scientific-state CI SUCCESS at identical private commit. Only caller-annotated fictional reported corrections, not authenticated speaker, historical physical presence, personal facts, human meaning gold or external model use.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
       ]
     }
   ],
