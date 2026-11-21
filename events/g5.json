@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T06:07:45.830Z",
+  "updated_at": "2026-11-21T07:08:34.843Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2856,6 +2856,26 @@
         1,
         0,
         0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C273-G01-HISTORICAL-LOGICAL-WITHDRAWAL-ASOF-ROLE-REPAIR-20261121",
+      "completed_at": "2026-11-21T07:08:34.843Z",
+      "evidence": "A prospectively registered, synthetic, read-only source-availability task now tests caller-pinned SHA-linked activation, withdrawal and reinstatement event histories at two UTC recording cutoffs, retaining earlier declared eligibility when the current flag says withdrawn. An actual missing-code CI failure preceded implementation; a separately preregistered adversarial test reproduced two incorrect owner-private releases of SHA-valid quoted/summary material as direct originals, then a source-role repair passed a full GitHub source CI suite. Fourteen specific synthetic regressions passed normal and optimized Python, including a second-writer WAL drift test, and independent scientific-state CI passed on the same private commit. The log head and event clocks are owner-declared, not independently authenticated or guaranteed physically immutable. No personal originals, third-party rights, human meaning gold, paid model API, manuscript edits or factual event assertions.",
+      "delta": [
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        1,
         1,
         0,
         0,
