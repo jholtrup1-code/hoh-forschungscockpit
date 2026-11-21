@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T15:06:16.384Z",
+  "updated_at": "2026-11-21T16:07:40.193Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3102,6 +3102,26 @@
         0,
         2,
         1
+      ]
+    },
+    {
+      "id": "G5-C285-G04-LOCALLY-PINNED-REVIEWER-ROLE-20261121",
+      "completed_at": "2026-11-21T16:07:40.193Z",
+      "evidence": "An isolated synthetic two-original Unicode correction reviewer now binds an explicitly locally supplied role label to the entire SHA/ledger/claim review via HMAC-SHA256. The older unkeyed relation baseline returned a claimed correction even for a separately locally labeled third-party paraphrase; the new owner-only adapter retains exact historical quotes but prevents this label from silently becoming an author correction. Pre-registered tamper, role-flip, input-race and independent SQLite WAL checks passed; a separate adversarial key-substitution test exposed and corrected a public overclaim: MAC consistency does not authenticate key origin, human authorship, meaning, consent or rights. Eleven new tests in ordinary/optimized Python plus inherited tests and full independent source/scientific-state CI passed on the identical private state commit. No real personal sources or public original text.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2
       ]
     }
   ],
