@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T08:29:40.223Z",
+  "updated_at": "2026-11-21T09:09:20.866Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2921,6 +2921,26 @@
         0,
         0,
         1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C276-G07-PRIVATE-EXACT-HISTORICAL-QUOTE-PREVIEW-20261121",
+      "completed_at": "2026-11-21T09:09:20.866Z",
+      "evidence": "Synthetic owner-only historical citation review now returns the exact SHA-verified quoted original span for manual private inspection, while keeping public aggregate free of source text, IDs and digests and preserving separately checked withdrawal history. A prospectively missing-field failure was repaired; four new regression tests including a Unicode combining-mark/emoji helper-level adversarial check passed normal and optimized Python, with full source and independent scientific-state workflows successful on the same private commit. Native Unicode source ingestion, authenticated rights, author identity, human meaning, real-world facts and publication permission are not claimed.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
         1
       ]
     }
