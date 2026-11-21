@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T08:22:33.808Z",
+  "updated_at": "2026-11-21T08:29:40.223Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2894,6 +2894,26 @@
         2,
         0,
         1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C275-G07-EXACT-QUOTE-SPAN-HISTORICAL-WITHDRAWAL-OWNER-REVIEW-20261121",
+      "completed_at": "2026-11-21T08:29:40.223Z",
+      "evidence": "Synthetic owner-only test first demonstrates missing historical exact-quote verification, then executes SHA-pinned exact original Unicode-codepoint span plus complete declared withdrawal ledger at two cutoffs. Nine bounded regression cases pass normal and optimized Python; independent WAL-writer adversary correctly abstains; same-code/source and scientific-state CI succeeded. Original rights, independent event timestamp, human meaning and manuscript reuse remain unverified.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
         0,
         0,
         1,
