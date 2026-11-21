@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T04:04:12.741Z",
+  "updated_at": "2026-11-21T05:09:15.000Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2814,6 +2814,26 @@
         1,
         0,
         2,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C271-G07-FOREIGN-ATTACHMENT-NAMESPACE-AND-CONFLICTING-CLAIM-REPAIR-20261121",
+      "completed_at": "2026-11-21T05:09:15.000Z",
+      "evidence": "Prospectively preregistered synthetic owner-private attachment review exposed a false abstention when two separate SHA-verified document bundles reused the same short attachment reference: three specific test-first failures in a full GitHub Actions run. The first fix allowed independently evidenced foreign namespaces while continuing to reject target-source reclassification and missing target bytes. Independent preregistration and a real two-failure adversarial RED then exposed a second problem: conflicting same-object/ref requests with different filenames could be ignored. Repair now requires a unique coherent foreign (object,ref) request at the right cutoff, retaining whole-source digest checks and fail-closed controls. Eleven synthetic tests pass normal and optimized Python plus full historical CI, with independent scientific-state CI passing on the identical private commit. No actual personal originals, source sender authentication, model API, human meaning gold or manuscript actions.",
+      "delta": [
+        0,
+        0,
+        2,
+        0,
+        0,
         0,
         1,
         1,
