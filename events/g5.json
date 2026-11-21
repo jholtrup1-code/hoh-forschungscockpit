@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T17:10:43.143Z",
+  "updated_at": "2026-11-21T18:09:19.061Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3142,6 +3142,26 @@
         0,
         2,
         2
+      ]
+    },
+    {
+      "id": "G5-C287-G07-HISTORICAL-WITHDRAWAL-THIRDPARTY-QUESTION-20261121",
+      "completed_at": "2026-11-21T18:09:19.061Z",
+      "evidence": "A previously missing bounded synthetic owner question now checks an earlier Unicode original that was active at a past cutoff but withdrawn later, and separately verifies a locally HMAC-labelled later third-party report using two actual existing native SHA/ledger verifiers. The new source code preserves exact earlier and later excerpts privately and explicitly refuses to promote a third-party paraphrase to an author correction or automatic answer. A source-test-first missing-module failure was repaired; an independent adversarial preregistration then established repinned no-withdrawal abstention, nested-request mutation rejection and no human-authorship inference from self-selected keys. Twelve new tests in regular and optimized Python, inherited complete source CI and independent same-commit scientific-state CI passed. Bounded SQLite snapshot checks rejected intervening local and independent WAL writes. Question relevance, local key ownership, authorship, rights and human meaning are not authenticated; no private text disclosed.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1
       ]
     }
   ],
