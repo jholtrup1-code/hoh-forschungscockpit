@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-18T19:42:30.142Z",
+  "updated_at": "2026-11-21T23:32:35.807Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1602,6 +1602,26 @@
         0,
         0,
         0
+      ]
+    },
+    {
+      "id": "P1-91-INCREMENTAL-PRIVATE-SOURCE-DELTA-20261122",
+      "completed_at": "2026-11-21T23:32:35.807Z",
+      "evidence": "Read-only source-inventory probe independently confirmed a narrow native-document copy with 67 matching text paragraphs despite differing provider size metadata; three documented copy pairs remained private and source modification timestamps matched their archived checkpoints. A preregistered P1-only metadata-delta guard passed 22/22 isolated synthetic tests and was Git-blob verified. No Oracle ingestion, human meaning validation, additional independent corpus study, or model API call.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
       ]
     }
   ],
