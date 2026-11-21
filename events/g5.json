@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T12:24:08.751Z",
+  "updated_at": "2026-11-21T12:32:57.630Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3017,6 +3017,26 @@
         1,
         0,
         1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C281-G07-OWNER-HISTORICAL-WORDING-VS-LATEST-ONLY-20261121",
+      "completed_at": "2026-11-21T12:32:57.630Z",
+      "evidence": "A source-disjoint, entirely synthetic owner historical-wording question now retrieves an exact earlier Unicode cited span for private human review after later documented withdrawal/revision, while showing how the actual earlier C278 latest-only withdrawn-flag baseline misses that earlier evidence. Complete original SHA, separate claimed relation pin, both temporal cutoffs and second-connection SQLite WAL drift refusal are inherited and independently adversarially tested. Ten new tests normal/optimized Python plus full historic suite passed; exact SAME private source+closed scientific state SHA a80742480a9985dacc8a5d11b6375ec1bb75edab passed both independent CI. Public result contains no original text, source identity or digest; no verified human meaning, authorship, permission or automatic answer.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2,
         0,
         0,
         0,
