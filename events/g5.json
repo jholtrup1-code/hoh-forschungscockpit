@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T02:04:28.491Z",
+  "updated_at": "2026-11-21T03:03:43.891Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2777,6 +2777,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C269-G07-PRIVATE-REQUIRED-NATIVE-ACTION-REVIEW-LOCAL-REMEDY-REPAIR-20261121",
+      "completed_at": "2026-11-21T03:03:43.891Z",
+      "evidence": "A prospectively preregistered, synthetic owner-only G07 original-gap review now maps C268's independently declared SHA-verified required native originals to private per-source non-executing review actions, with an offline 0600 private output and unchanged public counts. Initial test-first CI failed on missing private API, later tests passed. An independently preregistered adversarial test then reproduced a real wrong action: SHA-verified local native originals absent from archive were advised to be located again; repaired by using the already verified local manifest file/source-kind evidence to distinguish local native, missing, changed and secondary reports. Seven new synthetic tests pass regular and optimized Python; complete source and independent scientific-state CI SUCCESS at one identical private SHA. No actual life-completeness, rights, human meaning gold, model API, source publication or automatic import.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
         0,
         0,
         0,
