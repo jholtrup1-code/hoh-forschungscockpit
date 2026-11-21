@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T14:06:02.064Z",
+  "updated_at": "2026-11-21T15:06:16.384Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3082,6 +3082,26 @@
         0,
         2,
         2
+      ]
+    },
+    {
+      "id": "G5-C284-G01-PREPINNED-QUESTION-SOURCE-ASSOCIATION-20261121",
+      "completed_at": "2026-11-21T15:06:16.384Z",
+      "evidence": "An isolated fictional question-to-two-original review now requires a separately pre-pinned canonical SHA-256 question and complete-original association before the native historical evidence review may return private alternatives. Missing or mismatched association abstains before source review; a valid match retains original SHA, Unicode citation and withdrawal-history safeguards. A test-first absent-module failure was repaired. An independently preregistered adversarial test then exposed and corrected public wording that misleadingly suggested authenticated question relevance; an independent post-review SQLite WAL writer challenge correctly forced abstention. Twelve dedicated normal and optimized Python tests plus prior source regressions passed; exact identical private code-and-scientific-state commit passed both independent workflows. The pin proves consistency only, not real shared-event meaning, authorship, rights or independent relevance. No private text or identifier published.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1
       ]
     }
   ],
