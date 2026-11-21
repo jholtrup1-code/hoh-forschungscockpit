@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T19:16:07.315Z",
+  "updated_at": "2026-11-21T20:15:27.409Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3176,6 +3176,26 @@
         0,
         0,
         0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C289-G01-EXACT-QUESTION-AND-FULL-HISTORICAL-REQUEST-PIN-20261121",
+      "completed_at": "2026-11-21T20:15:27.409Z",
+      "evidence": "A precommitted synthetic owner-only Unicode question now pins its exact UTF-8 wording together with the full historical original-check request, including source-pair SHA, as-of cutoffs and quote spans. Real prior C284 accepted changed literal questions under one opaque reference; an independently preregistered negative CI challenge reproduced two additional failures where valid altered time cutoffs or exact quote spans reused the same initial commitment. Repaired full-request SHA binding rejects these variants before native source reads and retains C284 SQLite original SHA/history/WAL guards. Thirteen new normal/optimized-Python cases, full inherited source CI and independent same-commit scientific-state CI passed. This proves technical integrity against question/request rebinding only, not semantic relevance, author authenticity, human meaning, permission or automatic answers. No original person/source text disclosed.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
         1,
         0,
         0,
