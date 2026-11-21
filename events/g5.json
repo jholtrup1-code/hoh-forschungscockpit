@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T09:09:20.866Z",
+  "updated_at": "2026-11-21T10:06:22.192Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2941,6 +2941,26 @@
         0,
         0,
         0,
+        1
+      ]
+    },
+    {
+      "id": "G5-C277-G01-NATIVE-UNICODE-NOTE-EXACT-QUOTE-20261121",
+      "completed_at": "2026-11-21T10:06:22.192Z",
+      "evidence": "Isolated synthetic SQLite source-to-owner-private quote chain now verifies two bounded printable Unicode notes directly in SHA-checked native original rows, a caller-pinned historical withdrawal ledger and exact codepoint excerpt spans without mocked source/history. A previously absent native parse path was shown failing then fixed; a separate duplicate-measurement-statement guard prevents differently annotated copies counting as independent numeric support. Nine new explicit controls and full historical tests passed normal and optimized Python, with independent source and scientific-state CI green on one final commit. Not a general document reader or authenticated human evidence.",
+      "delta": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
         1
       ]
     }
