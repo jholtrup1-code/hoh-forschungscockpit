@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T12:09:57.396Z",
+  "updated_at": "2026-11-21T12:24:08.751Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2995,6 +2995,26 @@
         0,
         1,
         2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C280-G04-CANONICAL-UNICODE-CITED-SPAN-VARIATION-20261121",
+      "completed_at": "2026-11-21T12:24:08.751Z",
+      "evidence": "An isolated synthetic two-original review now distinguishes NFC-canonically-equivalent cited Unicode spans from genuinely changed cited wording without normalizing original bytes or authenticating a reported human correction. Prospectively frozen five new cases exposed a real prior false-correction classification; after code repair, inherited fixture/test repairs and full historic suite passed. Independent source and scientific-state CI succeeded on identical private C280 code/state SHA abe47ad227735d7296b02285139c687bb3f200d3. Strictly citation-span only; raw originals, SHA integrity, private quotes, owner consent and no human meaning gold retained.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
         0,
         1,
         0,
