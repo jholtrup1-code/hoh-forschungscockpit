@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T03:03:43.891Z",
+  "updated_at": "2026-11-21T04:04:12.741Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2797,6 +2797,26 @@
         0,
         1,
         2,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C270-G03-THREE-ORIGINAL-UNVERIFIED-EVENT-DATE-CONFLICT-RED-GREEN-20261121",
+      "completed_at": "2026-11-21T04:04:12.741Z",
+      "evidence": "Prospectively registered a synthetic three-original event-date proposal task after deduplicating existing two-clock and as-of correction readers. A two-original exact-source gate reported agreement while a separately recorded third SHA-verified original offered a conflicting caller-supplied date. The new owner-private three-original method actually executes two existing exact-original SHA/quote/cutoff gates and separately checks all three chronological occurrences. A test-first missing-module RED and an initial invalid fixture RED were repaired; the original 7-case regression and complete historical CI turned green. An independently preregistered adversarial test reproduced a genuine nonindependent-witness error: the second and third original contained byte-identical text but different proposed dates. Fixed by checking cross-pair content SHA after both gate readers, without erasing separately recorded occurrences. Eight synthetic tests now pass normal and optimized Python, plus full source CI and independent scientific-state CI on one identical commit. Proposed event key and event dates remain unauthenticated; no human meaning gold, personal data, automatic factual answer, model API or manuscript change.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        1,
         0,
         0,
         0,
