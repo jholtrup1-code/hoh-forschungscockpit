@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T12:32:57.630Z",
+  "updated_at": "2026-11-21T13:07:29.164Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3038,6 +3038,26 @@
         1,
         2,
         0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C282-G08-CROSS-FAMILY-LATEST-ONLY-TWO-CLOCK-20261121",
+      "completed_at": "2026-11-21T13:07:29.164Z",
+      "evidence": "An isolated synthetic historical-question adapter now routes two genuinely different native SQLite evidence families, admits owner-only exact source wording only when a SHA-pinned original was active at the requested earlier cutoff, and abstains on earlier withdrawal. Seven initial normal/optimized-Python tests passed after a test-first absent-module failure. Independently preregistered controls proved two real false baseline outcomes when a requested later cutoff was confused with the source's current latest-only withdrawal flag; both were repaired by executing the native latest-only baseline within an outer data-version guard. Nine dedicated tests normal/optimized plus complete historical source suite and independent scientific-state CI succeeded on identical final private commit. No real personal sources, author meaning gold, rights or automatic answer.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
         0,
         0,
         1,
