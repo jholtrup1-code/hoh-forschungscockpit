@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T11:12:45.891Z",
+  "updated_at": "2026-11-21T12:09:57.396Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2975,6 +2975,26 @@
         0,
         1,
         0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C279-G04-UNICODE-FREEFORM-REVISION-CATEGORY-PIN-20261121",
+      "completed_at": "2026-11-21T12:09:57.396Z",
+      "evidence": "Isolated synthetic SHA-verified two-original multiline Unicode revision review can preserve early and late source visibility and separately classify an explicitly recorded correction report versus a reinterpretation report without authenticating the author's meaning. Owner-private exact passages and claim are kept outside public results. Prospective missing-module RED was repaired; an independent unchanged-text-and-SHA metadata substitution RED exposed false relation-category and clock reuse, then complete canonical claim-record and statement-count pins were implemented and adversarially validated. Thirteen dedicated tests in normal/optimized Python plus full historical source CI and independent scientific-state CI succeeded on the same commit. No real persons, source rights or human meaning gold.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        2,
         0,
         1,
         0,
