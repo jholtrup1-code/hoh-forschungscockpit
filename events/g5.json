@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T16:07:40.193Z",
+  "updated_at": "2026-11-21T17:10:43.143Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3115,6 +3115,26 @@
         0,
         0,
         1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "id": "G5-C286-G08-TWO-FAMILY-SQLITE-SNAPSHOT-GUARD-20261121",
+      "completed_at": "2026-11-21T17:10:43.143Z",
+      "evidence": "Two distinct fictional multi-line Unicode SQLite original families were used to compare the actual unkeyed revision reviewer with a locally role-labelled revision reviewer. Both native family checks and explicit paraphrase/self-report label restrictions passed without authenticating real authorship or human meaning. An independently pre-registered adversarial test found that a previously verified family could change while the second family was checked; two real failing controls reproduced local-writer and independent SQLite WAL races. A new bounded cross-family data-version/total-change guard rejects both. Ten new synthetic tests in normal/optimized Python, complete inherited source CI and independent same-commit scientific-state CI passed. No personal source text or real person claims.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
         0,
         1,
         0,
