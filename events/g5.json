@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T05:09:15.000Z",
+  "updated_at": "2026-11-21T06:07:45.830Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2836,6 +2836,26 @@
         0,
         0,
         1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C272-G07-TWO-RECORDED-CHECKPOINT-MEASUREMENT-DELTA-20261121",
+      "completed_at": "2026-11-21T06:07:45.830Z",
+      "evidence": "Synthetic, SHA-verified and unit-normalized two-recording-cutoff measurement review distinguishes earlier reported agreement from later recorded disagreement; separate UTC-equivalence, withdrawal and WAL concurrency challenges passed. Does not establish a physical event or human meaning.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
         1,
         0,
         0,
