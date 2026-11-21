@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T10:06:22.192Z",
+  "updated_at": "2026-11-21T11:12:45.891Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2954,6 +2954,26 @@
         2,
         0,
         0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C278-G01-FREEFORM-UNICODE-DOCUMENT-HISTORICAL-QUOTE-20261121",
+      "completed_at": "2026-11-21T11:12:45.891Z",
+      "evidence": "A genuinely separate, read-only synthetic freeform Unicode document original adapter now verifies multiline exact UTF-8 source SHA and codepoint quote offsets without the prior typed measurement grammar, reusing a complete caller-pinned declared activation/withdrawal event chain. The exact excerpt is confined to an owner-opted-in private result; public response exposes no original identity, digest or text. A prospective missing-code failure was repaired, fourteen synthetic tests passed normal and optimized Python; independent WAL-writer and valid-hash invalid-clock challenges also passed. Complete source and independent scientific-state GitHub CI succeeded on identical code/state commit. No personal facts, authenticated source history, rights or human meaning are claimed.",
+      "delta": [
+        0,
+        1,
+        2,
+        0,
+        1,
         0,
         0,
         1,
