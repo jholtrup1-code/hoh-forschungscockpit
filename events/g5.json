@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T21:12:14.859Z",
+  "updated_at": "2026-11-21T22:07:46.397Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3212,6 +3212,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C291-G01-FINITE-INVENTORY-FOURTH-ORIGINAL-20261121",
+      "completed_at": "2026-11-21T22:07:46.397Z",
+      "evidence": "A preregistered synthetic finite-four-original task now checks whether a three-source historical question left out a fourth original from a separately SHA-committed exact inventory. The actual native three-source baseline sees matching Unicode quotations while the independently ledger/SHA-audited fourth contains contrary wording; the new four-member review abstains and preserves verified excerpts only for private owner inspection. Matching and withdrawn controls plus missing/extra source, duplicate/altered commitments, caller mutation and SQLite writer challenges are tested. An initial red full run exposed an uncommitted synthetic test-fixture transaction (not a scientific method failure), fixed before full normal/optimized source tests and independent scientific-state CI both passed on one identical commit. The proved scope is ONLY the four-row fictional database, not an independently complete life archive or authenticated author/relevance/meaning; no model API or personal originals.",
+      "delta": [
+        0,
+        0,
+        2,
         0,
         0,
         0,
