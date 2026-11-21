@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-20T23:19:59Z",
+  "updated_at": "2026-11-21T00:04:14.775Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2722,6 +2722,26 @@
         0,
         2,
         1
+      ]
+    },
+    {
+      "id": "G5-C266-G08-SEALED-BLIND-CHALLENGE-RESEAL-REPAIR-20261121",
+      "completed_at": "2026-11-21T00:04:14.775Z",
+      "evidence": "Preregistered offline two-stage synthetic multi-method challenge: SHA-pinned fictional originals go through actual unlabelled measurement/attachment/work-order inference and naive baselines; private sealed reference labels are revealed only for aggregation. Independent adversarial test reproduced a post-prediction label-resealing weakness, then repaired it by binding the precommitted label digest into the blind source input and prediction receipt. Twelve regression tests pass normal and optimized Python, complete source CI plus independent scientific-state CI PASS on identical verified private checkpoint. Existing developer-authored fixtures only; no externally independent authorship, real-world truth, human meaning gold, external model API or personal material.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        2,
+        2
       ]
     }
   ],
