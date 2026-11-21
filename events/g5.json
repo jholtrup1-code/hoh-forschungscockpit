@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T22:07:46.397Z",
+  "updated_at": "2026-11-21T23:04:48.448Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3237,6 +3237,26 @@
         0,
         1,
         1,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C292-G07-NONWITHDRAWN-ORIGINAL-REPORT-COMPARISON-20261122",
+      "completed_at": "2026-11-21T23:04:48.448Z",
+      "evidence": "Prospectively registered synthetic historical wording-report comparison reuses native SHA/visibility-ledger original verification and independently locally labelled later-reporter review. The real existing withdrawal-question baseline abstains when the earlier source remains active, whereas an explicitly distinct comparison task now preserves both verified exact Unicode excerpts for private review without falsely asserting withdrawal. Independent roles remain unauthenticated; unchanged cited excerpts are marked as no literal text change. Eight new negative and utility tests in ordinary and optimized Python plus the inherited suite passed, with independent complete source and scientific-state GitHub CI successful on the same commit. No personally identifying originals, human semantic Gold, authenticated author correction, automated answer, production connection or external model API.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2,
         0,
         0,
         0,
