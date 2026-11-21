@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T13:07:29.164Z",
+  "updated_at": "2026-11-21T14:06:02.064Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3062,6 +3062,26 @@
         0,
         1,
         1
+      ]
+    },
+    {
+      "id": "G5-C283-G07-COMPETING-ORIGINALS-REQUEST-SNAPSHOT-20261121",
+      "completed_at": "2026-11-21T14:06:02.064Z",
+      "evidence": "An isolated synthetic historical-question reviewer now checks two distinct SHA-pinned direct Unicode SQLite originals through native full-source and visibility-history audits, withholding an arbitrary first-hit answer when their exact excerpts disagree while retaining alternatives only in private owner review. A separately preregistered adversarial caller-mutation test exposed a real source-ID misattribution vulnerability during the two reads; freezing and rechecking both input anchors repaired it. Ten new source tests normal and optimized Python plus inherited checks, and the independent scientific-state workflow, succeeded on the identical final private code/state commit. Only declared question linkage was tested; no real authorship, semantic truth, human gold, permission or private text publication.",
+      "delta": [
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2
       ]
     }
   ],
