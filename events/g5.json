@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T01:07:50.713Z",
+  "updated_at": "2026-11-21T02:04:28.491Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -2756,6 +2756,26 @@
         2,
         1,
         1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C268-G01-INDEPENDENT-REQUIRED-NATIVE-ORIGINAL-SECONDARY-SPOOF-RED-GREEN-20261121",
+      "completed_at": "2026-11-21T02:04:28.491Z",
+      "evidence": "Prospectively preregistered a bounded offline original-source completeness audit using an independently declared required UID/SHA set, outside the current import manifest. Existing manifest-only reconciliation can correctly report all listed files present while both the manifest and SQLite archive omit another required source; the new SHA-reopened method detects that scoped absence. A separately preregistered adversarial test exposed a false native-original result for a SHA-valid secondary report and proved the failure before source-kind repair. Six new synthetic tests pass ordinary and optimized Python, 26 total suite tests plus full historical source CI; independent scientific-state and full source CI succeed on one identical private commit. Claims remain owner-declared fictional archive scope only, not authenticated authorship, lifetime coverage, human semantic gold, or personal data.",
+      "delta": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
         1,
         0,
         0,
