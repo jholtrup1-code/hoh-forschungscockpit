@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T17:11:52.689Z",
+  "updated_at": "2026-11-22T18:04:23.421Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3642,6 +3642,26 @@
         0,
         2,
         0
+      ]
+    },
+    {
+      "id": "G5-C312-G02-PINNED-LOCAL-PROPOSITION-ROLES-20261122",
+      "completed_at": "2026-11-22T18:04:23.421Z",
+      "evidence": "Two new SHA-disjoint fictional native SQLite source families: a locally registered original- and quote-hash-bound actor/action and explicit-negation literal-span check retained 2/2 direct owner-private review candidates and withheld six changed-role or negated cases previously retained by lexical overlap. Two adversarial same-token examples were still retained; self-declared labels and syntactic or human meaning remain unverified.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
       ]
     }
   ],
