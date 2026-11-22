@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T00:34:14.902Z",
+  "updated_at": "2026-11-22T00:47:47.762Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1642,6 +1642,26 @@
         0,
         1,
         1
+      ]
+    },
+    {
+      "id": "P1-93-MANIFEST-PAGINATION-METADATA-20261122",
+      "completed_at": "2026-11-22T00:47:47.762Z",
+      "evidence": "P1 independently repeated the first ten cached-source manifest metadata records from the authenticated read-only Oracle adapter, confirming unchanged ID/version/hash metadata, then verified cursor continuity, strict ordering, distinct IDs and SHA256 shapes for ten additional records. Private metadata-only checkpoint now covers 20/7515 indexed documents; no original content, fresh Drive-byte verification, individual source permissions, human meaning validation or G5 integration is claimed.",
+      "delta": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ]
     }
   ],
