@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T02:06:43.461Z",
+  "updated_at": "2026-11-22T03:09:23.060Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3337,6 +3337,26 @@
         0,
         0,
         2,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C297-G04-TEMPORAL-SOURCE-CANDIDATE-ABSTENTION-20261122",
+      "completed_at": "2026-11-22T03:09:23.060Z",
+      "evidence": "A prospective owner-private historical time-cutoff task now selects the previously SHA/visibility-ledger verified earlier quote for early review, but considers a later quote only as an explicitly unverified locally labelled self-report replacement candidate after native withdrawal, active-later and recorded text-correction checks. A separately labelled third-party report, unchanged wording, reinterpretation, or absent withdrawal yields abstention instead of falsely promoting the latest text to an author correction. Nine synthetic regression tests under normal and optimized Python, including a separately rebuilt source/ledger family and unrelated-original tamper rejection, passed full source CI plus independent scientific-state CI on the exact same private commit. No human Gold, real person assertion, author authentication, automatic personal answer, paid model calls, or original text publication.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
         0,
         0,
         0,
