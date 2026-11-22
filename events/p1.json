@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T20:32:42.642Z",
+  "updated_at": "2026-11-22T21:32:51.777Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -2048,6 +2048,26 @@
       "id": "P1-114-REASK-WEAK-FEEDBACK-SIGNAL-20261122",
       "completed_at": "2026-11-22T20:32:42.642Z",
       "evidence": "Preregistered public human-rated multi-turn chatbot corpus: lexical repetition in a later user turn associates with a previously low-rated response (+17.5 pp), but identifies only 10% of low-rated cases. 16 isolated synthetic controls and independent count confirm the bounded association; no demonstrated correction-use or personal meaning validation.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-115-NEXT-REPLY-RECOVERY-NEGATIVE-20261122",
+      "completed_at": "2026-11-22T21:32:51.777Z",
+      "evidence": "Prospective secondary analysis of previously studied public CC BY 4.0 human-rated chatbot dialogue data: following a low-rated response, literal two-word user reasking did NOT predict higher-rated next assistant replies (4/28 versus 57/252; difference -8.33 percentage points, dialogue-cluster bootstrap 95% CI [-20.99,+9.03]pp). Frozen readback code passed 16/16 isolated synthetic checks and a separately coded recount matched; no user correction-intent gold, separate later task, personal text, G5/E12 or production change. This is a bounded noncausal negative result, not evidence of new deployed capability.",
       "delta": [
         0,
         0,
