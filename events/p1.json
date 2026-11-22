@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T17:33:29.590Z",
+  "updated_at": "2026-11-22T18:38:59.082Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -2002,6 +2002,26 @@
         0,
         2,
         0
+      ]
+    },
+    {
+      "id": "P1-112-BEGIN-HUMAN-ATTRIBUTION-COVERAGE-HOLDOUT-20261122",
+      "completed_at": "2026-11-22T18:38:59.082Z",
+      "evidence": "Prospectively preregistered disjoint 200-row public CC BY 4.0 BEGIN/WoW human-attribution test: a fixed 80%-unique-long-token source-coverage abstention gate reduced the proportion of human-negative generated responses among accepted from 81/170 (47.65%) with a two-token baseline to 22/95 (23.16%), while human-positive recall was 73/95 (76.84%). All prespecified usefulness/coverage gates passed; 28/28 isolated synthetic checks passed, and an independent counter verified original-label confusion counts against pinned source Git blob. Still 22 false accepts, numerical and semantic errors remain; no personal psychology gold, proof of memory learning or deployed human benefit. No private source, paid model call, G5/E12 or production change.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1
       ]
     }
   ],
