@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T12:38:47.870Z",
+  "updated_at": "2026-11-22T13:39:26.344Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1897,6 +1897,26 @@
         0,
         0,
         0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-107-RELATION-PAIR-WORD-FAILURE-20261122",
+      "completed_at": "2026-11-22T13:39:26.344Z",
+      "evidence": "Independently preregistered audit of a public noncommercial-research-only human-annotated fictional-dialogue corpus: 358 scenes and 1,914 entity-relation pairs. A fixed scene-wide 17-word relationship cue produced balanced accuracy 0.49336 against an always-positive 0.50000 baseline (delta -0.00664), so the prespecified benefit gate failed. It made 206 false-positive pair attributions and missed 747 positive relations. Original-source hash and exact self-authored code blob were checked, 22 isolated synthetic checks passed and a second aggregate counting implementation matched. Labels include non-interpersonal relations, and this does not validate human biography, individual meaning or deployed model utility. No private sources or paid model APIs; G5/E12 unchanged.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
         0,
         1,
         0,
