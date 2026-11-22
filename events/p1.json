@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T18:38:59.082Z",
+  "updated_at": "2026-11-22T19:37:14.479Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -2022,6 +2022,26 @@
         0,
         2,
         1
+      ]
+    },
+    {
+      "id": "P1-113-HUMAN-MODEL-CONVENTION-NEGATIVE-20261122",
+      "completed_at": "2026-11-22T19:37:14.479Z",
+      "evidence": "Independent preregistered public human-vs-model request-game analysis: expected baseline convention-marker advantage was NOT supported; equal-participant bootstrap spans zero. 16 synthetic controls and all 23 published comparison categories validated; no person-meaning gold or deployed utility claim.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
       ]
     }
   ],
