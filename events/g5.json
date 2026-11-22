@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T07:06:15.868Z",
+  "updated_at": "2026-11-22T08:04:15.749Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3432,6 +3432,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C302-G07-NONVERBATIM-OWNER-CUE-HELDOUT-20261122",
+      "completed_at": "2026-11-22T08:04:15.749Z",
+      "evidence": "Prospectively preregistered private G07 nonverbatim owner-cue utility check ran the actual earlier SHA/offset-verified C301 and unjudged C136 methods on twelve source-SHA-disjoint synthetic question families. In eight heldout fictional cases C301 located four exact intended first-person original spans and abstained appropriately on four ambiguous/report/split-reference cases, with no incorrect selections. A distinctly labelled UNSAFE first-matching-role heuristic made six incorrect selections; native C136 is an unjudged role preview, not an automatic answer. C301 reduced candidate spans requiring private inspection from 13 C136 previews to seven in the synthetic set. Ten new regression methods passed regular and optimized Python; full source and independent scientific-state CI succeeded at the exact same private code/state SHA. The test does not establish automatic semantic paraphrase, real-world benefit, authenticated speaker identity or human Gold. No personal originals, model API, new data connections or manuscript release.",
+      "delta": [
+        0,
+        0,
+        0,
         0,
         0,
         0,
