@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T15:06:01.711Z",
+  "updated_at": "2026-11-22T16:05:45.965Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3602,6 +3602,26 @@
         0,
         2,
         0
+      ]
+    },
+    {
+      "id": "G5-C310-G02-LEXICAL-QUESTION-TO-ORIGINAL-HOLD-20261122",
+      "completed_at": "2026-11-22T16:05:45.965Z",
+      "evidence": "Pre-registered isolated lexical question-to-native-original audit in two new SHA-disjoint fictional document families. Actual C307/C308 source/version checks and 12 new regression methods pass normal/optimized Python and the full independent source/science CI on one code+state SHA. Compared with C308, the exact two-cue gate preserves two lexically matching private review candidates and withholds two unrelated-question candidates, but also withholds two potentially useful vague-question candidates. No semantic-intent, independent source-completeness, person-fact or human Gold; no automatic answer or original publication.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
       ]
     }
   ],
