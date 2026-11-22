@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T10:02:28.387Z",
+  "updated_at": "2026-11-22T11:09:30.492Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3501,6 +3501,26 @@
         0,
         0,
         2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C305-G04-DOCUMENT-VERSION-CONTINUITY-20261122",
+      "completed_at": "2026-11-22T11:09:30.492Z",
+      "evidence": "Vorregistrierte isolierte G04-Quellenprüfung: Eine bisherige zeitbezogene Prüfung konnte auf synthetischen Originalen eine später gekennzeichnete Formulierung als privaten Korrekturkandidaten anbieten, ohne die gemeinsame Dokumentversions-Folge nachzuweisen. Der neue, ausschließlich lokal geprüfte Schritt verlangt zusätzlich eine begrenzte, fragegebundene deklarierte Versionskette mit fortlaufenden Versionen, vollständigen Original-SHA- und Zeitprüfungen und einem gebundenen Ketten-Fingerabdruck. Unverbundene Dokumente, lückenhafte, veränderte oder falsch zugeordnete Versionsketten werden abgewiesen. Eine native geprüfte zweite bzw. dritte fiktive Edition bleibt nur ein UNBESTÄTIGTER privater Sichtungskandidat. Elf neue Regressionstests regulär und Python -O, vollständige Quellenprüfung und unabhängige Zustandsprüfung bestanden auf identischem privaten Commit. Die lokal deklarierte Versionskette beweist weder historische Identität noch Urheberschaft oder Bedeutung. Keine personenbezogenen Daten, Modell-API-Ausgaben, automatische Antworten oder Manuskriptänderungen.",
+      "delta": [
+        0,
+        0,
+        2,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
         1
       ]
     }
