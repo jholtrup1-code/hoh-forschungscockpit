@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T20:09:55.000Z",
+  "updated_at": "2026-11-22T21:05:57.000Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3702,6 +3702,26 @@
         0,
         1,
         2
+      ]
+    },
+    {
+      "id": "G5-C315-G07-NATIVE-QUESTION-UTILITY-TRADEOFF-20261122",
+      "completed_at": "2026-11-22T21:05:57.000Z",
+      "evidence": "Prospectively registered independent native synthetic historical-question usefulness comparison on two new disjoint full-original document families: 12 questions tested through the same source-verifying three-arm C308/C310/C312 pipeline, including the C314 integrity guard. Literal actor/action and negation controls reduced test-author-stipulated unsafe private candidates from eight to two, but also withheld both potentially useful paraphrase questions; two misleading same-token questions remained incorrectly offered. Ten new synthetic regression methods passed both standard and optimized Python with complete inherited source checks; independent scientific-state and source CI succeeded on identical private commit. This is a falsifiable safety-versus-recall tradeoff, not verified semantics, human Gold, real speaker identity, or automatic answers.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1
       ]
     }
   ],
