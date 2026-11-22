@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T09:12:36.959Z",
+  "updated_at": "2026-11-22T10:02:28.387Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3481,6 +3481,26 @@
         0,
         0,
         1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C304-G07-NEGATIVE-MORPHOLOGY-HELDOUT-20261122",
+      "completed_at": "2026-11-22T10:02:28.387Z",
+      "evidence": "Vorregistrierter isolierter G07-Gegenversuch gegen die vorangegangene begrenzte Endungsnavigation: Auf acht unabhängigen fiktiven Prüffragen lokalisierte die neue Variante vier ausdrücklich strukturell festgelegte Originalstellen, wählte aber außerdem in einem vorbereiteten negativen Wortpaar eine unzutreffende Stelle aus. Die wortgetreue Vergleichsmethode enthielt sich dort; sie übersah allerdings vier positive Fundstellen. Wegen dieser falschen lexikalischen Zuordnung wurde die Nutzenhypothese nach vorab festgelegtem Null-Fehler-Kriterium verworfen. Zehn neue Tests regulär und Python -O sowie vollständiger Quellen- und unabhängiger Forschungszustands-CI bestanden auf identischem privatem Commit. Negativer technischer Transferbefund, keine geprüfte menschliche Bedeutung, keine Personenidentitätsbehauptung, keine automatische Antwort, keine Privattexte oder Modell-API-Ausgaben.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
         1
       ]
     }
