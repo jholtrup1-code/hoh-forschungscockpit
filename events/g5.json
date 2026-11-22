@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T03:09:23.060Z",
+  "updated_at": "2026-11-22T04:09:54.514Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3348,6 +3348,26 @@
       "id": "G5-C297-G04-TEMPORAL-SOURCE-CANDIDATE-ABSTENTION-20261122",
       "completed_at": "2026-11-22T03:09:23.060Z",
       "evidence": "A prospective owner-private historical time-cutoff task now selects the previously SHA/visibility-ledger verified earlier quote for early review, but considers a later quote only as an explicitly unverified locally labelled self-report replacement candidate after native withdrawal, active-later and recorded text-correction checks. A separately labelled third-party report, unchanged wording, reinterpretation, or absent withdrawal yields abstention instead of falsely promoting the latest text to an author correction. Nine synthetic regression tests under normal and optimized Python, including a separately rebuilt source/ledger family and unrelated-original tamper rejection, passed full source CI plus independent scientific-state CI on the exact same private commit. No human Gold, real person assertion, author authentication, automatic personal answer, paid model calls, or original text publication.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C298-G07-NATIVE-LATE-FOUR-ORIGINAL-CONFLICT-VETO-20261122",
+      "completed_at": "2026-11-22T04:09:54.514Z",
+      "evidence": "An independently preregistered fictional later-cutoff owner-review question now combines the already native source-audited temporal replacement candidate with a separately fingerprinted four-original local SQLite inventory. Real original-SHA and historical visibility-ledger checks distinguish a later-active fourth exact contradictory wording from a fourth source withdrawn by the requested later cutoff. The newly verified conflicting original vetoes the premature candidate, including a nested private-selection route; the withdrawn fourth does not. A re-pinned separate source-ID, correction-claim, role-label and full ledger family, negative source/clock/input controls and nine new synthetic tests in normal and optimized Python passed complete source CI and independent scientific-state CI on the identical private commit. This is source-review abstention in a declared finite fictional universe, not independent witness identity, semantic truth, personal meaning Gold, automatic answers or publication rights.",
       "delta": [
         0,
         0,
