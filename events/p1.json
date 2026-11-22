@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T22:39:57.210Z",
+  "updated_at": "2026-11-22T23:34:29.628Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -2100,6 +2100,26 @@
         0,
         0,
         0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-119-CCPE-PREFERENCE-MEMORY-20261123",
+      "completed_at": "2026-11-22T23:34:29.628Z",
+      "evidence": "Preregistered analysis on 100 human-annotated, public CC BY 4.0 crowdworker movie-preference dialogues (1,228 USER turns): saving every user utterance as a preference falsely accepts 352/352 non-preference turns; a fixed taste-word filter reduces false acceptances to 51 but misses 360/876 human preference labels. 15/15 isolated synthetic controls and a separately programmed recount confirm; role-aware analysis, not verified enduring personal preference, real-world longitudinal meaning, later correction use, or G5/Oracle integration.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
         1,
         0
       ]
