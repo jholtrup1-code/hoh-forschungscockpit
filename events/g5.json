@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T05:05:52.200Z",
+  "updated_at": "2026-11-22T06:15:17.438Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3402,6 +3402,26 @@
         0,
         2,
         1
+      ]
+    },
+    {
+      "id": "G5-C300-G07-HELDOUT-MULTIVOICE-PHRASE-UTILITY-20261122",
+      "completed_at": "2026-11-22T06:15:17.438Z",
+      "evidence": "Prospectively preregistered G07 fictional source-disjoint D4/H8 held-out owner-phrase question evaluated ACTUAL source-SHA/role-verified C299 against identical-input naive first literal hit and a clearly disclosed C136-plus-first-occurrence heuristic. In eight held-out cases, C299 returned four exact original-locator matches and four justified abstentions with zero wrong locations; naive first hit wrongly selected five, while the extra C136 one-row selection heuristic wrongly selected one duplicated subphrase within a single original span. One SHA-validated earlier assistant phrase risk was indicated. Ten dedicated synthetic tests normal and optimized Python plus full inherited source regression and separate scientific-state workflow passed on the identical private scientific/code commit after correction of a failing synthetic setup. This is narrow test-fixture utility, not independent human meaning, speaker authentication, real-life semantic superiority or an automatic personal answer. No personal original excerpts, source identities, keys, paid model API calls or new infrastructure.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0
       ]
     }
   ],
