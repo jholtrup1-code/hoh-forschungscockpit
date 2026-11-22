@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T16:05:45.965Z",
+  "updated_at": "2026-11-22T17:11:52.689Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3622,6 +3622,26 @@
         0,
         1,
         1
+      ]
+    },
+    {
+      "id": "G5-C311-G02-LEXICAL-NEGATION-REFERENT-FAILURE-20261122",
+      "completed_at": "2026-11-22T17:11:52.689Z",
+      "evidence": "Prospectively frozen, independently new SHA-disjoint fictional native original families and twelve matched question/quote tests compare prior native source review with a newer two-word overlap gate. Thirteen dedicated regression methods pass normal and optimized Python, with final full source plus independent scientific-state CI green at one exact code/state SHA. Both explicitly matching private candidates survive; negated, changed-referent and alternate-sense questions also survive (two each) despite insufficient intent evidence; unrelated questions are withheld, as are two potentially useful vague questions. This is an adverse technical validation of exact-word overlap, not a human semantic judgment, authenticated meaning or automatic answer.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
       ]
     }
   ],
