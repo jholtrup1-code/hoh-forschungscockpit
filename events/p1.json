@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T00:47:47.762Z",
+  "updated_at": "2026-11-22T01:37:07.756Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1661,6 +1661,26 @@
         0,
         0,
         0,
+        0
+      ]
+    },
+    {
+      "id": "P1-94-ORACLE-CACHED-INDEX-DRIFT-20261122",
+      "completed_at": "2026-11-22T01:37:07.756Z",
+      "evidence": "A P1-owned authenticated read-only comparison detected actual cached Oracle index count drift: 7,515 to 7,521 records and 604,358 to 604,454 passages. Ten previously checkpointed source ID/version/indexed-hash metadata triples remained unchanged while a further bounded ten-entry ID page was validated. A new dependency-free drift guard passed 8/8 synthetic negative controls and was verified against its private Git blob. No changed source IDs have yet been localized; a full rescan is needed. Indexed hashes are historical, not fresh original-byte verification. This is a technical monitoring finding, not a new human psych result or E12/G5 change.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
         0
       ]
     }
