@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T09:38:54.944Z",
+  "updated_at": "2026-11-22T10:34:20.124Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1842,6 +1842,26 @@
         1,
         1,
         1
+      ]
+    },
+    {
+      "id": "P1-103-REOPENED-REPAIR-NOT-K4-20261122",
+      "completed_at": "2026-11-22T10:34:20.124Z",
+      "evidence": "P1 prospectively tested a fixed small set of correction-search queries on existing private human–AI dialogues using the authenticated read-only Oracle index. One eligible source yielded six contiguous source-version/index-hash-matched spans and 14 top-level role/time turns. A correction and immediate AI acknowledgment were followed approximately 28 minutes later by a renewed user objection within the same issue, not an independently observed later-task application. Exact GitHub-readback generic role/chronology guard passed 12/12 isolated synthetic controls. This is one researcher-coded negative repair-process case, not independently human-validated meaning, a rate for all conversations, evidence of personal belief change, or a validated AI improvement. No original sentences, identities, private links, outside API charges, G5/E12 modifications or manual CI dispatch.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
       ]
     }
   ],
