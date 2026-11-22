@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T21:05:57.000Z",
+  "updated_at": "2026-11-22T22:05:46.485Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3715,6 +3715,26 @@
         0,
         0,
         0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C316-G04-RECORDED-VERSUS-CLAIMED-EFFECTIVE-20261122",
+      "completed_at": "2026-11-22T22:05:46.485Z",
+      "evidence": "Prospectively preregistered native synthetic historical-correction study on two distinct SHA-pinned fictional source families. A claim recorded only later is not treated as previously known merely because its own quote asserts an earlier effective date; later private retrospective review retains the original without authenticating speaker or truth. Thirteen normal and optimized Python regressions passed, including negative dates, ambiguous latest reports, source mutation and private-only output. Independent adversarial CI first reproduced silent tuple-to-list source-contract weakening; original input-type validation repaired it. Full source and independent scientific-state CI succeeded on identical private commit d7fcc9e3. No original texts, personal claims, model calls, human semantic Gold or automatic answers.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        1,
         1,
         0,
         0,
