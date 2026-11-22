@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T06:15:17.438Z",
+  "updated_at": "2026-11-22T07:06:15.868Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3422,6 +3422,26 @@
         0,
         2,
         0
+      ]
+    },
+    {
+      "id": "G5-C301-G02-OWNER-CUES-NAMED-REFERENT-MULTIVOICE-20261122",
+      "completed_at": "2026-11-22T07:06:15.868Z",
+      "evidence": "Prospectively preregistered private G02 cue-based question navigation executed genuine SHA/offset-verified mixed-voice source and provenance checks. On two disjoint fictional families, a question without a verbatim quote and an explicit named referent plus two separately supplied exact lexical cues could navigate from two unjudged first-person role previews to one verified private original span. Report-only, split-cue, multiple-candidate, unresolved pronoun, missing authorization and corrupt source cases abstained or failed. Ten synthetic regression methods passed regular and optimized Python, the full inherited source suite and independent scientific-state workflow at the same private commit. This is literal owner cue filtering, NOT inferred paraphrase, human semantic validation, verified speaker identity or automatic personal answer. No personal text, paid model API, new cloud access or manuscript change.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
       ]
     }
   ],
