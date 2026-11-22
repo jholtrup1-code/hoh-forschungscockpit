@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T08:31:50.966Z",
+  "updated_at": "2026-11-22T09:38:54.944Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1821,6 +1821,26 @@
         0,
         0,
         0,
+        1
+      ]
+    },
+    {
+      "id": "P1-102-REAL-DIALOGUE-FICTION-GUARD-20261122",
+      "completed_at": "2026-11-22T09:38:54.944Z",
+      "evidence": "Preregistered P1-only bounded, authenticated read-only examination of previously indexed two-source human–AI conversation fragments: 8/8 indexed source/version/SHA checks (six newly inspected), 30 top-level speaker/time headers, 10 lexical correction candidates shown not to constitute human gold, two assistant-authored explicitly fictional-context spans, and one indexed text slice without a local role header. Reproducible 10/10 isolated synthetic guard tests and private method/result/advisory receipts read back. No independently verified later separate task-use success; nested fictional language must not enter personal memory as factual user testimony. No source text or identities published, no G5/E12 changes, paid APIs or manual Actions.",
+      "delta": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
         1
       ]
     }
