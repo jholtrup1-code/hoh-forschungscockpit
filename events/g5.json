@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T19:06:23.181Z",
+  "updated_at": "2026-11-22T20:09:55.000Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3682,6 +3682,26 @@
         0,
         1,
         1
+      ]
+    },
+    {
+      "id": "G5-C314-G02-NATIVE-QUESTION-ROLE-REQUEST-DRIFT-20261122",
+      "completed_at": "2026-11-22T20:09:55.000Z",
+      "evidence": "Prospective native synthetic historical-question audit found a real caller-mutable actor/action role-span race: during checked original replay, four independently failing tests showed question-role changes could silently alter an unverified private candidate. An exact typed role freeze before replay and drift refusal after native source checks passed 14 independent synthetic tests normal and optimized Python, plus inherited full source CI and independent scientific-state CI on the same private commit. Explicit source-frame poisoning with a recalculated local digest remains possible and unauthenticated; no real speaker/meaning Gold, author correction or automatic answer.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2
       ]
     }
   ],
