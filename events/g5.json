@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T14:05:09.121Z",
+  "updated_at": "2026-11-22T15:06:01.711Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3582,6 +3582,26 @@
         0,
         1,
         1
+      ]
+    },
+    {
+      "id": "G5-C309-G07-QUESTION-INTENT-NOT-ESTABLISHED-20261122",
+      "completed_at": "2026-11-22T15:06:01.711Z",
+      "evidence": "Prospectively frozen two SHA-disjoint fictional source families; 12 actual matched three-arm private question reviews and 10 dedicated regression tests normal/optimized plus full CI. Registered missing versions are withheld by prior inventory guard; the question layer adds a scope warning but does not change candidate choice. A caller-pinned unrelated question and a version omitted from both local registers still yield private candidates, proving semantic relevance and complete coverage are not established. No human meaning Gold or automatic answer.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
       ]
     }
   ],
