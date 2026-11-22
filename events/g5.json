@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T13:08:21.389Z",
+  "updated_at": "2026-11-22T14:05:09.121Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3561,6 +3561,26 @@
         0,
         0,
         2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C308-G07-QUESTION-LEVEL-UNCERTAIN-VERSION-SCOPE-20261122",
+      "completed_at": "2026-11-22T14:05:09.121Z",
+      "evidence": "Vorregistrierter G07-Frageversuch mit vorhandenen ausschließlich fiktiven SQLite-Originalen: Eine wörtlich SHA-gebundene Eigentümerfrage führt eine tatsächliche C307-Quellenversionsprüfung aus. Bei einer lokal separat registrierten, aber in der behaupteten Versionsfolge unterschlagenen Edition wird der private Korrekturkandidat zurückgehalten; bei korrekt registrierter Folge bleibt er ausschließlich als UNBESTÄTIGTER privater Prüfhinweis. Entscheidende Gegenprobe: Fehlt eine vorhandene Ausgabe in beiden selbstdeklarierten Registern, kann die Methode sie weiterhin NICHT erkennen. Deshalb warnt die fragebezogene Prüfansicht in jedem Fall ausdrücklich vor unbekannter Archivvollständigkeit und behauptet weder authentifizierte Urheberschaft noch historische Bedeutung. Elf neue native Regressionstests normal/-O und vollständige Quellen-CI sowie unabhängige Forschungszustands-CI bestanden auf identischem privaten Commit 6cd642fe. Keine personenbezogenen Originale, keine automatische Antwort, kein menschliches Bedeutungs-Gold und keine Modell-API-Ausgaben.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
         1
       ]
     }
