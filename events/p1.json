@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T01:37:07.756Z",
+  "updated_at": "2026-11-22T02:37:33.116Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1675,6 +1675,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-95-RESET-RECOVERY-AUDIT-20261122",
+      "completed_at": "2026-11-22T02:37:33.116Z",
+      "evidence": "Prospectively registered independent audit of a public MIT-licensed factual-dialogue recovery study reproduced eight published recovery-condition aggregates with 14 synthetic rejection/acceptance controls. Verbal reset restored 2/14 model-dataset pairs, full removal 14/14 (published, not new model inference); audit found threshold sensitivity only covered 8 pairs and oracle-evidence answer accuracy was not equivalent to clean-context restoration. Private read-only source adapter checkpoint advanced ten unique metadata IDs to 40/7521 without original content or fresh-byte claims. No individual psych gold, source texts, G5/Oracle changes, E12 restart or paid model usage.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
         0,
         0,
         0,
