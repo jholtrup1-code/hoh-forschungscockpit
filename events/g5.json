@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T01:05:37.310Z",
+  "updated_at": "2026-11-22T02:06:43.461Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3316,6 +3316,26 @@
         0,
         0,
         1,
+        2,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C296-G08-VERIFIED-PRIVATE-UNICODE-PHRASE-POSITIONS-20261122",
+      "completed_at": "2026-11-22T02:06:10Z",
+      "evidence": "A pre-registered private exact-Unicode phrase navigation test improved a previously source-audited four-way historical provenance method with separate [start,end) codepoint positions in each verified cited excerpt, including overlapping occurrences and a hard reject above 128 hits per excerpt. A rebuilt independent fictional source/visibility-ledger/claim family validated multi-occurrence and third-party-only location distinctions, unrelated-source tamper abstention, owner-question freeze and non-disclosure. Four dedicated new tests in normal and optimized Python plus inherited source CI and independent scientific-state CI succeeded on the identical final private commit, after two documented test-first failures, one containing a corrected synthetic-fixture mistake. Positions remain exclusively private; no real person, author identity, semantic Gold, external API or automatic answer is inferred.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
         2,
         0,
         0,
