@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T11:09:30.492Z",
+  "updated_at": "2026-11-22T12:07:40.827Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3517,6 +3517,26 @@
         1,
         0,
         1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C306-G07-TWO-FAMILY-DOCUMENT-VERSION-TRANSFER-20261122",
+      "completed_at": "2026-11-22T12:07:40.827Z",
+      "evidence": "Vorregistrierter G07-Transfervergleich auf zwei neu verfassten, SHA-verschiedenen fiktiven Originalfamilien mit acht tatsächlich ausgeführten gleichartigen Quellenfragen: Die frühere C297-Prüfung bot bei zwei ausdrücklich dokumentfremden Versionsbeziehungen weiterhin einen unbestätigten privaten Spätkandidaten an. Die ergänzende C305-Versionskettenprüfung verwarf beide, behielt beide linearen Zweiversionsfälle als UNBESTÄTIGTE private Sichtungskandidaten bei und ließ die zwei Drittpersonenberichte ohne Eigenaussage-Zuschreibung. Gegenprobe: Zwei vollständig intern konsistente, aber selbstdeklarierte Versionsketten bestanden ebenfalls; Hash-Konsistenz beweist somit KEINE unabhängig authentifizierte Dokumentgeschichte oder Urheberschaft. Neun neue Tests jeweils normal und Python -O sowie vollständiger Quellen-CI und unabhängiger Forschungszustands-CI auf demselben privaten Commit erfolgreich. Nur technische synthetische Überprüfung, kein menschliches Bedeutungs-Gold, keine automatische Antwort oder privaten Personenquellen.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
