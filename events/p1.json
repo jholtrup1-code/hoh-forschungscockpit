@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T15:35:19.801Z",
+  "updated_at": "2026-11-22T16:35:11.813Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1960,6 +1960,26 @@
         0,
         0,
         0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-110-SGD-CUE-FREE-STATE-VALUE-SET-20261122",
+      "completed_at": "2026-11-22T16:35:11.813Z",
+      "evidence": "Prospectively preregistered public CC BY-SA 4.0 SGD heldout audit of 256 human-paraphrased task dialogues: among 4801 same-service user task-state slot-value-set comparisons, 444 differed and 328/444 (73.87%) lacked a frozen lexical correction cue; cue-only baseline TP116 FN328 FP849 TN3508. Explicit posthoc distinction is essential: 242 changes were pure additive alternatives (AND), not a proven reversal; 202 disjoint changes, 113 without cue. Two author-source Git blobs verified, 15 isolated synthetic checks passed and 11 independent recount aggregates agreed. These are simulator task-state metadata, NOT independent human psychological meaning gold, long-term learning, actual user benefit or deployed AI performance. Only advisory G5 handoff; no private source, external paid model, production/G5/E12 change or Actions CI claim.",
+      "delta": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
         1,
         0
       ]
