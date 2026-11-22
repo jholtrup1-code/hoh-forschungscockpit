@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T00:16:19.770Z",
+  "updated_at": "2026-11-22T01:05:37.310Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3297,6 +3297,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C295-G07-EXACT-PHRASE-HISTORICAL-ORIGIN-20261122",
+      "completed_at": "2026-11-22T01:05:37.310Z",
+      "evidence": "A prospectively registered fictional historical exact-phrase task now invokes the existing native SHA/visibility-ledger original and locally labelled later-reporter checks before classifying whether requested literal Unicode codepoints occur in the earlier cited original, only in the later third-party report, in both or in neither. A naive combined-text hit incorrectly credits the earlier source for later-report-only wording; explicit source provenance avoids that error without inferring authorship or meaning. Nine original negative/utility tests plus an independently preregistered, source-ID/wording/ledger-disjoint second synthetic family and unrelated-source tamper control passed (10 new cases regular and Python -O). Test-first full CI reproduced missing-API failures; subsequent complete source CI and independent scientific-state CI both succeeded on one exact commit. All excerpts, phrase, identifiers and local review keys remain private; no real personal sources, semantic Gold, consent, automated personal answer or external model API.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
         0,
         0,
         0,
