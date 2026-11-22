@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T10:34:20.124Z",
+  "updated_at": "2026-11-22T11:31:54.471Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1860,6 +1860,26 @@
         0,
         0,
         0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-104-OBJECTIVE-SCORE-SUBJECTIVE-SATISFACTION-20261122",
+      "completed_at": "2026-11-22T11:31:54.471Z",
+      "evidence": "Prospectively registered public CC BY 4.0 human roleplay data: 900 dyads, 490 strict within-dyad score/satisfaction comparisons, 155 reversals (31.63%) of the score-as-satisfaction proxy; 20 isolated synthetic checks and independent aggregate recount. No private source, causal claim or user-specific meaning validation.",
+      "delta": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
         1,
         0
       ]
