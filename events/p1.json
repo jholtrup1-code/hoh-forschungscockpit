@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T13:39:26.344Z",
+  "updated_at": "2026-11-22T14:32:05.439Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1921,6 +1921,26 @@
         1,
         0,
         1,
+        0
+      ]
+    },
+    {
+      "id": "P1-108-CROSS-TURN-RELATION-HOLDOUT-20261122",
+      "completed_at": "2026-11-22T14:32:05.439Z",
+      "evidence": "Prospectively preregistered held-out TEST of official noncommercial human-labeled fictional dialogue: 357 scenes and 640 eligible interpersonal entity pairs. Among 590 positive pair labels, 402 (68.14%) lacked co-occurring full literal names within one utterance; a frozen three-turn window recovered 377 but also falsely accepted 35/50 explicitly negative pairs. Source Git blob and exact own code were verified, 48/48 synthetic controls passed and an independently implemented aggregate recount matched. The result is about source-locality gates in fictional dialogue, NOT proof of personal relationship meaning, deployed AI learning or a real-user benefit. No private sources, no external paid API, no G5/E12 change.",
+      "delta": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        2,
         0
       ]
     }
