@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T11:31:54.471Z",
+  "updated_at": "2026-11-22T12:38:47.870Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1880,6 +1880,26 @@
         0,
         0,
         1,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-105-SATISFACTION-PARTNER-LIKING-20261122",
+      "completed_at": "2026-11-22T12:38:47.870Z",
+      "evidence": "Prospectively registered audit of a CC BY 4.0 public human-human negotiation TEST split: participant self-reported outcome satisfaction and separate liking of the negotiation partner. Across 100 dyads only 46 permitted a strict within-pair directional comparison; 40 concordant and six discordant (13.04%), below the preregistered 20% relevance threshold, with 54 ties/abstentions. Fifteen isolated synthetic negative controls and a separate aggregate recount agreed. The result does not establish general population concordance, interpersonal psychological gold, longitudinal AI learning or an improvement to an individual user. No private sources, personal quotations, names, paid model calls, Oracle/G5/E12 changes or manual CI dispatch.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
         1,
         0
       ]
