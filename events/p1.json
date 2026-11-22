@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T02:37:33.116Z",
+  "updated_at": "2026-11-22T03:37:03.972Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1695,6 +1695,26 @@
         1,
         0,
         1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-96A1-GOEMOTIONS-MULTILABEL-QUALITY-20261122",
+      "completed_at": "2026-11-22T03:37:03.972Z",
+      "evidence": "A preregistered strict audit of the official public human-annotated GoEmotions test split stopped on a neutral-plus-affect reference-label collision. A transparent exploratory amendment and independent recount subsequently verified 5,427 labeled examples, including 837 multi-label, 78 positive-plus-negative and 181 neutral-plus-affect cases; a synthetic one-label projection drops 902 of 6,329 observed label assignments. Own isolated auditor passed 15/15 controls; no private person meaning, diagnosis, real user effect, model benchmark or G5/Oracle change is claimed.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
         0,
         0,
         0,
