@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T12:07:40.827Z",
+  "updated_at": "2026-11-22T13:08:21.389Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3541,6 +3541,26 @@
         0,
         0,
         1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C307-G01-FINITE-VERSION-INVENTORY-OMISSION-20261122",
+      "completed_at": "2026-11-22T13:08:21.389Z",
+      "evidence": "Vorregistrierter G01-Originalquellenvergleich: Eine getrennt festgehaltene, SHA-verifizierte endliche fiktive Dokumentversions-Inventur erkennt eine tatsächlich vorhandene Zwischenausgabe, die in einer lokal deklarierten Zweiversionskette fehlt. Während die bisherige C305-Prüfung einen UNBESTÄTIGTEN privaten späteren Kandidaten zulässt, verweigert der neue Quellenvergleich bei registrierter Auslassung diese Auswahl. Eine vollständige drei Editionen umfassende fiktive Versionsfolge bleibt privat prüfbar; Fremdbericht und Manipulation führen zur Enthaltung. Kritische Gegenprobe: Wird dieselbe fiktive Zwischenversion sowohl aus der Versionenkette als auch aus der separaten selbstdeklarierten Inventur weggelassen, bleibt sie unerkennbar. Dies beweist keine Vollständigkeit echter Archive, unabhängige Herkunft, Autorenschaft oder Bedeutung. Elf neue SQLite-Regressionstests normal und Python -O sowie vollständige Quellen-CI und unabhängige wissenschaftliche Zustandsprüfung bestanden auf identischem privatem Commit. Keine Originaltexte, personenbezogene Information, API-Ausgaben oder automatische Veröffentlichung von Antworten.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
         1
       ]
     }
