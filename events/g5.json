@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T18:04:23.421Z",
+  "updated_at": "2026-11-22T19:06:23.181Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3657,6 +3657,26 @@
         0,
         1,
         1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C313-G04-QUESTION-ASOF-TOCTOU-SNAPSHOT-20261122",
+      "completed_at": "2026-11-22T19:06:23.181Z",
+      "evidence": "Prospectively registered native historical question-as-of replay exposed three reproducible caller-input mutation races: after the initial question cutoff was checked, a later native read could privately select a future correction candidate. Three genuine red adversarial SQLite tests; bounded frozen-request repair, seven new regression methods and 30 total existing-plus-new question-scope tests passed both normal and optimized Python. Independent reversible mutation/restore holdout and strict list/dict input-contract red/fix verified. Full source and independent scientific-state CI succeeded at the exact same private code/state commit. This is local temporal query-integrity repair, not speaker authentication, historical completeness, human meaning Gold or automatic answer.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
         0,
         0,
         0,
