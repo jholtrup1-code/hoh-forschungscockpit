@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T04:09:54.514Z",
+  "updated_at": "2026-11-22T05:05:52.200Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3374,6 +3374,26 @@
         1,
         0,
         1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C299-G02-UNJUDGED-CROSSVOICE-LITERAL-PHRASE-LOCATOR-20261122",
+      "completed_at": "2026-11-22T05:05:52.200Z",
+      "evidence": "Prospectively preregistered G02 owner-private literal-phrase source navigation binds native SHA- and span-verified multi-voice original and earlier-assistant source controls. In two independent fictional source families a naive earlier textual hit belongs to reported speech, while the new exact Unicode offset identifies only the explicitly requested referent's unjudged self-labelled original. Report-only and multiple competing self-labelled phrases abstain, and a prior assistant match of the requested subphrase is flagged even when the older full-utterance overlap procedure found none. Twelve new synthetic tests in normal and optimized Python, the entire inherited source suite, and independent scientific-state checks passed at the same private commit. No authenticated speaker, human meaning Gold, copying conclusion, automatic personal answer, paid model API call or original-text publication.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
         0,
         1,
         1,
