@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T08:04:15.749Z",
+  "updated_at": "2026-11-22T09:12:36.959Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3457,6 +3457,26 @@
         0,
         1,
         1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C303-G08-BOUNDED-NOMINAL-QUESTION-CUES-20261122",
+      "completed_at": "2026-11-22T09:12:36.959Z",
+      "evidence": "Vorregistrierter G08-Quellen-Test: Auf überprüften SHA-/Zeichenpositionen historischer Synthetik-Originale wurde die private C301-Fragennavigation um eine ausdrücklich aktivierte, eng begrenzte deutsche Nomen-Endungsvariante (e/en, er/ern; stabiler Wortstamm) erweitert. Zwei unabhängige fiktive Quellenfamilien belegen den Zugriff auf eine passende Originalstelle trotz abweichender Fragewortform, während die wortgetreue Baseline jeweils verzichtet. Fremdbericht, aufgeteilte Hinweise, mehrere mögliche Eigenzitate, unpassende Wortfamilien, unsicherer Pronomenbezug, manipulierte Quellensignatur und fehlende Freigabe bleiben geschützt. Elf Regressionstests regulär und Python -O sowie vollständiger Quellen-CI- und unabhängiger Forschungszustandslauf bestanden auf identischem privaten Commit. Begrenzte Formprüfung, KEIN allgemeines Sprach- oder Bedeutungsverstehen, keine bestätigte Personenzuordnung, keine menschliche Bewertung und keine automatische Antwort. Keine privaten Originale, Modell-API-Ausgaben, Änderungen an Manuskripten oder Infrastruktur.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
         0,
         0,
         0,
