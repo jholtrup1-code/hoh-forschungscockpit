@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T21:32:51.777Z",
+  "updated_at": "2026-11-22T22:39:57.210Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -2077,6 +2077,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-117-HUMAN-REPAIR-SEVERITY-VARIATION-20261122",
+      "completed_at": "2026-11-22T22:39:57.210Z",
+      "evidence": "Preregistered distinct outcome on a pinned original public CC BY 4.0 human-rated Japanese dialogue-repair corpus: 3,990 perceived-severity ratings for 140 fixed scripted failures. 126/140 cases (90%) have >=4-point range and prespecified IQR>=2; context-conditioned leave-one-out median reduced error 2.2143 to 1.6288 versus global median. Exact private readback 17/17 isolated negative controls and independent histogram recount confirm counts. Human severity reference only, NOT stable personal traits, autobiographical meaning gold, actual repair success or G5/Oracle deployment; prior experiment on same corpus targeted different repair text, so not a duplicate finding.",
+      "delta": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
         0,
         0,
         0,
