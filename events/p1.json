@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T03:37:03.972Z",
+  "updated_at": "2026-11-22T04:37:56.299Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1716,6 +1716,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-97-F05-REPAIR-COMPLETION-ENDPOINT-20261122",
+      "completed_at": "2026-11-22T04:37:56.299Z",
+      "evidence": "Prospectively registered synthetic F05 audit of a peer-reviewed single-turn conversational repair score: two deterministic policies earned identical C=1, R=1 and EAR=1, yet post-clarification task completion differed 4/4 versus 0/4. Original metric correctly addresses single-turn repair but cannot validate later use of the clarification. 16/16 isolated local tests and source-code Git readback passed. Private Oracle index-only integrity check and partial 50-record metadata inventory; no human-reference gold, real-user benefit, personal content, paid model calls, G5 implementation or E12 restart.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
         0,
         0,
         0,
