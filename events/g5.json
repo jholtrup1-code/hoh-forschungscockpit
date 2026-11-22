@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T22:05:46.485Z",
+  "updated_at": "2026-11-22T23:03:26.118Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3734,6 +3734,26 @@
         1,
         0,
         2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C317-G02-BOUNDED-DATED-CLAIM-MODALITY-20261122",
+      "completed_at": "2026-11-22T23:03:26.118Z",
+      "evidence": "Prospectively frozen synthetic two-family original-replay test demonstrated five misleading dated sentences admitted by the older literal-date rule, while two explicit declarations stayed reviewable. A narrow whole-excerpt assertion grammar now abstains on negation, hypothesis, quotation and indirect attribution. Eleven new optimized/normal regression tests and the inherited complete source suite passed; independent scientific-state and source CI both succeeded on one identical private commit. This is a fail-closed syntax screen, not speaker authentication, verified meaning, human Gold or automatic personal answers. Legitimate nonliteral paraphrases may be withheld; no private originals, personal claims or paid model calls.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
         1,
         1,
         0,
