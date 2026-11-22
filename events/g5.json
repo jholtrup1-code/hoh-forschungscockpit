@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-21T23:04:48.448Z",
+  "updated_at": "2026-11-22T00:09:41.702Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3262,6 +3262,26 @@
         0,
         2,
         1
+      ]
+    },
+    {
+      "id": "G5-C293-G02-POSTCHECK-MULTIVOICE-ORIGINAL-SNAPSHOT-20261122",
+      "completed_at": "2026-11-22T00:09:41.702Z",
+      "evidence": "Prospectively tested fictional multi-voice original handling found a genuine post-verification drift defect: a SHA/ID/time-validated original was subsequently re-read from mutable caller input, permitting a changed quoted text, source ID or question referent to be mistaken for the verified evidence. The corrected extractor freezes all source strings, question fields and list membership before complete existing verification, then uses exactly those validated copies. Separately preregistered adversarial tests challenge later topic/time edits and append an unverified second source; no forged excerpt or changed metadata was released. Seven dedicated new tests under ordinary and optimized Python, full inherited source tests and independent scientific-state GitHub CI all succeeded on the same exact code+state commit after a real three-failure red test. An earlier red run came from an incorrectly escaped synthetic fixture and is not research evidence. This is only bounded technical integrity of unjudged line-label candidates, not authenticated speaker identity, psychological meaning or a complete archive; no personal texts, external model APIs or new permission.",
+      "delta": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2
       ]
     }
   ],
