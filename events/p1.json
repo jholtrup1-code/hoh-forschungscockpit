@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T04:37:56.299Z",
+  "updated_at": "2026-11-22T05:38:34.426Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -1736,6 +1736,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-98-CONTURE-USER-CUE-PROXY-AUDIT-20261122",
+      "completed_at": "2026-11-22T05:38:34.426Z",
+      "evidence": "Preregistered F05 audit of CC BY 4.0 ConTurE public human-response-quality annotations compared 947 adjacent reply/follow-up pairs. Explicit next-user correction cues appeared in only 23 pairs; 10 preceded human score 0, 10 score 2, and 270 of 280 low-rated prior replies had no cue. Independent recount and 12/12 authored isolated tests passed. Human overall-impression is NOT a misunderstanding/repair gold label or proof of later clarification use. Private index-only 60-record source checkpoint; no original text, person gold, G5/Oracle/E12 changes or paid model APIs.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
         0,
         0,
         0,
