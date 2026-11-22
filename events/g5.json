@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T00:09:41.702Z",
+  "updated_at": "2026-11-22T00:16:19.770Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3282,6 +3282,26 @@
         0,
         2,
         2
+      ]
+    },
+    {
+      "id": "G5-C294-G02-PRIOR-ASSISTANT-VERIFIED-TIME-SNAPSHOT-20261122",
+      "completed_at": "2026-11-22T00:16:19.770Z",
+      "evidence": "Prospectively tested a different downstream provenance path after previous dialogue-verification hardening. A SHA-verified synthetic two-voice original and strictly earlier SHA-verified assistant text correctly require a possible-earlier-wording private review. During actual verifier return, mutable caller timestamps were changed; the existing downstream reader wrongly missed the earlier assistant text and a separate caller question mutation changed the displayed referent. The corrected reader now pins full source time/identity, question fields and assistant original envelopes before verification. An independently preregistered adversarial source-list append, source-ID edit and assistant text/digest rewrite could not contaminate the validated private origin comparison. Five added regression tests ordinary and optimized Python, full inherited source CI and independent scientific-state CI all passed on the same exact branch commit; test-first CI reproduced two actual failures before the fix. This demonstrates only bounded technical source/provenance consistency of fictional data and unjudged speaker labels, not copying, real author identity or human meaning. No personal originals, external models or automatic answer.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1
       ]
     }
   ],
