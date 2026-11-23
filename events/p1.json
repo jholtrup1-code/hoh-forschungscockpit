@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-23T05:40:26.759Z",
+  "updated_at": "2026-11-23T06:35:23.449Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -2237,6 +2237,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-131-NUANCED-HELDOUT-PREFERENCE-NONIDENTIFIABILITY-20261123",
+      "completed_at": "2026-11-23T06:35:23.449Z",
+      "evidence": "Preregistered, disjoint, noncommercial CC BY-NC 4.0 author-estimated preference-dialogue audit: 400 held-out dialogues, 61 eligible repeated USER slot pairs from 61 dialogues. Older weighted slot in all 61 supported just one value >=0.20 and previous/follow-up argmax never changed. Consequently top-one and cautious top-two memory procedures had identical TP61/FP0/FN101/TN321, balanced accuracy 0.6883, difference 0 (cluster-bootstrap 95% [0,0]); predeclared improvement hypothesis NOT met. 17/17 safe isolated synthetic controls plus independent parser/recount verified eligibility and counts. Important NEGATIVE source-suitability evidence: this cohort cannot identify benefits of multivalued memory or actual preference updates; no real-person psychological gold, longitudinal human correction, later system answer benefit, private source use, external model calls or G5 adoption.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
