@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-23T04:40:07.155Z",
+  "updated_at": "2026-11-23T05:40:26.759Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -2208,6 +2208,26 @@
       "id": "P1-128-LOCOMO-PUBLIC-REFERENCE-RETRIEVAL-20261123",
       "completed_at": "2026-11-23T04:40:07.155Z",
       "evidence": "Prospectively registered noncommercial public long-dialogue evidence-finding audit: 100 author-annotated QA instances across 10 constructed extended conversations; exact author-evidence-id retrieval with source-role-neutral BM25 top-3 found 34/100 versus 0/100 with the last three conversation turns, paired difference 34 percentage points, cluster bootstrap 95% [23,46] points. 16/16 isolated synthetic checks and an independently implemented recount confirmed; exploratory temporal sensitivity flagged that the prespecified first-ten-per-conversation selection skews early. BM25 still failed 66/100. This is source-retrieval evidence only, NOT real user psychological gold, verified personal meaning, real model answer improvement, commercial reuse rights or G5 deployment. Data CC BY-NC 4.0; no raw conversations published.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-129-LOCOMO-LITERAL-ANSWER-EVIDENCE-GAP-20261123",
+      "completed_at": "2026-11-23T05:40:26.759Z",
+      "evidence": "Preregistered noncommercial secondary audit of an author-annotated public constructed long-dialogue corpus (same 100 QA cohort previously examined for retrieval; 99 valid string answers). Exact normalized answer text was present in its author-labeled gold evidence turns for just 8/99, versus 1/99 in BM25 top-three retrieved turns and 0/99 in last-three-turn baseline. Absence of exact answer text 91/99; 10-conversation cluster bootstrap 95% [86.73%,96.00%]. SHA-pinned author corpus, 22/22 isolated synthetic checks, alternate parser recounted gold and recency. Textual extractability is NOT semantic QA correctness, a human personality or belief result, or measured later model answer improvement. Constructed corpus, pre-used cohort, CC BY-NC 4.0; no original text or private user content transferred.",
       "delta": [
         0,
         0,
