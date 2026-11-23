@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-23T02:13:44.849Z",
+  "updated_at": "2026-11-23T11:14:00Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3821,6 +3821,26 @@
         0,
         0,
         2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C321-G01-UTF8-NATIVE-LOCAL-CHECK-20261123",
+      "completed_at": "2026-11-23T11:14:00Z",
+      "evidence": "PROVISIONAL local technical proof only, not full scientific C321 completion: two synthetic SHA-distinct source families reproduced four malformed Unicode source-identity admissions in the prior native indexed search/span handoff. Strict UTF-8 source ID and version validation now rejects those cases, retains valid Unicode controls, and passes 6 new regression methods normal and optimized Python. Nine additional methods execute the actual native source-pin, subject-scope and clause-local chain without mocked upstream, passing positive, cross-topic, cross-clause, negation, and metadata-drift checks normal and optimized Python. Exact code and test Git blobs were independently verified. Full hosted SOURCE and separate SCIENCE verification remain unconfirmed because new Actions jobs failed before runner assignment. No human meaning Gold, private originals, automatic answers or production integration.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
         1
       ]
     }
