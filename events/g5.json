@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-23T14:12:00Z",
+  "updated_at": "2026-11-23T15:10:27.514Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3862,6 +3862,26 @@
         0,
         0,
         0
+      ]
+    },
+    {
+      "id": "G5-C321-G01-TWO-READ-INDEX-DRIFT-LOCAL-20261123",
+      "completed_at": "2026-11-23T15:10:27.514Z",
+      "evidence": "Provisional isolated two-read indexed source consistency guard: 16 synthetic local tests pass normally and in optimized Python; source/version/locator drift rejected and list reorder retained. Native validator was mocked at test boundary; complete C321 native E2E and hosted CI still pending. No live rights, personal meaning, independent scientific completion or publication authority established.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
       ]
     }
   ],
