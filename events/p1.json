@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-23T01:37:03.944Z",
+  "updated_at": "2026-11-23T02:38:38.362Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -2157,6 +2157,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-124-SGD-PREREGISTERED-TASK-CONTEXT-20261123",
+      "completed_at": "2026-11-23T02:38:38.362Z",
+      "evidence": "Prospectively registered audit of a previously uninspected, public CC-BY-SA-4.0 simulated multi-turn task dialogue file (128 dialogues, 119 with eligible units): 1,686 current annotated task-value appearances were literally present in current or past same-service USER speech; 1,394 (82.68%) were absent from the current message but present earlier. Only 292 were current-message-visible and 593 visible in current-plus-immediate-previous. Original author blob, 15/15 isolated synthetic guards and independent 10-field recount verified. This is literal source-evidence availability, NOT real user meaning gold, learned corrections, measured answer improvement or deployment; no private originals. The separately preregistered P1-123 final-only candidate failed its fixed control gate and is NOT counted.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
         0,
         0,
         0,
