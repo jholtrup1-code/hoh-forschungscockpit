@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-23T02:38:38.362Z",
+  "updated_at": "2026-11-23T03:37:18.512Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -2174,6 +2174,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-126-SGD-NEXT-TURN-STATE-PERSISTENCE-20261123",
+      "completed_at": "2026-11-23T03:37:18.512Z",
+      "evidence": "Prospectively registered, source-hash-pinned audit of a held-out CC BY-SA 4.0 simulated task-dialogue file: 51 later annotated same-slot USER states from 33 dialogues (one service) after a recorded value update. Updated-state baseline agrees in 50/51 cases versus 0/51 for superseded-state baseline; one third-value negative, two no-followup records excluded. 20/20 isolated synthetic guards and an independent reimplementation reproduced all counts. Demonstrates task-state carry-forward conditional on supplied annotations, NOT human psychological meaning, true belief change, real model prediction, longitudinal user answer improvement or G5 deployment. No private originals or paid model calls.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        1,
         0,
         0,
         1,
