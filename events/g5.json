@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-23T01:08:00Z",
+  "updated_at": "2026-11-23T02:13:44.849Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3795,6 +3795,26 @@
         0,
         0,
         0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C320-G04-FRESH-OWNER-REREAD-DIRECT-INDEX-READER-20261123",
+      "completed_at": "2026-11-23T02:13:44.849Z",
+      "evidence": "Preregistered two-step owner-private reread now returns no original on first issue and requires a freshly revalidated source/task/visibility-ledger scope before any second private read. On two new fictional SHA-distinct source families, 16 regression cases in normal and optimized Python passed, including current withdrawal, dependent-source withdrawal, changed question, stale token, ledger rewrite, and inter-call scope mutation. Full source and independent scientific-state GitHub CI passed at the identical private commit. A separate direct read-only indexed-source search plus version/SHA/passage-pinned span also proved G5 technical index reachability; no private content or source identifiers were exported. Prior copies cannot be erased; consent, live Drive bytes, author identity, semantic truth and human benefit are not authenticated.",
+      "delta": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
         0,
         1,
         0,
