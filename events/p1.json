@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-23T12:35:15.687Z",
+  "updated_at": "2026-11-23T14:41:07.927Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -2373,6 +2373,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-140-DBRC-HUMAN-REPAIR-SEVERITY-DISPERSION-20261123",
+      "completed_at": "2026-11-23T14:41:07.927Z",
+      "evidence": "Preregistered independent CC BY 4.0 public human-survey test of severity assigned to the same 30 authored dialogue-breakdown patterns: 850 ratings, 29/30 groups had severity IQR >=2, 155 frozen heldout cases. A prompt-specific median improved MAE versus global median (1.403 vs 2.806), but NOT versus breakdown-type median (1.381); a universal inference of individual severity is unsupported. Source SHA verified, 8 safe synthetic controls and independent recount, no private texts or paid model calls. No personal meaning gold, user identity, longitudinal follow-up or later model-response quality.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
         0,
         0,
         0,
