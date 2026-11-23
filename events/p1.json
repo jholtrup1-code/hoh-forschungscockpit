@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-23T14:41:07.927Z",
+  "updated_at": "2026-11-23T16:08:46.838Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -2393,6 +2393,26 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-141-DBRC-HUMAN-SEVERITY-REPAIR-LENGTH-NEGATIVE-20261123",
+      "completed_at": "2026-11-23T16:08:46.838Z",
+      "evidence": "Prospectively frozen CC BY 4.0 secondary analysis of 3,990 human-expected chatbot repair utterances across 140 fixed scenarios. Held out all 812 human responses in 28 unseen scenarios. Human self-reported breakdown severity did NOT improve prediction of subsequent desired repair length beyond error type: equal-scene MAE 7.033 vs 6.993 characters, delta -0.0405, 95% scenario-cluster bootstrap CI [-0.1213, +0.0400]. Independent second recount matched, 15 isolated synthetic/readback controls, no private conversation or external model API. Length is NOT human semantic repair quality, not an individual personalized capability; negative result means no G5 adoption.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
