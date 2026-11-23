@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-22T23:03:26.118Z",
+  "updated_at": "2026-11-23T00:10:52.587Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3761,6 +3761,26 @@
         0,
         0,
         2,
+        1
+      ]
+    },
+    {
+      "id": "G5-C318-G07-OWNER-QUARANTINED-ORIGINAL-INSPECTION-20261123",
+      "completed_at": "2026-11-23T00:10:52.587Z",
+      "evidence": "A prospective, full-original-SHA native study on two newly fictional source families separated strict literal private correction-review candidates from unverified, quarantined owner-only original inspection. Both affirmative controls remained private candidates; two paraphrases became manually inspectable without machine acceptance; two misleading negated or quoted claims were likewise visible ONLY for manual inspection, never accepted as corrections; earlier-than-recording history remained inaccessible in both lanes. Twelve new regressions passed normal and optimized Python with full inherited source suite. Complete source and independent scientific-state CI both succeeded on the identical private closing-state commit fc81e48a. Manual source visibility is not human-validated relevance, speaker authenticity, automatic answer, or confirmed correction; misleading sources still require human judgment.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
         1
       ]
     }
