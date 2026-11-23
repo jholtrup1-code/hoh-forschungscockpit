@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-23T11:14:00Z",
+  "updated_at": "2026-11-23T14:12:00Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3842,6 +3842,26 @@
         0,
         1,
         1
+      ]
+    },
+    {
+      "id": "G5-C321-G01-DIRECT-READONLY-SEARCH-SPAN-CLIENT-20261123",
+      "completed_at": "2026-11-23T14:12:00Z",
+      "evidence": "Narrow verified source-access capability, NOT completed scientific C321: this research executor directly used the existing authenticated read-only indexed source SEARCH and matching SPAN (no intermediary), and verified all sixteen source/version/ingestion-SHA/passage/locator/text/provenance bindings in memory. A separately preregistered pure Python full-envelope client invokes unchanged native C321 to issue anonymous receipts; 18 synthetic regressions passed normal and optimized Python with exact Git blob readback. The single triggered hosted SOURCE run failed before runner assignment (zero steps), so independent full SOURCE+SCIENCE remains open. No private sources, human meaning gold, fresh Drive bytes, model API, new provider, production mutation, or personal content published. Distinct from previously scored C321 UTF-8-only local technical event.",
+      "delta": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ]
     }
   ],
