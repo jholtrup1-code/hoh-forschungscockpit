@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-23T00:10:52.587Z",
+  "updated_at": "2026-11-23T01:08:00Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3781,6 +3781,26 @@
         0,
         0,
         1,
+        1
+      ]
+    },
+    {
+      "id": "G5-C319-G01-DECLARED-WITHDRAWAL-VETO-OWNER-INSPECTION-20261123",
+      "completed_at": "2026-11-23T01:07:31Z",
+      "evidence": "Prospectively preregistered native fictional archive-source access check reused full-original SHA/recorded-time owner-only review and compared the existing permissive review with a distinct caller-pinned chained source-visibility ledger. The previous owner-review lanes exposed four locally withdrawn literal/paraphrase originals; a new boundary now withholds both lanes in all four cases, including earlier historical question cutoffs and withdrawal of a dependent baseline. Active and subsequently reinstated synthetic controls remain owner-private reviewable, while stale pins, wrong hashes, missing events and mid-review changes fail closed. Fourteen new regression methods passed normal and optimized Python; complete native source CI and separate scientific-state CI passed on an identical private commit. The caller-declared ledger does not independently prove actual source rights, consent, historical truth, semantic Gold, or revocation of previously copied data. No personal originals, external model calls or automatic answers.",
+      "delta": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
         1
       ]
     }
