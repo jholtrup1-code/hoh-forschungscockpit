@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-23T07:35:12.380Z",
+  "updated_at": "2026-11-23T08:36:19.242Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -2277,6 +2277,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "P1-134-TIMLMEM-SELECTIVE-MEMORY-ACTIVATION-20261123",
+      "completed_at": "2026-11-23T08:36:19.242Z",
+      "evidence": "A reproducible CC BY 4.0 public synthetic long-memory activation test on first 100 author-defined English cases scored 592 explicitly labeled, uniquely source-linked memory candidates across 28 clusters (210 unmatched and 26 unlabeled excluded). Pure offline query-to-memory-value lexical gate improved balanced activation accuracy from 0.5000 all-activate baseline to 0.7816 (TP104 FP147 FN15 TN326), reduced false activation from 100% to 31.08% while retaining 87.39% required recall; 3000 source-cluster bootstrap difference [0.237,0.327]. Independent recount and 19 synthetic checks; findings are author-reference policy proxy only, no model answer generation, independent human psychological gold, personal texts, paid API, or implementation in production. Prior broad prereg ineligible for absent candidate texts and not claimed as an experiment.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
         0,
         0,
         0,
