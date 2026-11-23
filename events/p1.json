@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-23T10:35:10.545Z",
+  "updated_at": "2026-11-23T11:38:19.372Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -2337,6 +2337,26 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-138-MEMUSE-REAL-CUE-GATE-20261123",
+      "completed_at": "2026-11-23T11:38:19.372Z",
+      "evidence": "Prospectively frozen zero-API memory-cue gate on 72 publicly released human-reviewed real-user backward-reference moments and 72 model-screened no-cue controls: TP59/72, FP6/72, balanced accuracy 0.868 vs all-active 0.500; separate synthetic controls expose overtriggering. No downstream answer/individual meaning validation; no deployment.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
         0,
         0,
         0,
