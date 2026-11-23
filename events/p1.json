@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-23T06:35:23.449Z",
+  "updated_at": "2026-11-23T07:35:12.380Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -2262,6 +2262,26 @@
         0,
         1,
         0
+      ]
+    },
+    {
+      "id": "P1-132-MEMORA-FORGETTING-RUBRIC-ID-COLLISIONS-20261123",
+      "completed_at": "2026-11-23T07:35:12.380Z",
+      "evidence": "Prospectively registered audit of nine Apache-2.0 public synthetic-persona benchmark evaluation files: 135 later-question rubrics, 25 excluded for non-unique global IDs across persona files; among 110 remaining, 72 require both retaining current information and suppressing superseded information (36/38 remembering, 0/36 reasoning, 36/36 recommending). A separate counter independently reproduced 72/110, 346 required positive and 192 negative rubric checks; 16/16 pure isolated synthetic tests passed. Finding concerns benchmark coverage and composite identifier requirements, NOT observed model answer accuracy, independent real-person preference changes, clinical or psychological gold, or deployment. No private text and no paid model API.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
       ]
     }
   ],
