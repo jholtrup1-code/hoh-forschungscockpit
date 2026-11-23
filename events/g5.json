@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "g5",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-23T15:10:27.514Z",
+  "updated_at": "2026-11-23T16:09:51Z",
   "events": [
     {
       "id": "G5-C131-U-C120-CALLBACK-SNAPSHOT-ISOLATED-20261114",
@@ -3881,6 +3881,26 @@
         0,
         0,
         0,
+        1
+      ]
+    },
+    {
+      "id": "G5-C321-TEST-MOCK-IMPORT-ISOLATION-LOCAL-20261123",
+      "completed_at": "2026-11-23T16:09:51Z",
+      "evidence": "Local-only reproducible test reliability correction: a previously mocked module import could retain a stub after module-cache restoration; changed to per-test scoped patching. Independently executed 10 unmocked synthetic native-chain checks (normal and optimized Python) with matching production source blobs; full remote CI remains blocked before test execution. No scientific/person-meaning validation claimed.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
         1
       ]
     }
