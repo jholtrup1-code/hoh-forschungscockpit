@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-23T08:36:19.242Z",
+  "updated_at": "2026-11-23T09:34:36.093Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -2302,6 +2302,26 @@
         0,
         1,
         1
+      ]
+    },
+    {
+      "id": "P1-135-INTENT-EVAL-FROZEN-REJECTION-CUE-NEGATIVE-20261123",
+      "completed_at": "2026-11-23T09:34:36.093Z",
+      "evidence": "P1-135: Vorregistrierter synthetischer Autorendatensatz mit 100 gepaarten, konstruierten Entscheidungsszenarien (200 Prompts). Ein eingefrorener englischer Signalwort-Detektor unterschied verworfene von angenommenen Revisionen nur in 44/200 Fällen (balancierte Genauigkeit 0,220; Coverage 0,255) und unterbot die Immer-Revision-Baseline (0,500). 20/20 isolierte eigene Festtests und unabhängige Kategoriennachzählung bestanden. Explorative Original-Quellbereiche zeigen dieselbe Richtung; keine echten persönlichen Gespräche, keine unabhängige Bedeutungsreferenz, keine getestete spätere Antwort, keine G5-Integration oder bezahlte Modell-API.",
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
       ]
     }
   ],
