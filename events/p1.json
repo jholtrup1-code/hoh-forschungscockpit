@@ -2,7 +2,7 @@
   "schema": "hoh-progress-event-v1",
   "source": "p1",
   "anchor_checkpoint": "CP007",
-  "updated_at": "2026-11-23T00:39:55.113Z",
+  "updated_at": "2026-11-23T01:37:03.944Z",
   "events": [
     {
       "id": "P1-07-SOURCE-20261114",
@@ -2128,6 +2128,26 @@
       "id": "P1-120-AMBIGUITY-MINORITY-20261123",
       "completed_at": "2026-11-23T00:39:55.113Z",
       "evidence": "Preregistered public CC BY 4.0 author-corpus study of 120 ambiguity-enriched items with 1,080 human crowd NLI ratings. 103/120 items had multiple human labels; a forced unique majority would omit 224 human votes, 196 of which are covered by separate linguist-supported alternative-label sets. Pinned source Git blobs, 16/16 isolated synthetic negative controls, and independent recount checked. Descriptive methodological result, not general conversation prevalence, individual psychological meaning, later corrected-use benefit, model performance, or deployment.",
+      "delta": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "P1-122-DEFEASIBLE-CUE-FREE-20261123",
+      "completed_at": "2026-11-23T01:37:03.944Z",
+      "evidence": "Preregistered independent noncommercial analysis of the first 500 rows of an author-released human-written defeasible inference development corpus (MIT repository, underlying CC BY-SA data). 467 usable updates: 222/230 human-authored weakening additions lack any of 17 prespecified explicit negation/contrast cues, while 8/237 strengthening additions falsely trigger a cue. Cue classifier balanced accuracy ~0.5005, not meaningfully above simple majority. 21/21 isolated synthetic controls, second-parser crosscheck, and exploratory 57-scenario cluster-bootstrap passed. This documents a failure of surface cues for hypothetical inference updates, NOT personal belief changes, independent psychological person-gold, later answer success, or product deployment; no originals published.",
       "delta": [
         0,
         0,
